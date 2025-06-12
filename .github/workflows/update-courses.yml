@@ -23,9 +23,7 @@ jobs:
     - name: 檢出代碼
       uses: actions/checkout@v4
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
         fetch-depth: 0
-        clean: true
     
     - name: 設置 Python 環境
       uses: actions/setup-python@v4
@@ -76,18 +74,14 @@ jobs:
         cd course-helper-web
         npm run build
     
-    - name: 提交課程資料變更
+    - name: 提交課程資料變更 (如果有更新)
       if: steps.verify-changed-files.outputs.changed == 'true'
       run: |
-        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git config --global user.name "github-actions[bot]"
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
         git add course-helper-web/public/data/
         git commit -m "🤖 自動更新課程資料 - $(date '+%Y-%m-%d %H:%M:%S')" || echo "沒有變更需要提交"
-
-    - name: 推送變更到遠程倉庫
-      if: steps.verify-changed-files.outputs.changed == 'true'
-      run: |
-        git push origin main || (echo "推送失敗，嘗試強制推送..." && git push --force-with-lease origin main)
+        git push || echo "推送失敗，但繼續部署程序"
     
     - name: 設置 GitHub Pages
       uses: actions/configure-pages@v4
