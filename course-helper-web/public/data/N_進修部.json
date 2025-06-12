@@ -1,0 +1,7960 @@
+{
+  "course": [
+    {
+      "class": "0",
+      "code": "0101",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "不限系別(進修學士班)",
+      "discipline": "專業實作",
+      "enrolled_num": "0",
+      "for_dept": "不限系別(進修學士班)",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y605"
+      ],
+      "note": "不開放校際選課|Inter-school course selection closed.",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "鄧文貞",
+      "time": "21011",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "美術工作坊 `Art Workshop",
+      "title_parsed": {
+        "en_US": "Art Workshop",
+        "zh_TW": "美術工作坊"
+      },
+      "url": "5296",
+      "year": "半"
+    },
+    {
+      "class": "0",
+      "code": "0102",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "不限系別(進修學士班)",
+      "discipline": "專業實作",
+      "enrolled_num": "0",
+      "for_dept": "不限系別(進修學士班)",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y102"
+      ],
+      "note": "需自備相機；不開放校際選課|A camera is required to take this course. Inter-school course selection closed.",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "王銘滄",
+      "time": "31011",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "進階攝影 `Advanced Photography",
+      "title_parsed": {
+        "en_US": "Advanced Photography",
+        "zh_TW": "進階攝影"
+      },
+      "url": "3353",
+      "year": "半"
+    },
+    {
+      "class": "0",
+      "code": "0103",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "不限系別(進修學士班)",
+      "discipline": "專業實作",
+      "enrolled_num": "0",
+      "for_dept": "不限系別(進修學士班)",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y305"
+      ],
+      "note": "不開放校際選課|Inter-school course selection closed.",
+      "number": "70",
+      "number_parsed": 70,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "何智勇",
+      "time": "21011",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "人文藝術博物館巡禮 `A Tour of the Museum of Humanities and Art",
+      "title_parsed": {
+        "en_US": "A Tour of the Museum of Humanities and Art",
+        "zh_TW": "人文藝術博物館巡禮"
+      },
+      "url": "3602",
+      "year": "半"
+    },
+    {
+      "class": "0",
+      "code": "0104",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "不限系別(進修學士班)",
+      "discipline": "工程科技學群",
+      "enrolled_num": "0",
+      "for_dept": "不限系別(進修學士班)",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y104"
+      ],
+      "note": "",
+      "number": "121",
+      "number_parsed": 121,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "吳政憲",
+      "time": "51213",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "中國古代科學 `Chinese Ancient Science",
+      "title_parsed": {
+        "en_US": "Chinese Ancient Science",
+        "zh_TW": "中國古代科學"
+      },
+      "url": "3014",
+      "year": "半"
+    },
+    {
+      "class": "0",
+      "code": "0105",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "不限系別(進修學士班)",
+      "discipline": "反思創新",
+      "enrolled_num": "0",
+      "for_dept": "不限系別(進修學士班)",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y104"
+      ],
+      "note": "",
+      "number": "121",
+      "number_parsed": 121,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "吳政憲",
+      "time": "11213",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "新興科技與倫理 `Ethics and Emerging Technology",
+      "title_parsed": {
+        "en_US": "Ethics and Emerging Technology",
+        "zh_TW": "新興科技與倫理"
+      },
+      "url": "4390",
+      "year": "半"
+    },
+    {
+      "class": "0",
+      "code": "0106",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "不限系別(進修學士班)",
+      "discipline": "審美求真",
+      "enrolled_num": "0",
+      "for_dept": "不限系別(進修學士班)",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y308"
+      ],
+      "note": "不開放校際選課|Inter-school course selection closed.",
+      "number": "50",
+      "number_parsed": 50,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "王婉如",
+      "time": "11011",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "視覺藝術欣賞 `Visual Art Appreciation",
+      "title_parsed": {
+        "en_US": "Visual Art Appreciation",
+        "zh_TW": "視覺藝術欣賞"
+      },
+      "url": "2420",
+      "year": "半"
+    },
+    {
+      "class": "0",
+      "code": "0107",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "不限系別(進修學士班)",
+      "discipline": "專業實作",
+      "enrolled_num": "0",
+      "for_dept": "不限系別(進修學士班)",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y403"
+      ],
+      "note": "不開放校際選課|Inter-school course selection closed.",
+      "number": "72",
+      "number_parsed": 72,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "于迺文",
+      "time": "51011",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "從生態學領導 `Leadership by Ecology",
+      "title_parsed": {
+        "en_US": "Leadership by Ecology",
+        "zh_TW": "從生態學領導"
+      },
+      "url": "3270",
+      "year": "半"
+    },
+    {
+      "class": "0",
+      "code": "0108",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "不限系別(進修學士班)",
+      "discipline": "專業實作",
+      "enrolled_num": "0",
+      "for_dept": "不限系別(進修學士班)",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y401"
+      ],
+      "note": "不開放校際選課及特殊加簽|Additional enrollment is not available.",
+      "number": "55",
+      "number_parsed": 55,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "陳迪暉",
+      "time": "41011",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "創新思維與應用 `Innovative Thinking and Application",
+      "title_parsed": {
+        "en_US": "Innovative Thinking and Application",
+        "zh_TW": "創新思維與應用"
+      },
+      "url": "4746",
+      "year": "半"
+    },
+    {
+      "class": "0",
+      "code": "0109",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "不限系別(進修學士班)",
+      "discipline": "藝術學群",
+      "enrolled_num": "0",
+      "for_dept": "不限系別(進修學士班)",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y112"
+      ],
+      "note": "",
+      "number": "50",
+      "number_parsed": 50,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "呂承祐",
+      "time": "21011",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "世界音樂與多元文化 `World Music and Culture",
+      "title_parsed": {
+        "en_US": "World Music and Culture",
+        "zh_TW": "世界音樂與多元文化"
+      },
+      "url": "4405",
+      "year": "半"
+    },
+    {
+      "class": "0",
+      "code": "0110",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "不限系別(進修學士班)",
+      "discipline": "心理與教育學群",
+      "enrolled_num": "0",
+      "for_dept": "不限系別(進修學士班)",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y303"
+      ],
+      "note": "不開放校際選課及特殊加簽|Additional enrollment is not available.",
+      "number": "50",
+      "number_parsed": 50,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "施又瑀",
+      "time": "41011",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "比較教育學 `Comparative Pedagogy",
+      "title_parsed": {
+        "en_US": "Comparative Pedagogy",
+        "zh_TW": "比較教育學"
+      },
+      "url": "4198",
+      "year": "半"
+    },
+    {
+      "class": "0",
+      "code": "0111",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "不限系別(進修學士班)",
+      "discipline": "法律與政治學群",
+      "enrolled_num": "0",
+      "for_dept": "不限系別(進修學士班)",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y212"
+      ],
+      "note": "",
+      "number": "50",
+      "number_parsed": 50,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "黃馨慧",
+      "time": "41011",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "法學緒論 `Introduction to Legal Studies",
+      "title_parsed": {
+        "en_US": "Introduction to Legal Studies",
+        "zh_TW": "法學緒論"
+      },
+      "url": "4357",
+      "year": "半"
+    },
+    {
+      "class": "0",
+      "code": "0112",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "不限系別(進修學士班)",
+      "discipline": "法律與政治學群",
+      "enrolled_num": "0",
+      "for_dept": "不限系別(進修學士班)",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y104"
+      ],
+      "note": "不開放校際選課;國防教育只採計一門為通識學分|Inter-school course selection closed.National Defense Education only takes one course as G.E. Credit.",
+      "number": "100",
+      "number_parsed": 100,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "劉鎮燈",
+      "time": "31011",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "國防教育：全民國防 `National Defense Education: All-out Defense",
+      "title_parsed": {
+        "en_US": "National Defense Education: All-out Defense",
+        "zh_TW": "國防教育：全民國防"
+      },
+      "url": "4160",
+      "year": "半"
+    },
+    {
+      "class": "0",
+      "code": "0113",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "不限系別(進修學士班)",
+      "discipline": "文化學群",
+      "enrolled_num": "0",
+      "for_dept": "不限系別(進修學士班)",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y305"
+      ],
+      "note": "",
+      "number": "50",
+      "number_parsed": 50,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "宋德喜",
+      "time": "31011",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "歷史·生活與學習 `Life and Learning in History",
+      "title_parsed": {
+        "en_US": "Life and Learning in History",
+        "zh_TW": "歷史·生活與學習"
+      },
+      "url": "5291",
+      "year": "半"
+    },
+    {
+      "class": "0",
+      "code": "0114",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "不限系別(進修學士班)",
+      "discipline": "歷史學群",
+      "enrolled_num": "0",
+      "for_dept": "不限系別(進修學士班)",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y302"
+      ],
+      "note": "不開放特殊加簽|Addition for Special Cases is not accepted.",
+      "number": "50",
+      "number_parsed": 50,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "林益德",
+      "time": "21011",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "歷史與人生 `History and Human Life",
+      "title_parsed": {
+        "en_US": "History and Human Life",
+        "zh_TW": "歷史與人生"
+      },
+      "url": "2006",
+      "year": "半"
+    },
+    {
+      "class": "0",
+      "code": "0115",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "不限系別(進修學士班)",
+      "discipline": "歷史學群",
+      "enrolled_num": "0",
+      "for_dept": "不限系別(進修學士班)",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y302"
+      ],
+      "note": "不開放特殊加簽|Addition for Special Cases is not accepted.",
+      "number": "50",
+      "number_parsed": 50,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "林益德",
+      "time": "21213",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "中國文化史 `History of Chinese Civilization",
+      "title_parsed": {
+        "en_US": "History of Chinese Civilization",
+        "zh_TW": "中國文化史"
+      },
+      "url": "5169",
+      "year": "半"
+    },
+    {
+      "class": "0",
+      "code": "0116",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "不限系別(進修學士班)",
+      "discipline": "藝術學群",
+      "enrolled_num": "0",
+      "for_dept": "不限系別(進修學士班)",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y305"
+      ],
+      "note": "",
+      "number": "50",
+      "number_parsed": 50,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "宋德喜",
+      "time": "31213",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "影像與文化評論 `Visual Images and Cultural Criticism",
+      "title_parsed": {
+        "en_US": "Visual Images and Cultural Criticism",
+        "zh_TW": "影像與文化評論"
+      },
+      "url": "2927",
+      "year": "半"
+    },
+    {
+      "class": "0",
+      "code": "0117",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "不限系別(進修學士班)",
+      "discipline": "在地關懷",
+      "enrolled_num": "0",
+      "for_dept": "不限系別(進修學士班)",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y204"
+      ],
+      "note": "",
+      "number": "50",
+      "number_parsed": 50,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "蘇全正",
+      "time": "51011",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "探索臺中城 `Exploring Taichung City",
+      "title_parsed": {
+        "en_US": "Exploring Taichung City",
+        "zh_TW": "探索臺中城"
+      },
+      "url": "3642",
+      "year": "半"
+    },
+    {
+      "class": "0",
+      "code": "0118",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "不限系別(進修學士班)",
+      "discipline": "生命科學學群",
+      "enrolled_num": "0",
+      "for_dept": "不限系別(進修學士班)",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y112"
+      ],
+      "note": "合授課|",
+      "number": "120",
+      "number_parsed": 120,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "闕斌如",
+      "time": "31011",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "八大藝術中的生物醫學 `Biomedical Sciences in Arts",
+      "title_parsed": {
+        "en_US": "Biomedical Sciences in Arts",
+        "zh_TW": "八大藝術中的生物醫學"
+      },
+      "url": "3511",
+      "year": "半"
+    },
+    {
+      "class": "0",
+      "code": "0702",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "不限系別(進修學士班)",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "不限系別(進修學士班)",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        ""
+      ],
+      "note": "上課地點:體育館2樓羽球場",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "簡英智",
+      "time": "11213",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "羽球一B `Badminton (1)",
+      "title_parsed": {
+        "en_US": "Badminton (1)",
+        "zh_TW": "羽球一B"
+      },
+      "url": "2730",
+      "year": "半"
+    },
+    {
+      "class": "0",
+      "code": "0703",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "不限系別(進修學士班)",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "不限系別(進修學士班)",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        ""
+      ],
+      "note": "上課地點:體育館舞蹈教室",
+      "number": "36",
+      "number_parsed": 36,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "簡如君",
+      "time": "31213",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "彼拉提斯三B `Pilates III",
+      "title_parsed": {
+        "en_US": "Pilates III",
+        "zh_TW": "彼拉提斯三B"
+      },
+      "url": "5347",
+      "year": "半"
+    },
+    {
+      "class": "0",
+      "code": "0705",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "不限系別(進修學士班)",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "不限系別(進修學士班)",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        ""
+      ],
+      "note": "上課地點:高爾夫練習場",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "王耀聰",
+      "time": "41213",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "高爾夫四B `Golf (4)",
+      "title_parsed": {
+        "en_US": "Golf (4)",
+        "zh_TW": "高爾夫四B"
+      },
+      "url": "1295",
+      "year": "半"
+    },
+    {
+      "class": "0",
+      "code": "0706",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "不限系別(進修學士班)",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "不限系別(進修學士班)",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        ""
+      ],
+      "note": "上課地點:高爾夫練習場",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "許家得",
+      "time": "41011",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "高爾夫四A `Golf (4)",
+      "title_parsed": {
+        "en_US": "Golf (4)",
+        "zh_TW": "高爾夫四A"
+      },
+      "url": "5287",
+      "year": "半"
+    },
+    {
+      "class": "0",
+      "code": "0707",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "不限系別(進修學士班)",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "不限系別(進修學士班)",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        ""
+      ],
+      "note": "上課地點:體育館重量訓練室",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "賈凡",
+      "time": "51213",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "重量訓練五B `Weight Training(5)",
+      "title_parsed": {
+        "en_US": "Weight Training(5)",
+        "zh_TW": "重量訓練五B"
+      },
+      "url": "3759",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1501",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "中國文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "中國文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y206"
+      ],
+      "note": "",
+      "number": "35",
+      "number_parsed": 35,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "沈曼菱",
+      "time": "11213",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "現代詩 `Modern Poetry",
+      "title_parsed": {
+        "en_US": "Modern Poetry",
+        "zh_TW": "現代詩"
+      },
+      "url": "1719",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1502",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "中國文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "中國文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y212"
+      ],
+      "note": "",
+      "number": "35",
+      "number_parsed": 35,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "林育信",
+      "time": "21213",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "文學概論 `Introduction to Literature",
+      "title_parsed": {
+        "en_US": "Introduction to Literature",
+        "zh_TW": "文學概論"
+      },
+      "url": "1720",
+      "year": "全"
+    },
+    {
+      "class": "1",
+      "code": "1503",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "中國文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "中國文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "A318"
+      ],
+      "note": "",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "林榮森",
+      "time": "31011",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "書法 `Chinese Calligraphy",
+      "title_parsed": {
+        "en_US": "Chinese Calligraphy",
+        "zh_TW": "書法"
+      },
+      "url": "1721",
+      "year": "全"
+    },
+    {
+      "class": "1",
+      "code": "1504",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "中國文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "中國文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y203"
+      ],
+      "note": "",
+      "number": "35",
+      "number_parsed": 35,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "呂光華",
+      "time": "31213",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "國學導讀 `Introduction to Sinology",
+      "title_parsed": {
+        "en_US": "Introduction to Sinology",
+        "zh_TW": "國學導讀"
+      },
+      "url": "1722",
+      "year": "全"
+    },
+    {
+      "class": "1",
+      "code": "1511",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "外國語文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "外國語文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中/英文",
+      "location": [
+        "Y206"
+      ],
+      "note": "使用全英文課綱、教材與評量方式Syllabus, teaching materials and assessment methods are all in english",
+      "number": "22",
+      "number_parsed": 22,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "陳雅雯",
+      "time": "31011",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "英文作文(一)A `English Composition (I)",
+      "title_parsed": {
+        "en_US": "English Composition (I)",
+        "zh_TW": "英文作文(一)A"
+      },
+      "url": "1724",
+      "year": "全"
+    },
+    {
+      "class": "1",
+      "code": "1512",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "外國語文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "外國語文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中/英文",
+      "location": [
+        "Y303"
+      ],
+      "note": "使用全英文課綱、教材與評量方式Syllabus, teaching materials and assessment methods are all in english",
+      "number": "21",
+      "number_parsed": 21,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "陳柏助",
+      "time": "31011",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "英文作文(一)B `English Composition (I)",
+      "title_parsed": {
+        "en_US": "English Composition (I)",
+        "zh_TW": "英文作文(一)B"
+      },
+      "url": "5155",
+      "year": "全"
+    },
+    {
+      "class": "1",
+      "code": "1513",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "外國語文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "外國語文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "Y301"
+      ],
+      "note": "使用全英文課綱、教材與評量方式Syllabus, teaching materials and assessment methods are all in english",
+      "number": "22",
+      "number_parsed": 22,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "詹鄢如",
+      "time": "41213",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "英語口語訓練(一)A `English Oral Training (I)",
+      "title_parsed": {
+        "en_US": "English Oral Training (I)",
+        "zh_TW": "英語口語訓練(一)A"
+      },
+      "url": "1729",
+      "year": "全"
+    },
+    {
+      "class": "1",
+      "code": "1514",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "外國語文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "外國語文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "Y409"
+      ],
+      "note": "使用全英文課綱、教材與評量方式Syllabus, teaching materials and assessment methods are all in english",
+      "number": "21",
+      "number_parsed": 21,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "樊家瑋",
+      "time": "41213",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "英語口語訓練(一)B `English Oral Training (I)",
+      "title_parsed": {
+        "en_US": "English Oral Training (I)",
+        "zh_TW": "英語口語訓練(一)B"
+      },
+      "url": "5214",
+      "year": "全"
+    },
+    {
+      "class": "1",
+      "code": "1515",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "外國語文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "外國語文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中/英文",
+      "location": [
+        "Y305"
+      ],
+      "note": "使用全英文課綱、教材與評量方式Syllabus, teaching materials and assessment methods are all in english",
+      "number": "62",
+      "number_parsed": 62,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "陳宥廷",
+      "time": "11011",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "文學作品讀法 `Approaches to Literature",
+      "title_parsed": {
+        "en_US": "Approaches to Literature",
+        "zh_TW": "文學作品讀法"
+      },
+      "url": "1731",
+      "year": "全"
+    },
+    {
+      "class": "1",
+      "code": "1516",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "外國語文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "外國語文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中/英文",
+      "location": [
+        "Y409"
+      ],
+      "note": "使用全英文課綱、教材與評量方式Syllabus, teaching materials and assessment methods are all in english",
+      "number": "62",
+      "number_parsed": 62,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "林育群",
+      "time": "21011",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "大一英文 `Freshman English",
+      "title_parsed": {
+        "en_US": "Freshman English",
+        "zh_TW": "大一英文"
+      },
+      "url": "1745",
+      "year": "全"
+    },
+    {
+      "class": "1",
+      "code": "1517",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "外國語文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "外國語文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中/英文",
+      "location": [
+        "Y207"
+      ],
+      "note": "使用全英文課綱、教材與評量方式Syllabus, teaching materials and assessment methods are all in english",
+      "number": "32",
+      "number_parsed": 32,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "陳雅雯",
+      "time": "41011",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "發音練習 `Pronunciation Drills",
+      "title_parsed": {
+        "en_US": "Pronunciation Drills",
+        "zh_TW": "發音練習"
+      },
+      "url": "3319",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1518",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "外國語文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "外國語文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中/英文",
+      "location": [
+        "Y303"
+      ],
+      "note": "",
+      "number": "30",
+      "number_parsed": 30,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "林依蓉",
+      "time": "11011",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "高級英文文法(一) `Advanced Grammar  (I)",
+      "title_parsed": {
+        "en_US": "Advanced Grammar  (I)",
+        "zh_TW": "高級英文文法(一)"
+      },
+      "url": "3938",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1521",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "生物產業管理進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "生物產業管理進修學士學位學程",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y401"
+      ],
+      "note": "",
+      "number": "50",
+      "number_parsed": 50,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "陳雪如",
+      "time": "2101112",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            10,
+            11,
+            12
+          ]
+        }
+      ],
+      "title": "會計學 `Accounting",
+      "title_parsed": {
+        "en_US": "Accounting",
+        "zh_TW": "會計學"
+      },
+      "url": "4306",
+      "year": "全"
+    },
+    {
+      "class": "2",
+      "code": "1521",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "生物產業管理進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "創新產業經營進修學士學位學程",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y401"
+      ],
+      "note": "",
+      "number": "10",
+      "number_parsed": 10,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "陳雪如",
+      "time": "2101112",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            10,
+            11,
+            12
+          ]
+        }
+      ],
+      "title": "會計學A `Accounting",
+      "title_parsed": {
+        "en_US": "Accounting",
+        "zh_TW": "會計學A"
+      },
+      "url": "5403",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1522",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "生物產業管理進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "生物產業管理進修學士學位學程",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y202"
+      ],
+      "note": "",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "湯家鴻",
+      "time": "3111213",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            11,
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "茶文化導論 `Introduction to Tea Culture",
+      "title_parsed": {
+        "en_US": "Introduction to Tea Culture",
+        "zh_TW": "茶文化導論"
+      },
+      "url": "1735",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1523",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "生物產業管理進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "生物產業管理進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y410"
+      ],
+      "note": "",
+      "number": "50",
+      "number_parsed": 50,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "林幸宜",
+      "time": "11011",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "經濟學 `Economics",
+      "title_parsed": {
+        "en_US": "Economics",
+        "zh_TW": "經濟學"
+      },
+      "url": "1737",
+      "year": "全"
+    },
+    {
+      "class": "1",
+      "code": "1524",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "生物產業管理進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "生物產業管理進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y202"
+      ],
+      "note": "",
+      "number": "50",
+      "number_parsed": 50,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "許奕婷",
+      "time": "41011",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "生物產業概論 `Introduction to Bio-Industry",
+      "title_parsed": {
+        "en_US": "Introduction to Bio-Industry",
+        "zh_TW": "生物產業概論"
+      },
+      "url": "1739",
+      "year": "全"
+    },
+    {
+      "class": "1",
+      "code": "1531",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "不限系別(進修學士班)",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "中國文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "AA202"
+      ],
+      "note": "限中國文學系進修學士班選修。使用全英文課綱、教材與評量方式Syllabus, teaching materials and assessment methods are all in english",
+      "number": "50",
+      "number_parsed": 50,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "陳國豪",
+      "time": "51011",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "英語溝通與表達 `English Communication and Expression",
+      "title_parsed": {
+        "en_US": "English Communication and Expression",
+        "zh_TW": "英語溝通與表達"
+      },
+      "url": "1741",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1532",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "不限系別(進修學士班)",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "生物產業管理進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "AA201"
+      ],
+      "note": "限生管學程進修學士班選修",
+      "number": "50",
+      "number_parsed": 50,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "廖秀芬",
+      "time": "51011",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "英語溝通與表達 `English Communication and Expression",
+      "title_parsed": {
+        "en_US": "English Communication and Expression",
+        "zh_TW": "英語溝通與表達"
+      },
+      "url": "1742",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1533",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "不限系別(進修學士班)",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "數位人文與文創產業進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "AA201"
+      ],
+      "note": "限文創學程進修學士班選修",
+      "number": "50",
+      "number_parsed": 50,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "廖秀芬",
+      "time": "31011",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "英語溝通與表達 `English Communication and Expression",
+      "title_parsed": {
+        "en_US": "English Communication and Expression",
+        "zh_TW": "英語溝通與表達"
+      },
+      "url": "1743",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1534",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "不限系別(進修學士班)",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "創新產業經營進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "AA202"
+      ],
+      "note": "限創經學程進修學士班選修。使用全英文課綱、教材與評量方式Syllabus, teaching materials and assessment methods are all in english",
+      "number": "50",
+      "number_parsed": 50,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "陳國豪",
+      "time": "31011",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "英語溝通與表達 `English Communication and Expression",
+      "title_parsed": {
+        "en_US": "English Communication and Expression",
+        "zh_TW": "英語溝通與表達"
+      },
+      "url": "1744",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1536",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "中國文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "中國文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y206"
+      ],
+      "note": "",
+      "number": "60",
+      "number_parsed": 60,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "周安邦",
+      "time": "21011",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "敘事表達：語文素養A `Narrative Expression: Language Literacy",
+      "title_parsed": {
+        "en_US": "Narrative Expression: Language Literacy",
+        "zh_TW": "敘事表達：語文素養A"
+      },
+      "url": "1747",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1537",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "中國文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "外國語文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y208"
+      ],
+      "note": "",
+      "number": "60",
+      "number_parsed": 60,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "王正良",
+      "time": "51011",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "敘事表達：語文素養B `Narrative Expression: Language Literacy",
+      "title_parsed": {
+        "en_US": "Narrative Expression: Language Literacy",
+        "zh_TW": "敘事表達：語文素養B"
+      },
+      "url": "3496",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1538",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "中國文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "生物產業管理進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y207"
+      ],
+      "note": "",
+      "number": "50",
+      "number_parsed": 50,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "蔡金昌",
+      "time": "31011",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "敘事表達：語文素養C `Narrative Expression: Language Literacy",
+      "title_parsed": {
+        "en_US": "Narrative Expression: Language Literacy",
+        "zh_TW": "敘事表達：語文素養C"
+      },
+      "url": "1749",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1539",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "中國文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "數位人文與文創產業進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y402"
+      ],
+      "note": "",
+      "number": "60",
+      "number_parsed": 60,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "吳東晟",
+      "time": "41011",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "敘事表達：語文素養D `Narrative Expression: Language Literacy",
+      "title_parsed": {
+        "en_US": "Narrative Expression: Language Literacy",
+        "zh_TW": "敘事表達：語文素養D"
+      },
+      "url": "3836",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1540",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "中國文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "創新產業經營進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y204"
+      ],
+      "note": "",
+      "number": "60",
+      "number_parsed": 60,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "陳昌遠",
+      "time": "41011",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "敘事表達：語文素養E `Narrative Expression: Language Literacy",
+      "title_parsed": {
+        "en_US": "Narrative Expression: Language Literacy",
+        "zh_TW": "敘事表達：語文素養E"
+      },
+      "url": "1748",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1541",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "數位人文與文創產業進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "數位人文與文創產業進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "A205"
+      ],
+      "note": "本系一年級學生預先灌課",
+      "number": "35",
+      "number_parsed": 35,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "鄭怡玲",
+      "time": "21011",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "數位人文概論 `Introduction to Digital Humanities",
+      "title_parsed": {
+        "en_US": "Introduction to Digital Humanities",
+        "zh_TW": "數位人文概論"
+      },
+      "url": "3311",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1542",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "數位人文與文創產業進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "數位人文與文創產業進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y605"
+      ],
+      "note": "本系一年級學生預先灌課",
+      "number": "35",
+      "number_parsed": 35,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "鄧文貞",
+      "time": "31213",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "色彩計畫 `Color scheme",
+      "title_parsed": {
+        "en_US": "Color scheme",
+        "zh_TW": "色彩計畫"
+      },
+      "url": "3312",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1543",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "數位人文與文創產業進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "數位人文與文創產業進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "A310"
+      ],
+      "note": "本系一年級學生預先灌課",
+      "number": "35",
+      "number_parsed": 35,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "吳淑玉",
+      "time": "41213",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "影像處理與電腦繪圖 `Image processing and computer graphic",
+      "title_parsed": {
+        "en_US": "Image processing and computer graphic",
+        "zh_TW": "影像處理與電腦繪圖"
+      },
+      "url": "4625",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1544",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "數位人文與文創產業進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "數位人文與文創產業進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y307"
+      ],
+      "note": "本系一年級學生預先灌課",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "郭純宜",
+      "time": "51011",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "文化行政 `Culture Administration",
+      "title_parsed": {
+        "en_US": "Culture Administration",
+        "zh_TW": "文化行政"
+      },
+      "url": "4627",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1545",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "數位人文與文創產業進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "數位人文與文創產業進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y204"
+      ],
+      "note": "",
+      "number": "35",
+      "number_parsed": 35,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "羅瑱陽",
+      "time": "21213",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "數位攝影 `Digital Photography",
+      "title_parsed": {
+        "en_US": "Digital Photography",
+        "zh_TW": "數位攝影"
+      },
+      "url": "6052",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1546",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "數位人文與文創產業進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "生物產業管理進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y303"
+      ],
+      "note": "",
+      "number": "5",
+      "number_parsed": 5,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "蔡奇睿",
+      "time": "51213",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "文化創意產業概論A `Introduction to Cultural and Creative Industry",
+      "title_parsed": {
+        "en_US": "Introduction to Cultural and Creative Industry",
+        "zh_TW": "文化創意產業概論A"
+      },
+      "url": "2897",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1546",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "數位人文與文創產業進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "數位人文與文創產業進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y303"
+      ],
+      "note": "本系一年級學生預先灌課",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "蔡奇睿",
+      "time": "51213",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "文化創意產業概論 `Introduction to Cultural and Creative Industry",
+      "title_parsed": {
+        "en_US": "Introduction to Cultural and Creative Industry",
+        "zh_TW": "文化創意產業概論"
+      },
+      "url": "2422",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1547",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "數位人文與文創產業進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "數位人文與文創產業進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "A318"
+      ],
+      "note": "",
+      "number": "35",
+      "number_parsed": 35,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "莊賜祿",
+      "time": "21213",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "圖文藝術與應用 `",
+      "title_parsed": {
+        "en_US": "",
+        "zh_TW": "圖文藝術與應用"
+      },
+      "url": "2673",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1548",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "數位人文與文創產業進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "數位人文與文創產業進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y605"
+      ],
+      "note": "",
+      "number": "35",
+      "number_parsed": 35,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "鄧文貞",
+      "time": "21213",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "基礎素描 `Basic Sketch",
+      "title_parsed": {
+        "en_US": "Basic Sketch",
+        "zh_TW": "基礎素描"
+      },
+      "url": "5773",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1551",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "創新產業經營進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "創新產業經營進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y308"
+      ],
+      "note": "",
+      "number": "50",
+      "number_parsed": 50,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "待聘",
+      "time": "51011",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "企業倫理 `Business Ethics",
+      "title_parsed": {
+        "en_US": "Business Ethics",
+        "zh_TW": "企業倫理"
+      },
+      "url": "1712",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1552",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "創新產業經營進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "創新產業經營進修學士學位學程",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y402"
+      ],
+      "note": "",
+      "number": "50",
+      "number_parsed": 50,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "王春熙",
+      "time": "2111213",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            11,
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "經濟學(一) `Economics (I)",
+      "title_parsed": {
+        "en_US": "Economics (I)",
+        "zh_TW": "經濟學(一)"
+      },
+      "url": "1715",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1553",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "創新產業經營進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "創新產業經營進修學士學位學程",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y309"
+      ],
+      "note": "",
+      "number": "50",
+      "number_parsed": 50,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "謝焸君",
+      "time": "191011",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            10,
+            11,
+            9
+          ]
+        }
+      ],
+      "title": "管理學 `Management",
+      "title_parsed": {
+        "en_US": "Management",
+        "zh_TW": "管理學"
+      },
+      "url": "2734",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1554",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "創新產業經營進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "創新產業經營進修學士學位學程",
+      "hours": "1",
+      "hours_parsed": "1",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y309"
+      ],
+      "note": "",
+      "number": "50",
+      "number_parsed": 50,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "謝焸君",
+      "time": "112",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            12
+          ]
+        }
+      ],
+      "title": "管理學概要 `",
+      "title_parsed": {
+        "en_US": "",
+        "zh_TW": "管理學概要"
+      },
+      "url": "2022",
+      "year": "半"
+    },
+    {
+      "class": "2",
+      "code": "2501",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "中國文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "中國文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y203"
+      ],
+      "note": "",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "林聖峯",
+      "time": "41011",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "文字學 `Etymology",
+      "title_parsed": {
+        "en_US": "Etymology",
+        "zh_TW": "文字學"
+      },
+      "url": "3138",
+      "year": "全"
+    },
+    {
+      "class": "2",
+      "code": "2502",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "中國文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "中國文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y303"
+      ],
+      "note": "",
+      "number": "35",
+      "number_parsed": 35,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "李建福",
+      "time": "31213",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "對聯文學 `Antithetical Couplet Literature",
+      "title_parsed": {
+        "en_US": "Antithetical Couplet Literature",
+        "zh_TW": "對聯文學"
+      },
+      "url": "2378",
+      "year": "全"
+    },
+    {
+      "class": "2",
+      "code": "2503",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "中國文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "中國文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y207"
+      ],
+      "note": "",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "熊道麟",
+      "time": "11011",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "歷代文選及習作 `Prose : Reading and Writing",
+      "title_parsed": {
+        "en_US": "Prose : Reading and Writing",
+        "zh_TW": "歷代文選及習作"
+      },
+      "url": "2380",
+      "year": "全"
+    },
+    {
+      "class": "2",
+      "code": "2504",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "中國文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "中國文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y208"
+      ],
+      "note": "",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "張錦瑤",
+      "time": "41213",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "詩選及習作 `Poetry : Reading and Writing",
+      "title_parsed": {
+        "en_US": "Poetry : Reading and Writing",
+        "zh_TW": "詩選及習作"
+      },
+      "url": "2382",
+      "year": "全"
+    },
+    {
+      "class": "2",
+      "code": "2505",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "中國文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "中國文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y304"
+      ],
+      "note": "",
+      "number": "35",
+      "number_parsed": 35,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "陳昌遠",
+      "time": "31011",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "小說選讀及習作 `Fiction:Reading and Writing",
+      "title_parsed": {
+        "en_US": "Fiction:Reading and Writing",
+        "zh_TW": "小說選讀及習作"
+      },
+      "url": "2383",
+      "year": "全"
+    },
+    {
+      "class": "2",
+      "code": "2506",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "中國文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "中國文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y206"
+      ],
+      "note": "",
+      "number": "35",
+      "number_parsed": 35,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "周安邦",
+      "time": "21213",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "佛教文學 `Buddhist Literature",
+      "title_parsed": {
+        "en_US": "Buddhist Literature",
+        "zh_TW": "佛教文學"
+      },
+      "url": "2714",
+      "year": "全"
+    },
+    {
+      "class": "2",
+      "code": "2511",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "外國語文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "外國語文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "Y410"
+      ],
+      "note": "使用全英文課綱、教材與評量方式Syllabus, teaching materials and assessment methods are all in english",
+      "number": "62",
+      "number_parsed": 62,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "周廷戎",
+      "time": "31011",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "西洋文學概論 `Introduction to Western Literature",
+      "title_parsed": {
+        "en_US": "Introduction to Western Literature",
+        "zh_TW": "西洋文學概論"
+      },
+      "url": "2385",
+      "year": "全"
+    },
+    {
+      "class": "2",
+      "code": "2512",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "外國語文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "外國語文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "Y307"
+      ],
+      "note": "",
+      "number": "15",
+      "number_parsed": 15,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "英文作文(一)",
+      "professor": "陳柏助",
+      "time": "21011",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "英文作文(二)A `English Composition (II)",
+      "title_parsed": {
+        "en_US": "English Composition (II)",
+        "zh_TW": "英文作文(二)A"
+      },
+      "url": "3080",
+      "year": "全"
+    },
+    {
+      "class": "2",
+      "code": "2513",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "外國語文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "外國語文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "Y403"
+      ],
+      "note": "使用全英文課綱、教材與評量方式Syllabus, teaching materials and assessment methods are all in english",
+      "number": "15",
+      "number_parsed": 15,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "英文作文(一)",
+      "professor": "林佑容",
+      "time": "21011",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "英文作文(二)B `English Composition (II)",
+      "title_parsed": {
+        "en_US": "English Composition (II)",
+        "zh_TW": "英文作文(二)B"
+      },
+      "url": "2387",
+      "year": "全"
+    },
+    {
+      "class": "2",
+      "code": "2514",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "外國語文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "外國語文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "Y307"
+      ],
+      "note": "",
+      "number": "35",
+      "number_parsed": 35,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "英語口語訓練(一)",
+      "professor": "陳柏助",
+      "time": "21213",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "英語口語訓練(二) `English Oral Training (II)",
+      "title_parsed": {
+        "en_US": "English Oral Training (II)",
+        "zh_TW": "英語口語訓練(二)"
+      },
+      "url": "2393",
+      "year": "全"
+    },
+    {
+      "class": "2",
+      "code": "2515",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "外國語文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "外國語文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中/英文",
+      "location": [
+        "Y403"
+      ],
+      "note": "使用全英文課綱、教材與評量方式Syllabus, teaching materials and assessment methods are all in english",
+      "number": "62",
+      "number_parsed": 62,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "舒志翔",
+      "time": "41213",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "語言學概論 `Introduction to Linguistics",
+      "title_parsed": {
+        "en_US": "Introduction to Linguistics",
+        "zh_TW": "語言學概論"
+      },
+      "url": "2394",
+      "year": "全"
+    },
+    {
+      "class": "2",
+      "code": "2516",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "外國語文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "外國語文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中/英文",
+      "location": [
+        "Y206"
+      ],
+      "note": "",
+      "number": "30",
+      "number_parsed": 30,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "古綺玲",
+      "time": "51011",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "小說導讀 `Introduction to Fiction",
+      "title_parsed": {
+        "en_US": "Introduction to Fiction",
+        "zh_TW": "小說導讀"
+      },
+      "url": "3181",
+      "year": "全"
+    },
+    {
+      "class": "2",
+      "code": "2517",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "外國語文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "外國語文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中/英文",
+      "location": [
+        "Y301"
+      ],
+      "note": "",
+      "number": "30",
+      "number_parsed": 30,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "詹鄢如",
+      "time": "41011",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "新聞英文 `Journalistic English",
+      "title_parsed": {
+        "en_US": "Journalistic English",
+        "zh_TW": "新聞英文"
+      },
+      "url": "2384",
+      "year": "全"
+    },
+    {
+      "class": "2",
+      "code": "2518",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "外國語文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "外國語文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中/英文",
+      "location": [
+        "Y309"
+      ],
+      "note": "",
+      "number": "30",
+      "number_parsed": 30,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "陳文苓",
+      "time": "41213",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "英文繪本概論 `An Introduction to English Graphic Texts",
+      "title_parsed": {
+        "en_US": "An Introduction to English Graphic Texts",
+        "zh_TW": "英文繪本概論"
+      },
+      "url": "2388",
+      "year": "半"
+    },
+    {
+      "class": "2",
+      "code": "2521",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "生物產業管理進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "生物產業管理進修學士學位學程",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "A318"
+      ],
+      "note": "",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "陳玉婷",
+      "time": "191011",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            10,
+            11,
+            9
+          ]
+        }
+      ],
+      "title": "茶藝 `Teaching of Tea Art",
+      "title_parsed": {
+        "en_US": "Teaching of Tea Art",
+        "zh_TW": "茶藝"
+      },
+      "url": "4324",
+      "year": "半"
+    },
+    {
+      "class": "2",
+      "code": "2522",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "生物產業管理進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "生物產業管理進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y202"
+      ],
+      "note": "",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "俞克元",
+      "time": "51213",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "休閒概論 `Introduction to Leisure",
+      "title_parsed": {
+        "en_US": "Introduction to Leisure",
+        "zh_TW": "休閒概論"
+      },
+      "url": "2756",
+      "year": "半"
+    },
+    {
+      "class": "2",
+      "code": "2523",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "生物產業管理進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "生物產業管理進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y202"
+      ],
+      "note": "",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "岳家青",
+      "time": "3910",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            10,
+            9
+          ]
+        }
+      ],
+      "title": "創意餐飲經營實務 `The Business Practices of Creative Catering",
+      "title_parsed": {
+        "en_US": "The Business Practices of Creative Catering",
+        "zh_TW": "創意餐飲經營實務"
+      },
+      "url": "4831",
+      "year": "半"
+    },
+    {
+      "class": "2",
+      "code": "2524",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "生物產業管理進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "生物產業管理進修學士學位學程",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y203"
+      ],
+      "note": "",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "巫嘉昌",
+      "time": "591011",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            10,
+            11,
+            9
+          ]
+        }
+      ],
+      "title": "特用作物成分與品質 `Chemical Elements and Quality of Special Crop",
+      "title_parsed": {
+        "en_US": "Chemical Elements and Quality of Special Crop",
+        "zh_TW": "特用作物成分與品質"
+      },
+      "url": "2396",
+      "year": "半"
+    },
+    {
+      "class": "2",
+      "code": "2525",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "生物產業管理進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "生物產業管理進修學士學位學程",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y109"
+      ],
+      "note": "",
+      "number": "50",
+      "number_parsed": 50,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "陳姿伶",
+      "time": "291011",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            10,
+            11,
+            9
+          ]
+        }
+      ],
+      "title": "推廣科學 `Extension Science",
+      "title_parsed": {
+        "en_US": "Extension Science",
+        "zh_TW": "推廣科學"
+      },
+      "url": "2397",
+      "year": "半"
+    },
+    {
+      "class": "2",
+      "code": "2526",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "生物產業管理進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "生物產業管理進修學士學位學程",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y208"
+      ],
+      "note": "",
+      "number": "65",
+      "number_parsed": 65,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "邱國欽",
+      "time": "3101112",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            10,
+            11,
+            12
+          ]
+        }
+      ],
+      "title": "社會統計 `Social Statistics",
+      "title_parsed": {
+        "en_US": "Social Statistics",
+        "zh_TW": "社會統計"
+      },
+      "url": "2398",
+      "year": "全"
+    },
+    {
+      "class": "2",
+      "code": "2527",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "生物產業管理進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "生物產業管理進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y204"
+      ],
+      "note": "",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "陳建德",
+      "time": "11213",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "茶作學 `Tea Crop Science",
+      "title_parsed": {
+        "en_US": "Tea Crop Science",
+        "zh_TW": "茶作學"
+      },
+      "url": "2399",
+      "year": "半"
+    },
+    {
+      "class": "2",
+      "code": "2528",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "生物產業管理進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "生物產業管理進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y203"
+      ],
+      "note": "",
+      "number": "50",
+      "number_parsed": 50,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "陳良柏",
+      "time": "21213",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "茶器具特性與製作 `Characteristics and Production of Tea Utensils",
+      "title_parsed": {
+        "en_US": "Characteristics and Production of Tea Utensils",
+        "zh_TW": "茶器具特性與製作"
+      },
+      "url": "2401",
+      "year": "半"
+    },
+    {
+      "class": "2",
+      "code": "2529",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "生物產業管理進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "生物產業管理進修學士學位學程",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y202"
+      ],
+      "note": "",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "俞克元",
+      "time": "591011",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            10,
+            11,
+            9
+          ]
+        }
+      ],
+      "title": "餐飲管理 `Food and Beverage Management",
+      "title_parsed": {
+        "en_US": "Food and Beverage Management",
+        "zh_TW": "餐飲管理"
+      },
+      "url": "2360",
+      "year": "半"
+    },
+    {
+      "class": "2",
+      "code": "2531",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "不限系別(進修學士班)",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "外國語文學系進修學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "AA401"
+      ],
+      "note": "開課單位:語言中心",
+      "number": "45",
+      "number_parsed": 45,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "蔡佳勳",
+      "time": "1101112",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            10,
+            11,
+            12
+          ]
+        }
+      ],
+      "title": "法文(一) `French (I)",
+      "title_parsed": {
+        "en_US": "French (I)",
+        "zh_TW": "法文(一)"
+      },
+      "url": "2362",
+      "year": "全"
+    },
+    {
+      "class": "2",
+      "code": "2532",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "不限系別(進修學士班)",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "外國語文學系進修學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "AA202"
+      ],
+      "note": "開課單位:語言中心",
+      "number": "45",
+      "number_parsed": 45,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "林璇",
+      "time": "1111213",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            11,
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "德文(一) `German(I)",
+      "title_parsed": {
+        "en_US": "German(I)",
+        "zh_TW": "德文(一)"
+      },
+      "url": "2363",
+      "year": "全"
+    },
+    {
+      "class": "2",
+      "code": "2533",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "不限系別(進修學士班)",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "外國語文學系進修學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "AA203"
+      ],
+      "note": "開課單位:語言中心",
+      "number": "45",
+      "number_parsed": 45,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "黃悅華",
+      "time": "1101112",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            10,
+            11,
+            12
+          ]
+        }
+      ],
+      "title": "西班牙文(一) `Spanish (I)",
+      "title_parsed": {
+        "en_US": "Spanish (I)",
+        "zh_TW": "西班牙文(一)"
+      },
+      "url": "2364",
+      "year": "全"
+    },
+    {
+      "class": "2",
+      "code": "2534",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "不限系別(進修學士班)",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "外國語文學系進修學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "AA201"
+      ],
+      "note": "開課單位:語言中心",
+      "number": "45",
+      "number_parsed": 45,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "朱韻如",
+      "time": "1111213",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            11,
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "日文(一) `Japanese (I)",
+      "title_parsed": {
+        "en_US": "Japanese (I)",
+        "zh_TW": "日文(一)"
+      },
+      "url": "2365",
+      "year": "全"
+    },
+    {
+      "class": "2",
+      "code": "2541",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "數位人文與文創產業進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "數位人文與文創產業進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y303"
+      ],
+      "note": "本系二年級學生預先灌課",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "余國強",
+      "time": "51213",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "傳播概論 ` Introduction to Media & Communication",
+      "title_parsed": {
+        "en_US": " Introduction to Media & Communication",
+        "zh_TW": "傳播概論"
+      },
+      "url": "2368",
+      "year": "半"
+    },
+    {
+      "class": "2",
+      "code": "2542",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "數位人文與文創產業進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "數位人文與文創產業進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y109"
+      ],
+      "note": "本系二年級學生預先灌課",
+      "number": "35",
+      "number_parsed": 35,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "蔡佩儒",
+      "time": "51011",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "造型原理 `Theory of Plastic Arts",
+      "title_parsed": {
+        "en_US": "Theory of Plastic Arts",
+        "zh_TW": "造型原理"
+      },
+      "url": "2373",
+      "year": "半"
+    },
+    {
+      "class": "2",
+      "code": "2543",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "數位人文與文創產業進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "數位人文與文創產業進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y204"
+      ],
+      "note": "本系二年級學生預先灌課",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "黃莉珺",
+      "time": "31213",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "設計概論 `Introduction of design ",
+      "title_parsed": {
+        "en_US": "Introduction of design ",
+        "zh_TW": "設計概論"
+      },
+      "url": "3939",
+      "year": "半"
+    },
+    {
+      "class": "2",
+      "code": "2544",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "數位人文與文創產業進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "數位人文與文創產業進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "A205"
+      ],
+      "note": "",
+      "number": "35",
+      "number_parsed": 35,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "姜義臺",
+      "time": "11213",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "資訊服務與應用 `Information Service and Application",
+      "title_parsed": {
+        "en_US": "Information Service and Application",
+        "zh_TW": "資訊服務與應用"
+      },
+      "url": "4759",
+      "year": "半"
+    },
+    {
+      "class": "2",
+      "code": "2545",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "數位人文與文創產業進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "數位人文與文創產業進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "A310"
+      ],
+      "note": "",
+      "number": "35",
+      "number_parsed": 35,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "黃斿棣",
+      "time": "31011",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "動態圖像設計 `Motion Graphic Design",
+      "title_parsed": {
+        "en_US": "Motion Graphic Design",
+        "zh_TW": "動態圖像設計"
+      },
+      "url": "2372",
+      "year": "半"
+    },
+    {
+      "class": "2",
+      "code": "2546",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "數位人文與文創產業進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "數位人文與文創產業進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y313"
+      ],
+      "note": "",
+      "number": "35",
+      "number_parsed": 35,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "陳東玉",
+      "time": "21011",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "故事行銷 `",
+      "title_parsed": {
+        "en_US": "",
+        "zh_TW": "故事行銷"
+      },
+      "url": "5775",
+      "year": "半"
+    },
+    {
+      "class": "2",
+      "code": "2547",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "數位人文與文創產業進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "數位人文與文創產業進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y313"
+      ],
+      "note": "",
+      "number": "35",
+      "number_parsed": 35,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "游正裕",
+      "time": "41011",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "微電影製作 `Micro Film Production",
+      "title_parsed": {
+        "en_US": "Micro Film Production",
+        "zh_TW": "微電影製作"
+      },
+      "url": "3310",
+      "year": "半"
+    },
+    {
+      "class": "2",
+      "code": "2551",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "創新產業經營進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "創新產業經營進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y402"
+      ],
+      "note": "",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "曾麗文",
+      "time": "51213",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "總體經濟學 `Macroeconomics",
+      "title_parsed": {
+        "en_US": "Macroeconomics",
+        "zh_TW": "總體經濟學"
+      },
+      "url": "2366",
+      "year": "半"
+    },
+    {
+      "class": "2",
+      "code": "2552",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "創新產業經營進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "創新產業經營進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y309"
+      ],
+      "note": "",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "吳孟玳",
+      "time": "41011",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "運動休閒社會學 `Sociology of Sport and Leisure",
+      "title_parsed": {
+        "en_US": "Sociology of Sport and Leisure",
+        "zh_TW": "運動休閒社會學"
+      },
+      "url": "2403",
+      "year": "半"
+    },
+    {
+      "class": "2",
+      "code": "2553",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "創新產業經營進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "創新產業經營進修學士學位學程",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y301"
+      ],
+      "note": "",
+      "number": "50",
+      "number_parsed": 50,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "應立志",
+      "time": "2101112",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            10,
+            11,
+            12
+          ]
+        }
+      ],
+      "title": "統計學 `Statistics",
+      "title_parsed": {
+        "en_US": "Statistics",
+        "zh_TW": "統計學"
+      },
+      "url": "2376",
+      "year": "半"
+    },
+    {
+      "class": "2",
+      "code": "2554",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "創新產業經營進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "創新產業經營進修學士學位學程",
+      "hours": "1",
+      "hours_parsed": "1",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y307"
+      ],
+      "note": "",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "黃瑞庭",
+      "time": "310",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            10
+          ]
+        }
+      ],
+      "title": "訓練與發展 `Training and Development",
+      "title_parsed": {
+        "en_US": "Training and Development",
+        "zh_TW": "訓練與發展"
+      },
+      "url": "2809",
+      "year": "半"
+    },
+    {
+      "class": "2",
+      "code": "2555",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "創新產業經營進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "創新產業經營進修學士學位學程",
+      "hours": "1",
+      "hours_parsed": "1",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y307"
+      ],
+      "note": "",
+      "number": "50",
+      "number_parsed": 50,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "黃瑞庭",
+      "time": "311",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            11
+          ]
+        }
+      ],
+      "title": "招募與甄選 `Staffing and Selection",
+      "title_parsed": {
+        "en_US": "Staffing and Selection",
+        "zh_TW": "招募與甄選"
+      },
+      "url": "3296",
+      "year": "半"
+    },
+    {
+      "class": "2",
+      "code": "2556",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "創新產業經營進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "創新產業經營進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y307"
+      ],
+      "note": "",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "黃瑞庭",
+      "time": "31213",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "管理心理學 `Managerial Psychology",
+      "title_parsed": {
+        "en_US": "Managerial Psychology",
+        "zh_TW": "管理心理學"
+      },
+      "url": "2428",
+      "year": "半"
+    },
+    {
+      "class": "2",
+      "code": "2557",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "創新產業經營進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "創新產業經營進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y303"
+      ],
+      "note": "",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "莊中原",
+      "time": "51011",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "商事法 `Business Law",
+      "title_parsed": {
+        "en_US": "Business Law",
+        "zh_TW": "商事法"
+      },
+      "url": "3360",
+      "year": "半"
+    },
+    {
+      "class": "2",
+      "code": "2558",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "創新產業經營進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "創新產業經營進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y403"
+      ],
+      "note": "",
+      "number": "50",
+      "number_parsed": 50,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "待聘",
+      "time": "11011",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "創意產業概論 `Introduction to Creative Industries",
+      "title_parsed": {
+        "en_US": "Introduction to Creative Industries",
+        "zh_TW": "創意產業概論"
+      },
+      "url": "6084",
+      "year": "半"
+    },
+    {
+      "class": "2",
+      "code": "2559",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "創新產業經營進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "創新產業經營進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y403"
+      ],
+      "note": "",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "待聘",
+      "time": "11213",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "生產與作業管理 `Production and Operations Management",
+      "title_parsed": {
+        "en_US": "Production and Operations Management",
+        "zh_TW": "生產與作業管理"
+      },
+      "url": "3563",
+      "year": "半"
+    },
+    {
+      "class": "3",
+      "code": "3501",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "中國文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "中國文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y301"
+      ],
+      "note": "",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "丘彥遂",
+      "time": "51011",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "聲韻學 `Chinese Phonology",
+      "title_parsed": {
+        "en_US": "Chinese Phonology",
+        "zh_TW": "聲韻學"
+      },
+      "url": "2901",
+      "year": "全"
+    },
+    {
+      "class": "3",
+      "code": "3502",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "中國文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "中國文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y208"
+      ],
+      "note": "",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "張錦瑤",
+      "time": "41011",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "詞曲選及習作 `Tsu and Chu : Reading and Writing",
+      "title_parsed": {
+        "en_US": "Tsu and Chu : Reading and Writing",
+        "zh_TW": "詞曲選及習作"
+      },
+      "url": "2902",
+      "year": "全"
+    },
+    {
+      "class": "3",
+      "code": "3503",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "中國文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "中國文學系進修學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y301"
+      ],
+      "note": "",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "林育信",
+      "time": "3101112",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            10,
+            11,
+            12
+          ]
+        }
+      ],
+      "title": "中國文學史 `History of Chinese Literature",
+      "title_parsed": {
+        "en_US": "History of Chinese Literature",
+        "zh_TW": "中國文學史"
+      },
+      "url": "3876",
+      "year": "全"
+    },
+    {
+      "class": "3",
+      "code": "3504",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "中國文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "中國文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y301"
+      ],
+      "note": "",
+      "number": "20",
+      "number_parsed": 20,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "王正良",
+      "time": "11011",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "臺灣文學史 `Taiwan Literary History",
+      "title_parsed": {
+        "en_US": "Taiwan Literary History",
+        "zh_TW": "臺灣文學史"
+      },
+      "url": "2907",
+      "year": "全"
+    },
+    {
+      "class": "3",
+      "code": "3505",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "中國文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "中國文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y203"
+      ],
+      "note": "",
+      "number": "35",
+      "number_parsed": 35,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "林聖峯",
+      "time": "41213",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "修辭學 `Rhetoric",
+      "title_parsed": {
+        "en_US": "Rhetoric",
+        "zh_TW": "修辭學"
+      },
+      "url": "2377",
+      "year": "全"
+    },
+    {
+      "class": "3",
+      "code": "3506",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "中國文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "中國文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y203"
+      ],
+      "note": "",
+      "number": "20",
+      "number_parsed": 20,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "陳麗如",
+      "time": "11011",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "紅樓夢 `The Red-Chamber Dream",
+      "title_parsed": {
+        "en_US": "The Red-Chamber Dream",
+        "zh_TW": "紅樓夢"
+      },
+      "url": "4368",
+      "year": "全"
+    },
+    {
+      "class": "3",
+      "code": "3507",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "中國文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "中國文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y309"
+      ],
+      "note": "",
+      "number": "35",
+      "number_parsed": 35,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "沈曼菱",
+      "time": "21011",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "兒童文學 `Childrens Literature",
+      "title_parsed": {
+        "en_US": "Childrens Literature",
+        "zh_TW": "兒童文學"
+      },
+      "url": "4384",
+      "year": "全"
+    },
+    {
+      "class": "3",
+      "code": "3511",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "外國語文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "外國語文學系進修學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中/英文",
+      "location": [
+        "Y304"
+      ],
+      "note": "",
+      "number": "65",
+      "number_parsed": 65,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "鄭冠榮",
+      "time": "2111213",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            11,
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "英國文學:中古與文藝復興時期 `English Literature :Medieval and Renaissance Periods",
+      "title_parsed": {
+        "en_US": "English Literature :Medieval and Renaissance Periods",
+        "zh_TW": "英國文學:中古與文藝復興時期"
+      },
+      "url": "2370",
+      "year": "半"
+    },
+    {
+      "class": "3",
+      "code": "3512",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "外國語文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "外國語文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中/英文",
+      "location": [
+        "Y203"
+      ],
+      "note": "",
+      "number": "30",
+      "number_parsed": 30,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "陳文苓",
+      "time": "11213",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "專業英語簡報 `",
+      "title_parsed": {
+        "en_US": "",
+        "zh_TW": "專業英語簡報"
+      },
+      "url": "2948",
+      "year": "半"
+    },
+    {
+      "class": "3",
+      "code": "3513",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "外國語文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "外國語文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中/英文",
+      "location": [
+        "Y309"
+      ],
+      "note": "",
+      "number": "30",
+      "number_parsed": 30,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "蔣豐維",
+      "time": "31213",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "專業英文翻譯 `Professional Translation in Specialized Fields",
+      "title_parsed": {
+        "en_US": "Professional Translation in Specialized Fields",
+        "zh_TW": "專業英文翻譯"
+      },
+      "url": "2581",
+      "year": "半"
+    },
+    {
+      "class": "3",
+      "code": "3514",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "外國語文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "外國語文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中/英文",
+      "location": [
+        "Y304"
+      ],
+      "note": "",
+      "number": "30",
+      "number_parsed": 30,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "李亭穎",
+      "time": "51011",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "逐步口譯(一) `",
+      "title_parsed": {
+        "en_US": "",
+        "zh_TW": "逐步口譯(一)"
+      },
+      "url": "2911",
+      "year": "半"
+    },
+    {
+      "class": "3",
+      "code": "3515",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "外國語文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "外國語文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中/英文",
+      "location": [
+        "Y403"
+      ],
+      "note": "",
+      "number": "30",
+      "number_parsed": 30,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "舒志翔",
+      "time": "41011",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "句法學 `Syntax",
+      "title_parsed": {
+        "en_US": "Syntax",
+        "zh_TW": "句法學"
+      },
+      "url": "3196",
+      "year": "半"
+    },
+    {
+      "class": "3",
+      "code": "3521",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "生物產業管理進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "生物產業管理進修學士學位學程",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y410"
+      ],
+      "note": "",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "鍾燕宜",
+      "time": "491011",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            10,
+            11,
+            9
+          ]
+        }
+      ],
+      "title": "人際溝通 `Interpersonal Communication",
+      "title_parsed": {
+        "en_US": "Interpersonal Communication",
+        "zh_TW": "人際溝通"
+      },
+      "url": "2760",
+      "year": "半"
+    },
+    {
+      "class": "3",
+      "code": "3522",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "生物產業管理進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "生物產業管理進修學士學位學程",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y211"
+      ],
+      "note": "",
+      "number": "35",
+      "number_parsed": 35,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "王世澤",
+      "time": "191011",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            10,
+            11,
+            9
+          ]
+        }
+      ],
+      "title": "消費者行為 `Consumer Behavior",
+      "title_parsed": {
+        "en_US": "Consumer Behavior",
+        "zh_TW": "消費者行為"
+      },
+      "url": "3371",
+      "year": "半"
+    },
+    {
+      "class": "3",
+      "code": "3523",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "生物產業管理進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "生物產業管理進修學士學位學程",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y308"
+      ],
+      "note": "",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "江伯源",
+      "time": "3101112",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            10,
+            11,
+            12
+          ]
+        }
+      ],
+      "title": "食品產業 `Food Industry",
+      "title_parsed": {
+        "en_US": "Food Industry",
+        "zh_TW": "食品產業"
+      },
+      "url": "2493",
+      "year": "半"
+    },
+    {
+      "class": "3",
+      "code": "3524",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "生物產業管理進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "生物產業管理進修學士學位學程",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "D300"
+      ],
+      "note": "使用全英文課綱、教材與評量方式Syllabus, teaching materials and assessment methods are all in english",
+      "number": "35",
+      "number_parsed": 35,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "陳建德",
+      "time": "4101112",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            10,
+            11,
+            12
+          ]
+        }
+      ],
+      "title": "特用作物加工製造 `Processing and Manufacture of Industrial Crops",
+      "title_parsed": {
+        "en_US": "Processing and Manufacture of Industrial Crops",
+        "zh_TW": "特用作物加工製造"
+      },
+      "url": "4996",
+      "year": "半"
+    },
+    {
+      "class": "3",
+      "code": "3525",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "生物產業管理進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "生物產業管理進修學士學位學程",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        ""
+      ],
+      "note": "",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "楊上禾",
+      "time": "5101112",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            10,
+            11,
+            12
+          ]
+        }
+      ],
+      "title": "生物產業管理 `Bio-Industry Management",
+      "title_parsed": {
+        "en_US": "Bio-Industry Management",
+        "zh_TW": "生物產業管理"
+      },
+      "url": "2400",
+      "year": "半"
+    },
+    {
+      "class": "3",
+      "code": "3526",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "生物產業管理進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "生物產業管理進修學士學位學程",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y401"
+      ],
+      "note": "",
+      "number": "35",
+      "number_parsed": 35,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "張淑君",
+      "time": "191011",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            10,
+            11,
+            9
+          ]
+        }
+      ],
+      "title": "社區與社區發展 `Community and Community Development",
+      "title_parsed": {
+        "en_US": "Community and Community Development",
+        "zh_TW": "社區與社區發展"
+      },
+      "url": "4309",
+      "year": "半"
+    },
+    {
+      "class": "3",
+      "code": "3531",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "不限系別(進修學士班)",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "外國語文學系進修學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "AA401"
+      ],
+      "note": "開課單位:語言中心",
+      "number": "45",
+      "number_parsed": 45,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "法文(一)",
+      "professor": "蔡佳勳",
+      "time": "5101112",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            10,
+            11,
+            12
+          ]
+        }
+      ],
+      "title": "法文(二) `French (II)",
+      "title_parsed": {
+        "en_US": "French (II)",
+        "zh_TW": "法文(二)"
+      },
+      "url": "2891",
+      "year": "全"
+    },
+    {
+      "class": "3",
+      "code": "3532",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "不限系別(進修學士班)",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "外國語文學系進修學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "AA405"
+      ],
+      "note": "開課單位:語言中心",
+      "number": "45",
+      "number_parsed": 45,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "德文(一)",
+      "professor": "林璇",
+      "time": "5111213",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            11,
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "德文(二) `German(II)",
+      "title_parsed": {
+        "en_US": "German(II)",
+        "zh_TW": "德文(二)"
+      },
+      "url": "2892",
+      "year": "全"
+    },
+    {
+      "class": "3",
+      "code": "3533",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "不限系別(進修學士班)",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "外國語文學系進修學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "AA204"
+      ],
+      "note": "開課單位:語言中心",
+      "number": "45",
+      "number_parsed": 45,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "西班牙文(一)",
+      "professor": "謝琬湞",
+      "time": "5101112",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            10,
+            11,
+            12
+          ]
+        }
+      ],
+      "title": "西班牙文(二) `Spanish (II)",
+      "title_parsed": {
+        "en_US": "Spanish (II)",
+        "zh_TW": "西班牙文(二)"
+      },
+      "url": "2890",
+      "year": "全"
+    },
+    {
+      "class": "3",
+      "code": "3541",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "數位人文與文創產業進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "數位人文與文創產業進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y202"
+      ],
+      "note": "本系三年級學生預先灌課",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "陳鼎翰",
+      "time": "11011",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "設計思考 `Design Thinking",
+      "title_parsed": {
+        "en_US": "Design Thinking",
+        "zh_TW": "設計思考"
+      },
+      "url": "5897",
+      "year": "半"
+    },
+    {
+      "class": "3",
+      "code": "3542",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "數位人文與文創產業進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "數位人文與文創產業進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "A310"
+      ],
+      "note": "本系三年級學生預先灌課",
+      "number": "35",
+      "number_parsed": 35,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "施淑萍",
+      "time": "11213",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "展覽企劃 `Exhibition Planning",
+      "title_parsed": {
+        "en_US": "Exhibition Planning",
+        "zh_TW": "展覽企劃"
+      },
+      "url": "2735",
+      "year": "半"
+    },
+    {
+      "class": "3",
+      "code": "3543",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "數位人文與文創產業進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "數位人文與文創產業進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y204"
+      ],
+      "note": "本系三年級學生預先灌課",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "饒凱斐",
+      "time": "31011",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "行銷管理 `Marketing Management",
+      "title_parsed": {
+        "en_US": "Marketing Management",
+        "zh_TW": "行銷管理"
+      },
+      "url": "2749",
+      "year": "半"
+    },
+    {
+      "class": "3",
+      "code": "3544",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "數位人文與文創產業進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "數位人文與文創產業進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "A310"
+      ],
+      "note": "",
+      "number": "35",
+      "number_parsed": 35,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "黃斿棣",
+      "time": "41011",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "數位敘事應用 `Digital storytelling and its application",
+      "title_parsed": {
+        "en_US": "Digital storytelling and its application",
+        "zh_TW": "數位敘事應用"
+      },
+      "url": "4832",
+      "year": "半"
+    },
+    {
+      "class": "3",
+      "code": "3545",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "數位人文與文創產業進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "數位人文與文創產業進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y305"
+      ],
+      "note": "",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "何智勇",
+      "time": "21213",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "表現技法 `Presentation & Communication",
+      "title_parsed": {
+        "en_US": "Presentation & Communication",
+        "zh_TW": "表現技法"
+      },
+      "url": "4873",
+      "year": "半"
+    },
+    {
+      "class": "3",
+      "code": "3546",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "數位人文與文創產業進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "數位人文與文創產業進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "A310"
+      ],
+      "note": "",
+      "number": "35",
+      "number_parsed": 35,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "王銘滄",
+      "time": "31213",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "數位傳播與出版 `Digital Communication and Publication",
+      "title_parsed": {
+        "en_US": "Digital Communication and Publication",
+        "zh_TW": "數位傳播與出版"
+      },
+      "url": "5273",
+      "year": "半"
+    },
+    {
+      "class": "3",
+      "code": "3547",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "數位人文與文創產業進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "數位人文與文創產業進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "A310"
+      ],
+      "note": "",
+      "number": "35",
+      "number_parsed": 35,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "張世傑",
+      "time": "51213",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "數位人文的人工智慧 `Artificial Intelligence in Digital Humanities",
+      "title_parsed": {
+        "en_US": "Artificial Intelligence in Digital Humanities",
+        "zh_TW": "數位人文的人工智慧"
+      },
+      "url": "5277",
+      "year": "半"
+    },
+    {
+      "class": "3",
+      "code": "3548",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "數位人文與文創產業進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "數位人文與文創產業進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y303"
+      ],
+      "note": "",
+      "number": "35",
+      "number_parsed": 35,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "余國強",
+      "time": "51011",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "網路節目企劃與製作 `Internet Video & TV Program Production",
+      "title_parsed": {
+        "en_US": "Internet Video & TV Program Production",
+        "zh_TW": "網路節目企劃與製作"
+      },
+      "url": "4874",
+      "year": "半"
+    },
+    {
+      "class": "3",
+      "code": "3551",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "創新產業經營進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "創新產業經營進修學士學位學程",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y307"
+      ],
+      "note": "",
+      "number": "50",
+      "number_parsed": 50,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "王行健",
+      "time": "1101112",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            10,
+            11,
+            12
+          ]
+        }
+      ],
+      "title": "創新資訊服務 `Innovation Information Service",
+      "title_parsed": {
+        "en_US": "Innovation Information Service",
+        "zh_TW": "創新資訊服務"
+      },
+      "url": "6082",
+      "year": "半"
+    },
+    {
+      "class": "3",
+      "code": "3552",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "創新產業經營進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "創新產業經營進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "L216"
+      ],
+      "note": "本學程三年級同學優先選課，其餘同學需待教師審核。",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "遲銘璋",
+      "time": "41011",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "商業應用軟體 `Business Software Application",
+      "title_parsed": {
+        "en_US": "Business Software Application",
+        "zh_TW": "商業應用軟體"
+      },
+      "url": "3895",
+      "year": "半"
+    },
+    {
+      "class": "3",
+      "code": "3553",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "創新產業經營進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "創新產業經營進修學士學位學程",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y401"
+      ],
+      "note": "",
+      "number": "50",
+      "number_parsed": 50,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "卓信佑",
+      "time": "3101112",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            10,
+            11,
+            12
+          ]
+        }
+      ],
+      "title": "行銷管理 `Marketing Management",
+      "title_parsed": {
+        "en_US": "Marketing Management",
+        "zh_TW": "行銷管理"
+      },
+      "url": "3357",
+      "year": "半"
+    },
+    {
+      "class": "3",
+      "code": "3554",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "創新產業經營進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "創新產業經營進修學士學位學程",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y410"
+      ],
+      "note": "",
+      "number": "50",
+      "number_parsed": 50,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "王韶濱",
+      "time": "2101112",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            10,
+            11,
+            12
+          ]
+        }
+      ],
+      "title": "財務管理 `Financial Management",
+      "title_parsed": {
+        "en_US": "Financial Management",
+        "zh_TW": "財務管理"
+      },
+      "url": "5398",
+      "year": "半"
+    },
+    {
+      "class": "3",
+      "code": "3554",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "創新產業經營進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "生物產業管理進修學士學位學程",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y410"
+      ],
+      "note": "",
+      "number": "10",
+      "number_parsed": 10,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "王韶濱",
+      "time": "2101112",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            10,
+            11,
+            12
+          ]
+        }
+      ],
+      "title": "財務管理A `Financial Management",
+      "title_parsed": {
+        "en_US": "Financial Management",
+        "zh_TW": "財務管理A"
+      },
+      "url": "3760",
+      "year": "半"
+    },
+    {
+      "class": "4",
+      "code": "4501",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "中國文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "中國文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y302"
+      ],
+      "note": "",
+      "number": "35",
+      "number_parsed": 35,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "蔡金昌",
+      "time": "11011",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "老莊 `Laotz and Chuangtz",
+      "title_parsed": {
+        "en_US": "Laotz and Chuangtz",
+        "zh_TW": "老莊"
+      },
+      "url": "4260",
+      "year": "半"
+    },
+    {
+      "class": "4",
+      "code": "4502",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "中國文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "中國文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y302"
+      ],
+      "note": "",
+      "number": "35",
+      "number_parsed": 35,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "陳一峰",
+      "time": "51213",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "論孟 `Confucius Analects and Mencius",
+      "title_parsed": {
+        "en_US": "Confucius Analects and Mencius",
+        "zh_TW": "論孟"
+      },
+      "url": "3265",
+      "year": "全"
+    },
+    {
+      "class": "4",
+      "code": "4503",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "中國文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "中國文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y313"
+      ],
+      "note": "",
+      "number": "35",
+      "number_parsed": 35,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "顧敏耀",
+      "time": "31213",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "應用文及習作 `Practical Writing",
+      "title_parsed": {
+        "en_US": "Practical Writing",
+        "zh_TW": "應用文及習作"
+      },
+      "url": "5397",
+      "year": "半"
+    },
+    {
+      "class": "4",
+      "code": "4504",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "中國文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "中國文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y212"
+      ],
+      "note": "先修科目文字學、聲韻學",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "聲韻學 OR 文字學",
+      "professor": "高榮鴻",
+      "time": "31011",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "訓詁學 `Scholium",
+      "title_parsed": {
+        "en_US": "Scholium",
+        "zh_TW": "訓詁學"
+      },
+      "url": "3269",
+      "year": "全"
+    },
+    {
+      "class": "4",
+      "code": "4505",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "中國文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "中國文學系進修學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y202"
+      ],
+      "note": "",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "蕭振聲",
+      "time": "2101112",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            10,
+            11,
+            12
+          ]
+        }
+      ],
+      "title": "中國思想史 `History of Chinese Thoughts",
+      "title_parsed": {
+        "en_US": "History of Chinese Thoughts",
+        "zh_TW": "中國思想史"
+      },
+      "url": "3271",
+      "year": "全"
+    },
+    {
+      "class": "4",
+      "code": "4506",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "中國文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "中國文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y313"
+      ],
+      "note": "",
+      "number": "35",
+      "number_parsed": 35,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "顧敏耀",
+      "time": "41213",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "現代文學 `Modern Literature",
+      "title_parsed": {
+        "en_US": "Modern Literature",
+        "zh_TW": "現代文學"
+      },
+      "url": "2381",
+      "year": "全"
+    },
+    {
+      "class": "4",
+      "code": "4511",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "外國語文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "外國語文學系進修學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中/英文",
+      "location": [
+        "Y409"
+      ],
+      "note": "",
+      "number": "45",
+      "number_parsed": 45,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "林依蓉",
+      "time": "3101112",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            10,
+            11,
+            12
+          ]
+        }
+      ],
+      "title": "美國文學:二十世紀前 `American Literature before the 20th Century",
+      "title_parsed": {
+        "en_US": "American Literature before the 20th Century",
+        "zh_TW": "美國文學:二十世紀前"
+      },
+      "url": "3274",
+      "year": "半"
+    },
+    {
+      "class": "4",
+      "code": "4512",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "外國語文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "外國語文學系進修學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "Y302"
+      ],
+      "note": "",
+      "number": "45",
+      "number_parsed": 45,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "鄭仁隆",
+      "time": "4101112",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            10,
+            11,
+            12
+          ]
+        }
+      ],
+      "title": "英國文學:浪漫與維多利亞時期 `English Literature:Romantic and Victorian Periods",
+      "title_parsed": {
+        "en_US": "English Literature:Romantic and Victorian Periods",
+        "zh_TW": "英國文學:浪漫與維多利亞時期"
+      },
+      "url": "3276",
+      "year": "半"
+    },
+    {
+      "class": "4",
+      "code": "4513",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "外國語文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "外國語文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中/英文",
+      "location": [
+        "Y206"
+      ],
+      "note": "",
+      "number": "30",
+      "number_parsed": 30,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "陳雅雯",
+      "time": "31213",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "商用英文 `Business English",
+      "title_parsed": {
+        "en_US": "Business English",
+        "zh_TW": "商用英文"
+      },
+      "url": "4314",
+      "year": "全"
+    },
+    {
+      "class": "4",
+      "code": "4514",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "外國語文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "外國語文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中/英文",
+      "location": [
+        "Y313"
+      ],
+      "note": "",
+      "number": "30",
+      "number_parsed": 30,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "鄭冠榮",
+      "time": "11011",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "文學批評 `Literary Criticism",
+      "title_parsed": {
+        "en_US": "Literary Criticism",
+        "zh_TW": "文學批評"
+      },
+      "url": "2189",
+      "year": "半"
+    },
+    {
+      "class": "4",
+      "code": "4515",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "外國語文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "外國語文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中/英文",
+      "location": [
+        "Y409"
+      ],
+      "note": "",
+      "number": "30",
+      "number_parsed": 30,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "陳淑卿",
+      "time": "41011",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "現代小說 `Modern Fiction",
+      "title_parsed": {
+        "en_US": "Modern Fiction",
+        "zh_TW": "現代小說"
+      },
+      "url": "2694",
+      "year": "半"
+    },
+    {
+      "class": "4",
+      "code": "4516",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "外國語文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "外國語文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中/英文",
+      "location": [
+        "Y206"
+      ],
+      "note": "",
+      "number": "30",
+      "number_parsed": 30,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "潘玉陳",
+      "time": "11011",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "社會語言學 `Sociolinguistics",
+      "title_parsed": {
+        "en_US": "Sociolinguistics",
+        "zh_TW": "社會語言學"
+      },
+      "url": "3497",
+      "year": "全"
+    },
+    {
+      "class": "4",
+      "code": "4517",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "外國語文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "外國語文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中/英文",
+      "location": [
+        "Y403"
+      ],
+      "note": "",
+      "number": "30",
+      "number_parsed": 30,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "張旭琪",
+      "time": "21213",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "外語習得(一) `Second Language Acquisition(I)",
+      "title_parsed": {
+        "en_US": "Second Language Acquisition(I)",
+        "zh_TW": "外語習得(一)"
+      },
+      "url": "3289",
+      "year": "半"
+    },
+    {
+      "class": "4",
+      "code": "4518",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "外國語文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "外國語文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "Y203"
+      ],
+      "note": "",
+      "number": "30",
+      "number_parsed": 30,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "周廷戎",
+      "time": "21011",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "恐怖與驚悚小說 `Thriller and Horror Novel",
+      "title_parsed": {
+        "en_US": "Thriller and Horror Novel",
+        "zh_TW": "恐怖與驚悚小說"
+      },
+      "url": "3706",
+      "year": "半"
+    },
+    {
+      "class": "4",
+      "code": "4521",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "生物產業管理進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "生物產業管理進修學士學位學程",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y304"
+      ],
+      "note": "",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "陳錦木",
+      "time": "1101112",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            10,
+            11,
+            12
+          ]
+        }
+      ],
+      "title": "花卉學 `Floriculture",
+      "title_parsed": {
+        "en_US": "Floriculture",
+        "zh_TW": "花卉學"
+      },
+      "url": "4604",
+      "year": "半"
+    },
+    {
+      "class": "4",
+      "code": "4522",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "生物產業管理進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "生物產業管理進修學士學位學程",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y304"
+      ],
+      "note": "",
+      "number": "50",
+      "number_parsed": 50,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "經濟學 AND 管理學 AND 社會統計",
+      "professor": "張淑君",
+      "time": "4101112",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            10,
+            11,
+            12
+          ]
+        }
+      ],
+      "title": "研究法 `Research Methods",
+      "title_parsed": {
+        "en_US": "Research Methods",
+        "zh_TW": "研究法"
+      },
+      "url": "3561",
+      "year": "半"
+    },
+    {
+      "class": "4",
+      "code": "4523",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "生物產業管理進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "生物產業管理進修學士學位學程",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y211"
+      ],
+      "note": "",
+      "number": "35",
+      "number_parsed": 35,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "王世澤",
+      "time": "291011",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            10,
+            11,
+            9
+          ]
+        }
+      ],
+      "title": "創業管理 `Entrepreneurship Management",
+      "title_parsed": {
+        "en_US": "Entrepreneurship Management",
+        "zh_TW": "創業管理"
+      },
+      "url": "3933",
+      "year": "半"
+    },
+    {
+      "class": "4",
+      "code": "4524",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "生物產業管理進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "生物產業管理進修學士學位學程",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y302"
+      ],
+      "note": "本學程三年級(含)以上同學優先選課，其餘同學需待教師審核。",
+      "number": "50",
+      "number_parsed": 50,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "洪志誠",
+      "time": "3101112",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            10,
+            11,
+            12
+          ]
+        }
+      ],
+      "title": "生物產業管理實務 `Practice of Bio-Industry",
+      "title_parsed": {
+        "en_US": "Practice of Bio-Industry",
+        "zh_TW": "生物產業管理實務"
+      },
+      "url": "3278",
+      "year": "半"
+    },
+    {
+      "class": "4",
+      "code": "4525",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "生物產業管理進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "生物產業管理進修學士學位學程",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y207"
+      ],
+      "note": "",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "黃三光",
+      "time": "2101112",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            10,
+            11,
+            12
+          ]
+        }
+      ],
+      "title": "蔬菜學 `Olericulture",
+      "title_parsed": {
+        "en_US": "Olericulture",
+        "zh_TW": "蔬菜學"
+      },
+      "url": "3280",
+      "year": "半"
+    },
+    {
+      "class": "4",
+      "code": "4526",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "生物產業管理進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "生物產業管理進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y402"
+      ],
+      "note": "",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "待聘",
+      "time": "11213",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "綠色行銷 `Green Marketing",
+      "title_parsed": {
+        "en_US": "Green Marketing",
+        "zh_TW": "綠色行銷"
+      },
+      "url": "5118",
+      "year": "半"
+    },
+    {
+      "class": "4",
+      "code": "4541",
+      "credits": "4",
+      "credits_parsed": 4,
+      "department": "數位人文與文創產業進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "數位人文與文創產業進修學士學位學程",
+      "hours": "4",
+      "hours_parsed": "4",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "A-B102"
+      ],
+      "note": "正課教室:A-B102=人文大樓影音展演空間",
+      "number": "32",
+      "number_parsed": 32,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "趙欣怡",
+      "time": "510111213",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            10,
+            11,
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "專題製作(一) `Senior Project (I)",
+      "title_parsed": {
+        "en_US": "Senior Project (I)",
+        "zh_TW": "專題製作(一)"
+      },
+      "url": "2251",
+      "year": "半"
+    },
+    {
+      "class": "4",
+      "code": "4551",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "創新產業經營進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "生物產業管理進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y313"
+      ],
+      "note": "",
+      "number": "10",
+      "number_parsed": 10,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "吳孟玳",
+      "time": "31011",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "運動、健康與休閒產業經營管理A `Sport, Health, and Leisure Industrial Management",
+      "title_parsed": {
+        "en_US": "Sport, Health, and Leisure Industrial Management",
+        "zh_TW": "運動、健康與休閒產業經營管理A"
+      },
+      "url": "2823",
+      "year": "半"
+    },
+    {
+      "class": "4",
+      "code": "4551",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "創新產業經營進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "創新產業經營進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y313"
+      ],
+      "note": "",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "吳孟玳",
+      "time": "31011",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "運動、健康與休閒產業經營管理 `Sport, Health, and Leisure Industrial Management",
+      "title_parsed": {
+        "en_US": "Sport, Health, and Leisure Industrial Management",
+        "zh_TW": "運動、健康與休閒產業經營管理"
+      },
+      "url": "5485",
+      "year": "半"
+    },
+    {
+      "class": "4",
+      "code": "4552",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "創新產業經營進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "創新產業經營進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y305"
+      ],
+      "note": "",
+      "number": "30",
+      "number_parsed": 30,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "林幸宜",
+      "time": "11213",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "金融市場實務 `Financial Market Practices",
+      "title_parsed": {
+        "en_US": "Financial Market Practices",
+        "zh_TW": "金融市場實務"
+      },
+      "url": "4715",
+      "year": "半"
+    },
+    {
+      "class": "4",
+      "code": "4553",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "創新產業經營進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "生物產業管理進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y409"
+      ],
+      "note": "",
+      "number": "10",
+      "number_parsed": 10,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "王建富",
+      "time": "11011",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "電子商務A `Electronic Commerce",
+      "title_parsed": {
+        "en_US": "Electronic Commerce",
+        "zh_TW": "電子商務A"
+      },
+      "url": "5902",
+      "year": "半"
+    },
+    {
+      "class": "4",
+      "code": "4553",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "創新產業經營進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "創新產業經營進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y409"
+      ],
+      "note": "",
+      "number": "50",
+      "number_parsed": 50,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "王建富",
+      "time": "11011",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "電子商務 `Electronic Commerce",
+      "title_parsed": {
+        "en_US": "Electronic Commerce",
+        "zh_TW": "電子商務"
+      },
+      "url": "2898",
+      "year": "半"
+    },
+    {
+      "class": "4",
+      "code": "4554",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "創新產業經營進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "生物產業管理進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y305"
+      ],
+      "note": "",
+      "number": "10",
+      "number_parsed": 10,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "謝東昇",
+      "time": "51213",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "零售管理A `Retail Management",
+      "title_parsed": {
+        "en_US": "Retail Management",
+        "zh_TW": "零售管理A"
+      },
+      "url": "5211",
+      "year": "半"
+    },
+    {
+      "class": "4",
+      "code": "4554",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "創新產業經營進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "創新產業經營進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y305"
+      ],
+      "note": "",
+      "number": "50",
+      "number_parsed": 50,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "謝東昇",
+      "time": "51213",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "零售管理 `Retail Management",
+      "title_parsed": {
+        "en_US": "Retail Management",
+        "zh_TW": "零售管理"
+      },
+      "url": "2987",
+      "year": "半"
+    },
+    {
+      "class": "4",
+      "code": "4555",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "創新產業經營進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "創新產業經營進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y305"
+      ],
+      "note": "",
+      "number": "50",
+      "number_parsed": 50,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "謝東昇",
+      "time": "51011",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "領導學 `Leadership",
+      "title_parsed": {
+        "en_US": "Leadership",
+        "zh_TW": "領導學"
+      },
+      "url": "3149",
+      "year": "半"
+    },
+    {
+      "class": "4",
+      "code": "4556",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "創新產業經營進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "創新產業經營進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y308"
+      ],
+      "note": "",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "高健洲",
+      "time": "41213",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "投資銀行管理學 `Investment Banking Management",
+      "title_parsed": {
+        "en_US": "Investment Banking Management",
+        "zh_TW": "投資銀行管理學"
+      },
+      "url": "2622",
+      "year": "半"
+    },
+    {
+      "class": "4",
+      "code": "4557",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "創新產業經營進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "創新產業經營進修學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y212"
+      ],
+      "note": "",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "曾麗文",
+      "time": "31213",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "投資學 `Investment",
+      "title_parsed": {
+        "en_US": "Investment",
+        "zh_TW": "投資學"
+      },
+      "url": "3415",
+      "year": "半"
+    },
+    {
+      "class": "5",
+      "code": "5501",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "中國文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "中國文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y212"
+      ],
+      "note": "",
+      "number": "35",
+      "number_parsed": 35,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "林育信",
+      "time": "21011",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "詩經 `The Book of Poetry",
+      "title_parsed": {
+        "en_US": "The Book of Poetry",
+        "zh_TW": "詩經"
+      },
+      "url": "2392",
+      "year": "全"
+    },
+    {
+      "class": "5",
+      "code": "5502",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "中國文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "中國文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y204"
+      ],
+      "note": "",
+      "number": "35",
+      "number_parsed": 35,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "楊淑瓊",
+      "time": "41213",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "學庸 `The Great Learning and The Golden Mean",
+      "title_parsed": {
+        "en_US": "The Great Learning and The Golden Mean",
+        "zh_TW": "學庸"
+      },
+      "url": "2509",
+      "year": "半"
+    },
+    {
+      "class": "5",
+      "code": "5503",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "中國文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "中國文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y302"
+      ],
+      "note": "",
+      "number": "35",
+      "number_parsed": 35,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "蔡金昌",
+      "time": "11213",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "佛學概論 `Introduction to Buddhism",
+      "title_parsed": {
+        "en_US": "Introduction to Buddhism",
+        "zh_TW": "佛學概論"
+      },
+      "url": "4660",
+      "year": "全"
+    },
+    {
+      "class": "5",
+      "code": "5504",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "中國文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "中國文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y304"
+      ],
+      "note": "",
+      "number": "35",
+      "number_parsed": 35,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "陳昌遠",
+      "time": "31213",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "神話學 `Mythology",
+      "title_parsed": {
+        "en_US": "Mythology",
+        "zh_TW": "神話學"
+      },
+      "url": "4262",
+      "year": "全"
+    },
+    {
+      "class": "5",
+      "code": "5505",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "中國文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "中國文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y302"
+      ],
+      "note": "",
+      "number": "35",
+      "number_parsed": 35,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "陳一峰",
+      "time": "51011",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "周易 `The Book of Change",
+      "title_parsed": {
+        "en_US": "The Book of Change",
+        "zh_TW": "周易"
+      },
+      "url": "4749",
+      "year": "全"
+    },
+    {
+      "class": "5",
+      "code": "5511",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "外國語文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "外國語文學系進修學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中/英文",
+      "location": [
+        "Y402"
+      ],
+      "note": "",
+      "number": "30",
+      "number_parsed": 30,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "阮秀莉",
+      "time": "3101112",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            10,
+            11,
+            12
+          ]
+        }
+      ],
+      "title": "歐洲文學(一) `European Literature(I)",
+      "title_parsed": {
+        "en_US": "European Literature(I)",
+        "zh_TW": "歐洲文學(一)"
+      },
+      "url": "2582",
+      "year": "半"
+    },
+    {
+      "class": "5",
+      "code": "5512",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "外國語文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "外國語文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中/英文",
+      "location": [
+        "Y401"
+      ],
+      "note": "",
+      "number": "30",
+      "number_parsed": 30,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "邱幸珍",
+      "time": "51213",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            12,
+            13
+          ]
+        }
+      ],
+      "title": "演說技巧 `English Speech and Debate",
+      "title_parsed": {
+        "en_US": "English Speech and Debate",
+        "zh_TW": "演說技巧"
+      },
+      "url": "3522",
+      "year": "全"
+    },
+    {
+      "class": "5",
+      "code": "5513",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "外國語文學系進修學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "外國語文學系進修學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中/英文",
+      "location": [
+        "Y309"
+      ],
+      "note": "",
+      "number": "30",
+      "number_parsed": 30,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "蔣豐維",
+      "time": "31011",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "實用英文(三) `Practical English(Ⅲ)",
+      "title_parsed": {
+        "en_US": "Practical English(Ⅲ)",
+        "zh_TW": "實用英文(三)"
+      },
+      "url": "3599",
+      "year": "半"
+    },
+    {
+      "class": "5",
+      "code": "5551",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "創新產業經營進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "創新產業經營進修學士學位學程",
+      "hours": "1",
+      "hours_parsed": "1",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y212"
+      ],
+      "note": "",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "曾麗文",
+      "time": "112",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            12
+          ]
+        }
+      ],
+      "title": "顧客分析與管理 `Consumer Analysis and Management",
+      "title_parsed": {
+        "en_US": "Consumer Analysis and Management",
+        "zh_TW": "顧客分析與管理"
+      },
+      "url": "3960",
+      "year": "半"
+    },
+    {
+      "class": "5",
+      "code": "5552",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "創新產業經營進修學士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "創新產業經營進修學士學位學程",
+      "hours": "1",
+      "hours_parsed": "1",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Y212"
+      ],
+      "note": "",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "曾麗文",
+      "time": "113",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            13
+          ]
+        }
+      ],
+      "title": "商情預測 `Business Forecasting",
+      "title_parsed": {
+        "en_US": "Business Forecasting",
+        "zh_TW": "商情預測"
+      },
+      "url": "4668",
+      "year": "半"
+    }
+  ]
+}
