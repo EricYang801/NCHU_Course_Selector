@@ -3,7 +3,8 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   output: 'export',
   distDir: 'out',
-  // 移除 trailingSlash 設定
+  basePath: '/NCHU_Course_Selector',
+  assetPrefix: '/NCHU_Course_Selector',
   images: {
     unoptimized: true,
   },

@@ -58,8 +58,9 @@ class CourseService {
       const allCoursesData = await Promise.all(
         courseFiles.map(async ({ file, career }) => {
           try {
-            // 修改為相對路徑，確保在靜態站點中也能正確加載
-            const response = await fetch(`${window.location.origin}/data/${file}`)
+            // 修改為正確的路徑，包含 basePath
+            const basePath = process.env.NODE_ENV === 'production' ? '/NCHU_Course_Selector' : ''
+            const response = await fetch(`${window.location.origin}${basePath}/data/${file}`)
             if (!response.ok) {
               console.warn(`無法載入 ${file}，狀態碼: ${response.status}`)
               return []
