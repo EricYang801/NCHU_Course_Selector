@@ -58,10 +58,10 @@ jobs:
           echo "ℹ️ 課程資料無變更"
         fi
     
-    - name: 安裝前端依賴
+    - name: Install dependencies
       run: |
         cd course-helper-web
-        npm ci
+        npm install
 
     - name: 建置靜態網站
       run: |
