@@ -23,6 +23,7 @@ jobs:
     - name: 檢出代碼
       uses: actions/checkout@v4
       with:
+        token: ${{ secrets.GITHUB_TOKEN }}
         fetch-depth: 0
     
     - name: 設置 Python 環境
@@ -34,14 +35,8 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: '18'
-
-    - name: 快取 NPM 依賴
-      uses: actions/cache@v3
-      with:
-        path: ~/.npm
-        key: ${{ runner.os }}-node-${{ hashFiles('course-helper-web/package-lock.json') }}
-        restore-keys: |
-          ${{ runner.os }}-node-
+        cache: 'npm'
+        cache-dependency-path: 'course-helper-web/package-lock.json'
     
     - name: 安裝 Python 依賴套件
       run: |
@@ -66,22 +61,21 @@ jobs:
     - name: 安裝前端依賴
       run: |
         cd course-helper-web
-        ls -la package*.json
-        npm install --prefer-offline --no-audit
-    
+        npm ci
+
     - name: 建置靜態網站
       run: |
         cd course-helper-web
         npm run build
     
-    - name: 提交課程資料變更 (如果有更新)
+    - name: 提交課程資料變更
       if: steps.verify-changed-files.outputs.changed == 'true'
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
         git add course-helper-web/public/data/
-        git commit -m "🤖 自動更新課程資料 - $(date '+%Y-%m-%d %H:%M:%S')" || echo "沒有變更需要提交"
-        git push || echo "推送失敗，但繼續部署程序"
+        git commit -m "🤖 自動更新課程資料 - $(date '+%Y-%m-%d %H:%M:%S')"
+        git push
     
     - name: 設置 GitHub Pages
       uses: actions/configure-pages@v4
