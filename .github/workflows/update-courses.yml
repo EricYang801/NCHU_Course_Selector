@@ -25,6 +25,7 @@ jobs:
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         fetch-depth: 0
+        clean: true
     
     - name: 設置 Python 環境
       uses: actions/setup-python@v4
@@ -67,7 +68,8 @@ jobs:
     - name: 安裝前端依賴
       run: |
         cd course-helper-web
-        npm ci --prefer-offline --no-audit
+        ls -la package*.json
+        npm install --prefer-offline --no-audit
     
     - name: 建置靜態網站
       run: |
@@ -77,10 +79,9 @@ jobs:
     - name: 提交課程資料變更
       if: steps.verify-changed-files.outputs.changed == 'true'
       run: |
-        git config --global user.email "action@github.com"
-        git config --global user.name "GitHub Action"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "github-actions[bot]"
         git add course-helper-web/public/data/
-        git add course-helper-web/out/
         git commit -m "🤖 自動更新課程資料 - $(date '+%Y-%m-%d %H:%M:%S')" || echo "沒有變更需要提交"
 
     - name: 推送變更到遠程倉庫
