@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
+    "build:local": "LOCAL_DEV=true next build",
     "build:static": "./build-static.sh",
     "start": "next start",
     "lint": "next lint",

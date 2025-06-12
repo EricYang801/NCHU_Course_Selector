@@ -3,8 +3,8 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   output: 'export',
   distDir: 'out',
-  basePath: '/NCHU_Course_Selector',
-  assetPrefix: '/NCHU_Course_Selector',
+  basePath: process.env.LOCAL_DEV ? '' : '/NCHU_Course_Selector',
+  assetPrefix: process.env.LOCAL_DEV ? '' : '/NCHU_Course_Selector',
   images: {
     unoptimized: true,
   },
