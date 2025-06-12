@@ -174,13 +174,13 @@ export default function CourseList({ onAddCourse, onRemoveCourse, selectedCourse
             {course.url && (
               <div>
                 <span className="text-sm font-medium text-gray-500">課程網址</span>
-                <a 
-                  href={course.url} 
+                <a
+                  href={`https://onepiece.nchu.edu.tw/cofsys/plsql/Syllabus_main?v_strm=1141&v_class_nbr=${course.url}`}
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="text-blue-600 hover:text-blue-800 block break-all"
+                  className="text-blue-600 hover:text-blue-800 block"
                 >
-                  {course.url}
+                  查看課程大綱
                 </a>
               </div>
             )}
