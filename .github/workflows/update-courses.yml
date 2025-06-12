@@ -36,6 +36,7 @@ jobs:
       with:
         node-version: '18'
         cache: 'npm'
+        cache-dependency-path: './course-helper-web/package-lock.json'
     
     - name: 安裝 Python 依賴套件
       run: |
@@ -58,7 +59,7 @@ jobs:
         fi
 
     - name: 安裝前端依賴
-      run: npm ci --prefer-offline --no-audit
+      run: npm install --prefer-offline --no-audit
       working-directory: ./course-helper-web
 
     - name: 建置靜態網站
