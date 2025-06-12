@@ -3,7 +3,7 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   output: 'export',
   distDir: 'out',
-  trailingSlash: true,
+  // 移除 trailingSlash 設定
   images: {
     unoptimized: true,
   },

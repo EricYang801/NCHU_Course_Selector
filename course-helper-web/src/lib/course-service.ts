@@ -39,6 +39,11 @@ class CourseService {
   async loadCourses(): Promise<void> {
     if (this.isLoaded) return
 
+    // 確保在瀏覽器環境中執行
+    if (typeof window === 'undefined') {
+      return Promise.resolve()
+    }
+
     try {
       // 載入所有課程資料
       const courseFiles = [
@@ -53,9 +58,10 @@ class CourseService {
       const allCoursesData = await Promise.all(
         courseFiles.map(async ({ file, career }) => {
           try {
-            const response = await fetch(`/data/${file}`)
+            // 修改為相對路徑，確保在靜態站點中也能正確加載
+            const response = await fetch(`${window.location.origin}/data/${file}`)
             if (!response.ok) {
-              console.warn(`無法載入 ${file}`)
+              console.warn(`無法載入 ${file}，狀態碼: ${response.status}`)
               return []
             }
             const data = await response.json()
