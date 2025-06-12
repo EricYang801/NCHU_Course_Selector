@@ -57,11 +57,11 @@ jobs:
           echo "changed=false" >> $GITHUB_OUTPUT
           echo "ℹ️ 課程資料無變更"
         fi
-    
-    - name: Install dependencies
+
+    - name: 安裝前端依賴
       run: |
         cd course-helper-web
-        npm install
+        npm ci --prefer-offline --no-audit
 
     - name: 建置靜態網站
       run: |
