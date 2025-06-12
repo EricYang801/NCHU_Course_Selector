@@ -1,0 +1,99 @@
+name: 每日課程資料更新與部署
+
+on:
+  schedule:
+    # 每天台灣時間早上 6:00 執行（UTC 22:00）
+    - cron: '0 22 * * *'
+  workflow_dispatch: # 允許手動觸發
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 檢出代碼
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: 設置 Python 環境
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: 設置 Node.js 環境
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        cache-dependency-path: 'course-helper-web/package-lock.json'
+    
+    - name: 安裝 Python 依賴套件
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+    
+    - name: 執行課程資料爬取
+      run: |
+        python course_crawler.py
+    
+    - name: 檢查課程資料是否有變更
+      id: verify-changed-files
+      run: |
+        if [ -n "$(git status --porcelain course-helper-web/public/data/)" ]; then
+          echo "changed=true" >> $GITHUB_OUTPUT
+          echo "📊 課程資料有更新！"
+        else
+          echo "changed=false" >> $GITHUB_OUTPUT
+          echo "ℹ️ 課程資料無變更"
+        fi
+    
+    - name: 安裝前端依賴
+      run: |
+        cd course-helper-web
+        npm install
+    
+    - name: 建置靜態網站
+      run: |
+        cd course-helper-web
+        npm run build
+    
+    - name: 提交課程資料變更
+      if: steps.verify-changed-files.outputs.changed == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add course-helper-web/public/data/
+        git commit -m "🤖 自動更新課程資料 - $(date '+%Y-%m-%d %H:%M:%S')"
+        git push
+    
+    - name: 設置 GitHub Pages
+      uses: actions/configure-pages@v4
+    
+    - name: 上傳靜態網站檔案
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: './course-helper-web/out'
+    
+    - name: 部署到 GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
+        
+    - name: 輸出結果摘要
+      run: |
+        echo "📋 部署摘要報告"
+        echo "===================="
+        echo "⏰ 執行時間: $(date '+%Y-%m-%d %H:%M:%S')"
+        echo "📊 課程資料更新: ${{ steps.verify-changed-files.outputs.changed == 'true' && '✅ 是' || '❌ 否' }}"
+        echo "🌐 網站部署: ✅ 完成"
+        echo "🔗 網站連結: ${{ steps.deployment.outputs.page_url }}"
+        echo "📁 部署檔案: course-helper-web/out"
