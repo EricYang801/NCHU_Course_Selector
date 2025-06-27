@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState} from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 
 interface SearchFilters {
@@ -9,7 +9,8 @@ interface SearchFilters {
   career: string
   professor: string
   credits: string
-  time: string
+  timeDay: string
+  timePeriods: string
 }
 
 interface CourseSearchProps {
@@ -19,15 +20,18 @@ interface CourseSearchProps {
 export default function CourseSearch({ onSearch }: CourseSearchProps) {
   const router = useRouter()
   const searchParams = useSearchParams()
-  
   const [filters, setFilters] = useState<SearchFilters>({
     keyword: searchParams.get('keyword') || '',
     for_dept: searchParams.get('for_dept') || searchParams.get('department') || '',
     career: searchParams.get('career') || '',
     professor: searchParams.get('professor') || '',
     credits: searchParams.get('credits') || '',
-    time: searchParams.get('time') || ''
+    timeDay: searchParams.get('timeDay') || '',
+    timePeriods: searchParams.get('timePeriods') || ''
   })
+  const timePeriodArray = filters.timePeriods
+  ? filters.timePeriods.split(',').map(p => parseInt(p))
+  : []
 
   const [isAdvanced, setIsAdvanced] = useState(false)
 
@@ -51,19 +55,27 @@ export default function CourseSearch({ onSearch }: CourseSearchProps) {
     { value: '6', label: '6 學分或以上' }
   ]
 
-  const timeOptions = [
-    { value: '', label: '全部時間' },
-    { value: 'M1', label: '週一第1節' },
-    { value: 'M2', label: '週一第2節' },
-    { value: 'T1', label: '週二第1節' },
-    { value: 'T2', label: '週二第2節' },
-    { value: 'W1', label: '週三第1節' },
-    { value: 'W2', label: '週三第2節' },
-    { value: 'R1', label: '週四第1節' },
-    { value: 'R2', label: '週四第2節' },
-    { value: 'F1', label: '週五第1節' },
-    { value: 'F2', label: '週五第2節' }
-  ]
+const dayMap = {
+  M: '週一',
+  T: '週二',
+  W: '週三',
+  R: '週四',
+  F: '週五'
+};
+
+// const timeOptions = [
+//   { value: '', label: '全部時間' },
+//   ...Object.entries(dayMap).flatMap(([dayCode, dayName]) =>
+//     Array.from({ length: 13 }, (_, i) => {
+//       const period = i + 1;
+//       return {
+//         value: `${dayCode}${period}`,
+//         label: `${dayName}第${period}節`
+//       };
+//     })
+//   )
+// ];
+
 
   const handleInputChange = (field: keyof SearchFilters, value: string) => {
     setFilters(prev => ({
@@ -72,13 +84,13 @@ export default function CourseSearch({ onSearch }: CourseSearchProps) {
     }))
   }
 
-  const handleSearch = () => {
+const handleSearch = () => {
     // 更新 URL 參數
     const params = new URLSearchParams()
-    Object.entries(filters).forEach(([key, value]) => {
+  Object.entries(filters).forEach(([key, value]) => {
       if (value) {
         params.set(key, value)
-      }
+    }
     })
     
     const searchString = params.toString()
@@ -97,7 +109,8 @@ export default function CourseSearch({ onSearch }: CourseSearchProps) {
       career: '',
       professor: '',
       credits: '',
-      time: ''
+      timeDay: '',
+      timePeriods:''
     }
     setFilters(emptyFilters)
     router.push('/')
@@ -235,18 +248,41 @@ export default function CourseSearch({ onSearch }: CourseSearchProps) {
               </label>
               <div className="relative">
                 <select
-                  value={filters.time}
-                  onChange={(e) => handleInputChange('time', e.target.value)}
-                  className={`w-full px-3 py-2 pr-8 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm bg-white hover:border-gray-400 cursor-pointer appearance-none ${
-                    filters.time === '' ? 'text-gray-400' : 'text-black'
+              value={filters.timeDay}
+              onChange={(e) => handleInputChange('timeDay', e.target.value)}
+
+              className={`w-full px-3 py-2 pr-8 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm bg-white hover:border-gray-400 cursor-pointer appearance-none ${
+                    filters.timeDay === '' ? 'text-gray-400' : 'text-black'
                   }`}
-                >
-                  {timeOptions.map(option => (
-                    <option key={option.value} value={option.value} className={option.value === '' ? 'text-gray-400' : 'text-black'}>
-                      {option.label}
-                    </option>
-                  ))}
-                </select>
+            >
+              <option value="">全部時間</option>
+              {Object.entries(dayMap).map(([value, label]) => (
+                <option key={value} value={value}>{label}</option>
+              ))}
+            </select>
+
+            
+              <div className="mt-4">
+                {/* 用迴圈產生 13 個勾選框代表 1～13 節 */}
+                {Array.from({ length: 13 }, (_, i) => i + 1).map(period => (
+                  <label key={period} className="inline-block mr-2 mb-2">
+                    <input
+                      type="checkbox"
+                      // checked={timePeriods.includes(period)}
+                      checked={timePeriodArray.includes(period)}
+                      className="mr-2"
+                      onChange={() => {
+                      const newTimePeriods = timePeriodArray.includes(period)
+                        ? timePeriodArray.filter(p => p !== period)
+                        : [...timePeriodArray, period]
+
+                      handleInputChange('timePeriods', newTimePeriods.join(','))
+                    }}
+                    />
+                    第{period}節
+                  </label>
+                ))}
+              </div>
                 <div className="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
                   <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -256,7 +292,12 @@ export default function CourseSearch({ onSearch }: CourseSearchProps) {
             </div>
           </div>
         )}
-
+        {/* 節次 */}
+        {/* <div className="lg:col-span-2">
+          <label className="block text-sm font-medium text-gray-700 mb-1">
+                節次
+              </label>
+        </div> */}
         {/* 按鈕 */}
         <div className="flex space-x-2 pt-3">
           <button

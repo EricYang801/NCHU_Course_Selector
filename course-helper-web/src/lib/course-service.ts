@@ -14,9 +14,10 @@ export interface CourseSearchParams {
   career?: string
   professor?: string
   credits?: number
-  time?: string
   page?: number
   limit?: number
+  timeDay?: string     // 週幾 (M, T, W, R, F)
+  timePeriods?: string     // 節次字串，例如 "1,2,3"
 }
 
 export interface CourseSearchResult {
@@ -60,7 +61,7 @@ class CourseService {
           try {
             // 在客戶端檢測是否為本地開發環境
             const isLocalDev = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
-            const basePath = isLocalDev ? '' : '/NCHU_Course_Selector'
+            const basePath = isLocalDev ? '/NCHU_Course_Selector' : ''
             const response = await fetch(`${window.location.origin}${basePath}/data/${file}`)
             if (!response.ok) {
               console.warn(`無法載入 ${file}，狀態碼: ${response.status}`)
@@ -92,7 +93,7 @@ class CourseService {
     await this.loadCourses()
 
     let filteredCourses = [...this.allCourses]
-
+    console.log("searchCourses 被呼叫了", params);
     // 關鍵字搜尋
     if (params.keyword) {
       const keyword = params.keyword.toLowerCase()
@@ -137,14 +138,29 @@ class CourseService {
       )
     }
 
-    // 時間篩選
-    if (params.time) {
-      filteredCourses = filteredCourses.filter(course => {
-        const time = typeof course.time === 'string' ? course.time : Array.isArray(course.time) ? course.time.join(' ') : ''
-        return time.includes(params.time!)
-      })
-    }
-
+    // 篩選禮拜幾的課
+    if (params.timeDay) {
+      const dayMap = { M: 1, T: 2, W: 3, R: 4, F: 5 };
+    const dayNum = dayMap[params.timeDay as keyof typeof dayMap];
+    filteredCourses = filteredCourses.filter(course =>
+      Array.isArray(course.time_parsed) &&  // 確認存在且是陣列
+      course.time_parsed.some(slot =>
+        slot.day == dayNum 
+      )
+    );
+}
+  // 篩選節次
+  if(params.timePeriods)
+  {
+    const periods = params.timePeriods.split(',').map(str => Number(str.trim()));
+    filteredCourses = filteredCourses.filter(course =>
+      Array.isArray(course.time_parsed) &&  // 確認存在且是陣列
+      course.time_parsed.some(slot =>
+        slot.time.some(t => periods.includes(t))  // 篩選指定節次
+      )
+    );
+  }
+  
     // 分頁
     const page = params.page || 1
     const limit = params.limit || 20

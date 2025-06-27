@@ -11,6 +11,8 @@ export interface CourseSearchParams {
   time?: string
   page?: number
   limit?: number
+  timeDay?: string         // 週幾 (M, T, W, R, F)
+  timePeriods?: string     // 節次字串，例如 "1,2,3"
 }
 
 export interface CourseSearchResult {
@@ -206,6 +208,7 @@ export class CourseCache {
   }
 
   async searchCourses(params: CourseSearchParams): Promise<CourseSearchResult> {
+    console.log("✅ 快取的 searchCourses 被呼叫了", params);
     const allCourses = await this.getAllCourses()
     let filteredCourses = [...allCourses]
 
@@ -273,14 +276,29 @@ export class CourseCache {
       )
     }
 
-    // 時間篩選
-    if (params.time) {
-      filteredCourses = filteredCourses.filter(course => 
-        typeof course.time === 'string' 
-          ? course.time.includes(params.time!)
-          : Array.isArray(course.time) && course.time.some(timeSlot => timeSlot.includes(params.time!))
+    // 篩選禮拜幾的課
+    if (params.timeDay) {
+      const dayMap = { M: 1, T: 2, W: 3, R: 4, F: 5 };
+    const dayNum = dayMap[params.timeDay as keyof typeof dayMap];
+    filteredCourses = filteredCourses.filter(course =>
+      Array.isArray(course.time_parsed) &&  // 確認存在且是陣列
+      course.time_parsed.some(slot =>
+        slot.day == dayNum 
       )
-    }
+    );
+}
+  // 篩選節次
+  if(params.timePeriods)
+  {
+    const periods = params.timePeriods.split(',').map(str => Number(str.trim()));
+    filteredCourses = filteredCourses.filter(course =>
+      Array.isArray(course.time_parsed) &&  // 確認存在且是陣列
+      course.time_parsed.some(slot =>
+        slot.time.some(t => periods.includes(t))  // 篩選指定節次
+      )
+    );
+  }
+
 
     // 分頁
     const page = params.page || 1

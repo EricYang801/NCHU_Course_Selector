@@ -42,7 +42,8 @@ export default function CourseList({ onAddCourse, onRemoveCourse, selectedCourse
         career: searchParams.get('career') || undefined,
         professor: searchParams.get('professor') || undefined,
         credits: searchParams.get('credits') ? parseInt(searchParams.get('credits')!) : undefined,
-        time: searchParams.get('time') || undefined,
+        timeDay: searchParams.get('timeDay') || undefined,
+        timePeriods: searchParams.get('timePeriods') || undefined,
         page,
         limit: pagination.limit
       }
