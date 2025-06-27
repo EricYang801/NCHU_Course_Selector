@@ -108,7 +108,7 @@ class NCHUCourseCrawler:
             self.logger.info(f"開始爬取 {career_name} 課程資料...")
             
             # 發送請求
-            response = requests.get(url, timeout=30, verify="nchu_fullchain.pem")
+            response = requests.get(url, timeout=30)
             response.raise_for_status()
             
             # 檢查回應內容
