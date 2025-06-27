@@ -39,6 +39,12 @@ fi
 
 echo "✅ 資料目錄準備完成"
 
+# 下載網站憑證提供
+openssl s_client -showcerts -connect onepiece.nchu.edu.tw:443 </dev/null \
+| awk '/BEGIN/,/END/{ if(/BEGIN/){a++}; out="nchu_cert"a".pem"; print >out }'
+cat nchu_cert1.pem nchu_cert2.pem > nchu_fullchain.pem # 合併伺服器憑證和中繼憑證
+rm nchu_cert*
+
 # 執行爬蟲程式
 echo ""
 echo "🕷️  執行課程爬蟲..."

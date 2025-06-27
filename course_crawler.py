@@ -99,7 +99,7 @@ class NCHUCourseCrawler:
             career: 學制代碼 (U, O, N, W, G, D)
             
         Returns:
-            課程資料字典，失敗時返回None
+            課程資料字典，失敗時回傳None
         """
         url = f"{self.base_url}?p_career={career}"
         career_name = self.career_mapping.get(career, career)
@@ -108,7 +108,7 @@ class NCHUCourseCrawler:
             self.logger.info(f"開始爬取 {career_name} 課程資料...")
             
             # 發送請求
-            response = requests.get(url, timeout=30)
+            response = requests.get(url, timeout=30, verify="nchu_fullchain.pem")
             response.raise_for_status()
             
             # 檢查回應內容
@@ -122,7 +122,7 @@ class NCHUCourseCrawler:
                     return data
                 except json.JSONDecodeError as e:
                     self.logger.error(f"{career_name} 清理後的 JSON 解析仍失敗: {e}")
-                    # 嘗試保存原始回應以供調試
+                    # 嘗試保存原始回應提供測試使用
                     self._save_raw_response(career, response.text, "failed")
                     return None
             else:
@@ -134,7 +134,7 @@ class NCHUCourseCrawler:
             return None
         except json.JSONDecodeError as e:
             self.logger.error(f"{career_name} JSON 解析失敗: {e}")
-            # 嘗試保存原始回應以供調試
+            # 嘗試保存原始回應提供測試使用
             if 'response' in locals():
                 self._save_raw_response(career, response.text, "failed")
             return None
@@ -151,7 +151,7 @@ class NCHUCourseCrawler:
             data: 課程資料
             
         Returns:
-            儲存成功返回True，失敗返回False
+            儲存成功回傳True，失敗回傳False
         """
         career_name = self.career_mapping.get(career, career)
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
