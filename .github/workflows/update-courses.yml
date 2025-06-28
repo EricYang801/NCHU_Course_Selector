@@ -23,7 +23,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     
     steps:
-    - name: 檢出代碼
+    - name: 設定 token
       uses: actions/checkout@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
@@ -61,7 +61,7 @@ jobs:
           echo "ℹ️ 課程資料無變更"
         fi
 
-    - name: 安裝前端依賴
+    - name: 安裝前端套件
       run: npm install --prefer-offline --no-audit
       working-directory: ./course-helper-web
 
@@ -100,3 +100,4 @@ jobs:
         echo "🌐 網站部署: ✅ 完成"
         echo "🔗 網站連結: ${{ steps.deployment.outputs.page_url }}"
         echo "📁 部署檔案: course-helper-web/out"
+
