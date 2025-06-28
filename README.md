@@ -1,6 +1,6 @@
 # 中興大學選課小幫手 🎓
 
-## ✨ 特色功能
+## ✨ 功能
 
 - 🔍 **進階搜尋**: 支援關鍵字、系所、教師、學分數搜尋
 - 📅 **課表預覽**: 即時課表預覽和衝堂檢查  
@@ -66,15 +66,27 @@ Course_Selector/
     └── out/                    # 建置輸出 (自動生成)
 ```
 
-## 🤝 貢獻指南
-
-歡迎提交 Issue 和 Pull Request！
-
-1. Fork 此專案
-2. 建立功能分支 (`git checkout -b feature/amazing-feature`)
-3. 提交變更 (`git commit -m 'Add amazing feature'`)
-4. 推送到分支 (`git push origin feature/amazing-feature`)
-5. 開啟 Pull Request
+## 開發指南
+### 在本地執行
+#### 安裝套件
+```
+npm install
+```
+#### 測試 腳本
+```
+chmod +c test-crawler.sh
+./test-crawler.sh
+```
+#### 在本地執行
+> 預設使用 port 3000
+```
+cd course-helper-web/
+npm run dev
+```
+#### 在瀏覽器預覽
+```
+xdg-open http://localhost:3000/NCHU_Course_Selector
+```
 
 ## 📜 授權條款
 
