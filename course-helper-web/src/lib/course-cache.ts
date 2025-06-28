@@ -208,7 +208,7 @@ export class CourseCache {
   }
 
   async searchCourses(params: CourseSearchParams): Promise<CourseSearchResult> {
-    console.log("✅ 快取的 searchCourses 被呼叫了", params);
+    // console.log("✅ 快取的 searchCourses 被呼叫了", params);
     const allCourses = await this.getAllCourses()
     let filteredCourses = [...allCourses]
 

@@ -96,7 +96,6 @@ class CourseService {
     await this.loadCourses()
 
     let filteredCourses = [...this.allCourses]
-    console.log("searchCourses 被呼叫了", params);
     // 關鍵字搜尋
     if (params.keyword) {
       const keyword = params.keyword.toLowerCase()
