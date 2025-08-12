@@ -30,6 +30,14 @@ export default function CourseList({ onAddCourse, onRemoveCourse, selectedCourse
     return getCareerColorClass(deptName)
   }
 
+  // 清理系所名稱，處理 no_data_found 的情況
+  const cleanDepartmentName = (deptName: string | undefined): string => {
+    if (!deptName || deptName.includes('no_data_found')) {
+      return '系所資料缺失'
+    }
+    return deptName
+  }
+
   const fetchCourses = useCallback(async (page = 1) => {
     setLoading(true)
     setError(null)
@@ -129,12 +137,12 @@ export default function CourseList({ onAddCourse, onRemoveCourse, selectedCourse
             
             <div>
               <span className="text-sm font-medium text-gray-500">上課系所</span>
-              <p className="text-gray-900">{course.for_dept || course.department}</p>
+              <p className="text-gray-900">{cleanDepartmentName(course.for_dept || course.department)}</p>
             </div>
             
             <div>
               <span className="text-sm font-medium text-gray-500">開課系所</span>
-              <p className="text-gray-900">{course.department}</p>
+              <p className="text-gray-900">{cleanDepartmentName(course.department)}</p>
             </div>
             
             <div>
@@ -292,7 +300,7 @@ export default function CourseList({ onAddCourse, onRemoveCourse, selectedCourse
                     <div className="flex items-center gap-2 text-sm text-gray-500">
                       <span className="font-mono bg-gray-100 px-2 py-0.5 rounded text-xs">{course.code}</span>
                       <span>•</span>
-                      <span className="text-xs">{course.for_dept || course.department}</span>
+                      <span className="text-xs">{cleanDepartmentName(course.for_dept || course.department)}</span>
                     </div>
                   </div>
                   <div className="ml-3 flex flex-col items-end gap-1">

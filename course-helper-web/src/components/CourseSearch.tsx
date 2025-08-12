@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 
 interface SearchFilters {
@@ -51,19 +51,72 @@ export default function CourseSearch({ onSearch }: CourseSearchProps) {
     { value: '6', label: '6 學分或以上' }
   ]
 
-  const timeOptions = [
-    { value: '', label: '全部時間' },
-    { value: 'M1', label: '週一第1節' },
-    { value: 'M2', label: '週一第2節' },
-    { value: 'T1', label: '週二第1節' },
-    { value: 'T2', label: '週二第2節' },
-    { value: 'W1', label: '週三第1節' },
-    { value: 'W2', label: '週三第2節' },
-    { value: 'R1', label: '週四第1節' },
-    { value: 'R2', label: '週四第2節' },
-    { value: 'F1', label: '週五第1節' },
-    { value: 'F2', label: '週五第2節' }
-  ]
+  // 時間相關的常數和函數
+  const weekDays = ['一', '二', '三', '四', '五', '六', '日']
+  const timeSlots = Array.from({ length: 14 }, (_, i) => ({ period: i + 1 }))
+  
+  const [selectedTimeSlots, setSelectedTimeSlots] = useState<Set<string>>(new Set())
+  const [timeFilterMode, setTimeFilterMode] = useState<'any' | 'all' | 'exact'>('any')
+
+  // 從URL參數中載入時間選擇
+  useEffect(() => {
+    const timeParam = searchParams.get('time')
+    if (timeParam) {
+      try {
+        const timeFilter = JSON.parse(timeParam) as { slots: string[], mode: 'any' | 'all' | 'exact' }
+        if (timeFilter.slots && Array.isArray(timeFilter.slots)) {
+          // 將 dayTime 格式轉換為我們的 slotId 格式
+          const slotIds = timeFilter.slots.map(slot => {
+            if (slot.length >= 2) {
+              const day = parseInt(slot.charAt(0)) - 1 // 轉換為0-based索引
+              const period = parseInt(slot.substring(1))
+              return `${day}-${period}`
+            }
+            return null
+          }).filter(Boolean) as string[]
+          
+          setSelectedTimeSlots(new Set(slotIds))
+          setTimeFilterMode(timeFilter.mode || 'any')
+        }
+      } catch {
+        // 忽略解析錯誤
+      }
+    }
+  }, [searchParams])
+
+  // 處理時間槽點擊
+  const handleTimeSlotClick = (dayIndex: number, period: number) => {
+    const slotId = `${dayIndex}-${period}`
+    setSelectedTimeSlots(prev => {
+      const newSet = new Set(prev)
+      if (newSet.has(slotId)) {
+        newSet.delete(slotId)
+      } else {
+        newSet.add(slotId)
+      }
+      return newSet
+    })
+  }
+
+  // 清除時間選擇
+  const clearTimeSelection = () => {
+    setSelectedTimeSlots(new Set())
+  }
+
+  // 將時間選擇轉換為搜尋參數
+  const getTimeSearchParams = () => {
+    if (selectedTimeSlots.size === 0) return ''
+    
+    const slots = Array.from(selectedTimeSlots).map(slot => {
+      const [dayIndex, period] = slot.split('-').map(Number)
+      return `${dayIndex + 1}${period}`
+    })
+    
+    return JSON.stringify({
+      slots,
+      mode: timeFilterMode
+    })
+  }
 
   const handleInputChange = (field: keyof SearchFilters, value: string) => {
     setFilters(prev => ({
@@ -76,10 +129,16 @@ export default function CourseSearch({ onSearch }: CourseSearchProps) {
     // 更新 URL 參數
     const params = new URLSearchParams()
     Object.entries(filters).forEach(([key, value]) => {
-      if (value) {
+      if (value && key !== 'time') {
         params.set(key, value)
       }
     })
+    
+    // 處理時間參數
+    const timeParams = getTimeSearchParams()
+    if (timeParams) {
+      params.set('time', timeParams)
+    }
     
     const searchString = params.toString()
     router.push(searchString ? `/?${searchString}` : '/')
@@ -100,6 +159,8 @@ export default function CourseSearch({ onSearch }: CourseSearchProps) {
       time: ''
     }
     setFilters(emptyFilters)
+    setSelectedTimeSlots(new Set())
+    setTimeFilterMode('any')
     router.push('/')
     
     if (onSearch) {
@@ -233,26 +294,109 @@ export default function CourseSearch({ onSearch }: CourseSearchProps) {
               <label className="block text-sm font-medium text-gray-700 mb-1">
                 上課時間
               </label>
-              <div className="relative">
-                <select
-                  value={filters.time}
-                  onChange={(e) => handleInputChange('time', e.target.value)}
-                  className={`w-full px-3 py-2 pr-8 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm bg-white hover:border-gray-400 cursor-pointer appearance-none ${
-                    filters.time === '' ? 'text-gray-400' : 'text-black'
-                  }`}
-                >
-                  {timeOptions.map(option => (
-                    <option key={option.value} value={option.value} className={option.value === '' ? 'text-gray-400' : 'text-black'}>
-                      {option.label}
-                    </option>
-                  ))}
-                </select>
-                <div className="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
-                  <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
+              
+              {/* 篩選模式選擇 */}
+              <div className="mb-3">
+                <div className="flex space-x-2">
+                  <label className="flex items-center">
+                    <input
+                      type="radio"
+                      value="any"
+                      checked={timeFilterMode === 'any'}
+                      onChange={(e) => setTimeFilterMode(e.target.value as 'any')}
+                      className="mr-1"
+                    />
+                    <span className="text-sm text-gray-700">包含任一時間</span>
+                  </label>
+                  <label className="flex items-center">
+                    <input
+                      type="radio"
+                      value="all"
+                      checked={timeFilterMode === 'all'}
+                      onChange={(e) => setTimeFilterMode(e.target.value as 'all')}
+                      className="mr-1"
+                    />
+                    <span className="text-sm text-gray-700">包含所有時間</span>
+                  </label>
+                  <label className="flex items-center">
+                    <input
+                      type="radio"
+                      value="exact"
+                      checked={timeFilterMode === 'exact'}
+                      onChange={(e) => setTimeFilterMode(e.target.value as 'exact')}
+                      className="mr-1"
+                    />
+                    <span className="text-sm text-gray-700">完全相符</span>
+                  </label>
                 </div>
               </div>
+
+              {/* 週課表時間選擇器 */}
+              <div className="border border-gray-300 rounded-md overflow-hidden">
+                {/* 表頭 */}
+                <div className="grid grid-cols-8 bg-gray-50">
+                  <div className="p-2 text-center text-xs font-medium text-gray-700 border-r border-gray-200">
+                    節次
+                  </div>
+                  {weekDays.map((day, index) => (
+                    <div
+                      key={day}
+                      className={`p-2 text-center text-xs font-medium text-gray-700 ${
+                        index < weekDays.length - 1 ? 'border-r border-gray-200' : ''
+                      }`}
+                    >
+                      {day}
+                    </div>
+                  ))}
+                </div>
+
+                {/* 時間表格 */}
+                <div className="max-h-48 overflow-y-auto">
+                  {timeSlots.map((slot) => (
+                    <div key={slot.period} className="grid grid-cols-8 border-t border-gray-200">
+                      {/* 節次欄 */}
+                      <div className="p-2 text-center border-r border-gray-200 bg-gray-50">
+                        <div className="text-xs font-medium text-gray-700">{slot.period}</div>
+                      </div>
+
+                      {/* 各天的時間槽 */}
+                      {weekDays.map((_, dayIndex) => {
+                        const slotId = `${dayIndex}-${slot.period}`
+                        const isSelected = selectedTimeSlots.has(slotId)
+                        
+                        return (
+                          <button
+                            key={`${dayIndex}-${slot.period}`}
+                            onClick={() => handleTimeSlotClick(dayIndex, slot.period)}
+                            className={`p-2 h-8 text-xs transition-colors border-r border-gray-200 last:border-r-0 hover:bg-blue-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-1 ${
+                              isSelected 
+                                ? 'bg-blue-600 text-white hover:bg-blue-700' 
+                                : 'text-gray-600 hover:text-blue-700'
+                            }`}
+                          >
+                            {isSelected ? '●' : ''}
+                          </button>
+                        )
+                      })}
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* 已選時間和清除按鈕 */}
+              {selectedTimeSlots.size > 0 && (
+                <div className="mt-2 flex items-center justify-between">
+                  <span className="text-sm text-gray-600">
+                    已選擇 {selectedTimeSlots.size} 個時間槽
+                  </span>
+                  <button
+                    onClick={clearTimeSelection}
+                    className="text-sm text-gray-700 hover:text-red-600 hover:bg-gray-50 px-2 py-1 rounded transition-colors"
+                  >
+                    清除
+                  </button>
+                </div>
+              )}
             </div>
           </div>
         )}

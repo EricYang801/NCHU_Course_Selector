@@ -93,6 +93,40 @@ export class CourseSearchEngine {
     return set
   }
 
+  private matchTimeSlots(course: Course, searchSlots: string[], mode: 'any' | 'all' | 'exact'): boolean {
+    if (!course.time_parsed || !Array.isArray(course.time_parsed)) return false
+    
+    // 將課程時間轉換為我們的格式 (dayTime format)
+    const courseSlots = new Set<string>()
+    course.time_parsed.forEach(timeSlot => {
+      if (timeSlot.day && timeSlot.time && Array.isArray(timeSlot.time)) {
+        timeSlot.time.forEach(period => {
+          courseSlots.add(`${timeSlot.day}${period}`)
+        })
+      }
+    })
+    
+    const searchSlotsSet = new Set(searchSlots)
+    
+    switch (mode) {
+      case 'any':
+        // 包含任一時間：課程時間與搜尋時間有交集
+        return searchSlots.some(slot => courseSlots.has(slot))
+      
+      case 'all':
+        // 包含所有時間：課程時間包含所有搜尋時間
+        return searchSlots.every(slot => courseSlots.has(slot))
+      
+      case 'exact':
+        // 完全相符：課程時間與搜尋時間完全相同
+        return courseSlots.size === searchSlotsSet.size && 
+               Array.from(courseSlots).every(slot => searchSlotsSet.has(slot))
+      
+      default:
+        return false
+    }
+  }
+
   search(filters: SearchFilters): SearchResult<Course> {
     const { keyword, department, for_dept, career, professor, credits, time, page = 1, limit = 20 } = filters
     let list = this.indexed
@@ -126,10 +160,19 @@ export class CourseSearchEngine {
       list = list.filter(c => c.credits_parsed === credits)
     }
     if (time) {
-      list = list.filter(c => {
-        const t = Array.isArray(c.time) ? c.time.join(' ') : (c.time || '')
-        return t.includes(time)
-      })
+      // 嘗試解析新的時間搜尋格式
+      try {
+        const timeFilter = JSON.parse(time) as { slots: string[], mode: 'any' | 'all' | 'exact' }
+        if (timeFilter.slots && Array.isArray(timeFilter.slots)) {
+          list = list.filter(c => this.matchTimeSlots(c, timeFilter.slots, timeFilter.mode))
+        }
+      } catch {
+        // 向後兼容舊的時間搜尋格式
+        list = list.filter(c => {
+          const t = Array.isArray(c.time) ? c.time.join(' ') : (c.time || '')
+          return t.includes(time)
+        })
+      }
     }
 
     const total = list.length
