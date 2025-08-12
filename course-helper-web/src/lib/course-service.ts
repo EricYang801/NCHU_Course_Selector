@@ -1,11 +1,9 @@
-// 客戶端課程服務，替代原本的 API 路由
-import { Course } from './course-crawler'
-import { enhancedSearch } from './course-utils'
+// 客戶端課程服務：統一靜態 JSON 讀取 + 進階搜尋（含縮寫展開）
+import { Course } from './course-types'
+import { DEPARTMENT_ABBREVIATIONS } from './course-utils'
+import { CourseSearchEngine } from './search-engine'
 
-// 擴展 Course 接口以包含學制資訊
-interface CourseWithCareer extends Course {
-  career?: string
-}
+interface CourseWithCareer extends Course { career?: string }
 
 export interface CourseSearchParams {
   keyword?: string
@@ -27,169 +25,143 @@ export interface CourseSearchResult {
   totalPages: number
 }
 
+// 資料版本：若 public/data 下的課程原始 JSON 更新，請同步調整此版本字串
+// 建議格式：YYYYMMDD 或 加上流水號，例如 20250812-1
+const COURSE_DATA_VERSION = '20250812'
+const LS_KEY_DATA = 'courses:data'
+const LS_KEY_VERSION = 'courses:version'
+const LS_KEY_TIMESTAMP = 'courses:fetchedAt'
+
 class CourseService {
   private allCourses: CourseWithCareer[] = []
   private isLoaded = false
+  private readonly CAREER_CODE_TO_NAME: Record<string, string> = { U: '學士班', G: '碩士班', D: '博士班', N: '進修部', W: '在職專班', O: '通識加體育課' }
+  private searchEngine = new CourseSearchEngine(this.CAREER_CODE_TO_NAME)
 
-  // 公開方法以供統計使用
-  public get courseCount(): number {
-    return this.allCourses.length
-  }
+  // 部門展開邏輯已整合進搜尋引擎索引與 expandDept
+
+  public get courseCount(): number { return this.allCourses.length }
 
   async loadCourses(): Promise<void> {
     if (this.isLoaded) return
+    if (typeof window === 'undefined') return Promise.resolve()
 
-    // 確保在瀏覽器環境中執行
-    if (typeof window === 'undefined') {
-      return Promise.resolve()
-    }
-
+    // 1) 嘗試從 localStorage 載入（版本需一致）
     try {
-      // 載入所有課程資料
-      const courseFiles = [
-        { file: 'U_學士班.json', career: 'U' },
-        { file: 'G_碩士班.json', career: 'G' },
-        { file: 'D_博士班.json', career: 'D' },
-        { file: 'N_進修部.json', career: 'N' },
-        { file: 'W_在職專班.json', career: 'W' },
-        { file: 'O_通識加體育課.json', career: 'O' }
-      ]
-
-      const allCoursesData = await Promise.all(
-        courseFiles.map(async ({ file, career }) => {
-          try {
-            // 在客戶端檢測是否為本地開發環境
-            const isLocalDev = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
-            const basePath = isLocalDev ? '' : '/NCHU_Course_Selector'
-            const response = await fetch(`${window.location.origin}${basePath}/data/${file}`)
-            if (!response.ok) {
-              console.warn(`無法載入 ${file}，狀態碼: ${response.status}`)
-              return []
-            }
-            const data = await response.json()
-            const courses = (data.course || []).map((course: Course) => ({
-              ...course,
-              career // 添加學制資訊
-            })) as CourseWithCareer[]
-            return courses
-          } catch (error) {
-            console.warn(`載入 ${file} 時發生錯誤:`, error)
-            return []
+      const storedVersion = localStorage.getItem(LS_KEY_VERSION)
+      if (storedVersion === COURSE_DATA_VERSION) {
+        const raw = localStorage.getItem(LS_KEY_DATA)
+        if (raw) {
+          const parsed = JSON.parse(raw) as CourseWithCareer[]
+          if (Array.isArray(parsed) && parsed.length) {
+            this.allCourses = parsed
+            this.isLoaded = true
+            return
           }
-        })
-      )
-
-      this.allCourses = allCoursesData.flat()
+        }
+      } else {
+        // 版本不同，清除舊資料
+        localStorage.removeItem(LS_KEY_DATA)
+        localStorage.removeItem(LS_KEY_TIMESTAMP)
+        localStorage.setItem(LS_KEY_VERSION, COURSE_DATA_VERSION)
+      }
+    } catch (e) {
+      console.warn('讀取本地快取失敗，將改為網路載入', e)
+    }
+    const courseFiles = [
+      { file: 'U_學士班.json', career: 'U' }, { file: 'G_碩士班.json', career: 'G' },
+      { file: 'D_博士班.json', career: 'D' }, { file: 'N_進修部.json', career: 'N' },
+      { file: 'W_在職專班.json', career: 'W' }, { file: 'O_通識加體育課.json', career: 'O' }
+    ]
+    try {
+      const allCoursesData = await Promise.all(courseFiles.map(async ({ file, career }) => {
+        try {
+          const isLocalDev = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+          const basePath = isLocalDev ? '' : '/NCHU_Course_Selector'
+          const response = await fetch(`${window.location.origin}${basePath}/data/${file}`)
+          if (!response.ok) { console.warn(`無法載入 ${file}，狀態碼: ${response.status}`); return [] }
+          const data = await response.json()
+          return (data.course || []).map((c: Course) => ({ ...c, career })) as CourseWithCareer[]
+        } catch (e) { console.warn(`載入 ${file} 時發生錯誤:`, e); return [] }
+      }))
+  this.allCourses = allCoursesData.flat()
       this.isLoaded = true
       console.log(`已載入 ${this.allCourses.length} 門課程`)
-    } catch (error) {
-      console.error('載入課程資料時發生錯誤:', error)
-      throw error
+  this.searchEngine.build(this.allCourses)
+
+      // 寫入 localStorage 快取
+      try {
+        localStorage.setItem(LS_KEY_DATA, JSON.stringify(this.allCourses))
+        localStorage.setItem(LS_KEY_VERSION, COURSE_DATA_VERSION)
+        localStorage.setItem(LS_KEY_TIMESTAMP, Date.now().toString())
+      } catch (e) {
+        console.warn('寫入本地快取失敗', e)
+      }
+    } catch (e) { console.error('載入課程資料時發生錯誤:', e); throw e }
+  }
+
+  /** 強制重新抓取（忽略本地快取） */
+  async refresh(forceNetwork = true): Promise<void> {
+    if (typeof window === 'undefined') return
+    if (forceNetwork) {
+      localStorage.removeItem(LS_KEY_DATA)
+      localStorage.removeItem(LS_KEY_TIMESTAMP)
+      // 不移除版本（可能剛剛已更新過），由呼叫者自行確保版本值
     }
+    this.isLoaded = false
+    this.allCourses = []
+    await this.loadCourses()
+  }
+
+  getVersion(): string { return COURSE_DATA_VERSION }
+  getCachedAt(): number | null {
+    if (typeof window === 'undefined') return null
+    const ts = localStorage.getItem(LS_KEY_TIMESTAMP)
+    return ts ? parseInt(ts) : null
+  }
+  getStats(): { total: number; byCareer: Record<string, number> } {
+    const byCareer: Record<string, number> = {}
+    for (const c of this.allCourses) {
+      const key = c.career || 'NA'
+      byCareer[key] = (byCareer[key] || 0) + 1
+    }
+    return { total: this.allCourses.length, byCareer }
   }
 
   async searchCourses(params: CourseSearchParams): Promise<CourseSearchResult> {
     await this.loadCourses()
-
-    let filteredCourses = [...this.allCourses]
-
-    // 關鍵字搜尋
-    if (params.keyword) {
-      const keyword = params.keyword.toLowerCase()
-      filteredCourses = filteredCourses.filter(course => {
-        return enhancedSearch(keyword, course)
-      })
-    }
-
-    // 開課系所篩選
-    if (params.department) {
-      filteredCourses = filteredCourses.filter(course => 
-        course.department?.includes(params.department!)
-      )
-    }
-
-    // 修課對象篩選
-    if (params.for_dept) {
-      filteredCourses = filteredCourses.filter(course => 
-        course.for_dept?.includes(params.for_dept!)
-      )
-    }
-
-    // 學制篩選
-    if (params.career) {
-      filteredCourses = filteredCourses.filter(course => 
-        course.career === params.career
-      )
-    }
-
-    // 教師篩選
-    if (params.professor) {
-      filteredCourses = filteredCourses.filter(course => {
-        const professor = typeof course.professor === 'string' ? course.professor : Array.isArray(course.professor) ? course.professor.join(' ') : ''
-        return professor.includes(params.professor!)
-      })
-    }
-
-    // 學分篩選
-    if (params.credits) {
-      filteredCourses = filteredCourses.filter(course => 
-        course.credits_parsed === params.credits
-      )
-    }
-
-    // 時間篩選
-    if (params.time) {
-      filteredCourses = filteredCourses.filter(course => {
-        const time = typeof course.time === 'string' ? course.time : Array.isArray(course.time) ? course.time.join(' ') : ''
-        return time.includes(params.time!)
-      })
-    }
-
-    // 分頁
-    const page = params.page || 1
-    const limit = params.limit || 20
-    const startIndex = (page - 1) * limit
-    const endIndex = startIndex + limit
-    const paginatedCourses = filteredCourses.slice(startIndex, endIndex)
-
-    return {
-      courses: paginatedCourses,
-      total: filteredCourses.length,
-      page,
-      limit,
-      totalPages: Math.ceil(filteredCourses.length / limit)
-    }
+    const result = this.searchEngine.search({
+      keyword: params.keyword,
+      department: params.department,
+      for_dept: params.for_dept,
+      career: params.career,
+      professor: params.professor,
+      credits: params.credits,
+      time: params.time,
+      page: params.page,
+      limit: params.limit
+    })
+    return { courses: result.items as CourseWithCareer[], total: result.total, page: result.page, limit: result.limit, totalPages: result.totalPages }
   }
 
   async getCourseById(id: string): Promise<CourseWithCareer | null> {
     await this.loadCourses()
-    return this.allCourses.find(course => course.code === id) || null
+    return this.allCourses.find(c => c.code === id) || null
   }
 
-  // 獲取所有系所
   async getDepartments(): Promise<string[]> {
     await this.loadCourses()
-    const departments = new Set<string>()
-    this.allCourses.forEach(course => {
-      if (course.department) {
-        departments.add(course.department)
-      }
-    })
-    return Array.from(departments).sort()
+    const set = new Set<string>()
+    this.allCourses.forEach(c => c.department && set.add(c.department))
+    return Array.from(set).sort()
   }
 
-  // 獲取所有學制
   async getCareers(): Promise<string[]> {
     await this.loadCourses()
-    const careers = new Set<string>()
-    this.allCourses.forEach(course => {
-      if (course.career) {
-        careers.add(course.career)
-      }
-    })
-    return Array.from(careers).sort()
+    const set = new Set<string>()
+    this.allCourses.forEach(c => c.career && set.add(c.career))
+    return Array.from(set).sort()
   }
 }
 
-// 創建單例實例
 export const courseService = new CourseService()

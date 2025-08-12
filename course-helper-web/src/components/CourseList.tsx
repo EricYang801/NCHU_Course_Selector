@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useCallback } from 'react'
 import { useSearchParams } from 'next/navigation'
-import { Course } from '@/lib/course-crawler'
+import { Course } from '@/lib/course-types'
 import { getCareerFromDepartment, getCareerColorClass } from '@/lib/course-utils'
 import { courseService } from '@/lib/course-service'
 

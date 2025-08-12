@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+  "dev": "LOCAL_DEV=true next dev --turbopack",
     "build": "next build",
     "build:local": "LOCAL_DEV=true next build",
     "build:static": "./build-static.sh",
@@ -14,22 +14,17 @@
     "clean": "rm -rf .next out"
   },
   "dependencies": {
-    "axios": "^1.9.0",
-    "cron": "^4.3.1",
-    "fs-extra": "^11.3.0",
     "next": "15.3.3",
-    "node-cache": "^5.1.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
-    "@types/fs-extra": "^11.0.4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "autoprefixer": "^10.4.16",
-    "eslint": "^9",
+  "eslint": "^9",
     "eslint-config-next": "15.3.3",
     "postcss": "^8.4.32",
     "tailwindcss": "^3.4.0",

@@ -1,7 +1,4 @@
+// instrumentation: legacy server-side init 已移除，保留空實作避免錯誤
 export async function register() {
-  // 只在服務器端執行初始化
-  if (process.env.NEXT_RUNTIME === 'nodejs') {
-    const { initializeApp } = await import('@/lib/init')
-    await initializeApp()
-  }
+  return
 }

@@ -5,7 +5,7 @@ import CourseSearch from '@/components/CourseSearch'
 import CourseList from '@/components/CourseList'
 import AdminPanel from '@/components/AdminPanel'
 import SchedulePreview from '@/components/SchedulePreview'
-import { Course } from '@/lib/course-crawler'
+import { Course } from '@/lib/course-types'
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState('search')

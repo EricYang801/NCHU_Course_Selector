@@ -1,5 +1,5 @@
 // 課程相關的共用工具函數和常數
-import { Course } from './course-crawler'
+import { Course } from './course-types'
 
 // 學制顏色配置
 export const CAREER_COLORS = {
@@ -16,23 +16,18 @@ export const CAREER_COLORS = {
 export const getCareerFromDepartment = (department: string): string => {
   // 博士相關：博士班、博士學位學程、博士學程
   if (department.includes('博士')) return '博士班'
-  
   // 碩士相關：碩士班、碩專班、碩士在職專班、碩士學位學程
   if (department.includes('碩士')) return '碩士班'
-  
   // 在職專班相關
   if (department.includes('在職專班') || department.includes('碩專班')) return '在職專班'
-  
   // 進修部相關
   if (department.includes('進修部') || department.includes('進修學士班')) return '進修部'
-  
   // 通識體育相關
   if (department.includes('通識') || department.includes('體育') || 
       department.includes('外語教學') || department.includes('軍訓') ||
       department.includes('藝術') || department.includes('文學') && !department.includes('學系')) {
     return '通識加體育課'
   }
-  
   // 學士班相關：學士班、學士學位學程（排除碩士、博士、進修、在職）
   if (department.includes('學士') || 
       (!department.includes('碩士') && !department.includes('博士') && 
@@ -40,7 +35,6 @@ export const getCareerFromDepartment = (department: string): string => {
        (department.includes('學系') || department.includes('學院') || department.includes('學程')))) {
     return '學士班'
   }
-  
   return '其他'
 }
 
@@ -80,7 +74,7 @@ export const DEPARTMENT_ABBREVIATIONS: Record<string, string[]> = {
   '土木': ['土木工程', '土木系', '土木工程學系', '土木工程系'],
   '機械': ['機械工程', '機械系', '機械工程學系', '機械工程系'],
   '環工': ['環境工程', '環工系', '環境工程學系', '環境工程系'],
-  '數學': ['應用數學', '數學系', '應用數學系', '應用數學學系'],
+  '數學': ['應用數學', '數學系', '應用數學系', '應用數學學系', '應數', '應數系'],
   '物理': ['物理學系', '物理系', '應用物理', '物理'],
   '化學': ['化學系', '化學學系'],
   
@@ -127,41 +121,65 @@ export const DEPARTMENT_ABBREVIATIONS: Record<string, string[]> = {
   '軍訓': ['軍訓', '全民國防'],
   '服務': ['服務學習'],
   'EMBA': ['高階經理人碩士在職專班'],
+
+  // 以下為原 service 額外別名（學程 / 研究所 / 進修 / 特殊專班）
+  '中文系': ['中國文學系'],
+  '外文系': ['外國語文學系'],
+  '歷史系': ['歷史學系'],
+  '台文學士學程': ['台灣人文創新學士學位學程'],
+  '圖資所': ['圖書資訊學研究所'],
+  '台文所': ['台灣文學與跨國文化研究所'],
+  '跨文化學程': ['台灣與跨文化研究國際博士學位學程'],
+  '文創學程': ['數位人文與文創產業學士學位學程'],
+  '農藝系': ['農藝學系'],
+  '園藝系': ['園藝學系'],
+  '森林系': ['森林學系'],
+  '應經系': ['應用經濟學系'],
+  '植病系': ['植物病理學系'],
+  '昆蟲系': ['昆蟲學系'],
+  '動科系': ['動物科學系'],
+  '土環系': ['土壤環境科學系'],
+  '水保系': ['水土保持學系'],
+  '食生系': ['食品暨應用生物科技學系'],
+  '生機系': ['生物產業機電工程學系'],
+  '生技所': ['生物科技學研究所'],
+  '生管所': ['生物產業管理研究所'],
+  '食安所': ['食品安全研究所'],
+  '生管學程': ['生物產業管理進修學士學位學程'],
+  '國農企學程': ['國際農企業學士學位學程'],
+  '國農碩學程': ['國際農學碩士學位學程'],
+  '國農博學程': ['國際農學博士學位學程'],
+  '大數據學程': ['大數據產學研發博士學位學程'],
+  '人工智慧學程': ['人工智慧與資料科學碩士在職學位學程'],
+  '智慧創意學程': ['智慧創意工程學士學位學程'],
+  '精密所': ['精密工程研究所'],
+  '醫工所': ['生醫工程研究所'],
+  '分生所': ['分子生物學研究所'],
+  '生化所': ['生物化學研究所'],
+  '生醫所': ['生物醫學研究所'],
+  '基資所': ['基因體暨生物資訊學研究所'],
+  '精準健康碩士': ['精準健康碩士學位學程'],
+  '轉譯醫學學程': ['轉譯醫學博士學位學程'],
+  '生創博士學程': ['生技產業創新研發與管理博士學位學程'],
+  '微衛所': ['微生物暨公共衛生學研究所'],
+  '獸病所': ['獸醫病理生物學研究所'],
+  '財金系': ['財務金融學系'],
+  '企管系': ['企業管理學系'],
+  '行銷系': ['行銷學系'],
+  '資管系': ['資訊管理學系'],
+  '會計系': ['會計學系'],
+  '科管所': ['科技管理研究所'],
+  '運健所': ['運動與健康管理研究所'],
+  '國政所': ['國際政治研究所'],
+  '國務所': ['國家政策與公共事務研究所'],
+  '教研所': ['教師專業發展研究所'],
+  '亞洲中國學程': ['亞洲與中國研究英語碩士學位學程'],
+  '電資學士班': ['電機資訊學院學士班'],
+  '通訊所': ['通訊工程研究所'],
+  '光電所': ['光電工程研究所'],
+  '臨醫所': ['臨床醫學研究所'],
+  '臨護所': ['臨床護理研究所'],
+  '組醫學程': ['組織工程與再生醫學博士學位學程'],
 }
 
-// 縮寫匹配函數
-export const matchAbbreviation = (keyword: string, text: string): boolean => {
-  const lowerKeyword = keyword.toLowerCase()
-  const lowerText = text.toLowerCase()
-  
-  // 直接匹配
-  if (lowerText.includes(lowerKeyword)) {
-    return true
-  }
-  
-  // 縮寫匹配
-  for (const [abbr, fullNames] of Object.entries(DEPARTMENT_ABBREVIATIONS)) {
-    if (lowerKeyword.includes(abbr.toLowerCase())) {
-      for (const fullName of fullNames) {
-        if (lowerText.includes(fullName.toLowerCase())) {
-          return true
-        }
-      }
-    }
-  }
-  
-  return false
-}
-
-// 增強的搜尋匹配函數
-export const enhancedSearch = (keyword: string, course: Course): boolean => {
-  const fields = [
-    course.title || '',
-    course.code || '',
-    course.department || '',
-    course.for_dept || '',
-    Array.isArray(course.professor) ? course.professor.join(' ') : (course.professor || '')
-  ]
-  
-  return fields.some(field => matchAbbreviation(keyword, field))
-}
+// (搜尋邏輯已遷移至 search-engine.ts)

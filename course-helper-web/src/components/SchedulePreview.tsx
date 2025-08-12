@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState, useEffect, useCallback } from 'react'
-import { Course } from '@/lib/course-crawler'
+import { Course } from '@/lib/course-types'
 import { TIME_SLOTS, DAYS, CAREER_COLORS, getCareerFromDepartment } from '@/lib/course-utils'
 
 interface TimeSlot {

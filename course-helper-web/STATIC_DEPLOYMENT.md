@@ -9,14 +9,15 @@
 ### 從動態網站轉為靜態網站的變更：
 
 1. **移除服務器端功能**
-   - 刪除 `/src/app/api` 目錄下的所有 API 路由
-   - 刪除 `/scripts` 目錄下的服務器端腳本
-   - 移除爬蟲和排程功能
+   - 已刪除所有 API 路由與 Node 端快取/排程程式 (cache, scheduler, init 等)
+   - 爬蟲與資料更新改由 GitHub Actions 在建置前執行
+   - 前端僅存取靜態 JSON，無任何伺服端執行邏輯
 
-2. **客戶端資料載入**
-   - 創建 `/src/lib/course-service.ts` 來處理客戶端資料載入
-   - 所有課程資料從 `/public/data/` 目錄載入
-   - 支援關鍵字搜尋、篩選和分頁功能
+2. **客戶端資料載入、索引與本地快取**
+   - `/src/lib/course-service.ts` 統一讀取 `/public/data/` JSON 檔
+   - `search-engine.ts` 建立前端索引（標題/教師/系所縮寫 tokens），提供快速多條件搜尋 + 分頁
+   - 單一 `DEPARTMENT_ABBREVIATIONS` 對照表統一處理系所縮寫與別名（含「資工/資訊工程學系」、「應數/應用數學系」等）
+   - localStorage 版本化快取（`COURSE_DATA_VERSION` 控制失效），可用 `courseService.refresh()` 強制更新
 
 3. **Next.js 靜態導出配置**
    - 修改 `next.config.ts` 啟用靜態導出
@@ -85,13 +86,19 @@ vercel --name course-helper-static
 
 將 `out` 目錄中的所有文件上傳到任何支援靜態網站的託管服務。
 
-## 資料說明
+## 資料更新
 
-### 課程資料結構
+### 自動流程（推薦）
+由 `.github/workflows/update-courses.yml`：
+1. 每日定時執行 Python `course_crawler.py` 產出最新 JSON
+2. 若資料有變更，自動提交
+3. 執行 `npm run build` 產出靜態頁面並部署至 GitHub Pages
 
-- `public/data/U_學士班.json` - 學士班課程
-- `public/data/G_碩士班.json` - 碩士班課程  
-- `public/data/D_博士班.json` - 博士班課程
+### 手動流程
+1. 執行 `python course_crawler.py`
+2. 將產生的 JSON 覆蓋到 `course-helper-web/public/data/`
+3. 調整 `course-service.ts` 中 `COURSE_DATA_VERSION`（例如改為日期）
+4. `npm run build` 並重新部署
 - `public/data/N_進修部.json` - 進修部課程
 - `public/data/W_在職專班.json` - 在職專班課程
 - `public/data/O_通識加體育課.json` - 通識和體育課程
@@ -123,6 +130,6 @@ vercel --name course-helper-static
 
 ## 版本資訊
 
-- **版本**: 靜態版本 1.0
-- **建置時間**: 2025-06-12
-- **課程資料**: 中興大學 113 學年度課程
+- **前端版本**: 靜態 1.1（加入本地版本化快取）
+- **資料版本變數**: `COURSE_DATA_VERSION`（目前值請見 `course-service.ts`）
+- **資料來源學年度**: 中興大學 113 學年度課程（依工作流程最新 JSON 為準）
