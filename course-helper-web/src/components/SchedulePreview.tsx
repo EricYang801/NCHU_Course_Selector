@@ -247,7 +247,7 @@ export default function SchedulePreview({ selectedCourses, onRemoveCourse, compa
               </h3>
             </div>
             
-            {/* 手機版：使用卡片式佈局 */}
+            {/* 手機版：適合手機的課表格式 */}
             <div className="md:hidden">
               {selectedCourses.length === 0 ? (
                 <div className="text-center py-8 text-gray-500">
@@ -260,72 +260,129 @@ export default function SchedulePreview({ selectedCourses, onRemoveCourse, compa
                   <p className="text-xs mt-1">加入課程後即可查看課表</p>
                 </div>
               ) : (
-                <div className="p-4 space-y-4 max-h-96 overflow-y-auto">
-                  {selectedCourses.map(course => {
-                    const career = getCareerFromDepartment(course.for_dept || course.department)
-                    const colorClass = CAREER_COLORS[career as keyof typeof CAREER_COLORS]
-                    const getColorClasses = (colorClass: string) => {
-                      const colorMap: { [key: string]: { bg: string, border: string, text: string } } = {
-                        'bg-blue-100 border-blue-300 text-blue-800': { bg: 'bg-blue-50', border: 'border-blue-200', text: 'text-blue-800' },
-                        'bg-green-100 border-green-300 text-green-800': { bg: 'bg-green-50', border: 'border-green-200', text: 'text-green-800' },
-                        'bg-purple-100 border-purple-300 text-purple-800': { bg: 'bg-purple-50', border: 'border-purple-200', text: 'text-purple-800' },
-                        'bg-orange-100 border-orange-300 text-orange-800': { bg: 'bg-orange-50', border: 'border-orange-200', text: 'text-orange-800' },
-                        'bg-red-100 border-red-300 text-red-800': { bg: 'bg-red-50', border: 'border-red-200', text: 'text-red-800' },
-                        'bg-gray-100 border-gray-300 text-gray-800': { bg: 'bg-gray-50', border: 'border-gray-200', text: 'text-gray-800' }
-                      }
-                      return colorMap[colorClass] || { bg: 'bg-indigo-50', border: 'border-indigo-200', text: 'text-indigo-800' }
-                    }
-                    
-                    const colors = getColorClasses(colorClass)
-                    const courseTitle = course.title_parsed?.zh_TW || course.title.split('`')[0]
-                    const professorName = formatProfessor(course.professor)
-                    
-                    return (
-                      <div key={course.code} className={`${colors.bg} ${colors.border} ${colors.text} border-2 rounded-lg p-3`}>
-                        <div className="flex justify-between items-start mb-2">
-                          <div className="flex-1 min-w-0">
-                            <h4 className="font-bold text-sm leading-tight mb-1">
-                              {courseTitle}
-                            </h4>
-                            <div className="text-xs opacity-80">
-                              {course.code} • {professorName} • {course.credits}學分
+                <div className="p-3">
+                  {/* 手機版課表 - 日期標籤式導航 */}
+                  <div className="space-y-3">
+                    {WEEKDAYS.map((day, dayIndex) => {
+                      // 找出這一天的所有課程
+                      const daySchedule = TIME_SLOTS.map((timeSlot, timeIndex) => ({
+                        timeIndex,
+                        timeSlot,
+                        course: schedule[timeIndex]?.[dayIndex]
+                      })).filter(item => item.course?.course)
+
+                      return (
+                        <div key={day} className="bg-white rounded-lg border border-gray-200 shadow-sm overflow-hidden">
+                          {/* 日期標頭 */}
+                          <div className="bg-gradient-to-r from-blue-100 to-indigo-100 px-3 py-2 border-b border-gray-200">
+                            <div className="flex items-center justify-between">
+                              <h4 className="font-bold text-blue-800 text-sm flex items-center gap-2">
+                                <div className="w-8 h-8 bg-blue-200 rounded-full flex items-center justify-center">
+                                  <span className="text-blue-800 text-xs font-bold">{day}</span>
+                                </div>
+                                星期{day}
+                              </h4>
+                              <span className="text-xs text-blue-600 bg-blue-200 px-2 py-1 rounded-full">
+                                {daySchedule.length} 門課
+                              </span>
                             </div>
                           </div>
-                          {onRemoveCourse && (
-                            <button
-                              onClick={() => onRemoveCourse(course.code)}
-                              className="ml-2 text-red-600 hover:text-red-800 p-1"
-                            >
-                              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                              </svg>
-                            </button>
-                          )}
+                          
+                          {/* 課程內容 */}
+                          <div className="p-2">
+                            {daySchedule.length === 0 ? (
+                              <div className="text-center py-4 text-gray-400">
+                                <p className="text-xs">今日無課程</p>
+                              </div>
+                            ) : (
+                              <div className="space-y-2">
+                                {daySchedule.map(({ timeIndex, timeSlot, course }) => {
+                                  if (!course?.course) return null
+                                  
+                                  const currentCourse = course.course
+                                  const career = getCareerFromDepartment(currentCourse.for_dept || currentCourse.department)
+                                  const colorClass = CAREER_COLORS[career as keyof typeof CAREER_COLORS]
+                                  const conflictClass = course.isConflict ? 'ring-2 ring-red-500' : ''
+                                  
+                                  const getStyleClasses = (colorClass: string) => {
+                                    const colorMap: { [key: string]: { bg: string, text: string, border: string } } = {
+                                      'bg-blue-100 border-blue-300 text-blue-800': { bg: 'bg-blue-50', text: 'text-blue-800', border: 'border-blue-200' },
+                                      'bg-green-100 border-green-300 text-green-800': { bg: 'bg-green-50', text: 'text-green-800', border: 'border-green-200' },
+                                      'bg-purple-100 border-purple-300 text-purple-800': { bg: 'bg-purple-50', text: 'text-purple-800', border: 'border-purple-200' },
+                                      'bg-orange-100 border-orange-300 text-orange-800': { bg: 'bg-orange-50', text: 'text-orange-800', border: 'border-orange-200' },
+                                      'bg-red-100 border-red-300 text-red-800': { bg: 'bg-red-50', text: 'text-red-800', border: 'border-red-200' },
+                                      'bg-gray-100 border-gray-300 text-gray-800': { bg: 'bg-gray-50', text: 'text-gray-800', border: 'border-gray-200' }
+                                    }
+                                    return colorMap[colorClass] || { bg: 'bg-indigo-50', text: 'text-indigo-800', border: 'border-indigo-200' }
+                                  }
+                                  
+                                  const styles = getStyleClasses(colorClass)
+                                  const courseTitle = currentCourse.title_parsed?.zh_TW || currentCourse.title.split('`')[0]
+                                  const professorName = formatProfessor(currentCourse.professor)
+                                  
+                                  return (
+                                    <div key={`${timeIndex}`} className={`${styles.bg} ${styles.border} ${styles.text} border-l-4 ${conflictClass} rounded-r-lg p-3 shadow-sm`}>
+                                      <div className="flex items-start justify-between">
+                                        <div className="flex-1 min-w-0">
+                                          {/* 時間標籤 */}
+                                          <div className="flex items-center gap-2 mb-2">
+                                            <span className="bg-white bg-opacity-70 text-xs font-bold px-2 py-1 rounded-full">
+                                              第{timeIndex + 1}節
+                                            </span>
+                                            <span className="text-xs opacity-80">
+                                              {timeSlot}
+                                            </span>
+                                          </div>
+                                          
+                                          {/* 課程資訊 */}
+                                          <h5 className="font-bold text-sm leading-tight mb-1">
+                                            {courseTitle}
+                                          </h5>
+                                          <div className="text-xs opacity-90 space-y-1">
+                                            <div>{currentCourse.code} • {professorName}</div>
+                                            <div>{currentCourse.credits}學分</div>
+                                            {currentCourse.location && currentCourse.location.length > 0 && (
+                                              <div className="flex items-center gap-1">
+                                                <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                                                </svg>
+                                                {currentCourse.location.join(', ')}
+                                              </div>
+                                            )}
+                                          </div>
+                                          
+                                          {/* 衝突警告 */}
+                                          {course.isConflict && (
+                                            <div className="mt-2 bg-red-100 text-red-800 text-xs px-2 py-1 rounded-full inline-block">
+                                              ⚠️ 時間衝突
+                                            </div>
+                                          )}
+                                        </div>
+                                        
+                                        {/* 移除按鈕 */}
+                                        {onRemoveCourse && (
+                                          <button
+                                            onClick={() => onRemoveCourse(currentCourse.code)}
+                                            className="ml-2 p-2 text-red-500 hover:bg-red-100 rounded-full transition-colors"
+                                            title="移除課程"
+                                          >
+                                            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                                            </svg>
+                                          </button>
+                                        )}
+                                      </div>
+                                    </div>
+                                  )
+                                })}
+                              </div>
+                            )}
+                          </div>
                         </div>
-                        
-                        {/* 上課時間 */}
-                        {course.time_parsed && course.time_parsed.length > 0 && (
-                          <div className="text-xs">
-                            <span className="font-medium">上課時間：</span>
-                            {course.time_parsed.map((timeSlot, idx) => (
-                              <span key={idx} className="inline-block mr-2 mb-1">
-                                週{['', '一', '二', '三', '四', '五', '六', '日'][timeSlot.day]} 
-                                第{timeSlot.time.join(',')}節
-                              </span>
-                            ))}
-                          </div>
-                        )}
-                        
-                        {/* 上課地點 */}
-                        {course.location && course.location.length > 0 && (
-                          <div className="text-xs mt-1">
-                            <span className="font-medium">地點：</span>
-                            {course.location.join(', ')}
-                          </div>
-                        )}
-                      </div>
-                    )
-                  })}
+                      )
+                    })}
+                  </div>
                 </div>
               )}
             </div>
@@ -430,7 +487,7 @@ export default function SchedulePreview({ selectedCourses, onRemoveCourse, compa
             <div className="bg-gray-50 px-4 py-2 border-t border-gray-200">
               <div className="text-xs text-gray-600 flex items-center justify-between">
                 <span className="hidden md:inline">💡 懸停課程可查看詳細資訊</span>
-                <span className="md:hidden">📱 手機版以卡片顯示課程</span>
+                <span className="md:hidden">� 手機版按日期分組顯示課表</span>
                 <span className="hidden md:inline">📚 前8節直接顯示，晚間時段可滾動</span>
               </div>
             </div>
