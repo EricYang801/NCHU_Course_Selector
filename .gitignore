@@ -69,3 +69,5 @@ wheels/
 
 # Keep data files (these should be committed)
 !course-helper-web/public/data/*.json
+*.pem
+.DS_Store
