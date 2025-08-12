@@ -65,10 +65,37 @@ class NCHUCourseCrawler:
             清理後的文本
         """
         # 移除所有 ASCII 控制字符 (0-31) 和 DEL + 擴展控制字符 (127-159)
-        # 這個策略已驗證可以成功解析中興大學的 API 回應
         cleaned = re.sub(r'[\x00-\x1f\x7f-\x9f]', '', text)
-        
-        return cleaned
+
+        # 有時候回應尾端會夾帶多餘符號 (例如 % 或其他雜訊)，導致 JSONDecodeError
+        # 策略：截斷到最後一個 '}' 為止（確保最外層物件閉合），避免尾端殘留非 JSON 字元
+        last_brace = cleaned.rfind('}')
+        if last_brace != -1:
+            trimmed = cleaned[:last_brace + 1]
+        else:
+            trimmed = cleaned  # 若找不到就維持原樣，後續會在解析階段失敗並紀錄
+
+        # 進一步檢查是否存在開頭雜訊：取第一個 '{' 之後的內容
+        first_brace = trimmed.find('{')
+        if first_brace > 0:
+            trimmed = trimmed[first_brace:]
+
+        return trimmed
+
+    def _repair_common_corruption(self, text: str) -> str:
+        """針對已知的 API JSON 資料異常模式進行修補。
+
+        目前觀察到的問題：
+        1. 陣列開頭出現多餘逗號: [ ,2,3] -> [2,3]
+        2. 重複逗號: [2,,3] -> [2,3]
+        3. time_parsed 區段內空白逗號組合導致解析失敗
+        """
+        repaired = text
+        # 1. 移除陣列左中括號後緊跟的逗號與空白
+        repaired = re.sub(r'\[\s*,+\s*', '[', repaired)
+        # 2. 將連續兩個或以上逗號壓成一個
+        repaired = re.sub(r',\s*,+', ',', repaired)
+        return repaired
     
     def _save_raw_response(self, career: str, content: str, status: str):
         """
@@ -117,12 +144,29 @@ class NCHUCourseCrawler:
                 cleaned_text = self._clean_json_text(response.text)
                 
                 try:
-                    data = json.loads(cleaned_text)
+                    # 進一步修補常見破損再解析
+                    repaired_text = self._repair_common_corruption(cleaned_text)
+                    data = json.loads(repaired_text)
                     self.logger.info(f"{career_name} 課程資料爬取成功，共 {len(data)} 筆資料")
                     return data
                 except json.JSONDecodeError as e:
-                    self.logger.error(f"{career_name} 清理後的 JSON 解析仍失敗: {e}")
-                    # 嘗試保存原始回應以供調試
+                    # 嘗試進階救援：只擷取最外層 { ... } 區段後再解析
+                    self.logger.warning(f"{career_name} 第一次解析失敗，嘗試進階救援: {e}")
+                    brace_match = re.search(r'\{.*\}', cleaned_text, flags=re.S)
+                    if brace_match:
+                        rescue_text = brace_match.group(0)
+                        # 再次截斷到最後一個 '}'（避免結尾殘留）
+                        rescue_text = rescue_text[:rescue_text.rfind('}') + 1]
+                        try:
+                            data = json.loads(rescue_text)
+                            self.logger.info(f"{career_name} 課程資料救援成功，共 {len(data)} 筆資料")
+                            return data
+                        except json.JSONDecodeError as e2:
+                            self.logger.error(f"{career_name} 進階救援仍失敗: {e2}")
+                    else:
+                        self.logger.error(f"{career_name} 無法找到可疑 JSON 主體以救援")
+
+                    # 保存原始回應以供調試
                     self._save_raw_response(career, response.text, "failed")
                     return None
             else:
