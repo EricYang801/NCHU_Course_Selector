@@ -110,12 +110,12 @@ export default function CourseList({ onAddCourse, onRemoveCourse, selectedCourse
   const CourseModal = ({ course, onClose }: { course: Course; onClose: () => void }) => (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
       <div className="bg-white rounded-lg max-w-2xl w-full max-h-[80vh] overflow-y-auto">
-        <div className="p-6">
+        <div className="p-4 sm:p-6">
           <div className="flex justify-between items-start mb-4">
-            <h3 className="text-xl font-bold text-gray-900">{course.title_parsed?.zh_TW || course.title}</h3>
+            <h3 className="text-lg sm:text-xl font-bold text-gray-900 pr-4">{course.title_parsed?.zh_TW || course.title}</h3>
             <button
               onClick={onClose}
-              className="text-gray-400 hover:text-gray-600"
+              className="flex-shrink-0 text-gray-400 hover:text-gray-600"
             >
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -124,7 +124,7 @@ export default function CourseList({ onAddCourse, onRemoveCourse, selectedCourse
           </div>
           
           <div className="space-y-4">
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
                 <span className="text-sm font-medium text-gray-500">課程代碼</span>
                 <p className="text-gray-900">{course.code}</p>
@@ -150,7 +150,7 @@ export default function CourseList({ onAddCourse, onRemoveCourse, selectedCourse
               <p className="text-gray-900">{formatProfessor(course.professor)}</p>
             </div>
             
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
                 <span className="text-sm font-medium text-gray-500">上課時間</span>
                 <p className="text-gray-900">{formatTime(course.time)}</p>
@@ -161,7 +161,7 @@ export default function CourseList({ onAddCourse, onRemoveCourse, selectedCourse
               </div>
             </div>
             
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
                 <span className="text-sm font-medium text-gray-500">授課語言</span>
                 <p className="text-gray-900">{course.language || '無'}</p>
@@ -186,7 +186,7 @@ export default function CourseList({ onAddCourse, onRemoveCourse, selectedCourse
                   href={`https://onepiece.nchu.edu.tw/cofsys/plsql/Syllabus_main?v_strm=1141&v_class_nbr=${course.url}`}
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="text-blue-600 hover:text-blue-800 block"
+                  className="text-blue-600 hover:text-blue-800 block break-all"
                 >
                   查看課程大綱
                 </a>
@@ -314,8 +314,8 @@ export default function CourseList({ onAddCourse, onRemoveCourse, selectedCourse
                   </div>
                 </div>
 
-                {/* 中間：課程資訊卡片 */}
-                <div className="grid grid-cols-3 gap-3 mb-4">
+                {/* 中間：課程資訊卡片 - 響應式設計 */}
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-4">
                   <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-md p-3">
                     <div className="flex items-center gap-1 mb-1">
                       <svg className="w-3 h-3 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -348,11 +348,11 @@ export default function CourseList({ onAddCourse, onRemoveCourse, selectedCourse
                   </div>
                 </div>
 
-                {/* 底部：操作按鈕 */}
-                <div className="flex items-center justify-between pt-3 border-t border-gray-100">
+                {/* 底部：操作按鈕 - 響應式設計 */}
+                <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 sm:gap-0 pt-3 border-t border-gray-100">
                   <button
                     onClick={() => setSelectedCourse(course)}
-                    className="inline-flex items-center gap-1 px-3 py-1.5 text-xs font-medium text-gray-600 hover:text-blue-600 transition-colors"
+                    className="inline-flex items-center justify-center sm:justify-start gap-1 px-3 py-2 sm:py-1.5 text-xs font-medium text-gray-600 hover:text-blue-600 transition-colors"
                   >
                     <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -368,7 +368,7 @@ export default function CourseList({ onAddCourse, onRemoveCourse, selectedCourse
                             e.stopPropagation()
                             onRemoveCourse(course.code)
                           }}
-                          className="inline-flex items-center gap-1 px-4 py-2 rounded-lg text-xs font-bold bg-gradient-to-r from-red-500 to-pink-600 text-white hover:from-red-600 hover:to-pink-700 transition-all duration-200 shadow-md hover:shadow-lg"
+                          className="flex-1 sm:flex-none inline-flex items-center justify-center gap-1 px-4 py-2 rounded-lg text-xs font-bold bg-gradient-to-r from-red-500 to-pink-600 text-white hover:from-red-600 hover:to-pink-700 transition-all duration-200 shadow-md hover:shadow-lg"
                         >
                           <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -383,7 +383,7 @@ export default function CourseList({ onAddCourse, onRemoveCourse, selectedCourse
                             e.stopPropagation()
                             onAddCourse(course)
                           }}
-                          className="inline-flex items-center gap-1 px-4 py-2 rounded-lg text-xs font-bold bg-gradient-to-r from-blue-500 to-indigo-600 text-white hover:from-blue-600 hover:to-indigo-700 transition-all duration-200 shadow-md hover:shadow-lg"
+                          className="flex-1 sm:flex-none inline-flex items-center justify-center gap-1 px-4 py-2 rounded-lg text-xs font-bold bg-gradient-to-r from-blue-500 to-indigo-600 text-white hover:from-blue-600 hover:to-indigo-700 transition-all duration-200 shadow-md hover:shadow-lg"
                         >
                           <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
@@ -400,10 +400,40 @@ export default function CourseList({ onAddCourse, onRemoveCourse, selectedCourse
         </div>
       )}
 
-      {/* 分頁 */}
+      {/* 分頁 - 響應式設計 */}
       {pagination.totalPages > 1 && (
         <div className="mt-8 flex items-center justify-center">
-          <nav className="flex items-center gap-2">
+          {/* 手機版：簡化分頁 */}
+          <nav className="flex sm:hidden items-center justify-between w-full max-w-sm">
+            <button
+              onClick={() => handlePageChange(pagination.page - 1)}
+              disabled={pagination.page === 1}
+              className="inline-flex items-center gap-1 px-3 py-2 rounded-lg text-sm font-medium bg-white border border-gray-300 text-gray-700 hover:bg-gray-50 hover:border-gray-400 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200"
+            >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+              </svg>
+              上一頁
+            </button>
+            
+            <span className="text-sm text-gray-600 font-medium">
+              {pagination.page} / {pagination.totalPages}
+            </span>
+            
+            <button
+              onClick={() => handlePageChange(pagination.page + 1)}
+              disabled={pagination.page === pagination.totalPages}
+              className="inline-flex items-center gap-1 px-3 py-2 rounded-lg text-sm font-medium bg-white border border-gray-300 text-gray-700 hover:bg-gray-50 hover:border-gray-400 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200"
+            >
+              下一頁
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </button>
+          </nav>
+
+          {/* 桌面版：完整分頁 */}
+          <nav className="hidden sm:flex items-center gap-2">
             <button
               onClick={() => handlePageChange(pagination.page - 1)}
               disabled={pagination.page === 1}

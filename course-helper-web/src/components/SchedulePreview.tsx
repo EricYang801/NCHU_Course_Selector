@@ -236,7 +236,7 @@ export default function SchedulePreview({ selectedCourses, onRemoveCourse, compa
         </div>
       ) : (
         <>
-          {/* 課表網格 - 可滾動的表格設計 */}
+                    {/* 課表網格 - 響應式設計 */}
           <div className="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden">
             <div className="bg-gradient-to-r from-gray-50 to-gray-100 px-4 py-2 border-b border-gray-200">
               <h3 className="font-bold text-gray-800 text-sm flex items-center gap-2">
@@ -247,111 +247,197 @@ export default function SchedulePreview({ selectedCourses, onRemoveCourse, compa
               </h3>
             </div>
             
-            {/* 固定高度課表容器 - 顯示前8節，其餘可滾動 */}
-            <div className="overflow-hidden">
-              <table className="w-full border-collapse table-fixed">
-                <thead>
-                  <tr className="bg-gradient-to-r from-gray-100 to-gray-50 border-b-2 border-gray-200">
-                    <th className="border-r border-gray-200 p-2 text-xs font-bold text-gray-700 w-16 bg-gray-100">
-                      <div className="text-center">
-                        <div className="text-xs text-gray-500 mb-1">節次</div>
-                        <div className="text-xs text-gray-600">時間</div>
+            {/* 手機版：使用卡片式佈局 */}
+            <div className="md:hidden">
+              {selectedCourses.length === 0 ? (
+                <div className="text-center py-8 text-gray-500">
+                  <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-3">
+                    <svg className="w-8 h-8 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                    </svg>
+                  </div>
+                  <p className="text-sm">尚未選擇任何課程</p>
+                  <p className="text-xs mt-1">加入課程後即可查看課表</p>
+                </div>
+              ) : (
+                <div className="p-4 space-y-4 max-h-96 overflow-y-auto">
+                  {selectedCourses.map(course => {
+                    const career = getCareerFromDepartment(course.for_dept || course.department)
+                    const colorClass = CAREER_COLORS[career as keyof typeof CAREER_COLORS]
+                    const getColorClasses = (colorClass: string) => {
+                      const colorMap: { [key: string]: { bg: string, border: string, text: string } } = {
+                        'bg-blue-100 border-blue-300 text-blue-800': { bg: 'bg-blue-50', border: 'border-blue-200', text: 'text-blue-800' },
+                        'bg-green-100 border-green-300 text-green-800': { bg: 'bg-green-50', border: 'border-green-200', text: 'text-green-800' },
+                        'bg-purple-100 border-purple-300 text-purple-800': { bg: 'bg-purple-50', border: 'border-purple-200', text: 'text-purple-800' },
+                        'bg-orange-100 border-orange-300 text-orange-800': { bg: 'bg-orange-50', border: 'border-orange-200', text: 'text-orange-800' },
+                        'bg-red-100 border-red-300 text-red-800': { bg: 'bg-red-50', border: 'border-red-200', text: 'text-red-800' },
+                        'bg-gray-100 border-gray-300 text-gray-800': { bg: 'bg-gray-50', border: 'border-gray-200', text: 'text-gray-800' }
+                      }
+                      return colorMap[colorClass] || { bg: 'bg-indigo-50', border: 'border-indigo-200', text: 'text-indigo-800' }
+                    }
+                    
+                    const colors = getColorClasses(colorClass)
+                    const courseTitle = course.title_parsed?.zh_TW || course.title.split('`')[0]
+                    const professorName = formatProfessor(course.professor)
+                    
+                    return (
+                      <div key={course.code} className={`${colors.bg} ${colors.border} ${colors.text} border-2 rounded-lg p-3`}>
+                        <div className="flex justify-between items-start mb-2">
+                          <div className="flex-1 min-w-0">
+                            <h4 className="font-bold text-sm leading-tight mb-1">
+                              {courseTitle}
+                            </h4>
+                            <div className="text-xs opacity-80">
+                              {course.code} • {professorName} • {course.credits}學分
+                            </div>
+                          </div>
+                          {onRemoveCourse && (
+                            <button
+                              onClick={() => onRemoveCourse(course.code)}
+                              className="ml-2 text-red-600 hover:text-red-800 p-1"
+                            >
+                              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                              </svg>
+                            </button>
+                          )}
+                        </div>
+                        
+                        {/* 上課時間 */}
+                        {course.time_parsed && course.time_parsed.length > 0 && (
+                          <div className="text-xs">
+                            <span className="font-medium">上課時間：</span>
+                            {course.time_parsed.map((timeSlot, idx) => (
+                              <span key={idx} className="inline-block mr-2 mb-1">
+                                週{['', '一', '二', '三', '四', '五', '六', '日'][timeSlot.day]} 
+                                第{timeSlot.time.join(',')}節
+                              </span>
+                            ))}
+                          </div>
+                        )}
+                        
+                        {/* 上課地點 */}
+                        {course.location && course.location.length > 0 && (
+                          <div className="text-xs mt-1">
+                            <span className="font-medium">地點：</span>
+                            {course.location.join(', ')}
+                          </div>
+                        )}
                       </div>
-                    </th>
-                    {WEEKDAYS.map(day => (
-                      <th key={day} className="border-r border-gray-200 p-2 text-xs font-bold text-gray-700 bg-gray-100">
-                        <div className="text-center">
-                          <div className="text-xs text-gray-500 mb-1">星期</div>
-                          <div className="text-sm font-bold text-gray-800">{day}</div>
-                        </div>
-                      </th>
-                    ))}
-                  </tr>
-                </thead>
-                <tbody>
-                  {/* 前8節直接顯示，無需滾動 */}
-                  {TIME_SLOTS.slice(0, 8).map((timeSlot, timeIndex) => (
-                    <tr key={timeIndex} className="hover:bg-gray-50 transition-colors border-b border-gray-100">
-                      {/* 時間欄位 - 顯示完整開始結束時間 */}
-                      <td className="border-r border-gray-200 p-1.5 text-center bg-gradient-to-br from-blue-50 to-indigo-50">
-                        <div className="space-y-1">
-                          <div className="text-xs font-bold text-blue-800 bg-blue-100 rounded px-1 py-0.5">
-                            第{timeIndex + 1}節
-                          </div>
-                          <div className="text-[10px] text-blue-700 leading-tight font-medium">
-                            {timeSlot}
-                          </div>
-                        </div>
-                      </td>
-                      
-                      {/* 各天課程欄位 */}
-                      {WEEKDAYS.map((day, dayIndex) => (
-                        <td key={dayIndex} className="border-r border-gray-200 p-1">
-                          {renderCourseCell(schedule[timeIndex]?.[dayIndex] || {})}
-                        </td>
-                      ))}
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-              
-              {/* 第9-13節的可滾動區域 */}
-              {TIME_SLOTS.length > 8 && (
-                <div className="border-t-2 border-gray-300">
-                  <div className="bg-gray-100 px-4 py-1 border-b border-gray-200">
-                    <div className="text-xs text-gray-600 font-medium flex items-center gap-2">
-                      <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
-                      </svg>
-                      晚間時段 (第9-13節) - 可滾動查看
-                    </div>
-                  </div>
-                  <div className="max-h-40 overflow-y-auto">
-                    <table className="w-full border-collapse table-fixed">
-                      <tbody>
-                        {TIME_SLOTS.slice(8).map((timeSlot, timeIndex) => {
-                          const actualIndex = timeIndex + 8;
-                          return (
-                            <tr key={actualIndex} className="hover:bg-gray-50 transition-colors border-b border-gray-100">
-                              {/* 時間欄位 */}
-                              <td className="border-r border-gray-200 p-1.5 text-center bg-gradient-to-br from-purple-50 to-indigo-50 w-16">
-                                <div className="space-y-1">
-                                  <div className="text-xs font-bold text-purple-800 bg-purple-100 rounded px-1 py-0.5">
-                                    第{actualIndex + 1}節
-                                  </div>
-                                  <div className="text-[10px] text-purple-700 leading-tight font-medium">
-                                    {timeSlot}
-                                  </div>
-                                </div>
-                              </td>
-                              
-                              {/* 各天課程欄位 */}
-                              {WEEKDAYS.map((day, dayIndex) => (
-                                <td key={dayIndex} className="border-r border-gray-200 p-1">
-                                  {renderCourseCell(schedule[actualIndex]?.[dayIndex] || {})}
-                                </td>
-                              ))}
-                            </tr>
-                          );
-                        })}
-                      </tbody>
-                    </table>
-                  </div>
+                    )
+                  })}
                 </div>
               )}
+            </div>
+            
+            {/* 桌面版：表格式佈局 */}
+            <div className="hidden md:block">
+              <div className="overflow-hidden">
+                <table className="w-full border-collapse table-fixed">
+                  <thead>
+                    <tr className="bg-gradient-to-r from-gray-100 to-gray-50 border-b-2 border-gray-200">
+                      <th className="border-r border-gray-200 p-2 text-xs font-bold text-gray-700 w-16 bg-gray-100">
+                        <div className="text-center">
+                          <div className="text-xs text-gray-500 mb-1">節次</div>
+                          <div className="text-xs text-gray-600">時間</div>
+                        </div>
+                      </th>
+                      {WEEKDAYS.map(day => (
+                        <th key={day} className="border-r border-gray-200 p-2 text-xs font-bold text-gray-700 bg-gray-100">
+                          <div className="text-center">
+                            <div className="text-xs text-gray-500 mb-1">星期</div>
+                            <div className="text-sm font-bold text-gray-800">{day}</div>
+                          </div>
+                        </th>
+                      ))}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {/* 前8節直接顯示，無需滾動 */}
+                    {TIME_SLOTS.slice(0, 8).map((timeSlot, timeIndex) => (
+                      <tr key={timeIndex} className="hover:bg-gray-50 transition-colors border-b border-gray-100">
+                        {/* 時間欄位 - 顯示完整開始結束時間 */}
+                        <td className="border-r border-gray-200 p-1.5 text-center bg-gradient-to-br from-blue-50 to-indigo-50">
+                          <div className="space-y-1">
+                            <div className="text-xs font-bold text-blue-800 bg-blue-100 rounded px-1 py-0.5">
+                              第{timeIndex + 1}節
+                            </div>
+                            <div className="text-[10px] text-blue-700 leading-tight font-medium">
+                              {timeSlot}
+                            </div>
+                          </div>
+                        </td>
+                        
+                        {/* 各天課程欄位 */}
+                        {WEEKDAYS.map((day, dayIndex) => (
+                          <td key={dayIndex} className="border-r border-gray-200 p-1">
+                            {renderCourseCell(schedule[timeIndex]?.[dayIndex] || {})}
+                          </td>
+                        ))}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+                
+                {/* 第9-13節的可滾動區域 */}
+                {TIME_SLOTS.length > 8 && (
+                  <div className="border-t-2 border-gray-300">
+                    <div className="bg-gray-100 px-4 py-1 border-b border-gray-200">
+                      <div className="text-xs text-gray-600 font-medium flex items-center gap-2">
+                        <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
+                          <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                        </svg>
+                        晚間時段 (第9-13節) - 可滾動查看
+                      </div>
+                    </div>
+                    <div className="max-h-40 overflow-y-auto">
+                      <table className="w-full border-collapse table-fixed">
+                        <tbody>
+                          {TIME_SLOTS.slice(8).map((timeSlot, timeIndex) => {
+                            const actualIndex = timeIndex + 8;
+                            return (
+                              <tr key={actualIndex} className="hover:bg-gray-50 transition-colors border-b border-gray-100">
+                                {/* 時間欄位 */}
+                                <td className="border-r border-gray-200 p-1.5 text-center bg-gradient-to-br from-purple-50 to-indigo-50 w-16">
+                                  <div className="space-y-1">
+                                    <div className="text-xs font-bold text-purple-800 bg-purple-100 rounded px-1 py-0.5">
+                                      第{actualIndex + 1}節
+                                    </div>
+                                    <div className="text-[10px] text-purple-700 leading-tight font-medium">
+                                      {timeSlot}
+                                    </div>
+                                  </div>
+                                </td>
+                                
+                                {/* 各天課程欄位 */}
+                                {WEEKDAYS.map((day, dayIndex) => (
+                                  <td key={dayIndex} className="border-r border-gray-200 p-1">
+                                    {renderCourseCell(schedule[actualIndex]?.[dayIndex] || {})}
+                                  </td>
+                                ))}
+                              </tr>
+                            );
+                          })}
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                )}
+              </div>
             </div>
             
             {/* 課表說明 */}
             <div className="bg-gray-50 px-4 py-2 border-t border-gray-200">
               <div className="text-xs text-gray-600 flex items-center justify-between">
-                <span>💡 懸停課程可查看詳細資訊</span>
-                <span>📚 前8節直接顯示，晚間時段可滾動</span>
+                <span className="hidden md:inline">💡 懸停課程可查看詳細資訊</span>
+                <span className="md:hidden">📱 手機版以卡片顯示課程</span>
+                <span className="hidden md:inline">📚 前8節直接顯示，晚間時段可滾動</span>
               </div>
             </div>
           </div>
 
-          {/* 已選課程列表 - 美化版 */}
-          <div className="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden">
+          {/* 已選課程列表 - 只在桌面版顯示，手機版已整合到課表中 */}
+          <div className="hidden md:block bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden">
             <div className="bg-gradient-to-r from-green-50 to-emerald-50 px-4 py-3 border-b border-gray-200">
               <h3 className="font-bold text-gray-800 text-sm flex items-center gap-2">
                 <svg className="w-4 h-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
