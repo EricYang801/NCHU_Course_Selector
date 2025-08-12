@@ -150,7 +150,7 @@ export class CourseSearchEngine {
       list = list.filter(c => Array.from(terms).some(t => c.__dept_for_tokens.has(t)))
     }
     if (career) {
-      list = list.filter(c => (c as any).career === career || this.careerNameMap[(c as any).career] === career)
+      list = list.filter(c => (c as IndexedCourse).career === career || this.careerNameMap[(c as IndexedCourse).career || ''] === career)
     }
     if (professor) {
       const p = professor.toLowerCase()

@@ -1,6 +1,5 @@
 // 客戶端課程服務：統一靜態 JSON 讀取 + 進階搜尋（含縮寫展開）
 import { Course } from './course-types'
-import { DEPARTMENT_ABBREVIATIONS } from './course-utils'
 import { CourseSearchEngine } from './search-engine'
 
 interface CourseWithCareer extends Course { career?: string }
