@@ -71,13 +71,13 @@
       "obligatory_tf": false,
       "prerequisite": "",
       "professor": "朱彥煒",
-      "time": "467",
+      "time": "456",
       "time_parsed": [
         {
           "day": 4,
           "time": [
-            6,
-            7
+            5,
+            6
           ]
         }
       ],
@@ -115,13 +115,13 @@
       "obligatory_tf": false,
       "prerequisite": "",
       "professor": "陳盈璁",
-      "time": "467",
+      "time": "456",
       "time_parsed": [
         {
           "day": 4,
           "time": [
-            6,
-            7
+            5,
+            6
           ]
         }
       ],
@@ -202,12 +202,12 @@
       "obligatory_tf": true,
       "prerequisite": "",
       "professor": "謝立青",
-      "time": "5910",
+      "time": "519",
       "time_parsed": [
         {
           "day": 5,
           "time": [
-            10,
+            1,
             9
           ]
         }
@@ -306,6 +306,42 @@
         "zh_TW": "專題討論(一)"
       },
       "url": "4633",
+      "year": "半"
+    },
+    {
+      "class": "8",
+      "code": "8008",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "生物科技學研究所博士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "生物科技學研究所博士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        ""
+      ],
+      "note": "上課地點；中央研究院",
+      "number": "60",
+      "number_parsed": 60,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "王中茹",
+      "time": "",
+      "time_parsed": [],
+      "title": "植物生物學特論 `Advanced Plant Biology",
+      "title_parsed": {
+        "en_US": "Advanced Plant Biology",
+        "zh_TW": "植物生物學特論"
+      },
+      "url": "2696",
       "year": "半"
     },
     {
@@ -498,6 +534,42 @@
       "year": "半"
     },
     {
+      "class": "6",
+      "code": "8014",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "生物科技學研究所博士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "植物暨微生物國際碩士學位學程",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        ""
+      ],
+      "note": "上課地點；中央研究院",
+      "number": "10",
+      "number_parsed": 10,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "顧銓",
+      "time": "*",
+      "time_parsed": [],
+      "title": "真核生物多樣性與演化 `Diversity and Evolution of Eukaryotes",
+      "title_parsed": {
+        "en_US": "Diversity and Evolution of Eukaryotes",
+        "zh_TW": "真核生物多樣性與演化"
+      },
+      "url": "5614",
+      "year": "半"
+    },
+    {
       "class": "8",
       "code": "8014",
       "credits": "3",
@@ -517,12 +589,12 @@
         ""
       ],
       "note": "上課地點；中央研究院",
-      "number": "60",
-      "number_parsed": 60,
+      "number": "20",
+      "number_parsed": 20,
       "obligatory": "選修",
       "obligatory_tf": false,
       "prerequisite": "",
-      "professor": "中研院教師",
+      "professor": "顧銓",
       "time": "*",
       "time_parsed": [],
       "title": "真核生物多樣性與演化 `Diversity and Evolution of Eukaryotes",
@@ -702,7 +774,7 @@
       "obligatory": "必修",
       "obligatory_tf": true,
       "prerequisite": "",
-      "professor": "中研院教師",
+      "professor": "馬麗珊",
       "time": "",
       "time_parsed": [],
       "title": "專題討論與學術研討會 `Seminars and Symposia",
@@ -882,7 +954,7 @@
       "obligatory": "選修",
       "obligatory_tf": false,
       "prerequisite": "",
-      "professor": "中研院教師",
+      "professor": "吳志航",
       "time": "",
       "time_parsed": [],
       "title": "生物學暨生物科技特論(一) `Special Topics in Biological Science and Biotechnology(I)",
@@ -1035,42 +1107,6 @@
         "zh_TW": "幹細胞生物學"
       },
       "url": "4640",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8029",
-      "credits": "2",
-      "credits_parsed": 2,
-      "department": "生物科技學研究所博士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "生物科技學研究所博士班",
-      "hours": "2",
-      "hours_parsed": "2",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        ""
-      ],
-      "note": "上課地點；中央研究院",
-      "number": "60",
-      "number_parsed": 60,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "中研院教師",
-      "time": "",
-      "time_parsed": [],
-      "title": "發育生物學 `Developmental Biology",
-      "title_parsed": {
-        "en_US": "Developmental Biology",
-        "zh_TW": "發育生物學"
-      },
-      "url": "4636",
       "year": "半"
     },
     {
@@ -1266,13 +1302,13 @@
       "obligatory_tf": true,
       "prerequisite": "",
       "professor": "許美鈴",
-      "time": "456",
+      "time": "434",
       "time_parsed": [
         {
           "day": 4,
           "time": [
-            5,
-            6
+            3,
+            4
           ]
         }
       ],
@@ -1310,13 +1346,13 @@
       "obligatory_tf": true,
       "prerequisite": "",
       "professor": "許美鈴",
-      "time": "478",
+      "time": "456",
       "time_parsed": [
         {
           "day": 4,
           "time": [
-            7,
-            8
+            5,
+            6
           ]
         }
       ],
@@ -1390,9 +1426,9 @@
       "location": [
         "*"
       ],
-      "note": "",
-      "number": "0",
-      "number_parsed": 0,
+      "note": "暑期上課",
+      "number": "30",
+      "number_parsed": 30,
       "obligatory": "選修",
       "obligatory_tf": false,
       "prerequisite": "",
@@ -1409,57 +1445,13 @@
     },
     {
       "class": "8",
-      "code": "8040",
-      "credits": "2",
-      "credits_parsed": 2,
-      "department": "生技產業創新研發與管理博士學位學程",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "生技產業創新研發與管理博士學位學程",
-      "hours": "2",
-      "hours_parsed": "2",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "Z101"
-      ],
-      "note": "",
-      "number": "10",
-      "number_parsed": 10,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "何豐名",
-      "time": "434",
-      "time_parsed": [
-        {
-          "day": 4,
-          "time": [
-            3,
-            4
-          ]
-        }
-      ],
-      "title": "老化醫學(中西醫學)(一) `Aging(l)",
-      "title_parsed": {
-        "en_US": "Aging(l)",
-        "zh_TW": "老化醫學(中西醫學)(一)"
-      },
-      "url": "5301",
-      "year": "半"
-    },
-    {
-      "class": "8",
       "code": "8044",
       "credits": "1",
       "credits_parsed": 1,
-      "department": "no_data_foundno_data_found",
+      "department": "跨域創新生技國際博士學位學程",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "no_data_foundno_data_found",
+      "for_dept": "跨域創新生技國際博士學位學程",
       "hours": "2",
       "hours_parsed": "2",
       "intern_location": [
@@ -1564,7 +1556,7 @@
       "obligatory": "選修",
       "obligatory_tf": false,
       "prerequisite": "",
-      "professor": "中研院教師",
+      "professor": "廖永豐",
       "time": "*",
       "time_parsed": [],
       "title": "藥物化學 `Pharmaceutical Chemistry",
@@ -1850,10 +1842,10 @@
       "obligatory_tf": false,
       "prerequisite": "",
       "professor": "張樂心",
-      "time": "456",
+      "time": "156",
       "time_parsed": [
         {
-          "day": 4,
+          "day": 1,
           "time": [
             5,
             6
@@ -1894,10 +1886,10 @@
       "obligatory_tf": false,
       "prerequisite": "",
       "professor": "周士軒",
-      "time": "54",
+      "time": "14",
       "time_parsed": [
         {
-          "day": 5,
+          "day": 1,
           "time": [
             4
           ]
