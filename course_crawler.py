@@ -17,7 +17,7 @@ import time
 class NCHUCourseCrawler:
     """中興大學課程爬取器"""
     
-    def __init__(self, data_dir: str = "../course_data"):
+    def __init__(self, data_dir: str = "course-helper-web/public/data"):
         """
         初始化爬取器
         
@@ -107,8 +107,8 @@ class NCHUCourseCrawler:
             status: 狀態標記
         """
         try:
-            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            filename = f"raw_{career}_{status}_{timestamp}.txt"
+            # 使用固定檔名用於調試，不含時間戳記
+            filename = f"raw_{career}_{status}.txt"
             filepath = os.path.join(self.data_dir, filename)
             
             with open(filepath, 'w', encoding='utf-8') as f:
@@ -198,8 +198,8 @@ class NCHUCourseCrawler:
             儲存成功返回True，失敗返回False
         """
         career_name = self.career_mapping.get(career, career)
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        filename = f"{career}_{career_name}_{timestamp}.json"
+        # 使用固定檔名，不含時間戳記
+        filename = f"{career}_{career_name}.json"
         filepath = os.path.join(self.data_dir, filename)
         
         try:
