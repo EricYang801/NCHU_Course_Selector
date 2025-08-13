@@ -24,11 +24,8 @@ export interface CourseSearchResult {
   totalPages: number
 }
 
-// 資料版本：若 public/data 下的課程原始 JSON 更新，請同步調整此版本字串
-// 建議格式：YYYYMMDD 或 加上流水號，例如 20250812-1
-const COURSE_DATA_VERSION = '20250812'
+// 移除版本控制機制，直接使用 localStorage 快取，定期清理由使用者手動重新整理
 const LS_KEY_DATA = 'courses:data'
-const LS_KEY_VERSION = 'courses:version'
 const LS_KEY_TIMESTAMP = 'courses:fetchedAt'
 
 class CourseService {
@@ -45,24 +42,18 @@ class CourseService {
     if (this.isLoaded) return
     if (typeof window === 'undefined') return Promise.resolve()
 
-    // 1) 嘗試從 localStorage 載入（版本需一致）
+    // 嘗試從 localStorage 載入快取資料
     try {
-      const storedVersion = localStorage.getItem(LS_KEY_VERSION)
-      if (storedVersion === COURSE_DATA_VERSION) {
-        const raw = localStorage.getItem(LS_KEY_DATA)
-        if (raw) {
-          const parsed = JSON.parse(raw) as CourseWithCareer[]
-          if (Array.isArray(parsed) && parsed.length) {
-            this.allCourses = parsed
-            this.isLoaded = true
-            return
-          }
+      const raw = localStorage.getItem(LS_KEY_DATA)
+      if (raw) {
+        const parsed = JSON.parse(raw) as CourseWithCareer[]
+        if (Array.isArray(parsed) && parsed.length) {
+          this.allCourses = parsed
+          this.isLoaded = true
+          this.searchEngine.build(this.allCourses)
+          console.log(`從快取載入 ${this.allCourses.length} 門課程`)
+          return
         }
-      } else {
-        // 版本不同，清除舊資料
-        localStorage.removeItem(LS_KEY_DATA)
-        localStorage.removeItem(LS_KEY_TIMESTAMP)
-        localStorage.setItem(LS_KEY_VERSION, COURSE_DATA_VERSION)
       }
     } catch (e) {
       console.warn('讀取本地快取失敗，將改為網路載入', e)
@@ -91,28 +82,31 @@ class CourseService {
       // 寫入 localStorage 快取
       try {
         localStorage.setItem(LS_KEY_DATA, JSON.stringify(this.allCourses))
-        localStorage.setItem(LS_KEY_VERSION, COURSE_DATA_VERSION)
         localStorage.setItem(LS_KEY_TIMESTAMP, Date.now().toString())
+        console.log(`從網路載入並快取 ${this.allCourses.length} 門課程`)
       } catch (e) {
         console.warn('寫入本地快取失敗', e)
       }
     } catch (e) { console.error('載入課程資料時發生錯誤:', e); throw e }
   }
 
-  /** 強制重新抓取（忽略本地快取） */
+  /** 強制重新抓取（清除本地快取） */
   async refresh(forceNetwork = true): Promise<void> {
     if (typeof window === 'undefined') return
     if (forceNetwork) {
       localStorage.removeItem(LS_KEY_DATA)
       localStorage.removeItem(LS_KEY_TIMESTAMP)
-      // 不移除版本（可能剛剛已更新過），由呼叫者自行確保版本值
     }
     this.isLoaded = false
     this.allCourses = []
     await this.loadCourses()
   }
 
-  getVersion(): string { return COURSE_DATA_VERSION }
+  getVersion(): string { 
+    // 返回快取時間作為版本資訊
+    const timestamp = this.getCachedAt()
+    return timestamp ? new Date(timestamp).toISOString() : 'unknown'
+  }
   getCachedAt(): number | null {
     if (typeof window === 'undefined') return null
     const ts = localStorage.getItem(LS_KEY_TIMESTAMP)
