@@ -1,5 +1,4 @@
 // 課程相關的共用工具函數和常數
-import { Course } from './course-types'
 
 // 學制顏色配置
 export const CAREER_COLORS = {

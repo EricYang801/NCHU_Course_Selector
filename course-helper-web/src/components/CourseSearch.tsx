@@ -204,7 +204,7 @@ export default function CourseSearch({ onSearch }: CourseSearchProps) {
 
         {/* 進階搜尋選項 */}
         {isAdvanced && (
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 pt-3 border-t border-gray-200">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-3 border-t border-gray-200">
             {/* 上課系所 */}
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1">
@@ -290,14 +290,14 @@ export default function CourseSearch({ onSearch }: CourseSearchProps) {
             </div>
 
             {/* 上課時間 */}
-            <div className="lg:col-span-2">
+            <div className="md:col-span-2">
               <label className="block text-sm font-medium text-gray-700 mb-1">
                 上課時間
               </label>
               
               {/* 篩選模式選擇 */}
               <div className="mb-3">
-                <div className="flex space-x-2">
+                <div className="flex flex-wrap gap-x-4 gap-y-2">
                   <label className="flex items-center">
                     <input
                       type="radio"
@@ -331,21 +331,22 @@ export default function CourseSearch({ onSearch }: CourseSearchProps) {
                 </div>
               </div>
 
-              {/* 週課表時間選擇器 */}
+              {/* 週課表時間選擇器 - 響應式設計 */}
               <div className="border border-gray-300 rounded-md overflow-hidden">
                 {/* 表頭 */}
                 <div className="grid grid-cols-8 bg-gray-50">
-                  <div className="p-2 text-center text-xs font-medium text-gray-700 border-r border-gray-200">
+                  <div className="p-1 sm:p-2 text-center text-xs font-medium text-gray-700 border-r border-gray-200">
                     節次
                   </div>
                   {weekDays.map((day, index) => (
                     <div
                       key={day}
-                      className={`p-2 text-center text-xs font-medium text-gray-700 ${
+                      className={`p-1 sm:p-2 text-center text-xs font-medium text-gray-700 ${
                         index < weekDays.length - 1 ? 'border-r border-gray-200' : ''
                       }`}
                     >
-                      {day}
+                      <span className="hidden sm:inline">{day}</span>
+                      <span className="sm:hidden">{day.charAt(0)}</span>
                     </div>
                   ))}
                 </div>
@@ -355,7 +356,7 @@ export default function CourseSearch({ onSearch }: CourseSearchProps) {
                   {timeSlots.map((slot) => (
                     <div key={slot.period} className="grid grid-cols-8 border-t border-gray-200">
                       {/* 節次欄 */}
-                      <div className="p-2 text-center border-r border-gray-200 bg-gray-50">
+                      <div className="p-1 sm:p-2 text-center border-r border-gray-200 bg-gray-50">
                         <div className="text-xs font-medium text-gray-700">{slot.period}</div>
                       </div>
 
@@ -368,7 +369,7 @@ export default function CourseSearch({ onSearch }: CourseSearchProps) {
                           <button
                             key={`${dayIndex}-${slot.period}`}
                             onClick={() => handleTimeSlotClick(dayIndex, slot.period)}
-                            className={`p-2 h-8 text-xs transition-colors border-r border-gray-200 last:border-r-0 hover:bg-blue-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-1 ${
+                            className={`p-1 sm:p-2 h-6 sm:h-8 text-xs transition-colors border-r border-gray-200 last:border-r-0 hover:bg-blue-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-1 ${
                               isSelected 
                                 ? 'bg-blue-600 text-white hover:bg-blue-700' 
                                 : 'text-gray-600 hover:text-blue-700'
@@ -402,7 +403,7 @@ export default function CourseSearch({ onSearch }: CourseSearchProps) {
         )}
 
         {/* 按鈕 */}
-        <div className="flex space-x-2 pt-3">
+        <div className="flex flex-col sm:flex-row gap-2 sm:space-x-2 sm:space-y-0 pt-3">
           <button
             onClick={handleSearch}
             className="flex-1 bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors text-sm font-medium"
