@@ -10100,9 +10100,9 @@
       "location": [
         "CC214"
       ],
-      "note": "上課時間：01-08週(動科系)|Class time:1~8weeks(Animal Science). ",
-      "number": "55",
-      "number_parsed": 55,
+      "note": "上課時間：01-08週(動科系)，不開放特殊加簽|Class time:1~8weeks(Animal Science). Addition is not accepted.",
+      "number": "58",
+      "number_parsed": 58,
       "obligatory": "必修",
       "obligatory_tf": true,
       "prerequisite": "",
@@ -10144,7 +10144,7 @@
       "location": [
         "L216"
       ],
-      "note": "上課時間：01-08週(中文系-前28位)|Class time:1~8weeks(Chinese Literature). ",
+      "note": "上課時間：01-08週(中文系-前27位)|Class time:1~8weeks(Chinese Literature). ",
       "number": "35",
       "number_parsed": 35,
       "obligatory": "必修",
@@ -10188,9 +10188,9 @@
       "location": [
         "L216"
       ],
-      "note": "上課時間：01-08週(食生系-前25位)|Class time:1~8weeks(Food Science and Biotechnology)",
-      "number": "35",
-      "number_parsed": 35,
+      "note": "上課時間：01-08週(食生系-前29位)|Class time:1~8weeks(Food Science and Biotechnology)",
+      "number": "40",
+      "number_parsed": 40,
       "obligatory": "必修",
       "obligatory_tf": true,
       "prerequisite": "",
@@ -10320,9 +10320,9 @@
       "location": [
         "L216"
       ],
-      "note": "上課時間：01-08週(植病系-前25位)|Class time:1~8weeks(Plant Pathology)",
-      "number": "32",
-      "number_parsed": 32,
+      "note": "上課時間：01-08週(植病系-前26位)|Class time:1~8weeks(Plant Pathology)",
+      "number": "33",
+      "number_parsed": 33,
       "obligatory": "必修",
       "obligatory_tf": true,
       "prerequisite": "",
@@ -10408,7 +10408,7 @@
       "location": [
         "S821"
       ],
-      "note": "上課時間：01-08週(外文系-前30位)|Class time:1~8weeks(Foreign Languages and Literatures)",
+      "note": "上課時間：01-08週(外文系-前29位)|Class time:1~8weeks(Foreign Languages and Literatures)",
       "number": "40",
       "number_parsed": 40,
       "obligatory": "必修",

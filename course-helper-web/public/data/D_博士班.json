@@ -345,6 +345,42 @@
       "year": "半"
     },
     {
+      "class": "6",
+      "code": "8008",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "生物科技學研究所博士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "植物暨微生物國際碩士學位學程",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        ""
+      ],
+      "note": "上課地點；中央研究院",
+      "number": "60",
+      "number_parsed": 60,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "王中茹",
+      "time": "",
+      "time_parsed": [],
+      "title": "植物生物學特論 `Advanced Plant Biology",
+      "title_parsed": {
+        "en_US": "Advanced Plant Biology",
+        "zh_TW": "植物生物學特論"
+      },
+      "url": "4538",
+      "year": "半"
+    },
+    {
       "class": "8",
       "code": "8009",
       "credits": "3",
