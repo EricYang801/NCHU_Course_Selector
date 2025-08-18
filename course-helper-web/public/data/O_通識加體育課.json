@@ -4616,7 +4616,7 @@
       "intern_time": "",
       "language": "中文",
       "location": [
-        "Y605"
+        "Y109"
       ],
       "note": "不開放校際選課|Inter-school course selection closed.",
       "number": "40",
@@ -4625,10 +4625,10 @@
       "obligatory_tf": true,
       "prerequisite": "",
       "professor": "蕭怡姍",
-      "time": "412",
+      "time": "512",
       "time_parsed": [
         {
-          "day": 4,
+          "day": 5,
           "time": [
             1,
             2
@@ -4660,7 +4660,7 @@
       "intern_time": "",
       "language": "中文",
       "location": [
-        "Y605"
+        "Y109"
       ],
       "note": "不開放校際選課|Inter-school course selection closed.",
       "number": "40",
@@ -4669,10 +4669,10 @@
       "obligatory_tf": true,
       "prerequisite": "",
       "professor": "蕭怡姍",
-      "time": "434",
+      "time": "534",
       "time_parsed": [
         {
-          "day": 4,
+          "day": 5,
           "time": [
             3,
             4
@@ -10088,7 +10088,7 @@
       "credits_parsed": 1,
       "department": "通識教育中心",
       "discipline": "",
-      "enrolled_num": "0",
+      "enrolled_num": "58",
       "for_dept": "不限系所",
       "hours": "1",
       "hours_parsed": "1",
@@ -10132,7 +10132,7 @@
       "credits_parsed": 1,
       "department": "通識教育中心",
       "discipline": "",
-      "enrolled_num": "0",
+      "enrolled_num": "27",
       "for_dept": "不限系所",
       "hours": "1",
       "hours_parsed": "1",
@@ -10176,7 +10176,7 @@
       "credits_parsed": 1,
       "department": "通識教育中心",
       "discipline": "",
-      "enrolled_num": "0",
+      "enrolled_num": "29",
       "for_dept": "不限系所",
       "hours": "1",
       "hours_parsed": "1",
@@ -10220,7 +10220,7 @@
       "credits_parsed": 1,
       "department": "通識教育中心",
       "discipline": "",
-      "enrolled_num": "0",
+      "enrolled_num": "26",
       "for_dept": "不限系所",
       "hours": "1",
       "hours_parsed": "1",
@@ -10264,7 +10264,7 @@
       "credits_parsed": 1,
       "department": "通識教育中心",
       "discipline": "",
-      "enrolled_num": "0",
+      "enrolled_num": "49",
       "for_dept": "不限系所",
       "hours": "1",
       "hours_parsed": "1",
@@ -10308,7 +10308,7 @@
       "credits_parsed": 1,
       "department": "通識教育中心",
       "discipline": "",
-      "enrolled_num": "0",
+      "enrolled_num": "26",
       "for_dept": "不限系所",
       "hours": "1",
       "hours_parsed": "1",
@@ -10352,7 +10352,7 @@
       "credits_parsed": 1,
       "department": "通識教育中心",
       "discipline": "",
-      "enrolled_num": "0",
+      "enrolled_num": "35",
       "for_dept": "不限系所",
       "hours": "1",
       "hours_parsed": "1",
@@ -10396,7 +10396,7 @@
       "credits_parsed": 1,
       "department": "通識教育中心",
       "discipline": "",
-      "enrolled_num": "0",
+      "enrolled_num": "29",
       "for_dept": "不限系所",
       "hours": "1",
       "hours_parsed": "1",
@@ -10440,7 +10440,7 @@
       "credits_parsed": 1,
       "department": "通識教育中心",
       "discipline": "",
-      "enrolled_num": "0",
+      "enrolled_num": "46",
       "for_dept": "不限系所",
       "hours": "1",
       "hours_parsed": "1",
@@ -10484,7 +10484,7 @@
       "credits_parsed": 1,
       "department": "通識教育中心",
       "discipline": "",
-      "enrolled_num": "0",
+      "enrolled_num": "50",
       "for_dept": "不限系所",
       "hours": "1",
       "hours_parsed": "1",
@@ -10528,7 +10528,7 @@
       "credits_parsed": 1,
       "department": "通識教育中心",
       "discipline": "",
-      "enrolled_num": "0",
+      "enrolled_num": "28",
       "for_dept": "不限系所",
       "hours": "1",
       "hours_parsed": "1",
@@ -10572,7 +10572,7 @@
       "credits_parsed": 1,
       "department": "通識教育中心",
       "discipline": "",
-      "enrolled_num": "0",
+      "enrolled_num": "30",
       "for_dept": "不限系所",
       "hours": "1",
       "hours_parsed": "1",
@@ -10616,7 +10616,7 @@
       "credits_parsed": 1,
       "department": "通識教育中心",
       "discipline": "",
-      "enrolled_num": "0",
+      "enrolled_num": "27",
       "for_dept": "不限系所",
       "hours": "1",
       "hours_parsed": "1",
@@ -10660,7 +10660,7 @@
       "credits_parsed": 1,
       "department": "通識教育中心",
       "discipline": "",
-      "enrolled_num": "0",
+      "enrolled_num": "49",
       "for_dept": "不限系所",
       "hours": "1",
       "hours_parsed": "1",
@@ -10704,7 +10704,7 @@
       "credits_parsed": 1,
       "department": "通識教育中心",
       "discipline": "",
-      "enrolled_num": "0",
+      "enrolled_num": "27",
       "for_dept": "不限系所",
       "hours": "1",
       "hours_parsed": "1",
@@ -10748,7 +10748,7 @@
       "credits_parsed": 1,
       "department": "通識教育中心",
       "discipline": "",
-      "enrolled_num": "0",
+      "enrolled_num": "42",
       "for_dept": "不限系所",
       "hours": "1",
       "hours_parsed": "1",
@@ -10792,7 +10792,7 @@
       "credits_parsed": 1,
       "department": "通識教育中心",
       "discipline": "",
-      "enrolled_num": "0",
+      "enrolled_num": "30",
       "for_dept": "不限系所",
       "hours": "1",
       "hours_parsed": "1",
@@ -10836,7 +10836,7 @@
       "credits_parsed": 1,
       "department": "通識教育中心",
       "discipline": "",
-      "enrolled_num": "0",
+      "enrolled_num": "49",
       "for_dept": "不限系所",
       "hours": "1",
       "hours_parsed": "1",
@@ -13399,10 +13399,10 @@
           ]
         }
       ],
-      "title": "英語溝通與表達 `English Communication and Expression",
+      "title": "英語溝通與表達B `English Communication and Expression",
       "title_parsed": {
         "en_US": "English Communication and Expression",
-        "zh_TW": "英語溝通與表達"
+        "zh_TW": "英語溝通與表達B"
       },
       "url": "1334",
       "year": "全"
@@ -13642,7 +13642,7 @@
         ""
       ],
       "intern_time": "",
-      "language": "英文",
+      "language": "中/英文",
       "location": [
         "AA303"
       ],
@@ -13663,10 +13663,10 @@
           ]
         }
       ],
-      "title": "英語溝通與表達 `English Communication and Expression",
+      "title": "英語溝通與表達A `English Communication and Expression",
       "title_parsed": {
         "en_US": "English Communication and Expression",
-        "zh_TW": "英語溝通與表達"
+        "zh_TW": "英語溝通與表達A"
       },
       "url": "2971",
       "year": "全"
@@ -13688,7 +13688,7 @@
       "intern_time": "",
       "language": "英文",
       "location": [
-        "AA304"
+        "AA202"
       ],
       "note": "限企管.應經.生科.材料.生機.會計選修",
       "number": "0",
@@ -13862,7 +13862,7 @@
         ""
       ],
       "intern_time": "",
-      "language": "英文",
+      "language": "中/英文",
       "location": [
         "AA301"
       ],
@@ -13927,10 +13927,10 @@
           ]
         }
       ],
-      "title": "英語溝通與表達 `English Communication and Expression",
+      "title": "英語溝通與表達A `English Communication and Expression",
       "title_parsed": {
         "en_US": "English Communication and Expression",
-        "zh_TW": "英語溝通與表達"
+        "zh_TW": "英語溝通與表達A"
       },
       "url": "3059",
       "year": "全"
@@ -14191,10 +14191,10 @@
           ]
         }
       ],
-      "title": "英語溝通與表達 `English Communication and Expression",
+      "title": "英語溝通與表達A `English Communication and Expression",
       "title_parsed": {
         "en_US": "English Communication and Expression",
-        "zh_TW": "英語溝通與表達"
+        "zh_TW": "英語溝通與表達A"
       },
       "url": "4204",
       "year": "全"
@@ -14260,7 +14260,7 @@
       "intern_time": "",
       "language": "英文",
       "location": [
-        "AA304"
+        "AA202"
       ],
       "note": "限中文.動科.園藝.化工.水保.財金.電機A.景觀學程選修",
       "number": "0",
@@ -14499,10 +14499,10 @@
           ]
         }
       ],
-      "title": "英語溝通與表達 `English Communication and Expression",
+      "title": "英語溝通與表達A `English Communication and Expression",
       "title_parsed": {
         "en_US": "English Communication and Expression",
-        "zh_TW": "英語溝通與表達"
+        "zh_TW": "英語溝通與表達A"
       },
       "url": "1353",
       "year": "全"
@@ -14524,7 +14524,7 @@
       "intern_time": "",
       "language": "英文",
       "location": [
-        "AA304"
+        "AA202"
       ],
       "note": "限法律.昆蟲.獸醫AB.土環.食生.資工.資管選修",
       "number": "0",
@@ -14763,10 +14763,10 @@
           ]
         }
       ],
-      "title": "英語溝通與表達 `English Communication and Expression",
+      "title": "英語溝通與表達A `English Communication and Expression",
       "title_parsed": {
         "en_US": "English Communication and Expression",
-        "zh_TW": "英語溝通與表達"
+        "zh_TW": "英語溝通與表達A"
       },
       "url": "1354",
       "year": "全"
@@ -14788,7 +14788,7 @@
       "intern_time": "",
       "language": "英文",
       "location": [
-        "AA302"
+        "AA406"
       ],
       "note": "限植病.行銷.化學.應數AB.物理選修",
       "number": "0",
@@ -14797,12 +14797,20 @@
       "obligatory_tf": true,
       "prerequisite": "",
       "professor": "陳威頴",
-      "time": "",
-      "time_parsed": [],
-      "title": "英語溝通與表達 `English Communication and Expression",
+      "time": "278",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            7,
+            8
+          ]
+        }
+      ],
+      "title": "英語溝通與表達A `English Communication and Expression",
       "title_parsed": {
         "en_US": "English Communication and Expression",
-        "zh_TW": "英語溝通與表達"
+        "zh_TW": "英語溝通與表達A"
       },
       "url": "4072",
       "year": "全"
@@ -14824,7 +14832,7 @@
       "intern_time": "",
       "language": "英文",
       "location": [
-        "AA202"
+        "AA405"
       ],
       "note": "限企管.應經.生科.材料.生機.會計選修",
       "number": "0",
@@ -14833,12 +14841,20 @@
       "obligatory_tf": true,
       "prerequisite": "",
       "professor": "廖晨甯",
-      "time": "",
-      "time_parsed": [],
-      "title": "英語溝通與表達 `English Communication and Expression",
+      "time": "456",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            5,
+            6
+          ]
+        }
+      ],
+      "title": "英語溝通與表達A `English Communication and Expression",
       "title_parsed": {
         "en_US": "English Communication and Expression",
-        "zh_TW": "英語溝通與表達"
+        "zh_TW": "英語溝通與表達A"
       },
       "url": "3782",
       "year": "全"
@@ -14869,14 +14885,198 @@
       "obligatory_tf": true,
       "prerequisite": "",
       "professor": "黃琬婷",
-      "time": "",
-      "time_parsed": [],
-      "title": "英語溝通與表達 `English Communication and Expression",
+      "time": "256",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            5,
+            6
+          ]
+        }
+      ],
+      "title": "英語溝通與表達A `English Communication and Expression",
       "title_parsed": {
         "en_US": "English Communication and Expression",
-        "zh_TW": "英語溝通與表達"
+        "zh_TW": "英語溝通與表達A"
       },
       "url": "4083",
+      "year": "全"
+    },
+    {
+      "class": "1",
+      "code": "0941",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "語言中心",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "不限系所",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "AA202"
+      ],
+      "note": "限歷史.農藝.森林AB.環工.國農企學程.台文學士學程選修",
+      "number": "0",
+      "number_parsed": 0,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "廖晨甯",
+      "time": "378",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            7,
+            8
+          ]
+        }
+      ],
+      "title": "英語溝通與表達B `English Communication and Expression",
+      "title_parsed": {
+        "en_US": "English Communication and Expression",
+        "zh_TW": "英語溝通與表達B"
+      },
+      "url": "5626",
+      "year": "全"
+    },
+    {
+      "class": "1",
+      "code": "0942",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "語言中心",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "不限系所",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "AA501"
+      ],
+      "note": "限企管.應經.生科.材料.生機.會計選修",
+      "number": "0",
+      "number_parsed": 0,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "黃芝華",
+      "time": "456",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            5,
+            6
+          ]
+        }
+      ],
+      "title": "英語溝通與表達A `English Communication and Expression",
+      "title_parsed": {
+        "en_US": "English Communication and Expression",
+        "zh_TW": "英語溝通與表達A"
+      },
+      "url": "5627",
+      "year": "全"
+    },
+    {
+      "class": "1",
+      "code": "0943",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "語言中心",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "不限系所",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "AA201"
+      ],
+      "note": "限機械AB.土木AB.電機B.生技學程.電資學士班.智慧創意學程選修",
+      "number": "0",
+      "number_parsed": 0,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "陳榮旗",
+      "time": "156",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            5,
+            6
+          ]
+        }
+      ],
+      "title": "英語溝通與表達A `English Communication and Expression",
+      "title_parsed": {
+        "en_US": "English Communication and Expression",
+        "zh_TW": "英語溝通與表達A"
+      },
+      "url": "5628",
+      "year": "全"
+    },
+    {
+      "class": "1",
+      "code": "0944",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "語言中心",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "不限系所",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中/英文",
+      "location": [
+        "AA407"
+      ],
+      "note": "限中文.動科.園藝.化工.水保.財金.電機A.景觀學程選修",
+      "number": "0",
+      "number_parsed": 0,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "陳國豪",
+      "time": "356",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            5,
+            6
+          ]
+        }
+      ],
+      "title": "英語溝通與表達A `English Communication and Expression",
+      "title_parsed": {
+        "en_US": "English Communication and Expression",
+        "zh_TW": "英語溝通與表達A"
+      },
+      "url": "5647",
       "year": "全"
     },
     {
@@ -17115,7 +17315,7 @@
       "credits_parsed": 1,
       "department": "語言中心",
       "discipline": "",
-      "enrolled_num": "0",
+      "enrolled_num": "28",
       "for_dept": "國際農企業學士學位學程",
       "hours": "2",
       "hours_parsed": "2",
@@ -17203,7 +17403,7 @@
       "credits_parsed": 2,
       "department": "語言中心",
       "discipline": "",
-      "enrolled_num": "0",
+      "enrolled_num": "28",
       "for_dept": "國際農企業學士學位學程",
       "hours": "2",
       "hours_parsed": "2",
@@ -17213,7 +17413,7 @@
       "intern_time": "",
       "language": "英文",
       "location": [
-        "AA202"
+        "AA406"
       ],
       "note": "",
       "number": "35",
@@ -20348,6 +20548,49 @@
       "department": "文學院",
       "discipline": "",
       "enrolled_num": "0",
+      "for_dept": "外國語文學系學士班",
+      "hours": "1",
+      "hours_parsed": "1",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "A204-1"
+      ],
+      "note": "限文學院大一學生選課",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "高嘉勵",
+      "time": "45",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            5
+          ]
+        }
+      ],
+      "title": "文化台中 `Culture in Taichung",
+      "title_parsed": {
+        "en_US": "Culture in Taichung",
+        "zh_TW": "文化台中"
+      },
+      "url": "3648",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1902",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "文學院",
+      "discipline": "",
+      "enrolled_num": "0",
       "for_dept": "文學院",
       "hours": "1",
       "hours_parsed": "1",
@@ -20424,49 +20667,6 @@
         "zh_TW": "文化台中"
       },
       "url": "3881",
-      "year": "半"
-    },
-    {
-      "class": "1",
-      "code": "1902",
-      "credits": "1",
-      "credits_parsed": 1,
-      "department": "文學院",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "外國語文學系學士班",
-      "hours": "1",
-      "hours_parsed": "1",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        "A204-1"
-      ],
-      "note": "限文學院大一學生選課",
-      "number": "40",
-      "number_parsed": 40,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "高嘉勵",
-      "time": "45",
-      "time_parsed": [
-        {
-          "day": 4,
-          "time": [
-            5
-          ]
-        }
-      ],
-      "title": "文化台中 `Culture in Taichung",
-      "title_parsed": {
-        "en_US": "Culture in Taichung",
-        "zh_TW": "文化台中"
-      },
-      "url": "3648",
       "year": "半"
     },
     {
@@ -20651,50 +20851,6 @@
       "department": "文學院",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "歷史學系學士班",
-      "hours": "2",
-      "hours_parsed": "2",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "A205"
-      ],
-      "note": "限文學院大一學生選課",
-      "number": "35",
-      "number_parsed": 35,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "鄭怡玲",
-      "time": "278",
-      "time_parsed": [
-        {
-          "day": 2,
-          "time": [
-            7,
-            8
-          ]
-        }
-      ],
-      "title": "數位人文概論 `Introduction to Digital Humanities",
-      "title_parsed": {
-        "en_US": "Introduction to Digital Humanities",
-        "zh_TW": "數位人文概論"
-      },
-      "url": "2920",
-      "year": "半"
-    },
-    {
-      "class": "1",
-      "code": "1903",
-      "credits": "2",
-      "credits_parsed": 2,
-      "department": "文學院",
-      "discipline": "",
-      "enrolled_num": "0",
       "for_dept": "台灣人文創新學士學位學程",
       "hours": "2",
       "hours_parsed": "2",
@@ -20729,6 +20885,50 @@
         "zh_TW": "數位人文概論"
       },
       "url": "2922",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1903",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "文學院",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "歷史學系學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "A205"
+      ],
+      "note": "限文學院大一學生選課",
+      "number": "35",
+      "number_parsed": 35,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "鄭怡玲",
+      "time": "278",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            7,
+            8
+          ]
+        }
+      ],
+      "title": "數位人文概論 `Introduction to Digital Humanities",
+      "title_parsed": {
+        "en_US": "Introduction to Digital Humanities",
+        "zh_TW": "數位人文概論"
+      },
+      "url": "2920",
       "year": "半"
     },
     {
@@ -20783,92 +20983,6 @@
       "department": "文學院",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "歷史學系學士班",
-      "hours": "1",
-      "hours_parsed": "1",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        "A311-1"
-      ],
-      "note": "限文學院大一學生選課",
-      "number": "60",
-      "number_parsed": 60,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "范姜士璁",
-      "time": "25",
-      "time_parsed": [
-        {
-          "day": 2,
-          "time": [
-            5
-          ]
-        }
-      ],
-      "title": "歷史與電影 `History and Films",
-      "title_parsed": {
-        "en_US": "History and Films",
-        "zh_TW": "歷史與電影"
-      },
-      "url": "3952",
-      "year": "半"
-    },
-    {
-      "class": "1",
-      "code": "1904",
-      "credits": "1",
-      "credits_parsed": 1,
-      "department": "文學院",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "文學院",
-      "hours": "1",
-      "hours_parsed": "1",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        "A311-1"
-      ],
-      "note": "限文學院大一學生選課",
-      "number": "60",
-      "number_parsed": 60,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "范姜士璁",
-      "time": "25",
-      "time_parsed": [
-        {
-          "day": 2,
-          "time": [
-            5
-          ]
-        }
-      ],
-      "title": "歷史與電影 `History and Films",
-      "title_parsed": {
-        "en_US": "History and Films",
-        "zh_TW": "歷史與電影"
-      },
-      "url": "5601",
-      "year": "半"
-    },
-    {
-      "class": "1",
-      "code": "1904",
-      "credits": "1",
-      "credits_parsed": 1,
-      "department": "文學院",
-      "discipline": "",
-      "enrolled_num": "0",
       "for_dept": "台灣人文創新學士學位學程",
       "hours": "1",
       "hours_parsed": "1",
@@ -20902,6 +21016,49 @@
         "zh_TW": "歷史與電影"
       },
       "url": "3946",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1904",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "文學院",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "中國文學系學士班",
+      "hours": "1",
+      "hours_parsed": "1",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "A311-1"
+      ],
+      "note": "限文學院大一學生選課",
+      "number": "60",
+      "number_parsed": 60,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "范姜士璁",
+      "time": "25",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            5
+          ]
+        }
+      ],
+      "title": "歷史與電影 `History and Films",
+      "title_parsed": {
+        "en_US": "History and Films",
+        "zh_TW": "歷史與電影"
+      },
+      "url": "2449",
       "year": "半"
     },
     {
@@ -20955,7 +21112,7 @@
       "department": "文學院",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "中國文學系學士班",
+      "for_dept": "文學院",
       "hours": "1",
       "hours_parsed": "1",
       "intern_location": [
@@ -20987,7 +21144,50 @@
         "en_US": "History and Films",
         "zh_TW": "歷史與電影"
       },
-      "url": "2449",
+      "url": "5601",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1904",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "文學院",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "歷史學系學士班",
+      "hours": "1",
+      "hours_parsed": "1",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "A311-1"
+      ],
+      "note": "限文學院大一學生選課",
+      "number": "60",
+      "number_parsed": 60,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "范姜士璁",
+      "time": "25",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            5
+          ]
+        }
+      ],
+      "title": "歷史與電影 `History and Films",
+      "title_parsed": {
+        "en_US": "History and Films",
+        "zh_TW": "歷史與電影"
+      },
+      "url": "3952",
       "year": "半"
     },
     {
@@ -21086,50 +21286,6 @@
       "department": "文學院",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "外國語文學系學士班",
-      "hours": "2",
-      "hours_parsed": "2",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "A310"
-      ],
-      "note": "限文學院大一學生選課",
-      "number": "42",
-      "number_parsed": 42,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "劉佳育",
-      "time": "478",
-      "time_parsed": [
-        {
-          "day": 4,
-          "time": [
-            7,
-            8
-          ]
-        }
-      ],
-      "title": "影像處理與電腦繪圖 `Image Processing and Computer Graphic",
-      "title_parsed": {
-        "en_US": "Image Processing and Computer Graphic",
-        "zh_TW": "影像處理與電腦繪圖"
-      },
-      "url": "5755",
-      "year": "半"
-    },
-    {
-      "class": "1",
-      "code": "1905",
-      "credits": "2",
-      "credits_parsed": 2,
-      "department": "文學院",
-      "discipline": "",
-      "enrolled_num": "0",
       "for_dept": "中國文學系學士班",
       "hours": "2",
       "hours_parsed": "2",
@@ -21164,6 +21320,50 @@
         "zh_TW": "影像處理與電腦繪圖"
       },
       "url": "5560",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1905",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "文學院",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "外國語文學系學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "A310"
+      ],
+      "note": "限文學院大一學生選課",
+      "number": "42",
+      "number_parsed": 42,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "劉佳育",
+      "time": "478",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            7,
+            8
+          ]
+        }
+      ],
+      "title": "影像處理與電腦繪圖 `Image Processing and Computer Graphic",
+      "title_parsed": {
+        "en_US": "Image Processing and Computer Graphic",
+        "zh_TW": "影像處理與電腦繪圖"
+      },
+      "url": "5755",
       "year": "半"
     },
     {
@@ -21350,94 +21550,6 @@
       "department": "文學院",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "中國文學系學士班",
-      "hours": "2",
-      "hours_parsed": "2",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "A203-1"
-      ],
-      "note": "限文學院大一學生選課",
-      "number": "40",
-      "number_parsed": 40,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "侯嘉星",
-      "time": "156",
-      "time_parsed": [
-        {
-          "day": 1,
-          "time": [
-            5,
-            6
-          ]
-        }
-      ],
-      "title": "走進山海屯 `Humanity Study of Taichung",
-      "title_parsed": {
-        "en_US": "Humanity Study of Taichung",
-        "zh_TW": "走進山海屯"
-      },
-      "url": "6056",
-      "year": "半"
-    },
-    {
-      "class": "1",
-      "code": "1909",
-      "credits": "2",
-      "credits_parsed": 2,
-      "department": "文學院",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "外國語文學系學士班",
-      "hours": "2",
-      "hours_parsed": "2",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "A203-1"
-      ],
-      "note": "限文學院大一學生選課",
-      "number": "40",
-      "number_parsed": 40,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "侯嘉星",
-      "time": "156",
-      "time_parsed": [
-        {
-          "day": 1,
-          "time": [
-            5,
-            6
-          ]
-        }
-      ],
-      "title": "走進山海屯 `Humanity Study of Taichung",
-      "title_parsed": {
-        "en_US": "Humanity Study of Taichung",
-        "zh_TW": "走進山海屯"
-      },
-      "url": "6055",
-      "year": "半"
-    },
-    {
-      "class": "1",
-      "code": "1909",
-      "credits": "2",
-      "credits_parsed": 2,
-      "department": "文學院",
-      "discipline": "",
-      "enrolled_num": "0",
       "for_dept": "文學院",
       "hours": "2",
       "hours_parsed": "2",
@@ -21516,6 +21628,94 @@
         "zh_TW": "走進山海屯"
       },
       "url": "6054",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1909",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "文學院",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "外國語文學系學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "A203-1"
+      ],
+      "note": "限文學院大一學生選課",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "侯嘉星",
+      "time": "156",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            5,
+            6
+          ]
+        }
+      ],
+      "title": "走進山海屯 `Humanity Study of Taichung",
+      "title_parsed": {
+        "en_US": "Humanity Study of Taichung",
+        "zh_TW": "走進山海屯"
+      },
+      "url": "6055",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1909",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "文學院",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "中國文學系學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "A203-1"
+      ],
+      "note": "限文學院大一學生選課",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "侯嘉星",
+      "time": "156",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            5,
+            6
+          ]
+        }
+      ],
+      "title": "走進山海屯 `Humanity Study of Taichung",
+      "title_parsed": {
+        "en_US": "Humanity Study of Taichung",
+        "zh_TW": "走進山海屯"
+      },
+      "url": "6056",
       "year": "半"
     },
     {
@@ -21789,7 +21989,7 @@
       "department": "文學院",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "外國語文學系學士班",
+      "for_dept": "歷史學系學士班",
       "hours": "1",
       "hours_parsed": "1",
       "intern_location": [
@@ -21821,50 +22021,7 @@
         "en_US": "Culture in Taichung",
         "zh_TW": "文化台中"
       },
-      "url": "6042",
-      "year": "半"
-    },
-    {
-      "class": "1",
-      "code": "1916",
-      "credits": "1",
-      "credits_parsed": 1,
-      "department": "文學院",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "中國文學系學士班",
-      "hours": "1",
-      "hours_parsed": "1",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        "A204-1"
-      ],
-      "note": "限文學院大一學生選課",
-      "number": "40",
-      "number_parsed": 40,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "高嘉勵",
-      "time": "46",
-      "time_parsed": [
-        {
-          "day": 4,
-          "time": [
-            6
-          ]
-        }
-      ],
-      "title": "文化台中 `Culture in Taichung",
-      "title_parsed": {
-        "en_US": "Culture in Taichung",
-        "zh_TW": "文化台中"
-      },
-      "url": "6041",
+      "url": "6043",
       "year": "半"
     },
     {
@@ -21918,7 +22075,7 @@
       "department": "文學院",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "歷史學系學士班",
+      "for_dept": "中國文學系學士班",
       "hours": "1",
       "hours_parsed": "1",
       "intern_location": [
@@ -21950,7 +22107,50 @@
         "en_US": "Culture in Taichung",
         "zh_TW": "文化台中"
       },
-      "url": "6043",
+      "url": "6041",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1916",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "文學院",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "外國語文學系學士班",
+      "hours": "1",
+      "hours_parsed": "1",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "A204-1"
+      ],
+      "note": "限文學院大一學生選課",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "高嘉勵",
+      "time": "46",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            6
+          ]
+        }
+      ],
+      "title": "文化台中 `Culture in Taichung",
+      "title_parsed": {
+        "en_US": "Culture in Taichung",
+        "zh_TW": "文化台中"
+      },
+      "url": "6042",
       "year": "半"
     },
     {
@@ -21994,138 +22194,6 @@
         "zh_TW": "文化台中"
       },
       "url": "6040",
-      "year": "半"
-    },
-    {
-      "class": "1",
-      "code": "1922",
-      "credits": "2",
-      "credits_parsed": 2,
-      "department": "工學院",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "智慧創意工程學士學位學程",
-      "hours": "2",
-      "hours_parsed": "2",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中/英文",
-      "location": [
-        "P103"
-      ],
-      "note": "ESP課程，工學院學生優先，使用全英文課綱、教材與評量方式Syllabus, teaching materials and assessment methods are all in english",
-      "number": "40",
-      "number_parsed": 40,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "張旭琪",
-      "time": "356",
-      "time_parsed": [
-        {
-          "day": 3,
-          "time": [
-            5,
-            6
-          ]
-        }
-      ],
-      "title": "工程英文a `English for General Engineering ",
-      "title_parsed": {
-        "en_US": "English for General Engineering ",
-        "zh_TW": "工程英文a"
-      },
-      "url": "5258",
-      "year": "半"
-    },
-    {
-      "class": "1B",
-      "code": "1922",
-      "credits": "2",
-      "credits_parsed": 2,
-      "department": "工學院",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "土木工程學系學士班",
-      "hours": "2",
-      "hours_parsed": "2",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中/英文",
-      "location": [
-        "P103"
-      ],
-      "note": "ESP課程，工學院學生優先，使用全英文課綱、教材與評量方式Syllabus, teaching materials and assessment methods are all in english",
-      "number": "40",
-      "number_parsed": 40,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "張旭琪",
-      "time": "356",
-      "time_parsed": [
-        {
-          "day": 3,
-          "time": [
-            5,
-            6
-          ]
-        }
-      ],
-      "title": "工程英文a `English for General Engineering ",
-      "title_parsed": {
-        "en_US": "English for General Engineering ",
-        "zh_TW": "工程英文a"
-      },
-      "url": "5216",
-      "year": "半"
-    },
-    {
-      "class": "1A",
-      "code": "1922",
-      "credits": "2",
-      "credits_parsed": 2,
-      "department": "工學院",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "土木工程學系學士班",
-      "hours": "2",
-      "hours_parsed": "2",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中/英文",
-      "location": [
-        "P103"
-      ],
-      "note": "ESP課程，工學院學生優先，使用全英文課綱、教材與評量方式Syllabus, teaching materials and assessment methods are all in english",
-      "number": "40",
-      "number_parsed": 40,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "張旭琪",
-      "time": "356",
-      "time_parsed": [
-        {
-          "day": 3,
-          "time": [
-            5,
-            6
-          ]
-        }
-      ],
-      "title": "工程英文a `English for General Engineering ",
-      "title_parsed": {
-        "en_US": "English for General Engineering ",
-        "zh_TW": "工程英文a"
-      },
-      "url": "5215",
       "year": "半"
     },
     {
@@ -22173,14 +22241,14 @@
       "year": "半"
     },
     {
-      "class": "1A",
+      "class": "1B",
       "code": "1922",
       "credits": "2",
       "credits_parsed": 2,
       "department": "工學院",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "機械工程學系學士班",
+      "for_dept": "土木工程學系學士班",
       "hours": "2",
       "hours_parsed": "2",
       "intern_location": [
@@ -22213,7 +22281,7 @@
         "en_US": "English for General Engineering ",
         "zh_TW": "工程英文a"
       },
-      "url": "5188",
+      "url": "5216",
       "year": "半"
     },
     {
@@ -22261,6 +22329,182 @@
       "year": "半"
     },
     {
+      "class": "1A",
+      "code": "1922",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "工學院",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "土木工程學系學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中/英文",
+      "location": [
+        "P103"
+      ],
+      "note": "ESP課程，工學院學生優先，使用全英文課綱、教材與評量方式Syllabus, teaching materials and assessment methods are all in english",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "張旭琪",
+      "time": "356",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            5,
+            6
+          ]
+        }
+      ],
+      "title": "工程英文a `English for General Engineering ",
+      "title_parsed": {
+        "en_US": "English for General Engineering ",
+        "zh_TW": "工程英文a"
+      },
+      "url": "5215",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1922",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "工學院",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "智慧創意工程學士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中/英文",
+      "location": [
+        "P103"
+      ],
+      "note": "ESP課程，工學院學生優先，使用全英文課綱、教材與評量方式Syllabus, teaching materials and assessment methods are all in english",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "張旭琪",
+      "time": "356",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            5,
+            6
+          ]
+        }
+      ],
+      "title": "工程英文a `English for General Engineering ",
+      "title_parsed": {
+        "en_US": "English for General Engineering ",
+        "zh_TW": "工程英文a"
+      },
+      "url": "5258",
+      "year": "半"
+    },
+    {
+      "class": "1A",
+      "code": "1922",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "工學院",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "機械工程學系學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中/英文",
+      "location": [
+        "P103"
+      ],
+      "note": "ESP課程，工學院學生優先，使用全英文課綱、教材與評量方式Syllabus, teaching materials and assessment methods are all in english",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "張旭琪",
+      "time": "356",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            5,
+            6
+          ]
+        }
+      ],
+      "title": "工程英文a `English for General Engineering ",
+      "title_parsed": {
+        "en_US": "English for General Engineering ",
+        "zh_TW": "工程英文a"
+      },
+      "url": "5188",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1923",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "工學院",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "化學工程學系學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "C407"
+      ],
+      "note": "ESP課程，工學院學生優先",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "邱幸珍",
+      "time": "278",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            7,
+            8
+          ]
+        }
+      ],
+      "title": "工程英文b `English for General Engineering ",
+      "title_parsed": {
+        "en_US": "English for General Engineering ",
+        "zh_TW": "工程英文b"
+      },
+      "url": "5221",
+      "year": "半"
+    },
+    {
       "class": "1",
       "code": "1923",
       "credits": "2",
@@ -22302,50 +22546,6 @@
         "zh_TW": "工程英文b"
       },
       "url": "5217",
-      "year": "半"
-    },
-    {
-      "class": "0",
-      "code": "1923",
-      "credits": "2",
-      "credits_parsed": 2,
-      "department": "工學院",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "工學院",
-      "hours": "2",
-      "hours_parsed": "2",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        "C407"
-      ],
-      "note": "ESP課程，工學院學生優先",
-      "number": "40",
-      "number_parsed": 40,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "邱幸珍",
-      "time": "278",
-      "time_parsed": [
-        {
-          "day": 2,
-          "time": [
-            7,
-            8
-          ]
-        }
-      ],
-      "title": "工程英文b `English for General Engineering ",
-      "title_parsed": {
-        "en_US": "English for General Engineering ",
-        "zh_TW": "工程英文b"
-      },
-      "url": "2273",
       "year": "半"
     },
     {
@@ -22393,14 +22593,14 @@
       "year": "半"
     },
     {
-      "class": "1",
+      "class": "0",
       "code": "1923",
       "credits": "2",
       "credits_parsed": 2,
       "department": "工學院",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "化學工程學系學士班",
+      "for_dept": "工學院",
       "hours": "2",
       "hours_parsed": "2",
       "intern_location": [
@@ -22433,7 +22633,7 @@
         "en_US": "English for General Engineering ",
         "zh_TW": "工程英文b"
       },
-      "url": "5221",
+      "url": "2273",
       "year": "半"
     },
     {
@@ -22588,7 +22788,7 @@
       "department": "管理學院",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "資訊管理學系學士班",
+      "for_dept": "行銷學系學士班",
       "hours": "2",
       "hours_parsed": "2",
       "intern_location": [
@@ -22622,97 +22822,7 @@
         "en_US": "Seminar on Entrepreneurs",
         "zh_TW": "企業家講座"
       },
-      "url": "4206",
-      "year": "半"
-    },
-    {
-      "class": "4",
-      "code": "1970",
-      "credits": "2",
-      "credits_parsed": 2,
-      "department": "管理學院",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "財務金融學系學士班",
-      "hours": "2",
-      "hours_parsed": "2",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "SCB13"
-      ],
-      "note": "",
-      "number": "280",
-      "number_parsed": 280,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "唐資文",
-      "time": "4678",
-      "time_parsed": [
-        {
-          "day": 4,
-          "time": [
-            6,
-            7,
-            8
-          ]
-        }
-      ],
-      "title": "企業家講座 `Seminar on Entrepreneurs",
-      "title_parsed": {
-        "en_US": "Seminar on Entrepreneurs",
-        "zh_TW": "企業家講座"
-      },
-      "url": "3896",
-      "year": "半"
-    },
-    {
-      "class": "4",
-      "code": "1970",
-      "credits": "2",
-      "credits_parsed": 2,
-      "department": "管理學院",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "會計學系學士班",
-      "hours": "2",
-      "hours_parsed": "2",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "SCB13"
-      ],
-      "note": "",
-      "number": "280",
-      "number_parsed": 280,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "唐資文",
-      "time": "4678",
-      "time_parsed": [
-        {
-          "day": 4,
-          "time": [
-            6,
-            7,
-            8
-          ]
-        }
-      ],
-      "title": "企業家講座 `Seminar on Entrepreneurs",
-      "title_parsed": {
-        "en_US": "Seminar on Entrepreneurs",
-        "zh_TW": "企業家講座"
-      },
-      "url": "4113",
+      "url": "4279",
       "year": "半"
     },
     {
@@ -22768,7 +22878,7 @@
       "department": "管理學院",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "行銷學系學士班",
+      "for_dept": "會計學系學士班",
       "hours": "2",
       "hours_parsed": "2",
       "intern_location": [
@@ -22802,18 +22912,18 @@
         "en_US": "Seminar on Entrepreneurs",
         "zh_TW": "企業家講座"
       },
-      "url": "4279",
+      "url": "4113",
       "year": "半"
     },
     {
-      "class": "3",
+      "class": "4",
       "code": "1970",
       "credits": "2",
       "credits_parsed": 2,
       "department": "管理學院",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "企業管理學系學士班",
+      "for_dept": "財務金融學系學士班",
       "hours": "2",
       "hours_parsed": "2",
       "intern_location": [
@@ -22847,7 +22957,52 @@
         "en_US": "Seminar on Entrepreneurs",
         "zh_TW": "企業家講座"
       },
-      "url": "2521",
+      "url": "3896",
+      "year": "半"
+    },
+    {
+      "class": "4",
+      "code": "1970",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "管理學院",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "資訊管理學系學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "SCB13"
+      ],
+      "note": "",
+      "number": "280",
+      "number_parsed": 280,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "唐資文",
+      "time": "4678",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "title": "企業家講座 `Seminar on Entrepreneurs",
+      "title_parsed": {
+        "en_US": "Seminar on Entrepreneurs",
+        "zh_TW": "企業家講座"
+      },
+      "url": "4206",
       "year": "半"
     },
     {
@@ -22896,93 +23051,48 @@
       "year": "半"
     },
     {
-      "class": "2",
-      "code": "1971",
-      "credits": "3",
-      "credits_parsed": 3,
+      "class": "3",
+      "code": "1970",
+      "credits": "2",
+      "credits_parsed": 2,
       "department": "管理學院",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "資訊管理學系學士班",
-      "hours": "3",
-      "hours_parsed": "3",
+      "for_dept": "企業管理學系學士班",
+      "hours": "2",
+      "hours_parsed": "2",
       "intern_location": [
         ""
       ],
       "intern_time": "",
       "language": "中文",
       "location": [
-        "SC112"
+        "SCB13"
       ],
       "note": "",
-      "number": "100",
-      "number_parsed": 100,
+      "number": "280",
+      "number_parsed": 280,
       "obligatory": "必修",
       "obligatory_tf": true,
       "prerequisite": "",
-      "professor": "葉宗穎",
-      "time": "2234",
+      "professor": "唐資文",
+      "time": "4678",
       "time_parsed": [
         {
-          "day": 2,
+          "day": 4,
           "time": [
-            2,
-            3,
-            4
+            6,
+            7,
+            8
           ]
         }
       ],
-      "title": "經濟學(一)a `Economics (I)",
+      "title": "企業家講座 `Seminar on Entrepreneurs",
       "title_parsed": {
-        "en_US": "Economics (I)",
-        "zh_TW": "經濟學(一)a"
+        "en_US": "Seminar on Entrepreneurs",
+        "zh_TW": "企業家講座"
       },
-      "url": "1981",
-      "year": "半"
-    },
-    {
-      "class": "1",
-      "code": "1971",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "管理學院",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "行銷學系學士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "SC112"
-      ],
-      "note": "",
-      "number": "100",
-      "number_parsed": 100,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "葉宗穎",
-      "time": "2234",
-      "time_parsed": [
-        {
-          "day": 2,
-          "time": [
-            2,
-            3,
-            4
-          ]
-        }
-      ],
-      "title": "經濟學(一)a `Economics (I)",
-      "title_parsed": {
-        "en_US": "Economics (I)",
-        "zh_TW": "經濟學(一)a"
-      },
-      "url": "1982",
+      "url": "2521",
       "year": "半"
     },
     {
@@ -23031,14 +23141,14 @@
       "year": "半"
     },
     {
-      "class": "0",
+      "class": "1",
       "code": "1971",
       "credits": "3",
       "credits_parsed": 3,
       "department": "管理學院",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "管理學院",
+      "for_dept": "行銷學系學士班",
       "hours": "3",
       "hours_parsed": "3",
       "intern_location": [
@@ -23072,7 +23182,7 @@
         "en_US": "Economics (I)",
         "zh_TW": "經濟學(一)a"
       },
-      "url": "1980",
+      "url": "1982",
       "year": "半"
     },
     {
@@ -23163,6 +23273,231 @@
         "zh_TW": "經濟學(一)a"
       },
       "url": "1977",
+      "year": "半"
+    },
+    {
+      "class": "0",
+      "code": "1971",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "管理學院",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "管理學院",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "SC112"
+      ],
+      "note": "",
+      "number": "100",
+      "number_parsed": 100,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "葉宗穎",
+      "time": "2234",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "title": "經濟學(一)a `Economics (I)",
+      "title_parsed": {
+        "en_US": "Economics (I)",
+        "zh_TW": "經濟學(一)a"
+      },
+      "url": "1980",
+      "year": "半"
+    },
+    {
+      "class": "2",
+      "code": "1971",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "管理學院",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "資訊管理學系學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "SC112"
+      ],
+      "note": "",
+      "number": "100",
+      "number_parsed": 100,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "葉宗穎",
+      "time": "2234",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "title": "經濟學(一)a `Economics (I)",
+      "title_parsed": {
+        "en_US": "Economics (I)",
+        "zh_TW": "經濟學(一)a"
+      },
+      "url": "1981",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1972",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "管理學院",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "行銷學系學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "SC121"
+      ],
+      "note": "",
+      "number": "100",
+      "number_parsed": 100,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "張嘉玲",
+      "time": "2234",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "title": "經濟學(一)b `Economics (I)",
+      "title_parsed": {
+        "en_US": "Economics (I)",
+        "zh_TW": "經濟學(一)b"
+      },
+      "url": "1950",
+      "year": "半"
+    },
+    {
+      "class": "0",
+      "code": "1972",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "管理學院",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "管理學院",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "SC121"
+      ],
+      "note": "",
+      "number": "100",
+      "number_parsed": 100,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "張嘉玲",
+      "time": "2234",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "title": "經濟學(一)b `Economics (I)",
+      "title_parsed": {
+        "en_US": "Economics (I)",
+        "zh_TW": "經濟學(一)b"
+      },
+      "url": "1945",
+      "year": "半"
+    },
+    {
+      "class": "2",
+      "code": "1972",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "管理學院",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "資訊管理學系學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "SC121"
+      ],
+      "note": "",
+      "number": "100",
+      "number_parsed": 100,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "張嘉玲",
+      "time": "2234",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "title": "經濟學(一)b `Economics (I)",
+      "title_parsed": {
+        "en_US": "Economics (I)",
+        "zh_TW": "經濟學(一)b"
+      },
+      "url": "1949",
       "year": "半"
     },
     {
@@ -23301,141 +23636,6 @@
       "year": "半"
     },
     {
-      "class": "0",
-      "code": "1972",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "管理學院",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "管理學院",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "SC121"
-      ],
-      "note": "",
-      "number": "100",
-      "number_parsed": 100,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "張嘉玲",
-      "time": "2234",
-      "time_parsed": [
-        {
-          "day": 2,
-          "time": [
-            2,
-            3,
-            4
-          ]
-        }
-      ],
-      "title": "經濟學(一)b `Economics (I)",
-      "title_parsed": {
-        "en_US": "Economics (I)",
-        "zh_TW": "經濟學(一)b"
-      },
-      "url": "1945",
-      "year": "半"
-    },
-    {
-      "class": "1",
-      "code": "1972",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "管理學院",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "行銷學系學士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "SC121"
-      ],
-      "note": "",
-      "number": "100",
-      "number_parsed": 100,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "張嘉玲",
-      "time": "2234",
-      "time_parsed": [
-        {
-          "day": 2,
-          "time": [
-            2,
-            3,
-            4
-          ]
-        }
-      ],
-      "title": "經濟學(一)b `Economics (I)",
-      "title_parsed": {
-        "en_US": "Economics (I)",
-        "zh_TW": "經濟學(一)b"
-      },
-      "url": "1950",
-      "year": "半"
-    },
-    {
-      "class": "2",
-      "code": "1972",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "管理學院",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "資訊管理學系學士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "SC121"
-      ],
-      "note": "",
-      "number": "100",
-      "number_parsed": 100,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "張嘉玲",
-      "time": "2234",
-      "time_parsed": [
-        {
-          "day": 2,
-          "time": [
-            2,
-            3,
-            4
-          ]
-        }
-      ],
-      "title": "經濟學(一)b `Economics (I)",
-      "title_parsed": {
-        "en_US": "Economics (I)",
-        "zh_TW": "經濟學(一)b"
-      },
-      "url": "1949",
-      "year": "半"
-    },
-    {
       "class": "2",
       "code": "1973",
       "credits": "3",
@@ -23478,51 +23678,6 @@
         "zh_TW": "經濟學(一)c"
       },
       "url": "4209",
-      "year": "半"
-    },
-    {
-      "class": "1",
-      "code": "1973",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "管理學院",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "會計學系學士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        "SC120"
-      ],
-      "note": "",
-      "number": "60",
-      "number_parsed": 60,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "戚永苓",
-      "time": "2234",
-      "time_parsed": [
-        {
-          "day": 2,
-          "time": [
-            2,
-            3,
-            4
-          ]
-        }
-      ],
-      "title": "經濟學(一)c `Economics (I)",
-      "title_parsed": {
-        "en_US": "Economics (I)",
-        "zh_TW": "經濟學(一)c"
-      },
-      "url": "4182",
       "year": "半"
     },
     {
@@ -23623,51 +23778,6 @@
       "department": "管理學院",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "企業管理學系學士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        "SC120"
-      ],
-      "note": "",
-      "number": "60",
-      "number_parsed": 60,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "戚永苓",
-      "time": "2234",
-      "time_parsed": [
-        {
-          "day": 2,
-          "time": [
-            2,
-            3,
-            4
-          ]
-        }
-      ],
-      "title": "經濟學(一)c `Economics (I)",
-      "title_parsed": {
-        "en_US": "Economics (I)",
-        "zh_TW": "經濟學(一)c"
-      },
-      "url": "4181",
-      "year": "半"
-    },
-    {
-      "class": "1",
-      "code": "1973",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "管理學院",
-      "discipline": "",
-      "enrolled_num": "0",
       "for_dept": "行銷學系學士班",
       "hours": "3",
       "hours_parsed": "3",
@@ -23707,7 +23817,7 @@
     },
     {
       "class": "1",
-      "code": "1974",
+      "code": "1973",
       "credits": "3",
       "credits_parsed": 3,
       "department": "管理學院",
@@ -23720,9 +23830,9 @@
         ""
       ],
       "intern_time": "",
-      "language": "中文",
+      "language": "英文",
       "location": [
-        "SC123"
+        "SC120"
       ],
       "note": "",
       "number": "60",
@@ -23730,24 +23840,69 @@
       "obligatory": "必修",
       "obligatory_tf": true,
       "prerequisite": "",
-      "professor": "李超雄",
-      "time": "1678",
+      "professor": "戚永苓",
+      "time": "2234",
       "time_parsed": [
         {
-          "day": 1,
+          "day": 2,
           "time": [
-            6,
-            7,
-            8
+            2,
+            3,
+            4
           ]
         }
       ],
-      "title": "會計學(一)a `Accounting(I)",
+      "title": "經濟學(一)c `Economics (I)",
       "title_parsed": {
-        "en_US": "Accounting(I)",
-        "zh_TW": "會計學(一)a"
+        "en_US": "Economics (I)",
+        "zh_TW": "經濟學(一)c"
       },
-      "url": "1888",
+      "url": "4182",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1973",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "管理學院",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "企業管理學系學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "SC120"
+      ],
+      "note": "",
+      "number": "60",
+      "number_parsed": 60,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "戚永苓",
+      "time": "2234",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "title": "經濟學(一)c `Economics (I)",
+      "title_parsed": {
+        "en_US": "Economics (I)",
+        "zh_TW": "經濟學(一)c"
+      },
+      "url": "4181",
       "year": "半"
     },
     {
@@ -23758,7 +23913,7 @@
       "department": "管理學院",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "資訊管理學系學士班",
+      "for_dept": "企業管理學系學士班",
       "hours": "3",
       "hours_parsed": "3",
       "intern_location": [
@@ -23792,52 +23947,7 @@
         "en_US": "Accounting(I)",
         "zh_TW": "會計學(一)a"
       },
-      "url": "1889",
-      "year": "半"
-    },
-    {
-      "class": "1",
-      "code": "1974",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "管理學院",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "財務金融學系學士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "SC123"
-      ],
-      "note": "",
-      "number": "60",
-      "number_parsed": 60,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "李超雄",
-      "time": "1678",
-      "time_parsed": [
-        {
-          "day": 1,
-          "time": [
-            6,
-            7,
-            8
-          ]
-        }
-      ],
-      "title": "會計學(一)a `Accounting(I)",
-      "title_parsed": {
-        "en_US": "Accounting(I)",
-        "zh_TW": "會計學(一)a"
-      },
-      "url": "1886",
+      "url": "1887",
       "year": "半"
     },
     {
@@ -23938,7 +24048,7 @@
       "department": "管理學院",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "企業管理學系學士班",
+      "for_dept": "財務金融學系學士班",
       "hours": "3",
       "hours_parsed": "3",
       "intern_location": [
@@ -23972,7 +24082,97 @@
         "en_US": "Accounting(I)",
         "zh_TW": "會計學(一)a"
       },
-      "url": "1887",
+      "url": "1886",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1974",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "管理學院",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "資訊管理學系學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "SC123"
+      ],
+      "note": "",
+      "number": "60",
+      "number_parsed": 60,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "李超雄",
+      "time": "1678",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "title": "會計學(一)a `Accounting(I)",
+      "title_parsed": {
+        "en_US": "Accounting(I)",
+        "zh_TW": "會計學(一)a"
+      },
+      "url": "1889",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1974",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "管理學院",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "會計學系學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "SC123"
+      ],
+      "note": "",
+      "number": "60",
+      "number_parsed": 60,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "李超雄",
+      "time": "1678",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "title": "會計學(一)a `Accounting(I)",
+      "title_parsed": {
+        "en_US": "Accounting(I)",
+        "zh_TW": "會計學(一)a"
+      },
+      "url": "1888",
       "year": "半"
     },
     {
@@ -24253,6 +24453,51 @@
       "department": "管理學院",
       "discipline": "",
       "enrolled_num": "0",
+      "for_dept": "企業管理學系學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "SC103"
+      ],
+      "note": "",
+      "number": "70",
+      "number_parsed": 70,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "蘇迺惠",
+      "time": "1678",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "title": "會計學(一)c `Accounting(I)",
+      "title_parsed": {
+        "en_US": "Accounting(I)",
+        "zh_TW": "會計學(一)c"
+      },
+      "url": "1905",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1976",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "管理學院",
+      "discipline": "",
+      "enrolled_num": "0",
       "for_dept": "資訊管理學系學士班",
       "hours": "3",
       "hours_parsed": "3",
@@ -24381,51 +24626,6 @@
       "year": "半"
     },
     {
-      "class": "1",
-      "code": "1976",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "管理學院",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "行銷學系學士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "SC103"
-      ],
-      "note": "",
-      "number": "70",
-      "number_parsed": 70,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "蘇迺惠",
-      "time": "1678",
-      "time_parsed": [
-        {
-          "day": 1,
-          "time": [
-            6,
-            7,
-            8
-          ]
-        }
-      ],
-      "title": "會計學(一)c `Accounting(I)",
-      "title_parsed": {
-        "en_US": "Accounting(I)",
-        "zh_TW": "會計學(一)c"
-      },
-      "url": "1908",
-      "year": "半"
-    },
-    {
       "class": "0",
       "code": "1976",
       "credits": "3",
@@ -24478,7 +24678,7 @@
       "department": "管理學院",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "企業管理學系學士班",
+      "for_dept": "行銷學系學士班",
       "hours": "3",
       "hours_parsed": "3",
       "intern_location": [
@@ -24512,52 +24712,7 @@
         "en_US": "Accounting(I)",
         "zh_TW": "會計學(一)c"
       },
-      "url": "1905",
-      "year": "半"
-    },
-    {
-      "class": "1",
-      "code": "1977",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "管理學院",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "企業管理學系學士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "SC104"
-      ],
-      "note": "",
-      "number": "50",
-      "number_parsed": 50,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "張瑞當",
-      "time": "1678",
-      "time_parsed": [
-        {
-          "day": 1,
-          "time": [
-            6,
-            7,
-            8
-          ]
-        }
-      ],
-      "title": "會計學(一)d `Accounting(I)",
-      "title_parsed": {
-        "en_US": "Accounting(I)",
-        "zh_TW": "會計學(一)d"
-      },
-      "url": "1899",
+      "url": "1908",
       "year": "半"
     },
     {
@@ -24603,6 +24758,51 @@
         "zh_TW": "會計學(一)d"
       },
       "url": "1897",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1977",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "管理學院",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "企業管理學系學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "SC104"
+      ],
+      "note": "",
+      "number": "50",
+      "number_parsed": 50,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "張瑞當",
+      "time": "1678",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "title": "會計學(一)d `Accounting(I)",
+      "title_parsed": {
+        "en_US": "Accounting(I)",
+        "zh_TW": "會計學(一)d"
+      },
+      "url": "1899",
       "year": "半"
     },
     {
@@ -24793,51 +24993,6 @@
       "department": "管理學院",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "會計學系學士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "SC305"
-      ],
-      "note": "",
-      "number": "50",
-      "number_parsed": 50,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "林宜勉",
-      "time": "1678",
-      "time_parsed": [
-        {
-          "day": 1,
-          "time": [
-            6,
-            7,
-            8
-          ]
-        }
-      ],
-      "title": "會計學(一)e `Accounting(I)",
-      "title_parsed": {
-        "en_US": "Accounting(I)",
-        "zh_TW": "會計學(一)e"
-      },
-      "url": "4115",
-      "year": "半"
-    },
-    {
-      "class": "1",
-      "code": "1978",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "管理學院",
-      "discipline": "",
-      "enrolled_num": "0",
       "for_dept": "企業管理學系學士班",
       "hours": "3",
       "hours_parsed": "3",
@@ -24873,6 +25028,51 @@
         "zh_TW": "會計學(一)e"
       },
       "url": "4106",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1978",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "管理學院",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "會計學系學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "SC305"
+      ],
+      "note": "",
+      "number": "50",
+      "number_parsed": 50,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "林宜勉",
+      "time": "1678",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "title": "會計學(一)e `Accounting(I)",
+      "title_parsed": {
+        "en_US": "Accounting(I)",
+        "zh_TW": "會計學(一)e"
+      },
+      "url": "4115",
       "year": "半"
     },
     {
@@ -24921,14 +25121,14 @@
       "year": "半"
     },
     {
-      "class": "1",
+      "class": "0",
       "code": "1978",
       "credits": "3",
       "credits_parsed": 3,
       "department": "管理學院",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "資訊管理學系學士班",
+      "for_dept": "管理學院",
       "hours": "3",
       "hours_parsed": "3",
       "intern_location": [
@@ -24962,7 +25162,7 @@
         "en_US": "Accounting(I)",
         "zh_TW": "會計學(一)e"
       },
-      "url": "4128",
+      "url": "4082",
       "year": "半"
     },
     {
@@ -25011,14 +25211,14 @@
       "year": "半"
     },
     {
-      "class": "0",
+      "class": "1",
       "code": "1978",
       "credits": "3",
       "credits_parsed": 3,
       "department": "管理學院",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "管理學院",
+      "for_dept": "資訊管理學系學士班",
       "hours": "3",
       "hours_parsed": "3",
       "intern_location": [
@@ -25052,7 +25252,7 @@
         "en_US": "Accounting(I)",
         "zh_TW": "會計學(一)e"
       },
-      "url": "4082",
+      "url": "4128",
       "year": "半"
     },
     {
@@ -25153,7 +25353,7 @@
       "department": "管理學院",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "會計學系學士班",
+      "for_dept": "資訊管理學系學士班",
       "hours": "3",
       "hours_parsed": "3",
       "intern_location": [
@@ -25187,7 +25387,7 @@
         "en_US": "Statistics (I)",
         "zh_TW": "統計學(一)a"
       },
-      "url": "1870",
+      "url": "1871",
       "year": "半"
     },
     {
@@ -25243,7 +25443,7 @@
       "department": "管理學院",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "資訊管理學系學士班",
+      "for_dept": "會計學系學士班",
       "hours": "3",
       "hours_parsed": "3",
       "intern_location": [
@@ -25277,7 +25477,7 @@
         "en_US": "Statistics (I)",
         "zh_TW": "統計學(一)a"
       },
-      "url": "1871",
+      "url": "1870",
       "year": "半"
     },
     {
@@ -25323,186 +25523,6 @@
         "zh_TW": "統計學(一)a"
       },
       "url": "1869",
-      "year": "半"
-    },
-    {
-      "class": "2",
-      "code": "1980",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "管理學院",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "行銷學系學士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中/英文",
-      "location": [
-        "SC104"
-      ],
-      "note": "",
-      "number": "80",
-      "number_parsed": 80,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "蔡玫亭",
-      "time": "3678",
-      "time_parsed": [
-        {
-          "day": 3,
-          "time": [
-            6,
-            7,
-            8
-          ]
-        }
-      ],
-      "title": "統計學(一)b `Statistics (I)",
-      "title_parsed": {
-        "en_US": "Statistics (I)",
-        "zh_TW": "統計學(一)b"
-      },
-      "url": "1878",
-      "year": "半"
-    },
-    {
-      "class": "2",
-      "code": "1980",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "管理學院",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "資訊管理學系學士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中/英文",
-      "location": [
-        "SC104"
-      ],
-      "note": "",
-      "number": "80",
-      "number_parsed": 80,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "蔡玫亭",
-      "time": "3678",
-      "time_parsed": [
-        {
-          "day": 3,
-          "time": [
-            6,
-            7,
-            8
-          ]
-        }
-      ],
-      "title": "統計學(一)b `Statistics (I)",
-      "title_parsed": {
-        "en_US": "Statistics (I)",
-        "zh_TW": "統計學(一)b"
-      },
-      "url": "1877",
-      "year": "半"
-    },
-    {
-      "class": "2",
-      "code": "1980",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "管理學院",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "財務金融學系學士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中/英文",
-      "location": [
-        "SC104"
-      ],
-      "note": "",
-      "number": "80",
-      "number_parsed": 80,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "蔡玫亭",
-      "time": "3678",
-      "time_parsed": [
-        {
-          "day": 3,
-          "time": [
-            6,
-            7,
-            8
-          ]
-        }
-      ],
-      "title": "統計學(一)b `Statistics (I)",
-      "title_parsed": {
-        "en_US": "Statistics (I)",
-        "zh_TW": "統計學(一)b"
-      },
-      "url": "1874",
-      "year": "半"
-    },
-    {
-      "class": "2",
-      "code": "1980",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "管理學院",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "會計學系學士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中/英文",
-      "location": [
-        "SC104"
-      ],
-      "note": "",
-      "number": "80",
-      "number_parsed": 80,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "蔡玫亭",
-      "time": "3678",
-      "time_parsed": [
-        {
-          "day": 3,
-          "time": [
-            6,
-            7,
-            8
-          ]
-        }
-      ],
-      "title": "統計學(一)b `Statistics (I)",
-      "title_parsed": {
-        "en_US": "Statistics (I)",
-        "zh_TW": "統計學(一)b"
-      },
-      "url": "1876",
       "year": "半"
     },
     {
@@ -25558,6 +25578,96 @@
       "department": "管理學院",
       "discipline": "",
       "enrolled_num": "0",
+      "for_dept": "資訊管理學系學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中/英文",
+      "location": [
+        "SC104"
+      ],
+      "note": "",
+      "number": "80",
+      "number_parsed": 80,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "蔡玫亭",
+      "time": "3678",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "title": "統計學(一)b `Statistics (I)",
+      "title_parsed": {
+        "en_US": "Statistics (I)",
+        "zh_TW": "統計學(一)b"
+      },
+      "url": "1877",
+      "year": "半"
+    },
+    {
+      "class": "2",
+      "code": "1980",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "管理學院",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "行銷學系學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中/英文",
+      "location": [
+        "SC104"
+      ],
+      "note": "",
+      "number": "80",
+      "number_parsed": 80,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "蔡玫亭",
+      "time": "3678",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "title": "統計學(一)b `Statistics (I)",
+      "title_parsed": {
+        "en_US": "Statistics (I)",
+        "zh_TW": "統計學(一)b"
+      },
+      "url": "1878",
+      "year": "半"
+    },
+    {
+      "class": "2",
+      "code": "1980",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "管理學院",
+      "discipline": "",
+      "enrolled_num": "0",
       "for_dept": "企業管理學系學士班",
       "hours": "3",
       "hours_parsed": "3",
@@ -25597,7 +25707,7 @@
     },
     {
       "class": "2",
-      "code": "1981",
+      "code": "1980",
       "credits": "3",
       "credits_parsed": 3,
       "department": "管理學院",
@@ -25610,9 +25720,9 @@
         ""
       ],
       "intern_time": "",
-      "language": "中文",
+      "language": "中/英文",
       "location": [
-        ""
+        "SC104"
       ],
       "note": "",
       "number": "80",
@@ -25620,35 +25730,80 @@
       "obligatory": "必修",
       "obligatory_tf": true,
       "prerequisite": "",
-      "professor": "魯真",
-      "time": "1234",
+      "professor": "蔡玫亭",
+      "time": "3678",
       "time_parsed": [
         {
-          "day": 1,
+          "day": 3,
           "time": [
-            2,
-            3,
-            4
+            6,
+            7,
+            8
           ]
         }
       ],
-      "title": "統計學(一)c `Statistics (I)",
+      "title": "統計學(一)b `Statistics (I)",
       "title_parsed": {
         "en_US": "Statistics (I)",
-        "zh_TW": "統計學(一)c"
+        "zh_TW": "統計學(一)b"
       },
-      "url": "1882",
+      "url": "1876",
       "year": "半"
     },
     {
       "class": "2",
+      "code": "1980",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "管理學院",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "財務金融學系學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中/英文",
+      "location": [
+        "SC104"
+      ],
+      "note": "",
+      "number": "80",
+      "number_parsed": 80,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "蔡玫亭",
+      "time": "3678",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "title": "統計學(一)b `Statistics (I)",
+      "title_parsed": {
+        "en_US": "Statistics (I)",
+        "zh_TW": "統計學(一)b"
+      },
+      "url": "1874",
+      "year": "半"
+    },
+    {
+      "class": "0",
       "code": "1981",
       "credits": "3",
       "credits_parsed": 3,
       "department": "管理學院",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "企業管理學系學士班",
+      "for_dept": "管理學院",
       "hours": "3",
       "hours_parsed": "3",
       "intern_location": [
@@ -25682,7 +25837,7 @@
         "en_US": "Statistics (I)",
         "zh_TW": "統計學(一)c"
       },
-      "url": "1881",
+      "url": "1879",
       "year": "半"
     },
     {
@@ -25783,6 +25938,96 @@
       "department": "管理學院",
       "discipline": "",
       "enrolled_num": "0",
+      "for_dept": "企業管理學系學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        ""
+      ],
+      "note": "",
+      "number": "80",
+      "number_parsed": 80,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "魯真",
+      "time": "1234",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "title": "統計學(一)c `Statistics (I)",
+      "title_parsed": {
+        "en_US": "Statistics (I)",
+        "zh_TW": "統計學(一)c"
+      },
+      "url": "1881",
+      "year": "半"
+    },
+    {
+      "class": "2",
+      "code": "1981",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "管理學院",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "會計學系學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        ""
+      ],
+      "note": "",
+      "number": "80",
+      "number_parsed": 80,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "魯真",
+      "time": "1234",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "title": "統計學(一)c `Statistics (I)",
+      "title_parsed": {
+        "en_US": "Statistics (I)",
+        "zh_TW": "統計學(一)c"
+      },
+      "url": "1882",
+      "year": "半"
+    },
+    {
+      "class": "2",
+      "code": "1981",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "管理學院",
+      "discipline": "",
+      "enrolled_num": "0",
       "for_dept": "行銷學系學士班",
       "hours": "3",
       "hours_parsed": "3",
@@ -25821,48 +26066,93 @@
       "year": "半"
     },
     {
-      "class": "0",
-      "code": "1981",
+      "class": "2",
+      "code": "1982",
       "credits": "3",
       "credits_parsed": 3,
       "department": "管理學院",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "管理學院",
+      "for_dept": "企業管理學系學士班",
       "hours": "3",
       "hours_parsed": "3",
       "intern_location": [
         ""
       ],
       "intern_time": "",
-      "language": "中文",
+      "language": "英文",
       "location": [
-        ""
+        "SC421"
       ],
       "note": "",
-      "number": "80",
-      "number_parsed": 80,
+      "number": "40",
+      "number_parsed": 40,
       "obligatory": "必修",
       "obligatory_tf": true,
       "prerequisite": "",
-      "professor": "魯真",
-      "time": "1234",
+      "professor": "何彥臻",
+      "time": "3678",
       "time_parsed": [
         {
-          "day": 1,
+          "day": 3,
           "time": [
-            2,
-            3,
-            4
+            6,
+            7,
+            8
           ]
         }
       ],
-      "title": "統計學(一)c `Statistics (I)",
+      "title": "統計學(一)d `Statistics (I)",
       "title_parsed": {
         "en_US": "Statistics (I)",
-        "zh_TW": "統計學(一)c"
+        "zh_TW": "統計學(一)d"
       },
-      "url": "1879",
+      "url": "3502",
+      "year": "半"
+    },
+    {
+      "class": "2",
+      "code": "1982",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "管理學院",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "會計學系學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "SC421"
+      ],
+      "note": "",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "何彥臻",
+      "time": "3678",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "title": "統計學(一)d `Statistics (I)",
+      "title_parsed": {
+        "en_US": "Statistics (I)",
+        "zh_TW": "統計學(一)d"
+      },
+      "url": "3921",
       "year": "半"
     },
     {
@@ -25908,6 +26198,51 @@
         "zh_TW": "統計學(一)d"
       },
       "url": "2906",
+      "year": "半"
+    },
+    {
+      "class": "2",
+      "code": "1982",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "管理學院",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "財務金融學系學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "SC421"
+      ],
+      "note": "",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "何彥臻",
+      "time": "3678",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "title": "統計學(一)d `Statistics (I)",
+      "title_parsed": {
+        "en_US": "Statistics (I)",
+        "zh_TW": "統計學(一)d"
+      },
+      "url": "2963",
       "year": "半"
     },
     {
@@ -26001,98 +26336,8 @@
       "year": "半"
     },
     {
-      "class": "2",
-      "code": "1982",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "管理學院",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "會計學系學士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        "SC421"
-      ],
-      "note": "",
-      "number": "40",
-      "number_parsed": 40,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "何彥臻",
-      "time": "3678",
-      "time_parsed": [
-        {
-          "day": 3,
-          "time": [
-            6,
-            7,
-            8
-          ]
-        }
-      ],
-      "title": "統計學(一)d `Statistics (I)",
-      "title_parsed": {
-        "en_US": "Statistics (I)",
-        "zh_TW": "統計學(一)d"
-      },
-      "url": "3921",
-      "year": "半"
-    },
-    {
-      "class": "2",
-      "code": "1982",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "管理學院",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "企業管理學系學士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        "SC421"
-      ],
-      "note": "",
-      "number": "40",
-      "number_parsed": 40,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "何彥臻",
-      "time": "3678",
-      "time_parsed": [
-        {
-          "day": 3,
-          "time": [
-            6,
-            7,
-            8
-          ]
-        }
-      ],
-      "title": "統計學(一)d `Statistics (I)",
-      "title_parsed": {
-        "en_US": "Statistics (I)",
-        "zh_TW": "統計學(一)d"
-      },
-      "url": "3502",
-      "year": "半"
-    },
-    {
-      "class": "2",
-      "code": "1982",
+      "class": "1",
+      "code": "1984",
       "credits": "3",
       "credits_parsed": 3,
       "department": "管理學院",
@@ -26105,51 +26350,6 @@
         ""
       ],
       "intern_time": "",
-      "language": "英文",
-      "location": [
-        "SC421"
-      ],
-      "note": "",
-      "number": "40",
-      "number_parsed": 40,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "何彥臻",
-      "time": "3678",
-      "time_parsed": [
-        {
-          "day": 3,
-          "time": [
-            6,
-            7,
-            8
-          ]
-        }
-      ],
-      "title": "統計學(一)d `Statistics (I)",
-      "title_parsed": {
-        "en_US": "Statistics (I)",
-        "zh_TW": "統計學(一)d"
-      },
-      "url": "2963",
-      "year": "半"
-    },
-    {
-      "class": "1",
-      "code": "1984",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "管理學院",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "企業管理學系學士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
       "language": "中文",
       "location": [
         "CC215"
@@ -26177,52 +26377,7 @@
         "en_US": "Introduction to Computer Science",
         "zh_TW": "計算機概論b"
       },
-      "url": "1929",
-      "year": "半"
-    },
-    {
-      "class": "1",
-      "code": "1984",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "管理學院",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "行銷學系學士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "CC215"
-      ],
-      "note": "",
-      "number": "50",
-      "number_parsed": 50,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "郭俊桔",
-      "time": "5234",
-      "time_parsed": [
-        {
-          "day": 5,
-          "time": [
-            2,
-            3,
-            4
-          ]
-        }
-      ],
-      "title": "計算機概論b `Introduction to Computer Science",
-      "title_parsed": {
-        "en_US": "Introduction to Computer Science",
-        "zh_TW": "計算機概論b"
-      },
-      "url": "1932",
+      "url": "1928",
       "year": "半"
     },
     {
@@ -26278,7 +26433,7 @@
       "department": "管理學院",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "財務金融學系學士班",
+      "for_dept": "行銷學系學士班",
       "hours": "3",
       "hours_parsed": "3",
       "intern_location": [
@@ -26312,7 +26467,52 @@
         "en_US": "Introduction to Computer Science",
         "zh_TW": "計算機概論b"
       },
-      "url": "1928",
+      "url": "1932",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1984",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "管理學院",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "企業管理學系學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "CC215"
+      ],
+      "note": "",
+      "number": "50",
+      "number_parsed": 50,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "郭俊桔",
+      "time": "5234",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "title": "計算機概論b `Introduction to Computer Science",
+      "title_parsed": {
+        "en_US": "Introduction to Computer Science",
+        "zh_TW": "計算機概論b"
+      },
+      "url": "1929",
       "year": "半"
     },
     {
@@ -26358,96 +26558,6 @@
         "zh_TW": "計算機概論b"
       },
       "url": "1930",
-      "year": "半"
-    },
-    {
-      "class": "0",
-      "code": "1985",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "管理學院",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "管理學院",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "SC553"
-      ],
-      "note": "",
-      "number": "50",
-      "number_parsed": 50,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "吳家齊",
-      "time": "5234",
-      "time_parsed": [
-        {
-          "day": 5,
-          "time": [
-            2,
-            3,
-            4
-          ]
-        }
-      ],
-      "title": "計算機概論c `Introduction to Computer Science",
-      "title_parsed": {
-        "en_US": "Introduction to Computer Science",
-        "zh_TW": "計算機概論c"
-      },
-      "url": "1933",
-      "year": "半"
-    },
-    {
-      "class": "1",
-      "code": "1985",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "管理學院",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "企業管理學系學士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "SC553"
-      ],
-      "note": "",
-      "number": "50",
-      "number_parsed": 50,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "吳家齊",
-      "time": "5234",
-      "time_parsed": [
-        {
-          "day": 5,
-          "time": [
-            2,
-            3,
-            4
-          ]
-        }
-      ],
-      "title": "計算機概論c `Introduction to Computer Science",
-      "title_parsed": {
-        "en_US": "Introduction to Computer Science",
-        "zh_TW": "計算機概論c"
-      },
-      "url": "1935",
       "year": "半"
     },
     {
@@ -26587,13 +26697,103 @@
     },
     {
       "class": "1",
+      "code": "1985",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "管理學院",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "企業管理學系學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "SC553"
+      ],
+      "note": "",
+      "number": "50",
+      "number_parsed": 50,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "吳家齊",
+      "time": "5234",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "title": "計算機概論c `Introduction to Computer Science",
+      "title_parsed": {
+        "en_US": "Introduction to Computer Science",
+        "zh_TW": "計算機概論c"
+      },
+      "url": "1935",
+      "year": "半"
+    },
+    {
+      "class": "0",
+      "code": "1985",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "管理學院",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "管理學院",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "SC553"
+      ],
+      "note": "",
+      "number": "50",
+      "number_parsed": 50,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "吳家齊",
+      "time": "5234",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "title": "計算機概論c `Introduction to Computer Science",
+      "title_parsed": {
+        "en_US": "Introduction to Computer Science",
+        "zh_TW": "計算機概論c"
+      },
+      "url": "1933",
+      "year": "半"
+    },
+    {
+      "class": "1",
       "code": "1986",
       "credits": "3",
       "credits_parsed": 3,
       "department": "管理學院",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "行銷學系學士班",
+      "for_dept": "財務金融學系學士班",
       "hours": "3",
       "hours_parsed": "3",
       "intern_location": [
@@ -26627,7 +26827,52 @@
         "en_US": "Introduction to Computer Science",
         "zh_TW": "計算機概論d"
       },
-      "url": "1944",
+      "url": "1940",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1986",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "管理學院",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "會計學系學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "SC549"
+      ],
+      "note": "",
+      "number": "50",
+      "number_parsed": 50,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "鄭菲菲",
+      "time": "5234",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "title": "計算機概論d `Introduction to Computer Science",
+      "title_parsed": {
+        "en_US": "Introduction to Computer Science",
+        "zh_TW": "計算機概論d"
+      },
+      "url": "1942",
       "year": "半"
     },
     {
@@ -26683,7 +26928,7 @@
       "department": "管理學院",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "財務金融學系學士班",
+      "for_dept": "行銷學系學士班",
       "hours": "3",
       "hours_parsed": "3",
       "intern_location": [
@@ -26717,7 +26962,7 @@
         "en_US": "Introduction to Computer Science",
         "zh_TW": "計算機概論d"
       },
-      "url": "1940",
+      "url": "1944",
       "year": "半"
     },
     {
@@ -26763,51 +27008,6 @@
         "zh_TW": "計算機概論d"
       },
       "url": "1939",
-      "year": "半"
-    },
-    {
-      "class": "1",
-      "code": "1986",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "管理學院",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "會計學系學士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "SC549"
-      ],
-      "note": "",
-      "number": "50",
-      "number_parsed": 50,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "鄭菲菲",
-      "time": "5234",
-      "time_parsed": [
-        {
-          "day": 5,
-          "time": [
-            2,
-            3,
-            4
-          ]
-        }
-      ],
-      "title": "計算機概論d `Introduction to Computer Science",
-      "title_parsed": {
-        "en_US": "Introduction to Computer Science",
-        "zh_TW": "計算機概論d"
-      },
-      "url": "1942",
       "year": "半"
     },
     {
@@ -26863,7 +27063,7 @@
       "department": "管理學院",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "會計學系學士班",
+      "for_dept": "資訊管理學系學士班",
       "hours": "3",
       "hours_parsed": "3",
       "intern_location": [
@@ -26897,52 +27097,7 @@
         "en_US": "Introduction to Computer Science",
         "zh_TW": "計算機概論e"
       },
-      "url": "1972",
-      "year": "半"
-    },
-    {
-      "class": "1",
-      "code": "1987",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "管理學院",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "企業管理學系學士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "SC549"
-      ],
-      "note": "資管系學生必修；修課學生需具程式設計基礎",
-      "number": "40",
-      "number_parsed": 40,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "蔡垂雄",
-      "time": "2789",
-      "time_parsed": [
-        {
-          "day": 2,
-          "time": [
-            7,
-            8,
-            9
-          ]
-        }
-      ],
-      "title": "計算機概論e `Introduction to Computer Science",
-      "title_parsed": {
-        "en_US": "Introduction to Computer Science",
-        "zh_TW": "計算機概論e"
-      },
-      "url": "1973",
+      "url": "1976",
       "year": "半"
     },
     {
@@ -27043,7 +27198,7 @@
       "department": "管理學院",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "資訊管理學系學士班",
+      "for_dept": "會計學系學士班",
       "hours": "3",
       "hours_parsed": "3",
       "intern_location": [
@@ -27077,7 +27232,52 @@
         "en_US": "Introduction to Computer Science",
         "zh_TW": "計算機概論e"
       },
-      "url": "1976",
+      "url": "1972",
+      "year": "半"
+    },
+    {
+      "class": "1",
+      "code": "1987",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "管理學院",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "企業管理學系學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "SC549"
+      ],
+      "note": "資管系學生必修；修課學生需具程式設計基礎",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "蔡垂雄",
+      "time": "2789",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "title": "計算機概論e `Introduction to Computer Science",
+      "title_parsed": {
+        "en_US": "Introduction to Computer Science",
+        "zh_TW": "計算機概論e"
+      },
+      "url": "1973",
       "year": "半"
     },
     {
@@ -27168,51 +27368,6 @@
         "zh_TW": "商事法a"
       },
       "url": "1970",
-      "year": "半"
-    },
-    {
-      "class": "3",
-      "code": "1988",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "管理學院",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "企業管理學系學士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "SC111"
-      ],
-      "note": "",
-      "number": "150",
-      "number_parsed": 150,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "陳雪如",
-      "time": "2234",
-      "time_parsed": [
-        {
-          "day": 2,
-          "time": [
-            2,
-            3,
-            4
-          ]
-        }
-      ],
-      "title": "商事法a `Business Law",
-      "title_parsed": {
-        "en_US": "Business Law",
-        "zh_TW": "商事法a"
-      },
-      "url": "2941",
       "year": "半"
     },
     {
@@ -27351,59 +27506,14 @@
       "year": "半"
     },
     {
-      "class": "0",
-      "code": "1989",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "管理學院",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "管理學院",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "SC111"
-      ],
-      "note": "",
-      "number": "150",
-      "number_parsed": 150,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "陳雪如",
-      "time": "4234",
-      "time_parsed": [
-        {
-          "day": 4,
-          "time": [
-            2,
-            3,
-            4
-          ]
-        }
-      ],
-      "title": "商事法b `Business Law",
-      "title_parsed": {
-        "en_US": "Business Law",
-        "zh_TW": "商事法b"
-      },
-      "url": "4052",
-      "year": "半"
-    },
-    {
       "class": "3",
-      "code": "1989",
+      "code": "1988",
       "credits": "3",
       "credits_parsed": 3,
       "department": "管理學院",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "行銷學系學士班",
+      "for_dept": "企業管理學系學士班",
       "hours": "3",
       "hours_parsed": "3",
       "intern_location": [
@@ -27421,10 +27531,10 @@
       "obligatory_tf": true,
       "prerequisite": "",
       "professor": "陳雪如",
-      "time": "4234",
+      "time": "2234",
       "time_parsed": [
         {
-          "day": 4,
+          "day": 2,
           "time": [
             2,
             3,
@@ -27432,12 +27542,12 @@
           ]
         }
       ],
-      "title": "商事法b `Business Law",
+      "title": "商事法a `Business Law",
       "title_parsed": {
         "en_US": "Business Law",
-        "zh_TW": "商事法b"
+        "zh_TW": "商事法a"
       },
-      "url": "3609",
+      "url": "2941",
       "year": "半"
     },
     {
@@ -27493,7 +27603,7 @@
       "department": "管理學院",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "會計學系學士班",
+      "for_dept": "行銷學系學士班",
       "hours": "3",
       "hours_parsed": "3",
       "intern_location": [
@@ -27527,7 +27637,97 @@
         "en_US": "Business Law",
         "zh_TW": "商事法b"
       },
-      "url": "5466",
+      "url": "3609",
+      "year": "半"
+    },
+    {
+      "class": "0",
+      "code": "1989",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "管理學院",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "管理學院",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "SC111"
+      ],
+      "note": "",
+      "number": "150",
+      "number_parsed": 150,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "陳雪如",
+      "time": "4234",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "title": "商事法b `Business Law",
+      "title_parsed": {
+        "en_US": "Business Law",
+        "zh_TW": "商事法b"
+      },
+      "url": "4052",
+      "year": "半"
+    },
+    {
+      "class": "3",
+      "code": "1989",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "管理學院",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "企業管理學系學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "SC111"
+      ],
+      "note": "",
+      "number": "150",
+      "number_parsed": 150,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "陳雪如",
+      "time": "4234",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "title": "商事法b `Business Law",
+      "title_parsed": {
+        "en_US": "Business Law",
+        "zh_TW": "商事法b"
+      },
+      "url": "2946",
       "year": "半"
     },
     {
@@ -27583,7 +27783,7 @@
       "department": "管理學院",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "企業管理學系學士班",
+      "for_dept": "會計學系學士班",
       "hours": "3",
       "hours_parsed": "3",
       "intern_location": [
@@ -27617,52 +27817,7 @@
         "en_US": "Business Law",
         "zh_TW": "商事法b"
       },
-      "url": "2946",
-      "year": "半"
-    },
-    {
-      "class": "4",
-      "code": "1990",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "管理學院",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "企業管理學系學士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "SC120"
-      ],
-      "note": "",
-      "number": "60",
-      "number_parsed": 60,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "唐資文",
-      "time": "1678",
-      "time_parsed": [
-        {
-          "day": 1,
-          "time": [
-            6,
-            7,
-            8
-          ]
-        }
-      ],
-      "title": "創業管理 `Entrepreneurship Management",
-      "title_parsed": {
-        "en_US": "Entrepreneurship Management",
-        "zh_TW": "創業管理"
-      },
-      "url": "4592",
+      "url": "5466",
       "year": "半"
     },
     {
@@ -27711,6 +27866,51 @@
       "year": "半"
     },
     {
+      "class": "4",
+      "code": "1990",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "管理學院",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "企業管理學系學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "SC120"
+      ],
+      "note": "",
+      "number": "60",
+      "number_parsed": 60,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "唐資文",
+      "time": "1678",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "title": "創業管理 `Entrepreneurship Management",
+      "title_parsed": {
+        "en_US": "Entrepreneurship Management",
+        "zh_TW": "創業管理"
+      },
+      "url": "4592",
+      "year": "半"
+    },
+    {
       "class": "3",
       "code": "1990",
       "credits": "3",
@@ -27753,6 +27953,141 @@
         "zh_TW": "創業管理"
       },
       "url": "3735",
+      "year": "半"
+    },
+    {
+      "class": "3",
+      "code": "1991",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "管理學院",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "企業管理學系學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "SC123"
+      ],
+      "note": "",
+      "number": "90",
+      "number_parsed": 90,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "徐俊明",
+      "time": "3234",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "title": "財務管理a `Financial Management",
+      "title_parsed": {
+        "en_US": "Financial Management",
+        "zh_TW": "財務管理a"
+      },
+      "url": "5636",
+      "year": "半"
+    },
+    {
+      "class": "2",
+      "code": "1991",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "管理學院",
+      "discipline": "",
+      "enrolled_num": "52",
+      "for_dept": "財務金融學系學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "SC123"
+      ],
+      "note": "",
+      "number": "90",
+      "number_parsed": 90,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "經濟學",
+      "professor": "徐俊明",
+      "time": "3234",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "title": "財務管理a `Financial Management",
+      "title_parsed": {
+        "en_US": "Financial Management",
+        "zh_TW": "財務管理a"
+      },
+      "url": "4825",
+      "year": "半"
+    },
+    {
+      "class": "3",
+      "code": "1991",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "管理學院",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "會計學系學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "SC123"
+      ],
+      "note": "",
+      "number": "90",
+      "number_parsed": 90,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "徐俊明",
+      "time": "3234",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "title": "財務管理a `Financial Management",
+      "title_parsed": {
+        "en_US": "Financial Management",
+        "zh_TW": "財務管理a"
+      },
+      "url": "5638",
       "year": "半"
     },
     {
@@ -27853,96 +28188,6 @@
       "department": "管理學院",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "企業管理學系學士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "SC123"
-      ],
-      "note": "",
-      "number": "90",
-      "number_parsed": 90,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "徐俊明",
-      "time": "3234",
-      "time_parsed": [
-        {
-          "day": 3,
-          "time": [
-            2,
-            3,
-            4
-          ]
-        }
-      ],
-      "title": "財務管理a `Financial Management",
-      "title_parsed": {
-        "en_US": "Financial Management",
-        "zh_TW": "財務管理a"
-      },
-      "url": "5636",
-      "year": "半"
-    },
-    {
-      "class": "3",
-      "code": "1991",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "管理學院",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "會計學系學士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "SC123"
-      ],
-      "note": "",
-      "number": "90",
-      "number_parsed": 90,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "徐俊明",
-      "time": "3234",
-      "time_parsed": [
-        {
-          "day": 3,
-          "time": [
-            2,
-            3,
-            4
-          ]
-        }
-      ],
-      "title": "財務管理a `Financial Management",
-      "title_parsed": {
-        "en_US": "Financial Management",
-        "zh_TW": "財務管理a"
-      },
-      "url": "5638",
-      "year": "半"
-    },
-    {
-      "class": "3",
-      "code": "1991",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "管理學院",
-      "discipline": "",
-      "enrolled_num": "0",
       "for_dept": "資訊管理學系學士班",
       "hours": "3",
       "hours_parsed": "3",
@@ -27978,51 +28223,6 @@
         "zh_TW": "財務管理a"
       },
       "url": "5649",
-      "year": "半"
-    },
-    {
-      "class": "2",
-      "code": "1991",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "管理學院",
-      "discipline": "",
-      "enrolled_num": "52",
-      "for_dept": "財務金融學系學士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "SC123"
-      ],
-      "note": "",
-      "number": "90",
-      "number_parsed": 90,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "經濟學",
-      "professor": "徐俊明",
-      "time": "3234",
-      "time_parsed": [
-        {
-          "day": 3,
-          "time": [
-            2,
-            3,
-            4
-          ]
-        }
-      ],
-      "title": "財務管理a `Financial Management",
-      "title_parsed": {
-        "en_US": "Financial Management",
-        "zh_TW": "財務管理a"
-      },
-      "url": "4825",
       "year": "半"
     },
     {
@@ -28068,141 +28268,6 @@
         "zh_TW": "財務管理b"
       },
       "url": "1919",
-      "year": "半"
-    },
-    {
-      "class": "3",
-      "code": "1992",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "管理學院",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "會計學系學士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "SC121"
-      ],
-      "note": "",
-      "number": "90",
-      "number_parsed": 90,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "李超雄",
-      "time": "3234",
-      "time_parsed": [
-        {
-          "day": 3,
-          "time": [
-            2,
-            3,
-            4
-          ]
-        }
-      ],
-      "title": "財務管理b `Financial Management",
-      "title_parsed": {
-        "en_US": "Financial Management",
-        "zh_TW": "財務管理b"
-      },
-      "url": "1918",
-      "year": "半"
-    },
-    {
-      "class": "0",
-      "code": "1992",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "管理學院",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "管理學院",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "SC121"
-      ],
-      "note": "",
-      "number": "90",
-      "number_parsed": 90,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "李超雄",
-      "time": "3234",
-      "time_parsed": [
-        {
-          "day": 3,
-          "time": [
-            2,
-            3,
-            4
-          ]
-        }
-      ],
-      "title": "財務管理b `Financial Management",
-      "title_parsed": {
-        "en_US": "Financial Management",
-        "zh_TW": "財務管理b"
-      },
-      "url": "1915",
-      "year": "半"
-    },
-    {
-      "class": "3",
-      "code": "1992",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "管理學院",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "行銷學系學士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "SC121"
-      ],
-      "note": "",
-      "number": "90",
-      "number_parsed": 90,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "李超雄",
-      "time": "3234",
-      "time_parsed": [
-        {
-          "day": 3,
-          "time": [
-            2,
-            3,
-            4
-          ]
-        }
-      ],
-      "title": "財務管理b `Financial Management",
-      "title_parsed": {
-        "en_US": "Financial Management",
-        "zh_TW": "財務管理b"
-      },
-      "url": "1920",
       "year": "半"
     },
     {
@@ -28258,6 +28323,141 @@
       "department": "管理學院",
       "discipline": "",
       "enrolled_num": "0",
+      "for_dept": "行銷學系學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "SC121"
+      ],
+      "note": "",
+      "number": "90",
+      "number_parsed": 90,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "李超雄",
+      "time": "3234",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "title": "財務管理b `Financial Management",
+      "title_parsed": {
+        "en_US": "Financial Management",
+        "zh_TW": "財務管理b"
+      },
+      "url": "1920",
+      "year": "半"
+    },
+    {
+      "class": "0",
+      "code": "1992",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "管理學院",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "管理學院",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "SC121"
+      ],
+      "note": "",
+      "number": "90",
+      "number_parsed": 90,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "李超雄",
+      "time": "3234",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "title": "財務管理b `Financial Management",
+      "title_parsed": {
+        "en_US": "Financial Management",
+        "zh_TW": "財務管理b"
+      },
+      "url": "1915",
+      "year": "半"
+    },
+    {
+      "class": "3",
+      "code": "1992",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "管理學院",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "會計學系學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "SC121"
+      ],
+      "note": "",
+      "number": "90",
+      "number_parsed": 90,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "李超雄",
+      "time": "3234",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "title": "財務管理b `Financial Management",
+      "title_parsed": {
+        "en_US": "Financial Management",
+        "zh_TW": "財務管理b"
+      },
+      "url": "1918",
+      "year": "半"
+    },
+    {
+      "class": "3",
+      "code": "1992",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "管理學院",
+      "discipline": "",
+      "enrolled_num": "0",
       "for_dept": "企業管理學系學士班",
       "hours": "3",
       "hours_parsed": "3",
@@ -28293,51 +28493,6 @@
         "zh_TW": "財務管理b"
       },
       "url": "1917",
-      "year": "半"
-    },
-    {
-      "class": "2",
-      "code": "1993",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "管理學院",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "財務金融學系學士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "SC112"
-      ],
-      "note": "",
-      "number": "100",
-      "number_parsed": 100,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "經濟學",
-      "professor": "楊東曉",
-      "time": "3234",
-      "time_parsed": [
-        {
-          "day": 3,
-          "time": [
-            2,
-            3,
-            4
-          ]
-        }
-      ],
-      "title": "財務管理c `Financial Management",
-      "title_parsed": {
-        "en_US": "Financial Management",
-        "zh_TW": "財務管理c"
-      },
-      "url": "1959",
       "year": "半"
     },
     {
@@ -28567,7 +28722,7 @@
     },
     {
       "class": "2",
-      "code": "1994",
+      "code": "1993",
       "credits": "3",
       "credits_parsed": 3,
       "department": "管理學院",
@@ -28582,7 +28737,7 @@
       "intern_time": "",
       "language": "中文",
       "location": [
-        "SC111"
+        "SC112"
       ],
       "note": "",
       "number": "100",
@@ -28590,7 +28745,7 @@
       "obligatory": "必修",
       "obligatory_tf": true,
       "prerequisite": "經濟學",
-      "professor": "戚永苓",
+      "professor": "楊東曉",
       "time": "3234",
       "time_parsed": [
         {
@@ -28602,57 +28757,12 @@
           ]
         }
       ],
-      "title": "財務管理d `Financial Management",
+      "title": "財務管理c `Financial Management",
       "title_parsed": {
         "en_US": "Financial Management",
-        "zh_TW": "財務管理d"
+        "zh_TW": "財務管理c"
       },
-      "url": "1985",
-      "year": "半"
-    },
-    {
-      "class": "0",
-      "code": "1994",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "管理學院",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "管理學院",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "SC111"
-      ],
-      "note": "",
-      "number": "100",
-      "number_parsed": 100,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "戚永苓",
-      "time": "3234",
-      "time_parsed": [
-        {
-          "day": 3,
-          "time": [
-            2,
-            3,
-            4
-          ]
-        }
-      ],
-      "title": "財務管理d `Financial Management",
-      "title_parsed": {
-        "en_US": "Financial Management",
-        "zh_TW": "財務管理d"
-      },
-      "url": "1988",
+      "url": "1959",
       "year": "半"
     },
     {
@@ -28663,7 +28773,7 @@
       "department": "管理學院",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "資訊管理學系學士班",
+      "for_dept": "行銷學系學士班",
       "hours": "3",
       "hours_parsed": "3",
       "intern_location": [
@@ -28697,7 +28807,7 @@
         "en_US": "Financial Management",
         "zh_TW": "財務管理d"
       },
-      "url": "1986",
+      "url": "1983",
       "year": "半"
     },
     {
@@ -28753,7 +28863,7 @@
       "department": "管理學院",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "行銷學系學士班",
+      "for_dept": "資訊管理學系學士班",
       "hours": "3",
       "hours_parsed": "3",
       "intern_location": [
@@ -28787,7 +28897,97 @@
         "en_US": "Financial Management",
         "zh_TW": "財務管理d"
       },
-      "url": "1983",
+      "url": "1986",
+      "year": "半"
+    },
+    {
+      "class": "0",
+      "code": "1994",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "管理學院",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "管理學院",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "SC111"
+      ],
+      "note": "",
+      "number": "100",
+      "number_parsed": 100,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "戚永苓",
+      "time": "3234",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "title": "財務管理d `Financial Management",
+      "title_parsed": {
+        "en_US": "Financial Management",
+        "zh_TW": "財務管理d"
+      },
+      "url": "1988",
+      "year": "半"
+    },
+    {
+      "class": "2",
+      "code": "1994",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "管理學院",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "財務金融學系學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "SC111"
+      ],
+      "note": "",
+      "number": "100",
+      "number_parsed": 100,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "經濟學",
+      "professor": "戚永苓",
+      "time": "3234",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "title": "財務管理d `Financial Management",
+      "title_parsed": {
+        "en_US": "Financial Management",
+        "zh_TW": "財務管理d"
+      },
+      "url": "1985",
       "year": "半"
     },
     {

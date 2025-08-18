@@ -1258,7 +1258,7 @@
       "obligatory": "必修",
       "obligatory_tf": true,
       "prerequisite": "",
-      "professor": "賴建成",
+      "professor": "童敏哲",
       "time": "55",
       "time_parsed": [
         {
@@ -1301,7 +1301,7 @@
       "obligatory": "選修",
       "obligatory_tf": false,
       "prerequisite": "",
-      "professor": "張嘉哲",
+      "professor": "童敏哲",
       "time": "*",
       "time_parsed": [],
       "title": "專題研究(一)a `Special Topics Research (I)",
@@ -3164,7 +3164,7 @@
       "obligatory": "必修",
       "obligatory_tf": true,
       "prerequisite": "",
-      "professor": "許美鈴",
+      "professor": "劉俊宏",
       "time": "56",
       "time_parsed": [
         {
@@ -3286,7 +3286,7 @@
       "obligatory": "選修",
       "obligatory_tf": false,
       "prerequisite": "",
-      "professor": "黃介辰",
+      "professor": "童敏哲",
       "time": "57",
       "time_parsed": [
         {

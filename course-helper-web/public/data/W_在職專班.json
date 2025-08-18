@@ -2299,7 +2299,7 @@
       "obligatory": "必修",
       "obligatory_tf": true,
       "prerequisite": "",
-      "professor": "陳家彬",
+      "professor": "賴榮裕",
       "time": "68",
       "time_parsed": [
         {
@@ -2593,7 +2593,7 @@
       "obligatory": "選修",
       "obligatory_tf": false,
       "prerequisite": "",
-      "professor": "喬友慶",
+      "professor": "蔡玫亭",
       "time": "*",
       "time_parsed": [],
       "title": "企業經營個案研討 `Case Studies of Business Management",
