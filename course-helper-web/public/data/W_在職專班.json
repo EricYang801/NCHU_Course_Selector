@@ -3596,7 +3596,7 @@
       "year": "半"
     },
     {
-      "class": "6",
+      "class": "7",
       "code": "7685",
       "credits": "2",
       "credits_parsed": 2,
@@ -4370,14 +4370,14 @@
     {
       "class": "6",
       "code": "7703",
-      "credits": "3",
-      "credits_parsed": 3,
+      "credits": "2",
+      "credits_parsed": 2,
       "department": "食品暨應用生物科技學系碩士在職專班",
       "discipline": "",
       "enrolled_num": "0",
       "for_dept": "食品暨應用生物科技學系碩士在職專班",
-      "hours": "3",
-      "hours_parsed": "3",
+      "hours": "2",
+      "hours_parsed": "2",
       "intern_location": [
         ""
       ],
@@ -10484,7 +10484,7 @@
       "year": "半"
     },
     {
-      "class": "6",
+      "class": "7",
       "code": "7969",
       "credits": "2",
       "credits_parsed": 2,
@@ -10669,7 +10669,7 @@
       "credits_parsed": 3,
       "department": "人工智慧與資料科學碩士在職學位學程",
       "discipline": "",
-      "enrolled_num": "36",
+      "enrolled_num": "35",
       "for_dept": "人工智慧與資料科學碩士在職學位學程",
       "hours": "0",
       "hours_parsed": "0",

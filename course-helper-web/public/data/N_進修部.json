@@ -367,7 +367,7 @@
         ""
       ],
       "intern_time": "",
-      "language": "英文",
+      "language": "中文",
       "location": [
         "Y112"
       ],
@@ -1208,8 +1208,8 @@
         "Y206"
       ],
       "note": "使用全英文課綱、教材與評量方式Syllabus, teaching materials and assessment methods are all in english",
-      "number": "22",
-      "number_parsed": 22,
+      "number": "16",
+      "number_parsed": 16,
       "obligatory": "必修",
       "obligatory_tf": true,
       "prerequisite": "",
@@ -1252,8 +1252,8 @@
         "Y303"
       ],
       "note": "使用全英文課綱、教材與評量方式Syllabus, teaching materials and assessment methods are all in english",
-      "number": "21",
-      "number_parsed": 21,
+      "number": "16",
+      "number_parsed": 16,
       "obligatory": "必修",
       "obligatory_tf": true,
       "prerequisite": "",
@@ -1296,8 +1296,8 @@
         "Y301"
       ],
       "note": "使用全英文課綱、教材與評量方式Syllabus, teaching materials and assessment methods are all in english",
-      "number": "22",
-      "number_parsed": 22,
+      "number": "16",
+      "number_parsed": 16,
       "obligatory": "必修",
       "obligatory_tf": true,
       "prerequisite": "",
@@ -1340,8 +1340,8 @@
         "Y409"
       ],
       "note": "使用全英文課綱、教材與評量方式Syllabus, teaching materials and assessment methods are all in english",
-      "number": "21",
-      "number_parsed": 21,
+      "number": "16",
+      "number_parsed": 16,
       "obligatory": "必修",
       "obligatory_tf": true,
       "prerequisite": "",
@@ -3055,7 +3055,7 @@
         ""
       ],
       "intern_time": "",
-      "language": "英文",
+      "language": "中/英文",
       "location": [
         "Y307"
       ],
@@ -3275,7 +3275,7 @@
         ""
       ],
       "intern_time": "",
-      "language": "中/英文",
+      "language": "英語",
       "location": [
         "Y301"
       ],
@@ -3988,7 +3988,7 @@
         ""
       ],
       "intern_time": "",
-      "language": "中文",
+      "language": "英文",
       "location": [
         "Y204"
       ],
@@ -5626,7 +5626,7 @@
         ""
       ],
       "intern_time": "",
-      "language": "中文",
+      "language": "英文",
       "location": [
         "A310"
       ],
