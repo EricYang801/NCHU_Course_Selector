@@ -12715,7 +12715,7 @@
       "location": [
         "*"
       ],
-      "note": "",
+      "note": "同步遠距教學課程",
       "number": "15",
       "number_parsed": 15,
       "obligatory": "選修",
@@ -13623,7 +13623,7 @@
       "obligatory": "必修",
       "obligatory_tf": true,
       "prerequisite": "",
-      "professor": "賴宗志",
+      "professor": "葉宗穎",
       "time": "5234",
       "time_parsed": [
         {
@@ -14427,7 +14427,7 @@
       "location": [
         "*"
       ],
-      "note": "",
+      "note": "非同步遠距教學課程",
       "number": "30",
       "number_parsed": 30,
       "obligatory": "選修",
@@ -24229,13 +24229,13 @@
       "obligatory_tf": false,
       "prerequisite": "",
       "professor": "王敏盈",
-      "time": "467",
+      "time": "456",
       "time_parsed": [
         {
           "day": 4,
           "time": [
-            6,
-            7
+            5,
+            6
           ]
         }
       ],
@@ -26369,7 +26369,7 @@
       "intern_time": "",
       "language": "中文",
       "location": [
-        "*"
+        "Z605"
       ],
       "note": "",
       "number": "30",
@@ -26378,14 +26378,19 @@
       "obligatory_tf": false,
       "prerequisite": "",
       "professor": "李龍緣",
-      "time": "3346",
+      "time": "267,36",
       "time_parsed": [
         {
           "day": 3,
           "time": [
-            3,
-            4,
             6
+          ]
+        },
+        {
+          "day": 2,
+          "time": [
+            6,
+            7
           ]
         }
       ],
@@ -26503,13 +26508,13 @@
       "obligatory_tf": false,
       "prerequisite": "",
       "professor": "曾妤馨",
-      "time": "356",
+      "time": "589",
       "time_parsed": [
         {
-          "day": 3,
+          "day": 5,
           "time": [
-            5,
-            6
+            8,
+            9
           ]
         }
       ],
@@ -30883,7 +30888,7 @@
       "intern_time": "",
       "language": "中/英文",
       "location": [
-        "Z405"
+        "Z501"
       ],
       "note": "",
       "number": "0",
@@ -31106,12 +31111,12 @@
       "obligatory_tf": false,
       "prerequisite": "",
       "professor": "林幸助",
-      "time": "1910",
+      "time": "189",
       "time_parsed": [
         {
           "day": 1,
           "time": [
-            10,
+            8,
             9
           ]
         }
@@ -37203,7 +37208,7 @@
       "obligatory": "必修",
       "obligatory_tf": true,
       "prerequisite": "",
-      "professor": "待聘",
+      "professor": "黃建維",
       "time": "4678",
       "time_parsed": [
         {
@@ -37384,12 +37389,12 @@
       "obligatory_tf": false,
       "prerequisite": "",
       "professor": "林坤儀",
-      "time": "41",
+      "time": "15",
       "time_parsed": [
         {
-          "day": 4,
+          "day": 1,
           "time": [
-            1
+            5
           ]
         }
       ],
@@ -43461,13 +43466,13 @@
       "obligatory_tf": false,
       "prerequisite": "",
       "professor": "林信堂",
-      "time": "312",
+      "time": "178",
       "time_parsed": [
         {
-          "day": 3,
+          "day": 1,
           "time": [
-            1,
-            2
+            7,
+            8
           ]
         }
       ],
@@ -43584,7 +43589,7 @@
         ""
       ],
       "intern_time": "",
-      "language": "中/英文",
+      "language": "中文",
       "location": [
         "FS509"
       ],
@@ -43632,7 +43637,7 @@
       "location": [
         "L216"
       ],
-      "note": "使用全英文課綱、教材與評量方式Syllabus, teaching materials and assessment methods are all in english",
+      "note": "",
       "number": "20",
       "number_parsed": 20,
       "obligatory": "選修",
@@ -46864,7 +46869,7 @@
         ""
       ],
       "intern_time": "",
-      "language": "中文",
+      "language": "英文",
       "location": [
         "FS509"
       ],
@@ -55571,13 +55576,13 @@
       "obligatory_tf": false,
       "prerequisite": "",
       "professor": "王敏盈",
-      "time": "389",
+      "time": "478",
       "time_parsed": [
         {
-          "day": 3,
+          "day": 4,
           "time": [
-            8,
-            9
+            7,
+            8
           ]
         }
       ],
@@ -67540,7 +67545,7 @@
         ""
       ],
       "intern_time": "",
-      "language": "中文",
+      "language": "英文",
       "location": [
         "Z605"
       ],
@@ -71421,7 +71426,7 @@
         ""
       ],
       "intern_time": "",
-      "language": "中文",
+      "language": "英文",
       "location": [
         "Z605"
       ],
