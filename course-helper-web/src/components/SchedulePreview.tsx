@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useCallback } from 'react'
 import { Course } from '@/lib/course-types'
 import { TIME_SLOTS, DAYS, CAREER_COLORS, getCareerFromDepartment } from '@/lib/course-utils'
+import { formatProfessor } from '@/lib/ui-utils'
 
 interface TimeSlot {
   course?: Course
@@ -70,11 +71,7 @@ export default function SchedulePreview({ selectedCourses, onRemoveCourse, compa
     generateSchedule()
   }, [generateSchedule])
 
-  const formatProfessor = (professor: string | string[]) => {
-    if (typeof professor === 'string') return professor
-    if (Array.isArray(professor)) return professor.join(', ')
-    return ''
-  }
+  // use formatProfessor from '@/lib/ui-utils'
 
   const renderCourseCell = (timeSlot: TimeSlot) => {
     if (!timeSlot.course) {

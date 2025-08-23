@@ -4,6 +4,7 @@ import { useState, useEffect, useCallback } from 'react'
 import { useSearchParams } from 'next/navigation'
 import { Course } from '@/lib/course-types'
 import { getCareerFromDepartment, getCareerColorClass } from '@/lib/course-utils'
+import { formatProfessor, formatTime, formatLocation } from '@/lib/ui-utils'
 import { courseService } from '@/lib/course-service'
 
 interface CourseListProps {
@@ -82,30 +83,7 @@ export default function CourseList({ onAddCourse, onRemoveCourse, selectedCourse
     }
   }
 
-  const formatTime = (timeData: string[] | string) => {
-    if (!timeData) return '無'
-    if (typeof timeData === 'string') return timeData
-    if (Array.isArray(timeData)) {
-      if (timeData.length === 0) return '無'
-      return timeData.join(', ')
-    }
-    return '無'
-  }
-
-  const formatLocation = (locationArray: string[]) => {
-    if (!locationArray || locationArray.length === 0) return '無'
-    return locationArray.join(', ')
-  }
-
-  const formatProfessor = (professorData: string[] | string) => {
-    if (!professorData) return '無'
-    if (typeof professorData === 'string') return professorData
-    if (Array.isArray(professorData)) {
-      if (professorData.length === 0) return '無'
-      return professorData.join(', ')
-    }
-    return '無'
-  }
+  // ...existing code uses shared helpers from '@/lib/ui-utils'
 
   const CourseModal = ({ course, onClose }: { course: Course; onClose: () => void }) => (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
