@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "next": "15.3.3",
+  "html-to-image": "^1.10.10",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },

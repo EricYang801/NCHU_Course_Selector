@@ -1,9 +1,9 @@
 'use client'
 
-import React, { useState, useEffect, useCallback } from 'react'
+import React, { useState, useEffect, useCallback, useRef } from 'react'
 import { Course } from '@/lib/course-types'
 import { TIME_SLOTS, DAYS, CAREER_COLORS, getCareerFromDepartment } from '@/lib/course-utils'
-import { formatProfessor } from '@/lib/ui-utils'
+import { formatProfessor, splitCareerColorClasses } from '@/lib/ui-utils'
 
 interface TimeSlot {
   course?: Course
@@ -20,6 +20,7 @@ interface SchedulePreviewProps {
 const WEEKDAYS = DAYS.slice(0, 5) // ['一', '二', '三', '四', '五']
 
 export default function SchedulePreview({ selectedCourses, onRemoveCourse, compact = false }: SchedulePreviewProps) {
+  const scheduleRef = useRef<HTMLDivElement | null>(null)
   const [schedule, setSchedule] = useState<TimeSlot[][]>([])
   const [conflicts, setConflicts] = useState<string[]>([])
 
@@ -89,23 +90,11 @@ export default function SchedulePreview({ selectedCourses, onRemoveCourse, compa
     const professorName = formatProfessor(course.professor)
     const shortProfessor = professorName.length > 6 ? professorName.substring(0, 6) + '...' : professorName
 
-    // 簡化顏色設計
-    const getStyleClasses = (colorClass: string) => {
-      const colorMap: { [key: string]: { bg: string, text: string, border: string } } = {
-        'bg-blue-100 border-blue-300 text-blue-800': { bg: 'bg-blue-100', text: 'text-blue-800', border: 'border-blue-300' },
-        'bg-green-100 border-green-300 text-green-800': { bg: 'bg-green-100', text: 'text-green-800', border: 'border-green-300' },
-        'bg-purple-100 border-purple-300 text-purple-800': { bg: 'bg-purple-100', text: 'text-purple-800', border: 'border-purple-300' },
-        'bg-orange-100 border-orange-300 text-orange-800': { bg: 'bg-orange-100', text: 'text-orange-800', border: 'border-orange-300' },
-        'bg-red-100 border-red-300 text-red-800': { bg: 'bg-red-100', text: 'text-red-800', border: 'border-red-300' },
-        'bg-gray-100 border-gray-300 text-gray-800': { bg: 'bg-gray-100', text: 'text-gray-800', border: 'border-gray-300' }
-      }
-      return colorMap[colorClass] || { bg: 'bg-indigo-100', text: 'text-indigo-800', border: 'border-indigo-300' }
-    }
-
-    const styles = getStyleClasses(colorClass)
+  // 使用共用 helper 拆出 bg/text/border
+  const { bg: bgClass, text: textClass, border: borderClass } = splitCareerColorClasses(colorClass)
 
     return (
-      <div className={`h-16 border-2 ${styles.bg} ${styles.text} ${styles.border} ${conflictClass} p-1.5 relative group cursor-pointer rounded-sm shadow-sm hover:shadow-md transition-all duration-200`}>
+      <div className={`h-16 border-2 ${bgClass} ${textClass} ${borderClass} ${conflictClass} p-1.5 relative group cursor-pointer rounded-sm shadow-sm hover:shadow-md transition-all duration-200`}>
         {/* 主要顯示資訊 */}
         <div className="text-[10px] font-bold leading-tight mb-0.5 line-clamp-1">
           {shortTitle}
@@ -234,14 +223,43 @@ export default function SchedulePreview({ selectedCourses, onRemoveCourse, compa
       ) : (
         <>
                     {/* 課表網格 - 響應式設計 */}
-          <div className="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden">
-            <div className="bg-gradient-to-r from-gray-50 to-gray-100 px-4 py-2 border-b border-gray-200">
+          <div ref={scheduleRef} className="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden">
+            <div className="bg-gradient-to-r from-gray-50 to-gray-100 px-4 py-2 border-b border-gray-200 flex items-center justify-between">
               <h3 className="font-bold text-gray-800 text-sm flex items-center gap-2">
                 <svg className="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                 </svg>
                 週課表 (週一至週五)
               </h3>
+              <div className="flex items-center gap-2">
+                <button
+                  onClick={async () => {
+                    if (!scheduleRef.current) return
+                    try {
+                      const htmlToImage = await import('html-to-image')
+                      // toPng may not be exported under default name in some builds, so check both
+                      const toPng = (htmlToImage as any).toPng || (htmlToImage as any).default?.toPng
+                      if (!toPng) {
+                        alert('匯出功能不可用：找不到 toPng 方法')
+                        return
+                      }
+                      const dataUrl = await toPng(scheduleRef.current, { cacheBust: true, backgroundColor: '#ffffff', pixelRatio: 2 })
+                      const link = document.createElement('a')
+                      link.href = dataUrl
+                      link.download = 'schedule.png'
+                      link.click()
+                    } catch (err) {
+                      // eslint-disable-next-line no-console
+                      console.error('export error', err)
+                      alert('匯出失敗，請稍後再試')
+                    }
+                  }}
+                  className="inline-flex items-center gap-2 px-3 py-1.5 text-xs bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors shadow-sm"
+                  title="匯出課表為圖片"
+                >
+                  匯出圖片
+                </button>
+              </div>
             </div>
             
             {/* 手機版分組視圖（已改為顯示表格，故此區塊隱藏） */}
@@ -301,24 +319,12 @@ export default function SchedulePreview({ selectedCourses, onRemoveCourse, compa
                                   const colorClass = CAREER_COLORS[career as keyof typeof CAREER_COLORS]
                                   const conflictClass = course.isConflict ? 'ring-2 ring-red-500' : ''
                                   
-                                  const getStyleClasses = (colorClass: string) => {
-                                    const colorMap: { [key: string]: { bg: string, text: string, border: string } } = {
-                                      'bg-blue-100 border-blue-300 text-blue-800': { bg: 'bg-blue-50', text: 'text-blue-800', border: 'border-blue-200' },
-                                      'bg-green-100 border-green-300 text-green-800': { bg: 'bg-green-50', text: 'text-green-800', border: 'border-green-200' },
-                                      'bg-purple-100 border-purple-300 text-purple-800': { bg: 'bg-purple-50', text: 'text-purple-800', border: 'border-purple-200' },
-                                      'bg-orange-100 border-orange-300 text-orange-800': { bg: 'bg-orange-50', text: 'text-orange-800', border: 'border-orange-200' },
-                                      'bg-red-100 border-red-300 text-red-800': { bg: 'bg-red-50', text: 'text-red-800', border: 'border-red-200' },
-                                      'bg-gray-100 border-gray-300 text-gray-800': { bg: 'bg-gray-50', text: 'text-gray-800', border: 'border-gray-200' }
-                                    }
-                                    return colorMap[colorClass] || { bg: 'bg-indigo-50', text: 'text-indigo-800', border: 'border-indigo-200' }
-                                  }
-                                  
-                                  const styles = getStyleClasses(colorClass)
+                                  const { bg: bgClass2, text: textClass2, border: borderClass2 } = splitCareerColorClasses(colorClass)
                                   const courseTitle = currentCourse.title_parsed?.zh_TW || currentCourse.title.split('`')[0]
                                   const professorName = formatProfessor(currentCourse.professor)
                                   
                                   return (
-                                    <div key={`${timeIndex}`} className={`${styles.bg} ${styles.border} ${styles.text} border-l-4 ${conflictClass} rounded-r-lg p-3 shadow-sm`}>
+                                    <div key={`${timeIndex}`} className={`${bgClass2} ${borderClass2} ${textClass2} border-l-4 ${conflictClass} rounded-r-lg p-3 shadow-sm`}>
                                       <div className="flex items-start justify-between">
                                         <div className="flex-1 min-w-0">
                                           {/* 時間標籤 */}
