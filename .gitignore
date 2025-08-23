@@ -1,75 +1,27 @@
-### Node / JS ###
+# Simplified .gitignore for this repository
+
+# Node deps
 node_modules/
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 
-### Build / output ###
-# root build output
+# Build outputs
 out/
-# Next.js build & export outputs
 course-helper-web/.next/
 course-helper-web/out/
-course-helper-web/dist/
 
-### Environment ###
-# Ignore real env files; keep .env.example in repo
+# Environment files (keep .env.example in repo)
 .env
 .env.local
-.env.development.local
-.env.test.local
-.env.production.local
 
-### Logs / runtime ###
+# Logs and caches
 logs/
 *.log
-course_crawler.log
-
-### Runtime data / caches ###
-pids
-*.pid
-*.seed
-*.pid.lock
 .cache/
-course-helper-web/.next/cache/
 
-### OS / Editor ###
-# macOS
+# macOS / Editor
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# IDE
 .vscode/
 .idea/
-*.swp
-*.swo
 
-### Python (if present) ###
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
-### Keep data files (should remain committed) ###
+# Keep course data JSON files in repo
 !course-helper-web/public/data/*.json
