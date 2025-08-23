@@ -69,3 +69,12 @@ wheels/
 
 # Keep data files (these should be committed)
 !course-helper-web/public/data/*.json
+
+# Crawler log
+course_crawler.log
+
+# root build output
+out/
+
+# ensure nested node_modules are ignored
+course-helper-web/node_modules/
