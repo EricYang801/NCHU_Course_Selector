@@ -12,7 +12,10 @@ export const CAREER_COLORS = {
 }
 
 // 從系所名稱判斷學制
-export const getCareerFromDepartment = (department: string): string => {
+export const getCareerFromDepartment = (department?: string): string => {
+  // 防禦性檢查：如果沒有 department（undefined/null/非字串），回傳 '其他'
+  if (!department || typeof department !== 'string') return '其他'
+
   // 博士相關：博士班、博士學位學程、博士學程
   if (department.includes('博士')) return '博士班'
   // 碩士相關：碩士班、碩專班、碩士在職專班、碩士學位學程

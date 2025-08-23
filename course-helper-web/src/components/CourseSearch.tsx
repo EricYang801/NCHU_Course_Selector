@@ -9,6 +9,8 @@ interface SearchFilters {
   career: string
   professor: string
   credits: string
+  year: string
+  obligatory: string
   time: string
 }
 
@@ -24,8 +26,10 @@ export default function CourseSearch({ onSearch }: CourseSearchProps) {
     keyword: searchParams.get('keyword') || '',
     for_dept: searchParams.get('for_dept') || searchParams.get('department') || '',
     career: searchParams.get('career') || '',
-    professor: searchParams.get('professor') || '',
-    credits: searchParams.get('credits') || '',
+  professor: searchParams.get('professor') || '',
+  credits: searchParams.get('credits') || '',
+  year: searchParams.get('year') || '',
+  obligatory: searchParams.get('obligatory') || '',
     time: searchParams.get('time') || ''
   })
 
@@ -49,6 +53,21 @@ export default function CourseSearch({ onSearch }: CourseSearchProps) {
     { value: '4', label: '4 學分' },
     { value: '5', label: '5 學分' },
     { value: '6', label: '6 學分或以上' }
+  ]
+
+  const yearOptions = [
+  { value: '', label: '\u5168\u90e8\u5e74\u7d1a' },
+  { value: '1', label: '1\u5e74\u7d1a' },
+  { value: '2', label: '2\u5e74\u7d1a' },
+  { value: '3', label: '3\u5e74\u7d1a' },
+  { value: '4', label: '4\u5e74\u7d1a' },
+  { value: '5', label: '5\u5e74\u7d1a\u4ee5\u4e0a' }
+  ]
+
+  const obligatoryOptions = [
+  { value: '', label: '\u5168\u90e8' },
+  { value: 'required', label: '\u5fc5\u4fee' },
+  { value: 'optional', label: '\u9078\u4fee' }
   ]
 
   // 時間相關的常數和函數
@@ -154,9 +173,11 @@ export default function CourseSearch({ onSearch }: CourseSearchProps) {
       keyword: '',
       for_dept: '',
       career: '',
-      professor: '',
-      credits: '',
-      time: ''
+  professor: '',
+  credits: '',
+  year: '',
+  obligatory: '',
+  time: ''
     }
     setFilters(emptyFilters)
     setSelectedTimeSlots(new Set())
@@ -289,6 +310,57 @@ export default function CourseSearch({ onSearch }: CourseSearchProps) {
               </div>
             </div>
 
+            {/* 年級 & 必/選修（並列） */}
+            <div className="md:col-span-2 grid grid-cols-2 gap-3">
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">年級</label>
+                <div className="relative">
+                  <select
+                    value={filters.year}
+                    onChange={(e) => handleInputChange('year', e.target.value)}
+                    className={`w-full px-3 py-2 pr-8 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm bg-white hover:border-gray-400 cursor-pointer appearance-none ${
+                      filters.year === '' ? 'text-gray-400' : 'text-black'
+                    }`}
+                  >
+                    {yearOptions.map(option => (
+                      <option key={option.value} value={option.value} className={option.value === '' ? 'text-gray-400' : 'text-black'}>
+                        {option.label}
+                      </option>
+                    ))}
+                  </select>
+                  <div className="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
+                    <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">必/選修</label>
+                <div className="relative">
+                  <select
+                    value={filters.obligatory}
+                    onChange={(e) => handleInputChange('obligatory', e.target.value)}
+                    className={`w-full px-3 py-2 pr-8 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm bg-white hover:border-gray-400 cursor-pointer appearance-none ${
+                      filters.obligatory === '' ? 'text-gray-400' : 'text-black'
+                    }`}
+                  >
+                    {obligatoryOptions.map(option => (
+                      <option key={option.value} value={option.value} className={option.value === '' ? 'text-gray-400' : 'text-black'}>
+                        {option.label}
+                      </option>
+                    ))}
+                  </select>
+                  <div className="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
+                    <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             {/* 上課時間 */}
             <div className="md:col-span-2">
               <label className="block text-sm font-medium text-gray-700 mb-1">
@@ -399,6 +471,8 @@ export default function CourseSearch({ onSearch }: CourseSearchProps) {
                 </div>
               )}
             </div>
+
+            
           </div>
         )}
 

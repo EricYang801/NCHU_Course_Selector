@@ -11,6 +11,8 @@ export interface CourseSearchParams {
   career?: string
   professor?: string
   credits?: number
+  year?: string
+  obligatory?: string
   time?: string
   page?: number
   limit?: number
@@ -130,6 +132,8 @@ class CourseService {
       career: params.career,
       professor: params.professor,
       credits: params.credits,
+  year: params.year,
+  obligatory: params.obligatory,
       time: params.time,
       page: params.page,
       limit: params.limit

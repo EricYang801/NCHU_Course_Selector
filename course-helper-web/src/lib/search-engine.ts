@@ -9,6 +9,8 @@ export interface SearchFilters {
   career?: string
   professor?: string
   credits?: number
+  year?: string
+  obligatory?: string
   time?: string
   page?: number
   limit?: number
@@ -128,7 +130,7 @@ export class CourseSearchEngine {
   }
 
   search(filters: SearchFilters): SearchResult<Course> {
-    const { keyword, department, for_dept, career, professor, credits, time, page = 1, limit = 20 } = filters
+  const { keyword, department, for_dept, career, professor, credits, time, year, obligatory, page = 1, limit = 20 } = filters
     let list = this.indexed
 
     if (keyword && keyword.trim()) {
@@ -151,6 +153,34 @@ export class CourseSearchEngine {
     }
     if (career) {
       list = list.filter(c => (c as IndexedCourse).career === career || this.careerNameMap[(c as IndexedCourse).career || ''] === career)
+    }
+    if (year) {
+      const y = year.trim()
+      if (y) {
+        // JSON uses `class` for grade/year in many files; fall back to `year` if present
+        list = list.filter(c => {
+          const clsRaw = ((c as any).class || c.year || '').toString().trim()
+          const clsNum = parseInt(clsRaw, 10)
+          const selNum = parseInt(y, 10)
+          if (!isNaN(selNum)) {
+            if (selNum >= 5) {
+              // 5 表示 "5 年級以上"
+              return !isNaN(clsNum) && clsNum >= 5
+            }
+            return !isNaN(clsNum) && clsNum === selNum
+          }
+          // fallback to string comparison
+          return clsRaw === y || clsRaw.includes(y)
+        })
+      }
+    }
+    if (obligatory) {
+      const o = obligatory.trim().toLowerCase()
+      if (o === 'required') {
+        list = list.filter(c => c.obligatory_tf === true || (c.obligatory || '').toLowerCase().includes('必'))
+      } else if (o === 'optional') {
+        list = list.filter(c => c.obligatory_tf === false || (c.obligatory || '').toLowerCase().includes('選'))
+      }
     }
     if (professor) {
       const p = professor.toLowerCase()
