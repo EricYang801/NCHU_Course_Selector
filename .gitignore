@@ -1,35 +1,39 @@
-# Dependencies
+### Node / JS ###
 node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Production builds
-course-helper-web/out/
+### Build / output ###
+# root build output
+out/
+# Next.js build & export outputs
 course-helper-web/.next/
+course-helper-web/out/
 course-helper-web/dist/
 
-# Environment variables
+### Environment ###
+# Ignore real env files; keep .env.example in repo
 .env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
-# Logs
+### Logs / runtime ###
 logs/
 *.log
+course_crawler.log
 
-# Runtime data
+### Runtime data / caches ###
 pids
 *.pid
 *.seed
 *.pid.lock
-
-# Cache
 .cache/
 course-helper-web/.next/cache/
 
+### OS / Editor ###
 # macOS
 .DS_Store
 .DS_Store?
@@ -45,7 +49,7 @@ Thumbs.db
 *.swp
 *.swo
 
-# Python
+### Python (if present) ###
 __pycache__/
 *.py[cod]
 *$py.class
@@ -57,8 +61,8 @@ dist/
 downloads/
 eggs/
 .eggs/
-/lib/
-/lib64/
+lib/
+lib64/
 parts/
 sdist/
 var/
@@ -67,14 +71,5 @@ wheels/
 .installed.cfg
 *.egg
 
-# Keep data files (these should be committed)
+### Keep data files (should remain committed) ###
 !course-helper-web/public/data/*.json
-
-# Crawler log
-course_crawler.log
-
-# root build output
-out/
-
-# ensure nested node_modules are ignored
-course-helper-web/node_modules/
