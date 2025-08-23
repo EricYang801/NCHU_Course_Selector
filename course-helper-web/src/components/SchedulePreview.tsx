@@ -247,8 +247,8 @@ export default function SchedulePreview({ selectedCourses, onRemoveCourse, compa
               </h3>
             </div>
             
-            {/* 手機版：適合手機的課表格式 */}
-            <div className="md:hidden">
+            {/* 手機版分組視圖（已改為顯示表格，故此區塊隱藏） */}
+            <div className="hidden">
               {selectedCourses.length === 0 ? (
                 <div className="text-center py-8 text-gray-500">
                   <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-3">
@@ -387,9 +387,9 @@ export default function SchedulePreview({ selectedCourses, onRemoveCourse, compa
               )}
             </div>
             
-            {/* 桌面版：表格式佈局 */}
-            <div className="hidden md:block">
-              <div className="overflow-hidden">
+            {/* 桌面版（同時在手機也可顯示，並支援水平滾動） */}
+            <div className="block md:block">
+              <div className="overflow-x-auto">
                 <table className="w-full border-collapse table-fixed">
                   <thead>
                     <tr className="bg-gradient-to-r from-gray-100 to-gray-50 border-b-2 border-gray-200">
@@ -484,17 +484,17 @@ export default function SchedulePreview({ selectedCourses, onRemoveCourse, compa
             </div>
             
             {/* 課表說明 */}
-            <div className="bg-gray-50 px-4 py-2 border-t border-gray-200">
+                <div className="bg-gray-50 px-4 py-2 border-t border-gray-200">
               <div className="text-xs text-gray-600 flex items-center justify-between">
                 <span className="hidden md:inline">💡 懸停課程可查看詳細資訊</span>
-                <span className="md:hidden">� 手機版按日期分組顯示課表</span>
+                <span className="md:hidden">手機版可左右滑動查看表格或點選課程查看詳情</span>
                 <span className="hidden md:inline">📚 前8節直接顯示，晚間時段可滾動</span>
               </div>
             </div>
           </div>
 
           {/* 已選課程列表 - 只在桌面版顯示，手機版已整合到課表中 */}
-          <div className="hidden md:block bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden">
+          <div className="block bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden">
             <div className="bg-gradient-to-r from-green-50 to-emerald-50 px-4 py-3 border-b border-gray-200">
               <h3 className="font-bold text-gray-800 text-sm flex items-center gap-2">
                 <svg className="w-4 h-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
