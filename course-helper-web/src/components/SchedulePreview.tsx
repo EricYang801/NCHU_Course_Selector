@@ -235,19 +235,78 @@ export default function SchedulePreview({ selectedCourses, onRemoveCourse, compa
                 <button
                   onClick={async () => {
                     if (!scheduleRef.current) return
+
+                    const node = scheduleRef.current
+                    // collect all elements under node to temporarily remove heavy styles
+                    const elems = Array.from(node.querySelectorAll('*')) as HTMLElement[]
+                    const prev = new Map<HTMLElement, { boxShadow: string; filter: string; transition: string }>()
+
                     try {
+                      // low pixelRatio for speed; increase only if user needs high-res export
+                      const desiredPixelRatio = 2
+
+                      // stash and remove expensive visual properties that slow rasterization
+                      elems.forEach(el => {
+                        const s = el.style
+                        prev.set(el, { boxShadow: s.boxShadow || '', filter: s.filter || '', transition: s.transition || '' })
+                        s.boxShadow = 'none'
+                        s.filter = 'none'
+                        s.transition = 'none'
+                      })
+
+                      // also handle root node
+                      const rootStyle = node.style
+                      const rootPrev = { boxShadow: rootStyle.boxShadow || '', filter: rootStyle.filter || '', transition: rootStyle.transition || '' }
+                      rootStyle.boxShadow = 'none'
+                      rootStyle.filter = 'none'
+                      rootStyle.transition = 'none'
+
+                      // allow one frame to apply style changes
+                      await new Promise(requestAnimationFrame)
+
                       const htmlToImage = await import('html-to-image')
-                      // toPng may not be exported under default name in some builds, so check both
+                      const toCanvas = (htmlToImage as any).toCanvas || (htmlToImage as any).default?.toCanvas
                       const toPng = (htmlToImage as any).toPng || (htmlToImage as any).default?.toPng
-                      if (!toPng) {
-                        alert('匯出功能不可用：找不到 toPng 方法')
-                        return
+
+                      if (toCanvas) {
+                        // render to canvas then toBlob to avoid huge base64 strings in memory
+                        const canvas: HTMLCanvasElement = await toCanvas(node, { cacheBust: true, backgroundColor: '#ffffff', pixelRatio: desiredPixelRatio })
+                        await new Promise<void>((resolve, reject) => {
+                          canvas.toBlob((blob) => {
+                            if (!blob) return reject(new Error('toBlob returned null'))
+                            const url = URL.createObjectURL(blob)
+                            const link = document.createElement('a')
+                            link.href = url
+                            link.download = 'schedule.png'
+                            link.click()
+                            // small timeout to ensure download initiated before revoking
+                            setTimeout(() => URL.revokeObjectURL(url), 1000)
+                            resolve()
+                          }, 'image/png')
+                        })
+                      } else if (toPng) {
+                        // fallback
+                        const dataUrl = await toPng(node, { cacheBust: true, backgroundColor: '#ffffff', pixelRatio: desiredPixelRatio })
+                        const link = document.createElement('a')
+                        link.href = dataUrl
+                        link.download = 'schedule.png'
+                        link.click()
+                      } else {
+                        alert('匯出功能不可用：找不到可用的方法')
                       }
-                      const dataUrl = await toPng(scheduleRef.current, { cacheBust: true, backgroundColor: '#ffffff', pixelRatio: 2 })
-                      const link = document.createElement('a')
-                      link.href = dataUrl
-                      link.download = 'schedule.png'
-                      link.click()
+
+                      // restore root style
+                      rootStyle.boxShadow = rootPrev.boxShadow
+                      rootStyle.filter = rootPrev.filter
+                      rootStyle.transition = rootPrev.transition
+
+                      // restore child styles
+                      prev.forEach((val, el) => {
+                        const s = el.style
+                        s.boxShadow = val.boxShadow
+                        s.filter = val.filter
+                        s.transition = val.transition
+                      })
                     } catch (err) {
                       // eslint-disable-next-line no-console
                       console.error('export error', err)
