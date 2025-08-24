@@ -5,7 +5,9 @@ on:
     # 每天台灣時間早上 6:00 執行（UTC 22:00）
     - cron: '0 22 * * *'
   workflow_dispatch: # 允許手動觸發
-
+  push:
+      branches:
+        - main
 permissions:
   contents: write
   pages: write
@@ -23,7 +25,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     
     steps:
-    - name: 檢出代碼
+    - name: 設定 token
       uses: actions/checkout@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
@@ -61,7 +63,7 @@ jobs:
           echo "ℹ️ 課程資料無變更"
         fi
 
-    - name: 安裝前端依賴
+    - name: 安裝前端套件
       run: npm install --prefer-offline --no-audit
       working-directory: ./course-helper-web
 
