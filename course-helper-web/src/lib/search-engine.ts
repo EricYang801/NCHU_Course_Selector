@@ -159,7 +159,9 @@ export class CourseSearchEngine {
       if (y) {
         // JSON uses `class` for grade/year in many files; fall back to `year` if present
         list = list.filter(c => {
-          const clsRaw = ((c as any).class || c.year || '').toString().trim()
+          const record = c as unknown as Record<string, unknown>
+          const classField = record['class'] ?? record['year'] ?? ''
+          const clsRaw = (typeof classField === 'string' || typeof classField === 'number') ? String(classField).trim() : ''
           const clsNum = parseInt(clsRaw, 10)
           const selNum = parseInt(y, 10)
           if (!isNaN(selNum)) {

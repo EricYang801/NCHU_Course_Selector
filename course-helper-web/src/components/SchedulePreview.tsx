@@ -264,9 +264,18 @@ export default function SchedulePreview({ selectedCourses, onRemoveCourse, compa
                       // allow one frame to apply style changes
                       await new Promise(requestAnimationFrame)
 
-                      const htmlToImage = await import('html-to-image')
-                      const toCanvas = (htmlToImage as any).toCanvas || (htmlToImage as any).default?.toCanvas
-                      const toPng = (htmlToImage as any).toPng || (htmlToImage as any).default?.toPng
+                      const htmlToImage = await import('html-to-image') as unknown
+                      type HtmlToImageMod = {
+                        toCanvas?: (node: HTMLElement, options?: Record<string, unknown>) => Promise<HTMLCanvasElement>
+                        toPng?: (node: HTMLElement, options?: Record<string, unknown>) => Promise<string>
+                        default?: {
+                          toCanvas?: (node: HTMLElement, options?: Record<string, unknown>) => Promise<HTMLCanvasElement>
+                          toPng?: (node: HTMLElement, options?: Record<string, unknown>) => Promise<string>
+                        }
+                      }
+                      const mod = htmlToImage as HtmlToImageMod
+                      const toCanvas = mod.toCanvas || mod.default?.toCanvas
+                      const toPng = mod.toPng || mod.default?.toPng
 
                       if (toCanvas) {
                         // render to canvas then toBlob to avoid huge base64 strings in memory
@@ -308,7 +317,6 @@ export default function SchedulePreview({ selectedCourses, onRemoveCourse, compa
                         s.transition = val.transition
                       })
                     } catch (err) {
-                      // eslint-disable-next-line no-console
                       console.error('export error', err)
                       alert('匯出失敗，請稍後再試')
                     }
