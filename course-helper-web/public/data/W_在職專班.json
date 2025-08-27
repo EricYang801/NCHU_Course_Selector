@@ -441,7 +441,7 @@
       "credits_parsed": 3,
       "department": "中國文學系碩士在職專班",
       "discipline": "",
-      "enrolled_num": "10",
+      "enrolled_num": "9",
       "for_dept": "中國文學系碩士在職專班",
       "hours": "0",
       "hours_parsed": "0",
@@ -1514,6 +1514,50 @@
         "zh_TW": "民法債編各論(二)"
       },
       "url": "5029",
+      "year": "半"
+    },
+    {
+      "class": "6",
+      "code": "7635",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "法律學系碩士在職專班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "法律學系碩士在職專班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "SC101"
+      ],
+      "note": "",
+      "number": "50",
+      "number_parsed": 50,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "李惠宗",
+      "time": "51011",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            10,
+            11
+          ]
+        }
+      ],
+      "title": "法學論文編輯與寫作 `LL.M. Thesis Writing Format and Citation",
+      "title_parsed": {
+        "en_US": "LL.M. Thesis Writing Format and Citation",
+        "zh_TW": "法學論文編輯與寫作"
+      },
+      "url": "5380",
       "year": "半"
     },
     {
