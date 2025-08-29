@@ -1147,6 +1147,49 @@
     },
     {
       "class": "8",
+      "code": "8029",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "轉譯醫學博士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "轉譯醫學博士學位學程",
+      "hours": "1",
+      "hours_parsed": "1",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Z101"
+      ],
+      "note": "",
+      "number": "20",
+      "number_parsed": 20,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "朱彥煒",
+      "time": "32",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            2
+          ]
+        }
+      ],
+      "title": "老年醫學臨床概論 `The Clinical Overview of Geriatric Medicine",
+      "title_parsed": {
+        "en_US": "The Clinical Overview of Geriatric Medicine",
+        "zh_TW": "老年醫學臨床概論"
+      },
+      "url": "4151",
+      "year": "半"
+    },
+    {
+      "class": "8",
       "code": "8030",
       "credits": "3",
       "credits_parsed": 3,
@@ -1937,6 +1980,49 @@
         "zh_TW": "生物科技研究產業的創新服務模式(一)"
       },
       "url": "5263",
+      "year": "半"
+    },
+    {
+      "class": "8",
+      "code": "8095",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "轉譯醫學博士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "轉譯醫學博士學位學程",
+      "hours": "1",
+      "hours_parsed": "1",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Z101"
+      ],
+      "note": "",
+      "number": "20",
+      "number_parsed": 20,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "蔡佩倩",
+      "time": "31",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            1
+          ]
+        }
+      ],
+      "title": "高齡精準醫學：邁向創新與健康的人生 `Precision Medicine for Aging: Towards an Innovative and Healthy Life",
+      "title_parsed": {
+        "en_US": "Precision Medicine for Aging: Towards an Innovative and Healthy Life",
+        "zh_TW": "高齡精準醫學：邁向創新與健康的人生"
+      },
+      "url": "5568",
       "year": "半"
     },
     {

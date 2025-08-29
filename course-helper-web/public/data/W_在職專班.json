@@ -770,7 +770,7 @@
       "credits_parsed": 3,
       "department": "台灣文學與跨國文化研究所碩士在職專班",
       "discipline": "",
-      "enrolled_num": "12",
+      "enrolled_num": "11",
       "for_dept": "台灣文學與跨國文化研究所碩士在職專班",
       "hours": "0",
       "hours_parsed": "0",
@@ -1139,7 +1139,7 @@
       "credits_parsed": 3,
       "department": "國際政治研究所碩士在職專班",
       "discipline": "",
-      "enrolled_num": "17",
+      "enrolled_num": "18",
       "for_dept": "國際政治研究所碩士在職專班",
       "hours": "0",
       "hours_parsed": "0",
@@ -1647,7 +1647,7 @@
       "credits_parsed": 3,
       "department": "法律學系碩士在職專班",
       "discipline": "",
-      "enrolled_num": "33",
+      "enrolled_num": "34",
       "for_dept": "法律學系碩士在職專班",
       "hours": "0",
       "hours_parsed": "0",
@@ -6934,51 +6934,6 @@
       "year": "半"
     },
     {
-      "class": "6",
-      "code": "7764",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "資訊工程學系碩士在職專班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "資訊工程學系碩士在職專班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "AT335"
-      ],
-      "note": "",
-      "number": "50",
-      "number_parsed": 50,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "范耀中",
-      "time": "2101112",
-      "time_parsed": [
-        {
-          "day": 2,
-          "time": [
-            10,
-            11,
-            12
-          ]
-        }
-      ],
-      "title": "高等資料探勘與巨量資料分析 `Advanced Data Mining and Big Data Analysis",
-      "title_parsed": {
-        "en_US": "Advanced Data Mining and Big Data Analysis",
-        "zh_TW": "高等資料探勘與巨量資料分析"
-      },
-      "url": "2764",
-      "year": "半"
-    },
-    {
       "class": "7",
       "code": "7765",
       "credits": "3",
@@ -7634,7 +7589,7 @@
         ""
       ],
       "intern_time": "",
-      "language": "中/英文",
+      "language": "中文",
       "location": [
         "P104"
       ],
@@ -9297,7 +9252,7 @@
       "credits_parsed": 3,
       "department": "電機工程學系碩士在職專班",
       "discipline": "",
-      "enrolled_num": "39",
+      "enrolled_num": "40",
       "for_dept": "電機工程學系碩士在職專班",
       "hours": "0",
       "hours_parsed": "0",
@@ -9548,7 +9503,7 @@
       "credits_parsed": 3,
       "department": "材料科學與工程學系碩士在職專班",
       "discipline": "",
-      "enrolled_num": "45",
+      "enrolled_num": "44",
       "for_dept": "材料科學與工程學系碩士在職專班",
       "hours": "0",
       "hours_parsed": "0",

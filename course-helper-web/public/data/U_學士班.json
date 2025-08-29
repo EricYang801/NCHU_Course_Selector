@@ -233,7 +233,7 @@
       "credits_parsed": 3,
       "department": "農藝學系學士班",
       "discipline": "",
-      "enrolled_num": "50",
+      "enrolled_num": "49",
       "for_dept": "農藝學系學士班",
       "hours": "3",
       "hours_parsed": "3",
@@ -2680,7 +2680,7 @@
       "credits_parsed": 1,
       "department": "農藝學系學士班",
       "discipline": "",
-      "enrolled_num": "50",
+      "enrolled_num": "49",
       "for_dept": "農藝學系學士班",
       "hours": "",
       "hours_parsed": "",
@@ -3716,7 +3716,7 @@
       "credits_parsed": 3,
       "department": "化學系學士班",
       "discipline": "",
-      "enrolled_num": "48",
+      "enrolled_num": "0",
       "for_dept": "生命科學系學士班",
       "hours": "3",
       "hours_parsed": "3",
@@ -5498,7 +5498,7 @@
       "credits_parsed": 3,
       "department": "園藝學系學士班",
       "discipline": "",
-      "enrolled_num": "50",
+      "enrolled_num": "49",
       "for_dept": "農藝學系學士班",
       "hours": "3",
       "hours_parsed": "3",
@@ -6245,7 +6245,7 @@
       "credits_parsed": 1,
       "department": "化學系學士班",
       "discipline": "",
-      "enrolled_num": "48",
+      "enrolled_num": "46",
       "for_dept": "生命科學系學士班",
       "hours": "",
       "hours_parsed": "",
@@ -6416,7 +6416,7 @@
       "credits_parsed": 1,
       "department": "化學系學士班",
       "discipline": "",
-      "enrolled_num": "50",
+      "enrolled_num": "49",
       "for_dept": "化學工程學系學士班",
       "hours": "",
       "hours_parsed": "",
@@ -6821,7 +6821,7 @@
       "intern_time": "",
       "language": "中文",
       "location": [
-        "R1D02"
+        "T112"
       ],
       "note": "",
       "number": "65",
@@ -6830,7 +6830,7 @@
       "obligatory_tf": true,
       "prerequisite": "",
       "professor": "賴千蕙",
-      "time": "21,534",
+      "time": "21,434",
       "time_parsed": [
         {
           "day": 2,
@@ -6839,7 +6839,7 @@
           ]
         },
         {
-          "day": 5,
+          "day": 4,
           "time": [
             3,
             4
@@ -7283,7 +7283,7 @@
       "credits_parsed": 3,
       "department": "化學系學士班",
       "discipline": "",
-      "enrolled_num": "50",
+      "enrolled_num": "49",
       "for_dept": "化學工程學系學士班",
       "hours": "3",
       "hours_parsed": "3",
@@ -7422,7 +7422,7 @@
       "credits_parsed": 3,
       "department": "化學系學士班",
       "discipline": "",
-      "enrolled_num": "44",
+      "enrolled_num": "0",
       "for_dept": "生命科學系學士班",
       "hours": "3",
       "hours_parsed": "3",
@@ -7762,7 +7762,7 @@
       "credits_parsed": 3,
       "department": "生命科學系學士班",
       "discipline": "",
-      "enrolled_num": "91",
+      "enrolled_num": "89",
       "for_dept": "生命科學系學士班",
       "hours": "3",
       "hours_parsed": "3",
@@ -7857,7 +7857,7 @@
       "credits_parsed": 1,
       "department": "生命科學系學士班",
       "discipline": "",
-      "enrolled_num": "47",
+      "enrolled_num": "45",
       "for_dept": "生命科學系學士班",
       "hours": "",
       "hours_parsed": "",
@@ -8166,7 +8166,7 @@
       "credits_parsed": 3,
       "department": "物理學系一般物理組學士班",
       "discipline": "",
-      "enrolled_num": "14",
+      "enrolled_num": "13",
       "for_dept": "智慧創意工程學士學位學程",
       "hours": "3",
       "hours_parsed": "3",
@@ -9121,7 +9121,7 @@
       "credits_parsed": 3,
       "department": "應用數學系應用數學組學士班",
       "discipline": "",
-      "enrolled_num": "13",
+      "enrolled_num": "12",
       "for_dept": "智慧創意工程學士學位學程",
       "hours": "3",
       "hours_parsed": "3",
@@ -9667,7 +9667,7 @@
       "credits_parsed": 3,
       "department": "應用數學系應用數學組學士班",
       "discipline": "",
-      "enrolled_num": "48",
+      "enrolled_num": "47",
       "for_dept": "化學工程學系學士班",
       "hours": "3",
       "hours_parsed": "3",
@@ -10927,7 +10927,7 @@
       "credits_parsed": 1,
       "department": "物理學系一般物理組學士班",
       "discipline": "",
-      "enrolled_num": "50",
+      "enrolled_num": "49",
       "for_dept": "化學工程學系學士班",
       "hours": "",
       "hours_parsed": "",
@@ -11107,7 +11107,7 @@
       "credits_parsed": 1,
       "department": "物理學系一般物理組學士班",
       "discipline": "",
-      "enrolled_num": "14",
+      "enrolled_num": "13",
       "for_dept": "智慧創意工程學士學位學程",
       "hours": "",
       "hours_parsed": "",
@@ -11422,7 +11422,7 @@
       "credits_parsed": 3,
       "department": "物理學系一般物理組學士班",
       "discipline": "",
-      "enrolled_num": "50",
+      "enrolled_num": "49",
       "for_dept": "化學工程學系學士班",
       "hours": "3",
       "hours_parsed": "3",
@@ -13949,7 +13949,7 @@
       "credits_parsed": 3,
       "department": "化學工程學系學士班",
       "discipline": "",
-      "enrolled_num": "50",
+      "enrolled_num": "49",
       "for_dept": "化學工程學系學士班",
       "hours": "3",
       "hours_parsed": "3",
@@ -14039,7 +14039,7 @@
       "credits_parsed": 3,
       "department": "智慧創意工程學士學位學程",
       "discipline": "",
-      "enrolled_num": "14",
+      "enrolled_num": "13",
       "for_dept": "智慧創意工程學士學位學程",
       "hours": "3",
       "hours_parsed": "3",
@@ -14084,7 +14084,7 @@
       "credits_parsed": 3,
       "department": "智慧創意工程學士學位學程",
       "discipline": "",
-      "enrolled_num": "14",
+      "enrolled_num": "13",
       "for_dept": "智慧創意工程學士學位學程",
       "hours": "3",
       "hours_parsed": "3",
@@ -15840,7 +15840,7 @@
       "intern_time": "",
       "language": "中文",
       "location": [
-        ""
+        "IA731"
       ],
       "note": "不開放校際選課",
       "number": "20",
@@ -28968,10 +28968,10 @@
           ]
         }
       ],
-      "title": "工程數學(一)a `Engineering Mathematics (I)",
+      "title": "工程數學(一)b `Engineering Mathematics (I)",
       "title_parsed": {
         "en_US": "Engineering Mathematics (I)",
-        "zh_TW": "工程數學(一)a"
+        "zh_TW": "工程數學(一)b"
       },
       "url": "2287",
       "year": "半"
@@ -29018,10 +29018,10 @@
           ]
         }
       ],
-      "title": "工程數學(一)b `Engineering Mathematics (I)",
+      "title": "工程數學(一)a `Engineering Mathematics (I)",
       "title_parsed": {
         "en_US": "Engineering Mathematics (I)",
-        "zh_TW": "工程數學(一)b"
+        "zh_TW": "工程數學(一)a"
       },
       "url": "2286",
       "year": "半"
@@ -34091,51 +34091,6 @@
       "year": "半"
     },
     {
-      "class": "4",
-      "code": "3032",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "企業管理學系學士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "企業管理學系學士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "SC303"
-      ],
-      "note": "",
-      "number": "31",
-      "number_parsed": 31,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "林義挺",
-      "time": "1567",
-      "time_parsed": [
-        {
-          "day": 1,
-          "time": [
-            5,
-            6,
-            7
-          ]
-        }
-      ],
-      "title": "問卷調查與分析 `Survey and Analysis",
-      "title_parsed": {
-        "en_US": "Survey and Analysis",
-        "zh_TW": "問卷調查與分析"
-      },
-      "url": "4007",
-      "year": "半"
-    },
-    {
       "class": "3",
       "code": "3032",
       "credits": "3",
@@ -34178,6 +34133,51 @@
         "zh_TW": "問卷調查與分析"
       },
       "url": "3916",
+      "year": "半"
+    },
+    {
+      "class": "4",
+      "code": "3032",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "企業管理學系學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "企業管理學系學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "SC303"
+      ],
+      "note": "",
+      "number": "31",
+      "number_parsed": 31,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "林義挺",
+      "time": "1567",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "title": "問卷調查與分析 `Survey and Analysis",
+      "title_parsed": {
+        "en_US": "Survey and Analysis",
+        "zh_TW": "問卷調查與分析"
+      },
+      "url": "4007",
       "year": "半"
     },
     {
@@ -35296,51 +35296,6 @@
       "year": "半"
     },
     {
-      "class": "4",
-      "code": "3057",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "企業管理學系學士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "企業管理學系學士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "SC203"
-      ],
-      "note": "",
-      "number": "36",
-      "number_parsed": 36,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "酈芃羽",
-      "time": "5234",
-      "time_parsed": [
-        {
-          "day": 5,
-          "time": [
-            2,
-            3,
-            4
-          ]
-        }
-      ],
-      "title": "國際貿易 `International Trade",
-      "title_parsed": {
-        "en_US": "International Trade",
-        "zh_TW": "國際貿易"
-      },
-      "url": "3273",
-      "year": "半"
-    },
-    {
       "class": "3",
       "code": "3057",
       "credits": "3",
@@ -35383,6 +35338,51 @@
         "zh_TW": "國際貿易"
       },
       "url": "2492",
+      "year": "半"
+    },
+    {
+      "class": "4",
+      "code": "3057",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "企業管理學系學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "企業管理學系學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "SC203"
+      ],
+      "note": "",
+      "number": "36",
+      "number_parsed": 36,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "酈芃羽",
+      "time": "5234",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "title": "國際貿易 `International Trade",
+      "title_parsed": {
+        "en_US": "International Trade",
+        "zh_TW": "國際貿易"
+      },
+      "url": "3273",
       "year": "半"
     },
     {
@@ -36497,6 +36497,93 @@
     },
     {
       "class": "3",
+      "code": "3085",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "動物科學系學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "動物科學系學士班",
+      "hours": "1",
+      "hours_parsed": "1",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "I105"
+      ],
+      "note": "",
+      "number": "50",
+      "number_parsed": 50,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "王建鎧",
+      "time": "55",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            5
+          ]
+        }
+      ],
+      "title": "酪農業與豬隻產業之現況 `Current Status of the Dairy and Pig Industries",
+      "title_parsed": {
+        "en_US": "Current Status of the Dairy and Pig Industries",
+        "zh_TW": "酪農業與豬隻產業之現況"
+      },
+      "url": "5618",
+      "year": "半"
+    },
+    {
+      "class": "3",
+      "code": "3086",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "動物科學系學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "動物科學系學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "I105"
+      ],
+      "note": "",
+      "number": "50",
+      "number_parsed": 50,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "王建鎧",
+      "time": "334",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            3,
+            4
+          ]
+        }
+      ],
+      "title": "實驗動物技術與應用 `Techniques and Applications in Laboratory Animal Science",
+      "title_parsed": {
+        "en_US": "Techniques and Applications in Laboratory Animal Science",
+        "zh_TW": "實驗動物技術與應用"
+      },
+      "url": "5654",
+      "year": "半"
+    },
+    {
+      "class": "3",
       "code": "3087",
       "credits": "2",
       "credits_parsed": 2,
@@ -37523,51 +37610,6 @@
       "year": "半"
     },
     {
-      "class": "3",
-      "code": "3110",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "應用數學系數據科學與計算組學士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "應用數學系數據科學與計算組學士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "U302"
-      ],
-      "note": "",
-      "number": "55",
-      "number_parsed": 55,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "顏增昌",
-      "time": "3234",
-      "time_parsed": [
-        {
-          "day": 3,
-          "time": [
-            2,
-            3,
-            4
-          ]
-        }
-      ],
-      "title": "作業系統Z `Operating Systems",
-      "title_parsed": {
-        "en_US": "Operating Systems",
-        "zh_TW": "作業系統Z"
-      },
-      "url": "2726",
-      "year": "半"
-    },
-    {
       "class": "4",
       "code": "3110",
       "credits": "3",
@@ -37610,6 +37652,51 @@
         "zh_TW": "作業系統Z"
       },
       "url": "2739",
+      "year": "半"
+    },
+    {
+      "class": "3",
+      "code": "3110",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "應用數學系數據科學與計算組學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "應用數學系數據科學與計算組學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "U302"
+      ],
+      "note": "",
+      "number": "55",
+      "number_parsed": 55,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "顏增昌",
+      "time": "3234",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "title": "作業系統Z `Operating Systems",
+      "title_parsed": {
+        "en_US": "Operating Systems",
+        "zh_TW": "作業系統Z"
+      },
+      "url": "2726",
       "year": "半"
     },
     {
@@ -37797,50 +37884,6 @@
       "department": "森林學系林學組學士班",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "森林學系林學組學士班",
-      "hours": "2",
-      "hours_parsed": "2",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "V111"
-      ],
-      "note": "",
-      "number": "80",
-      "number_parsed": 80,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "曾喜育",
-      "time": "178",
-      "time_parsed": [
-        {
-          "day": 1,
-          "time": [
-            7,
-            8
-          ]
-        }
-      ],
-      "title": "能高森林講座 `Nenggao Forestry Lecture",
-      "title_parsed": {
-        "en_US": "Nenggao Forestry Lecture",
-        "zh_TW": "能高森林講座"
-      },
-      "url": "2949",
-      "year": "半"
-    },
-    {
-      "class": "3",
-      "code": "3114",
-      "credits": "2",
-      "credits_parsed": 2,
-      "department": "森林學系林學組學士班",
-      "discipline": "",
-      "enrolled_num": "0",
       "for_dept": "森林學系木材科學組學士班",
       "hours": "2",
       "hours_parsed": "2",
@@ -37875,6 +37918,50 @@
         "zh_TW": "能高森林講座"
       },
       "url": "2985",
+      "year": "半"
+    },
+    {
+      "class": "3",
+      "code": "3114",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "森林學系林學組學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "森林學系林學組學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "V111"
+      ],
+      "note": "",
+      "number": "80",
+      "number_parsed": 80,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "曾喜育",
+      "time": "178",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            7,
+            8
+          ]
+        }
+      ],
+      "title": "能高森林講座 `Nenggao Forestry Lecture",
+      "title_parsed": {
+        "en_US": "Nenggao Forestry Lecture",
+        "zh_TW": "能高森林講座"
+      },
+      "url": "2949",
       "year": "半"
     },
     {
@@ -38975,92 +39062,6 @@
       "year": "半"
     },
     {
-      "class": "3",
-      "code": "3138",
-      "credits": "1",
-      "credits_parsed": 1,
-      "department": "學士後醫學系學士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "學士後醫學系學士班",
-      "hours": "1",
-      "hours_parsed": "1",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "IA724"
-      ],
-      "note": "不開放校際選課",
-      "number": "31",
-      "number_parsed": 31,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "陳呈旭",
-      "time": "15",
-      "time_parsed": [
-        {
-          "day": 1,
-          "time": [
-            5
-          ]
-        }
-      ],
-      "title": "醫學人文：習醫之道(一) `Medical Humanities: On Doctoring (I)",
-      "title_parsed": {
-        "en_US": "Medical Humanities: On Doctoring (I)",
-        "zh_TW": "醫學人文：習醫之道(一)"
-      },
-      "url": "6020",
-      "year": "半"
-    },
-    {
-      "class": "2",
-      "code": "3138",
-      "credits": "1",
-      "credits_parsed": 1,
-      "department": "學士後醫學系學士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "學士後醫學系學士班",
-      "hours": "1",
-      "hours_parsed": "1",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "IA724"
-      ],
-      "note": "不開放校際選課",
-      "number": "31",
-      "number_parsed": 31,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "陳呈旭",
-      "time": "15",
-      "time_parsed": [
-        {
-          "day": 1,
-          "time": [
-            5
-          ]
-        }
-      ],
-      "title": "醫學人文：習醫之道(一) `Medical Humanities: On Doctoring (I)",
-      "title_parsed": {
-        "en_US": "Medical Humanities: On Doctoring (I)",
-        "zh_TW": "醫學人文：習醫之道(一)"
-      },
-      "url": "3300",
-      "year": "半"
-    },
-    {
       "class": "4",
       "code": "3138",
       "credits": "1",
@@ -39144,6 +39145,92 @@
         "zh_TW": "醫學人文：習醫之道(一)"
       },
       "url": "3110",
+      "year": "半"
+    },
+    {
+      "class": "2",
+      "code": "3138",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "學士後醫學系學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "學士後醫學系學士班",
+      "hours": "1",
+      "hours_parsed": "1",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "IA724"
+      ],
+      "note": "不開放校際選課",
+      "number": "31",
+      "number_parsed": 31,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "陳呈旭",
+      "time": "15",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            5
+          ]
+        }
+      ],
+      "title": "醫學人文：習醫之道(一) `Medical Humanities: On Doctoring (I)",
+      "title_parsed": {
+        "en_US": "Medical Humanities: On Doctoring (I)",
+        "zh_TW": "醫學人文：習醫之道(一)"
+      },
+      "url": "3300",
+      "year": "半"
+    },
+    {
+      "class": "3",
+      "code": "3138",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "學士後醫學系學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "學士後醫學系學士班",
+      "hours": "1",
+      "hours_parsed": "1",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "IA724"
+      ],
+      "note": "不開放校際選課",
+      "number": "31",
+      "number_parsed": 31,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "陳呈旭",
+      "time": "15",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            5
+          ]
+        }
+      ],
+      "title": "醫學人文：習醫之道(一) `Medical Humanities: On Doctoring (I)",
+      "title_parsed": {
+        "en_US": "Medical Humanities: On Doctoring (I)",
+        "zh_TW": "醫學人文：習醫之道(一)"
+      },
+      "url": "6020",
       "year": "半"
     },
     {
@@ -39414,59 +39501,6 @@
       "year": "半"
     },
     {
-      "class": "4",
-      "code": "3145",
-      "credits": "4",
-      "credits_parsed": 4,
-      "department": "植物病理學系學士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "森林學系林學組學士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        "R7B05"
-      ],
-      "intern_time": "5678",
-      "language": "中文",
-      "location": [
-        "R1D02"
-      ],
-      "note": "",
-      "number": "60",
-      "number_parsed": 60,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "陳啟予",
-      "time": "112,55",
-      "time_parsed": [
-        {
-          "day": 1,
-          "time": [
-            1,
-            2
-          ]
-        },
-        {
-          "day": 5,
-          "time": [
-            5,
-            6,
-            7,
-            8
-          ]
-        }
-      ],
-      "title": "真菌學a `Mycology",
-      "title_parsed": {
-        "en_US": "Mycology",
-        "zh_TW": "真菌學a"
-      },
-      "url": "2543",
-      "year": "半"
-    },
-    {
       "class": "3",
       "code": "3145",
       "credits": "4",
@@ -39517,6 +39551,59 @@
         "zh_TW": "真菌學a"
       },
       "url": "2544",
+      "year": "半"
+    },
+    {
+      "class": "4",
+      "code": "3145",
+      "credits": "4",
+      "credits_parsed": 4,
+      "department": "植物病理學系學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "森林學系林學組學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        "R7B05"
+      ],
+      "intern_time": "5678",
+      "language": "中文",
+      "location": [
+        "R1D02"
+      ],
+      "note": "",
+      "number": "60",
+      "number_parsed": 60,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "陳啟予",
+      "time": "112,55",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            1,
+            2
+          ]
+        },
+        {
+          "day": 5,
+          "time": [
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "title": "真菌學a `Mycology",
+      "title_parsed": {
+        "en_US": "Mycology",
+        "zh_TW": "真菌學a"
+      },
+      "url": "2543",
       "year": "半"
     },
     {
@@ -39625,51 +39712,6 @@
       "department": "應用經濟學系學士班",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "應用經濟學系學士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "G16"
-      ],
-      "note": "",
-      "number": "62",
-      "number_parsed": 62,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "簡立賢",
-      "time": "2234",
-      "time_parsed": [
-        {
-          "day": 2,
-          "time": [
-            2,
-            3,
-            4
-          ]
-        }
-      ],
-      "title": "農業政策與法規 `Agricultural Policies and Regulations",
-      "title_parsed": {
-        "en_US": "Agricultural Policies and Regulations",
-        "zh_TW": "農業政策與法規"
-      },
-      "url": "4259",
-      "year": "半"
-    },
-    {
-      "class": "3",
-      "code": "3148",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "應用經濟學系學士班",
-      "discipline": "",
-      "enrolled_num": "0",
       "for_dept": "農藝學系學士班",
       "hours": "3",
       "hours_parsed": "3",
@@ -39708,47 +39750,48 @@
       "year": "半"
     },
     {
-      "class": "3B",
-      "code": "3149",
-      "credits": "2",
-      "credits_parsed": 2,
-      "department": "獸醫學系學士班",
+      "class": "3",
+      "code": "3148",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "應用經濟學系學士班",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "獸醫學系學士班",
-      "hours": "2",
-      "hours_parsed": "2",
+      "for_dept": "應用經濟學系學士班",
+      "hours": "3",
+      "hours_parsed": "3",
       "intern_location": [
         ""
       ],
       "intern_time": "",
-      "language": "中/英文",
+      "language": "中文",
       "location": [
-        "QB108"
+        "G16"
       ],
-      "note": "使用全英文課綱、教材與評量方式Syllabus, teaching materials and assessment methods are all in english",
-      "number": "35",
-      "number_parsed": 35,
-      "obligatory": "選修",
-      "obligatory_tf": false,
+      "note": "",
+      "number": "62",
+      "number_parsed": 62,
+      "obligatory": "必修",
+      "obligatory_tf": true,
       "prerequisite": "",
-      "professor": "許筑甯",
-      "time": "212",
+      "professor": "簡立賢",
+      "time": "2234",
       "time_parsed": [
         {
           "day": 2,
           "time": [
-            1,
-            2
+            2,
+            3,
+            4
           ]
         }
       ],
-      "title": "病態生理學b `Pathophysiology",
+      "title": "農業政策與法規 `Agricultural Policies and Regulations",
       "title_parsed": {
-        "en_US": "Pathophysiology",
-        "zh_TW": "病態生理學b"
+        "en_US": "Agricultural Policies and Regulations",
+        "zh_TW": "農業政策與法規"
       },
-      "url": "3915",
+      "url": "4259",
       "year": "半"
     },
     {
@@ -39796,6 +39839,50 @@
       "year": "半"
     },
     {
+      "class": "3B",
+      "code": "3149",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "獸醫學系學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "獸醫學系學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中/英文",
+      "location": [
+        "QB108"
+      ],
+      "note": "使用全英文課綱、教材與評量方式Syllabus, teaching materials and assessment methods are all in english",
+      "number": "35",
+      "number_parsed": 35,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "許筑甯",
+      "time": "212",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            1,
+            2
+          ]
+        }
+      ],
+      "title": "病態生理學b `Pathophysiology",
+      "title_parsed": {
+        "en_US": "Pathophysiology",
+        "zh_TW": "病態生理學b"
+      },
+      "url": "3915",
+      "year": "半"
+    },
+    {
       "class": "3",
       "code": "3150",
       "credits": "2",
@@ -39837,51 +39924,6 @@
         "zh_TW": "林產特產物"
       },
       "url": "4339",
-      "year": "半"
-    },
-    {
-      "class": "3",
-      "code": "3151",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "植物病理學系學士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "植物病理學系學士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "IA543C"
-      ],
-      "note": "",
-      "number": "60",
-      "number_parsed": 60,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "生物化學",
-      "professor": "張碧芳",
-      "time": "2234",
-      "time_parsed": [
-        {
-          "day": 2,
-          "time": [
-            2,
-            3,
-            4
-          ]
-        }
-      ],
-      "title": "生物技術導論a `Introduction to Biotechnology",
-      "title_parsed": {
-        "en_US": "Introduction to Biotechnology",
-        "zh_TW": "生物技術導論a"
-      },
-      "url": "2550",
       "year": "半"
     },
     {
@@ -39972,6 +40014,51 @@
         "zh_TW": "生物技術導論a"
       },
       "url": "2549",
+      "year": "半"
+    },
+    {
+      "class": "3",
+      "code": "3151",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "植物病理學系學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "植物病理學系學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "IA543C"
+      ],
+      "note": "",
+      "number": "60",
+      "number_parsed": 60,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "生物化學",
+      "professor": "張碧芳",
+      "time": "2234",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "title": "生物技術導論a `Introduction to Biotechnology",
+      "title_parsed": {
+        "en_US": "Introduction to Biotechnology",
+        "zh_TW": "生物技術導論a"
+      },
+      "url": "2550",
       "year": "半"
     },
     {
@@ -40929,50 +41016,6 @@
       "year": "半"
     },
     {
-      "class": "3B",
-      "code": "3175",
-      "credits": "2",
-      "credits_parsed": 2,
-      "department": "獸醫學系學士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "獸醫學系學士班",
-      "hours": "2",
-      "hours_parsed": "2",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "QA001"
-      ],
-      "note": "Z",
-      "number": "31",
-      "number_parsed": 31,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "張力天",
-      "time": "556",
-      "time_parsed": [
-        {
-          "day": 5,
-          "time": [
-            5,
-            6
-          ]
-        }
-      ],
-      "title": "小動物臨床營養學a `Small Animal Clinical Nutriology",
-      "title_parsed": {
-        "en_US": "Small Animal Clinical Nutriology",
-        "zh_TW": "小動物臨床營養學a"
-      },
-      "url": "2574",
-      "year": "半"
-    },
-    {
       "class": "3A",
       "code": "3175",
       "credits": "2",
@@ -41014,6 +41057,50 @@
         "zh_TW": "小動物臨床營養學a"
       },
       "url": "2573",
+      "year": "半"
+    },
+    {
+      "class": "3B",
+      "code": "3175",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "獸醫學系學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "獸醫學系學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "QA001"
+      ],
+      "note": "Z",
+      "number": "31",
+      "number_parsed": 31,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "張力天",
+      "time": "556",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            5,
+            6
+          ]
+        }
+      ],
+      "title": "小動物臨床營養學a `Small Animal Clinical Nutriology",
+      "title_parsed": {
+        "en_US": "Small Animal Clinical Nutriology",
+        "zh_TW": "小動物臨床營養學a"
+      },
+      "url": "2574",
       "year": "半"
     },
     {
@@ -41105,51 +41192,6 @@
       "year": "半"
     },
     {
-      "class": "3B",
-      "code": "3178",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "獸醫學系學士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "獸醫學系學士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "QE304"
-      ],
-      "note": "Z",
-      "number": "120",
-      "number_parsed": 120,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "陳鵬文",
-      "time": "1567",
-      "time_parsed": [
-        {
-          "day": 1,
-          "time": [
-            5,
-            6,
-            7
-          ]
-        }
-      ],
-      "title": "獸醫產科及繁殖障礙學a `Veterinary Reproductive Disorders and Obstetrics",
-      "title_parsed": {
-        "en_US": "Veterinary Reproductive Disorders and Obstetrics",
-        "zh_TW": "獸醫產科及繁殖障礙學a"
-      },
-      "url": "2578",
-      "year": "半"
-    },
-    {
       "class": "3A",
       "code": "3178",
       "credits": "3",
@@ -41192,6 +41234,51 @@
         "zh_TW": "獸醫產科及繁殖障礙學a"
       },
       "url": "2577",
+      "year": "半"
+    },
+    {
+      "class": "3B",
+      "code": "3178",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "獸醫學系學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "獸醫學系學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "QE304"
+      ],
+      "note": "Z",
+      "number": "120",
+      "number_parsed": 120,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "陳鵬文",
+      "time": "1567",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "title": "獸醫產科及繁殖障礙學a `Veterinary Reproductive Disorders and Obstetrics",
+      "title_parsed": {
+        "en_US": "Veterinary Reproductive Disorders and Obstetrics",
+        "zh_TW": "獸醫產科及繁殖障礙學a"
+      },
+      "url": "2578",
       "year": "半"
     },
     {
@@ -42625,56 +42712,6 @@
       "year": "半"
     },
     {
-      "class": "3A",
-      "code": "3216",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "機械工程學系學士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "機械工程學系學士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中/英文",
-      "location": [
-        "P108"
-      ],
-      "note": "使用全英文課綱、教材與評量方式Syllabus, teaching materials and assessment methods are all in english",
-      "number": "60",
-      "number_parsed": 60,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "陳志敏",
-      "time": "25,434",
-      "time_parsed": [
-        {
-          "day": 2,
-          "time": [
-            5
-          ]
-        },
-        {
-          "day": 4,
-          "time": [
-            3,
-            4
-          ]
-        }
-      ],
-      "title": "系統動力學Z `System Dynamics",
-      "title_parsed": {
-        "en_US": "System Dynamics",
-        "zh_TW": "系統動力學Z"
-      },
-      "url": "2451",
-      "year": "半"
-    },
-    {
       "class": "3B",
       "code": "3216",
       "credits": "3",
@@ -42722,6 +42759,56 @@
         "zh_TW": "系統動力學Z"
       },
       "url": "2871",
+      "year": "半"
+    },
+    {
+      "class": "3A",
+      "code": "3216",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "機械工程學系學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "機械工程學系學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中/英文",
+      "location": [
+        "P108"
+      ],
+      "note": "使用全英文課綱、教材與評量方式Syllabus, teaching materials and assessment methods are all in english",
+      "number": "60",
+      "number_parsed": 60,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "陳志敏",
+      "time": "25,434",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            5
+          ]
+        },
+        {
+          "day": 4,
+          "time": [
+            3,
+            4
+          ]
+        }
+      ],
+      "title": "系統動力學Z `System Dynamics",
+      "title_parsed": {
+        "en_US": "System Dynamics",
+        "zh_TW": "系統動力學Z"
+      },
+      "url": "2451",
       "year": "半"
     },
     {
@@ -42865,106 +42952,6 @@
       "year": "半"
     },
     {
-      "class": "3",
-      "code": "3220",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "應用數學系應用數學組學士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "應用數學系應用數學組學士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        "U517"
-      ],
-      "note": "",
-      "number": "60",
-      "number_parsed": 60,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "鄧君豪",
-      "time": "189,38",
-      "time_parsed": [
-        {
-          "day": 3,
-          "time": [
-            8
-          ]
-        },
-        {
-          "day": 1,
-          "time": [
-            8,
-            9
-          ]
-        }
-      ],
-      "title": "偏微分方程之數值方法Z `Numerical Methods for Partial Differential Equations",
-      "title_parsed": {
-        "en_US": "Numerical Methods for Partial Differential Equations",
-        "zh_TW": "偏微分方程之數值方法Z"
-      },
-      "url": "4140",
-      "year": "半"
-    },
-    {
-      "class": "3",
-      "code": "3220",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "應用數學系數據科學與計算組學士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "應用數學系數據科學與計算組學士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        "U517"
-      ],
-      "note": "",
-      "number": "60",
-      "number_parsed": 60,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "鄧君豪",
-      "time": "189,38",
-      "time_parsed": [
-        {
-          "day": 3,
-          "time": [
-            8
-          ]
-        },
-        {
-          "day": 1,
-          "time": [
-            8,
-            9
-          ]
-        }
-      ],
-      "title": "偏微分方程之數值方法Z `Numerical Methods for Partial Differential Equations",
-      "title_parsed": {
-        "en_US": "Numerical Methods for Partial Differential Equations",
-        "zh_TW": "偏微分方程之數值方法Z"
-      },
-      "url": "2728",
-      "year": "半"
-    },
-    {
       "class": "4",
       "code": "3220",
       "credits": "3",
@@ -43062,6 +43049,106 @@
         "zh_TW": "偏微分方程之數值方法Z"
       },
       "url": "2845",
+      "year": "半"
+    },
+    {
+      "class": "3",
+      "code": "3220",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "應用數學系數據科學與計算組學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "應用數學系數據科學與計算組學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "U517"
+      ],
+      "note": "",
+      "number": "60",
+      "number_parsed": 60,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "鄧君豪",
+      "time": "189,38",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            8
+          ]
+        },
+        {
+          "day": 1,
+          "time": [
+            8,
+            9
+          ]
+        }
+      ],
+      "title": "偏微分方程之數值方法Z `Numerical Methods for Partial Differential Equations",
+      "title_parsed": {
+        "en_US": "Numerical Methods for Partial Differential Equations",
+        "zh_TW": "偏微分方程之數值方法Z"
+      },
+      "url": "2728",
+      "year": "半"
+    },
+    {
+      "class": "3",
+      "code": "3220",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "應用數學系應用數學組學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "應用數學系應用數學組學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "U517"
+      ],
+      "note": "",
+      "number": "60",
+      "number_parsed": 60,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "鄧君豪",
+      "time": "189,38",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            8
+          ]
+        },
+        {
+          "day": 1,
+          "time": [
+            8,
+            9
+          ]
+        }
+      ],
+      "title": "偏微分方程之數值方法Z `Numerical Methods for Partial Differential Equations",
+      "title_parsed": {
+        "en_US": "Numerical Methods for Partial Differential Equations",
+        "zh_TW": "偏微分方程之數值方法Z"
+      },
+      "url": "4140",
       "year": "半"
     },
     {
@@ -43454,7 +43541,7 @@
       "credits_parsed": 2,
       "department": "食品暨應用生物科技學系學士班",
       "discipline": "",
-      "enrolled_num": "0",
+      "enrolled_num": "1",
       "for_dept": "食品暨應用生物科技學系學士班",
       "hours": "2",
       "hours_parsed": "2",
@@ -43616,6 +43703,51 @@
       "year": "半"
     },
     {
+      "class": "3",
+      "code": "3239",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "應用數學系應用數學組學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "應用數學系應用數學組學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "U702"
+      ],
+      "note": "",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "顏增昌",
+      "time": "1234",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "title": "作業系統專題(一)Z `Special Topics in Operating Systems (I)",
+      "title_parsed": {
+        "en_US": "Special Topics in Operating Systems (I)",
+        "zh_TW": "作業系統專題(一)Z"
+      },
+      "url": "3065",
+      "year": "半"
+    },
+    {
       "class": "4",
       "code": "3239",
       "credits": "3",
@@ -43658,6 +43790,51 @@
         "zh_TW": "作業系統專題(一)Z"
       },
       "url": "5418",
+      "year": "半"
+    },
+    {
+      "class": "3",
+      "code": "3239",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "應用數學系數據科學與計算組學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "應用數學系數據科學與計算組學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "U702"
+      ],
+      "note": "",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "顏增昌",
+      "time": "1234",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "title": "作業系統專題(一)Z `Special Topics in Operating Systems (I)",
+      "title_parsed": {
+        "en_US": "Special Topics in Operating Systems (I)",
+        "zh_TW": "作業系統專題(一)Z"
+      },
+      "url": "3474",
       "year": "半"
     },
     {
@@ -43707,13 +43884,13 @@
     },
     {
       "class": "3",
-      "code": "3239",
+      "code": "3240",
       "credits": "3",
       "credits_parsed": 3,
-      "department": "應用數學系應用數學組學士班",
+      "department": "食品暨應用生物科技學系學士班",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "應用數學系應用數學組學士班",
+      "for_dept": "食品暨應用生物科技學系學士班",
       "hours": "3",
       "hours_parsed": "3",
       "intern_location": [
@@ -43722,77 +43899,32 @@
       "intern_time": "",
       "language": "中文",
       "location": [
-        "U702"
+        "FB103"
       ],
       "note": "",
       "number": "40",
       "number_parsed": 40,
       "obligatory": "選修",
       "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "顏增昌",
-      "time": "1234",
+      "prerequisite": "普通生物學 OR ",
+      "professor": "林金源",
+      "time": "1678",
       "time_parsed": [
         {
           "day": 1,
           "time": [
-            2,
-            3,
-            4
+            6,
+            7,
+            8
           ]
         }
       ],
-      "title": "作業系統專題(一)Z `Special Topics in Operating Systems (I)",
+      "title": "人體生理學a `Human Physiology",
       "title_parsed": {
-        "en_US": "Special Topics in Operating Systems (I)",
-        "zh_TW": "作業系統專題(一)Z"
+        "en_US": "Human Physiology",
+        "zh_TW": "人體生理學a"
       },
-      "url": "3065",
-      "year": "半"
-    },
-    {
-      "class": "3",
-      "code": "3239",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "應用數學系數據科學與計算組學士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "應用數學系數據科學與計算組學士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "U702"
-      ],
-      "note": "",
-      "number": "40",
-      "number_parsed": 40,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "顏增昌",
-      "time": "1234",
-      "time_parsed": [
-        {
-          "day": 1,
-          "time": [
-            2,
-            3,
-            4
-          ]
-        }
-      ],
-      "title": "作業系統專題(一)Z `Special Topics in Operating Systems (I)",
-      "title_parsed": {
-        "en_US": "Special Topics in Operating Systems (I)",
-        "zh_TW": "作業系統專題(一)Z"
-      },
-      "url": "3474",
+      "url": "2639",
       "year": "半"
     },
     {
@@ -43838,51 +43970,6 @@
         "zh_TW": "人體生理學a"
       },
       "url": "2638",
-      "year": "半"
-    },
-    {
-      "class": "3",
-      "code": "3240",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "食品暨應用生物科技學系學士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "食品暨應用生物科技學系學士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "FB103"
-      ],
-      "note": "",
-      "number": "40",
-      "number_parsed": 40,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "普通生物學 OR ",
-      "professor": "林金源",
-      "time": "1678",
-      "time_parsed": [
-        {
-          "day": 1,
-          "time": [
-            6,
-            7,
-            8
-          ]
-        }
-      ],
-      "title": "人體生理學a `Human Physiology",
-      "title_parsed": {
-        "en_US": "Human Physiology",
-        "zh_TW": "人體生理學a"
-      },
-      "url": "2639",
       "year": "半"
     },
     {
@@ -44113,51 +44200,6 @@
       "year": "半"
     },
     {
-      "class": "3",
-      "code": "3249",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "應用數學系數據科學與計算組學士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "應用數學系數據科學與計算組學士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "U502"
-      ],
-      "note": "",
-      "number": "55",
-      "number_parsed": 55,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "陳宏賓",
-      "time": "1678",
-      "time_parsed": [
-        {
-          "day": 1,
-          "time": [
-            6,
-            7,
-            8
-          ]
-        }
-      ],
-      "title": "圖論Z `Graph Theory",
-      "title_parsed": {
-        "en_US": "Graph Theory",
-        "zh_TW": "圖論Z"
-      },
-      "url": "2260",
-      "year": "半"
-    },
-    {
       "class": "4",
       "code": "3249",
       "credits": "3",
@@ -44290,6 +44332,51 @@
         "zh_TW": "圖論Z"
       },
       "url": "4563",
+      "year": "半"
+    },
+    {
+      "class": "3",
+      "code": "3249",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "應用數學系數據科學與計算組學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "應用數學系數據科學與計算組學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "U502"
+      ],
+      "note": "",
+      "number": "55",
+      "number_parsed": 55,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "陳宏賓",
+      "time": "1678",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "title": "圖論Z `Graph Theory",
+      "title_parsed": {
+        "en_US": "Graph Theory",
+        "zh_TW": "圖論Z"
+      },
+      "url": "2260",
       "year": "半"
     },
     {
@@ -44765,51 +44852,6 @@
       "year": "半"
     },
     {
-      "class": "3B",
-      "code": "3262",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "電機工程學系學士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "電機工程學系學士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "EE202"
-      ],
-      "note": "",
-      "number": "60",
-      "number_parsed": 60,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "汪芳興",
-      "time": "5234",
-      "time_parsed": [
-        {
-          "day": 5,
-          "time": [
-            2,
-            3,
-            4
-          ]
-        }
-      ],
-      "title": "平面顯示器概論Z `Introduction to Flat Panel Display",
-      "title_parsed": {
-        "en_US": "Introduction to Flat Panel Display",
-        "zh_TW": "平面顯示器概論Z"
-      },
-      "url": "3144",
-      "year": "半"
-    },
-    {
       "class": "3A",
       "code": "3262",
       "credits": "3",
@@ -44855,6 +44897,51 @@
       "year": "半"
     },
     {
+      "class": "3B",
+      "code": "3262",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "電機工程學系學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "電機工程學系學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "EE202"
+      ],
+      "note": "",
+      "number": "60",
+      "number_parsed": 60,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "汪芳興",
+      "time": "5234",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "title": "平面顯示器概論Z `Introduction to Flat Panel Display",
+      "title_parsed": {
+        "en_US": "Introduction to Flat Panel Display",
+        "zh_TW": "平面顯示器概論Z"
+      },
+      "url": "3144",
+      "year": "半"
+    },
+    {
       "class": "3",
       "code": "3263",
       "credits": "1",
@@ -44880,10 +44967,10 @@
       "obligatory_tf": false,
       "prerequisite": "",
       "professor": "陳炳宇",
-      "time": "589",
+      "time": "489",
       "time_parsed": [
         {
-          "day": 5,
+          "day": 4,
           "time": [
             8,
             9
@@ -44924,10 +45011,10 @@
       "obligatory_tf": false,
       "prerequisite": "",
       "professor": "盧臆中",
-      "time": "589",
+      "time": "489",
       "time_parsed": [
         {
-          "day": 5,
+          "day": 4,
           "time": [
             8,
             9
@@ -45012,10 +45099,10 @@
       "obligatory_tf": false,
       "prerequisite": "",
       "professor": "林正坤",
-      "time": "589",
+      "time": "489",
       "time_parsed": [
         {
-          "day": 5,
+          "day": 4,
           "time": [
             8,
             9
@@ -45779,7 +45866,7 @@
       "year": "半"
     },
     {
-      "class": "4",
+      "class": "3",
       "code": "3296",
       "credits": "3",
       "credits_parsed": 3,
@@ -45825,7 +45912,7 @@
         "en_US": "Mathematical Statistics  (I)",
         "zh_TW": "數理統計(一)Z"
       },
-      "url": "2136",
+      "url": "2699",
       "year": "半"
     },
     {
@@ -45879,56 +45966,6 @@
       "year": "半"
     },
     {
-      "class": "3",
-      "code": "3296",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "應用數學系應用數學組學士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "應用數學系應用數學組學士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "U414"
-      ],
-      "note": "",
-      "number": "80",
-      "number_parsed": 80,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "機率論",
-      "professor": "吳宏達",
-      "time": "15,334",
-      "time_parsed": [
-        {
-          "day": 3,
-          "time": [
-            3,
-            4
-          ]
-        },
-        {
-          "day": 1,
-          "time": [
-            5
-          ]
-        }
-      ],
-      "title": "數理統計(一)Z `Mathematical Statistics  (I)",
-      "title_parsed": {
-        "en_US": "Mathematical Statistics  (I)",
-        "zh_TW": "數理統計(一)Z"
-      },
-      "url": "2699",
-      "year": "半"
-    },
-    {
       "class": "4",
       "code": "3296",
       "credits": "3",
@@ -45976,6 +46013,56 @@
         "zh_TW": "數理統計(一)Z"
       },
       "url": "2706",
+      "year": "半"
+    },
+    {
+      "class": "4",
+      "code": "3296",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "應用數學系應用數學組學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "應用數學系應用數學組學士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "U414"
+      ],
+      "note": "",
+      "number": "80",
+      "number_parsed": 80,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "機率論",
+      "professor": "吳宏達",
+      "time": "15,334",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            3,
+            4
+          ]
+        },
+        {
+          "day": 1,
+          "time": [
+            5
+          ]
+        }
+      ],
+      "title": "數理統計(一)Z `Mathematical Statistics  (I)",
+      "title_parsed": {
+        "en_US": "Mathematical Statistics  (I)",
+        "zh_TW": "數理統計(一)Z"
+      },
+      "url": "2136",
       "year": "半"
     },
     {
@@ -46134,7 +46221,7 @@
         "AT517"
       ],
       "intern_time": "4678",
-      "language": "英文",
+      "language": "中文",
       "location": [
         ""
       ],
@@ -51852,52 +51939,6 @@
       "department": "園藝學系學士班",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "園藝學系學士班",
-      "hours": "2",
-      "hours_parsed": "2",
-      "intern_location": [
-        "H103"
-      ],
-      "intern_time": "478",
-      "language": "中文",
-      "location": [
-        "H103"
-      ],
-      "note": "",
-      "number": "40",
-      "number_parsed": 40,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "造園學實習造園學",
-      "professor": "翁志成",
-      "time": "456",
-      "time_parsed": [
-        {
-          "day": 4,
-          "time": [
-            5,
-            6,
-            7,
-            8
-          ]
-        }
-      ],
-      "title": "造園實務與施工 `Practice and Construction of Landscape Architecture",
-      "title_parsed": {
-        "en_US": "Practice and Construction of Landscape Architecture",
-        "zh_TW": "造園實務與施工"
-      },
-      "url": "2653",
-      "year": "半"
-    },
-    {
-      "class": "4",
-      "code": "4005",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "園藝學系學士班",
-      "discipline": "",
-      "enrolled_num": "0",
       "for_dept": "景觀與遊憩學士學位學程",
       "hours": "2",
       "hours_parsed": "2",
@@ -51934,6 +51975,52 @@
         "zh_TW": "造園實務與施工"
       },
       "url": "4391",
+      "year": "半"
+    },
+    {
+      "class": "4",
+      "code": "4005",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "園藝學系學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "園藝學系學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        "H103"
+      ],
+      "intern_time": "478",
+      "language": "中文",
+      "location": [
+        "H103"
+      ],
+      "note": "",
+      "number": "40",
+      "number_parsed": 40,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "造園學實習造園學",
+      "professor": "翁志成",
+      "time": "456",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "title": "造園實務與施工 `Practice and Construction of Landscape Architecture",
+      "title_parsed": {
+        "en_US": "Practice and Construction of Landscape Architecture",
+        "zh_TW": "造園實務與施工"
+      },
+      "url": "2653",
       "year": "半"
     },
     {
@@ -55259,51 +55346,6 @@
       "department": "園藝學系學士班",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "景觀與遊憩學士學位學程",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "H102"
-      ],
-      "note": "",
-      "number": "16",
-      "number_parsed": 16,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "凃宏明",
-      "time": "5567",
-      "time_parsed": [
-        {
-          "day": 5,
-          "time": [
-            5,
-            6,
-            7
-          ]
-        }
-      ],
-      "title": "景觀規劃 `Landscape Planning",
-      "title_parsed": {
-        "en_US": "Landscape Planning",
-        "zh_TW": "景觀規劃"
-      },
-      "url": "2347",
-      "year": "半"
-    },
-    {
-      "class": "4",
-      "code": "4080",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "園藝學系學士班",
-      "discipline": "",
-      "enrolled_num": "0",
       "for_dept": "園藝學系學士班",
       "hours": "3",
       "hours_parsed": "3",
@@ -55339,6 +55381,51 @@
         "zh_TW": "景觀規劃"
       },
       "url": "2515",
+      "year": "半"
+    },
+    {
+      "class": "4",
+      "code": "4080",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "園藝學系學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "景觀與遊憩學士學位學程",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "H102"
+      ],
+      "note": "",
+      "number": "16",
+      "number_parsed": 16,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "凃宏明",
+      "time": "5567",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "title": "景觀規劃 `Landscape Planning",
+      "title_parsed": {
+        "en_US": "Landscape Planning",
+        "zh_TW": "景觀規劃"
+      },
+      "url": "2347",
       "year": "半"
     },
     {
@@ -59265,96 +59352,6 @@
       "year": "半"
     },
     {
-      "class": "4A",
-      "code": "4206",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "土木工程學系學士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "土木工程學系學士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "C203"
-      ],
-      "note": "",
-      "number": "0",
-      "number_parsed": 0,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "宋欣泰",
-      "time": "1234",
-      "time_parsed": [
-        {
-          "day": 1,
-          "time": [
-            2,
-            3,
-            4
-          ]
-        }
-      ],
-      "title": "預力混凝土學Z `Prestressed Concrete",
-      "title_parsed": {
-        "en_US": "Prestressed Concrete",
-        "zh_TW": "預力混凝土學Z"
-      },
-      "url": "5618",
-      "year": "半"
-    },
-    {
-      "class": "4B",
-      "code": "4206",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "土木工程學系學士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "土木工程學系學士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "C203"
-      ],
-      "note": "",
-      "number": "0",
-      "number_parsed": 0,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "宋欣泰",
-      "time": "1234",
-      "time_parsed": [
-        {
-          "day": 1,
-          "time": [
-            2,
-            3,
-            4
-          ]
-        }
-      ],
-      "title": "預力混凝土學Z `Prestressed Concrete",
-      "title_parsed": {
-        "en_US": "Prestressed Concrete",
-        "zh_TW": "預力混凝土學Z"
-      },
-      "url": "5654",
-      "year": "半"
-    },
-    {
       "class": "4",
       "code": "4207",
       "credits": "3",
@@ -59942,51 +59939,6 @@
       "year": "半"
     },
     {
-      "class": "4B",
-      "code": "4220",
-      "credits": "2",
-      "credits_parsed": 2,
-      "department": "機械工程學系學士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "機械工程學系學士班",
-      "hours": "1",
-      "hours_parsed": "1",
-      "intern_location": [
-        "*"
-      ],
-      "intern_time": "367",
-      "language": "中文",
-      "location": [
-        "*"
-      ],
-      "note": "",
-      "number": "50",
-      "number_parsed": 50,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "王世明",
-      "time": "35",
-      "time_parsed": [
-        {
-          "day": 3,
-          "time": [
-            5,
-            6,
-            7
-          ]
-        }
-      ],
-      "title": "機械設計與製作專題－問題導向學習(PBL)專題實作(二)g `Special Topics in Mechanical Engineering Design-PBL(II)",
-      "title_parsed": {
-        "en_US": "Special Topics in Mechanical Engineering Design-PBL(II)",
-        "zh_TW": "機械設計與製作專題－問題導向學習(PBL)專題實作(二)g"
-      },
-      "url": "3925",
-      "year": "半"
-    },
-    {
       "class": "4A",
       "code": "4220",
       "credits": "2",
@@ -60032,47 +59984,48 @@
       "year": "半"
     },
     {
-      "class": "4A",
-      "code": "4222",
+      "class": "4B",
+      "code": "4220",
       "credits": "2",
       "credits_parsed": 2,
-      "department": "土木工程學系學士班",
+      "department": "機械工程學系學士班",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "土木工程學系學士班",
-      "hours": "2",
-      "hours_parsed": "2",
+      "for_dept": "機械工程學系學士班",
+      "hours": "1",
+      "hours_parsed": "1",
       "intern_location": [
-        ""
+        "*"
       ],
-      "intern_time": "",
+      "intern_time": "367",
       "language": "中文",
       "location": [
-        "C101"
+        "*"
       ],
       "note": "",
-      "number": "70",
-      "number_parsed": 70,
+      "number": "50",
+      "number_parsed": 50,
       "obligatory": "選修",
       "obligatory_tf": false,
       "prerequisite": "",
-      "professor": "熊彬成",
-      "time": "478",
+      "professor": "王世明",
+      "time": "35",
       "time_parsed": [
         {
-          "day": 4,
+          "day": 3,
           "time": [
-            7,
-            8
+            5,
+            6,
+            7
           ]
         }
       ],
-      "title": "隧道工程導論Z `Introduction to Tunnel Engineering",
+      "title": "機械設計與製作專題－問題導向學習(PBL)專題實作(二)g `Special Topics in Mechanical Engineering Design-PBL(II)",
       "title_parsed": {
-        "en_US": "Introduction to Tunnel Engineering",
-        "zh_TW": "隧道工程導論Z"
+        "en_US": "Special Topics in Mechanical Engineering Design-PBL(II)",
+        "zh_TW": "機械設計與製作專題－問題導向學習(PBL)專題實作(二)g"
       },
-      "url": "2747",
+      "url": "3925",
       "year": "半"
     },
     {
@@ -60117,6 +60070,50 @@
         "zh_TW": "隧道工程導論Z"
       },
       "url": "2570",
+      "year": "半"
+    },
+    {
+      "class": "4A",
+      "code": "4222",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "土木工程學系學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "土木工程學系學士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "C101"
+      ],
+      "note": "",
+      "number": "70",
+      "number_parsed": 70,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "熊彬成",
+      "time": "478",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            7,
+            8
+          ]
+        }
+      ],
+      "title": "隧道工程導論Z `Introduction to Tunnel Engineering",
+      "title_parsed": {
+        "en_US": "Introduction to Tunnel Engineering",
+        "zh_TW": "隧道工程導論Z"
+      },
+      "url": "2747",
       "year": "半"
     },
     {
@@ -60921,51 +60918,6 @@
       "year": "半"
     },
     {
-      "class": "4B",
-      "code": "4244",
-      "credits": "2",
-      "credits_parsed": 2,
-      "department": "機械工程學系學士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "機械工程學系學士班",
-      "hours": "1",
-      "hours_parsed": "1",
-      "intern_location": [
-        "*"
-      ],
-      "intern_time": "367",
-      "language": "中文",
-      "location": [
-        "*"
-      ],
-      "note": "",
-      "number": "55",
-      "number_parsed": 55,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "王威翔",
-      "time": "35",
-      "time_parsed": [
-        {
-          "day": 3,
-          "time": [
-            5,
-            6,
-            7
-          ]
-        }
-      ],
-      "title": "機械設計與製作專題－問題導向學習(PBL)專題實作(二)j `Special Topics in Mechanical Engineering Design-PBL(II)",
-      "title_parsed": {
-        "en_US": "Special Topics in Mechanical Engineering Design-PBL(II)",
-        "zh_TW": "機械設計與製作專題－問題導向學習(PBL)專題實作(二)j"
-      },
-      "url": "3174",
-      "year": "半"
-    },
-    {
       "class": "4A",
       "code": "4244",
       "credits": "2",
@@ -61011,8 +60963,8 @@
       "year": "半"
     },
     {
-      "class": "4A",
-      "code": "4245",
+      "class": "4B",
+      "code": "4244",
       "credits": "2",
       "credits_parsed": 2,
       "department": "機械工程學系學士班",
@@ -61035,7 +60987,7 @@
       "obligatory": "選修",
       "obligatory_tf": false,
       "prerequisite": "",
-      "professor": "吳忠翰",
+      "professor": "王威翔",
       "time": "35",
       "time_parsed": [
         {
@@ -61047,13 +60999,13 @@
           ]
         }
       ],
-      "title": "機械設計與製作專題k `Special Topics in Mechanical Engineering Design",
+      "title": "機械設計與製作專題－問題導向學習(PBL)專題實作(二)j `Special Topics in Mechanical Engineering Design-PBL(II)",
       "title_parsed": {
-        "en_US": "Special Topics in Mechanical Engineering Design",
-        "zh_TW": "機械設計與製作專題k"
+        "en_US": "Special Topics in Mechanical Engineering Design-PBL(II)",
+        "zh_TW": "機械設計與製作專題－問題導向學習(PBL)專題實作(二)j"
       },
-      "url": "3175",
-      "year": "全"
+      "url": "3174",
+      "year": "半"
     },
     {
       "class": "4B",
@@ -61098,6 +61050,51 @@
         "zh_TW": "機械設計與製作專題k"
       },
       "url": "3176",
+      "year": "全"
+    },
+    {
+      "class": "4A",
+      "code": "4245",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "機械工程學系學士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "機械工程學系學士班",
+      "hours": "1",
+      "hours_parsed": "1",
+      "intern_location": [
+        "*"
+      ],
+      "intern_time": "367",
+      "language": "中文",
+      "location": [
+        "*"
+      ],
+      "note": "",
+      "number": "55",
+      "number_parsed": 55,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "吳忠翰",
+      "time": "35",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "title": "機械設計與製作專題k `Special Topics in Mechanical Engineering Design",
+      "title_parsed": {
+        "en_US": "Special Topics in Mechanical Engineering Design",
+        "zh_TW": "機械設計與製作專題k"
+      },
+      "url": "3175",
       "year": "全"
     },
     {
@@ -61158,7 +61155,7 @@
       "intern_location": [
         "C105"
       ],
-      "intern_time": "467",
+      "intern_time": "456",
       "language": "中文",
       "location": [
         ""
@@ -61170,13 +61167,13 @@
       "obligatory_tf": false,
       "prerequisite": "",
       "professor": "宋欣泰",
-      "time": "467",
+      "time": "456",
       "time_parsed": [
         {
           "day": 4,
           "time": [
-            6,
-            7
+            5,
+            6
           ]
         }
       ],
@@ -61202,7 +61199,7 @@
       "intern_location": [
         "C105"
       ],
-      "intern_time": "467",
+      "intern_time": "456",
       "language": "中文",
       "location": [
         ""
@@ -61214,13 +61211,13 @@
       "obligatory_tf": false,
       "prerequisite": "",
       "professor": "宋欣泰",
-      "time": "467",
+      "time": "456",
       "time_parsed": [
         {
           "day": 4,
           "time": [
-            6,
-            7
+            5,
+            6
           ]
         }
       ],
