@@ -139,7 +139,7 @@
       "credits_parsed": 2,
       "department": "不限系別(進修學士班)",
       "discipline": "工程科技學群",
-      "enrolled_num": "104",
+      "enrolled_num": "103",
       "for_dept": "不限系別(進修學士班)",
       "hours": "2",
       "hours_parsed": "2",
@@ -271,7 +271,7 @@
       "credits_parsed": 2,
       "department": "不限系別(進修學士班)",
       "discipline": "專業實作",
-      "enrolled_num": "39",
+      "enrolled_num": "38",
       "for_dept": "不限系別(進修學士班)",
       "hours": "2",
       "hours_parsed": "2",
@@ -579,7 +579,7 @@
       "credits_parsed": 2,
       "department": "不限系別(進修學士班)",
       "discipline": "歷史學群",
-      "enrolled_num": "25",
+      "enrolled_num": "24",
       "for_dept": "不限系別(進修學士班)",
       "hours": "2",
       "hours_parsed": "2",
@@ -667,7 +667,7 @@
       "credits_parsed": 2,
       "department": "不限系別(進修學士班)",
       "discipline": "藝術學群",
-      "enrolled_num": "48",
+      "enrolled_num": "46",
       "for_dept": "不限系別(進修學士班)",
       "hours": "2",
       "hours_parsed": "2",
@@ -2724,10 +2724,10 @@
           ]
         }
       ],
-      "title": "管理學概要 `",
+      "title": "管理科學概要 `Introduction to Management Science",
       "title_parsed": {
-        "en_US": "",
-        "zh_TW": "管理學概要"
+        "en_US": "Introduction to Management Science",
+        "zh_TW": "管理科學概要"
       },
       "url": "2022",
       "year": "半"
