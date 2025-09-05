@@ -387,7 +387,7 @@
       "credits_parsed": 3,
       "department": "台灣與跨文化研究國際博士學位學程",
       "discipline": "",
-      "enrolled_num": "4",
+      "enrolled_num": "5",
       "for_dept": "台灣與跨文化研究國際博士學位學程",
       "hours": "3",
       "hours_parsed": "3",
@@ -3028,6 +3028,42 @@
         "zh_TW": "博士論文"
       },
       "url": "4600",
+      "year": "全"
+    },
+    {
+      "class": "9",
+      "code": "9023",
+      "credits": "6",
+      "credits_parsed": 6,
+      "department": "生技產業創新研發與管理博士學位學程",
+      "discipline": "",
+      "enrolled_num": "1",
+      "for_dept": "生技產業創新研發與管理博士學位學程",
+      "hours": "0",
+      "hours_parsed": "0",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "*"
+      ],
+      "note": "",
+      "number": "30",
+      "number_parsed": 30,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "全體教師",
+      "time": "*",
+      "time_parsed": [],
+      "title": "博士論文 `Dissertation",
+      "title_parsed": {
+        "en_US": "Dissertation",
+        "zh_TW": "博士論文"
+      },
+      "url": "5907",
       "year": "全"
     },
     {
