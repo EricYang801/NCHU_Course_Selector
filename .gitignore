@@ -25,3 +25,5 @@ logs/
 
 # Keep course data JSON files in repo
 !course-helper-web/public/data/*.json
+*.pem
+.DS_Store
