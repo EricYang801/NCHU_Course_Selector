@@ -5,14 +5,15 @@
 定期爬取各學制的課程資料並儲存為JSON格式
 """
 
-import requests
 import json
-import os
 import logging
+import os
 import re
-from datetime import datetime
-from typing import Dict, Optional
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from typing import Dict, Optional, Tuple
+
+import requests
 
 class NCHUCourseCrawler:
     """中興大學課程爬取器"""
@@ -54,61 +55,108 @@ class NCHUCourseCrawler:
         )
         self.logger = logging.getLogger(__name__)
     
-    def _clean_json_text(self, text: str) -> str:
+    def _clean_and_repair_json(self, text: str) -> str:
         """
-        清理 JSON 文本中的控制字符
+        清理並修補 JSON 文本
+        
+        處理問題：
+        1. 移除控制字符 (ASCII 0-31, 127-159)
+        2. 截取 JSON 主體 (第一個 '{' 到最後一個 '}')
+        3. 修復各種 JSON 格式異常
         
         Args:
             text: 原始文本
             
         Returns:
-            清理後的文本
+            清理並修補後的文本
         """
-        # 移除所有 ASCII 控制字符 (0-31) 和 DEL + 擴展控制字符 (127-159)
+        # 移除所有 ASCII 控制字符
         cleaned = re.sub(r'[\x00-\x1f\x7f-\x9f]', '', text)
-
-        # 有時候回應尾端會夾帶多餘符號 (例如 % 或其他雜訊)，導致 JSONDecodeError
-        # 策略：截斷到最後一個 '}' 為止（確保最外層物件閉合），避免尾端殘留非 JSON 字元
+        
+        # 截取 JSON 主體 (從第一個 '{' 到最後一個 '}')
+        first_brace = cleaned.find('{')
         last_brace = cleaned.rfind('}')
-        if last_brace != -1:
-            trimmed = cleaned[:last_brace + 1]
-        else:
-            trimmed = cleaned  # 若找不到就維持原樣，後續會在解析階段失敗並紀錄
-
-        # 進一步檢查是否存在開頭雜訊：取第一個 '{' 之後的內容
-        first_brace = trimmed.find('{')
-        if first_brace > 0:
-            trimmed = trimmed[first_brace:]
-
-        return trimmed
-
-    def _repair_common_corruption(self, text: str) -> str:
-        """針對已知的 API JSON 資料異常模式進行修補。
-
-        目前觀察到的問題：
-        1. 陣列開頭出現多餘逗號: [ ,2,3] -> [2,3]
-        2. 重複逗號: [2,,3] -> [2,3]
-        3. time_parsed 區段內空白逗號組合導致解析失敗
-        """
-        repaired = text
-        # 1. 移除陣列左中括號後緊跟的逗號與空白
-        repaired = re.sub(r'\[\s*,+\s*', '[', repaired)
-        # 2. 將連續兩個或以上逗號壓成一個
-        repaired = re.sub(r',\s*,+', ',', repaired)
-        return repaired
+        
+        if first_brace != -1 and last_brace != -1:
+            cleaned = cleaned[first_brace:last_brace + 1]
+        
+        # 修復常見的 JSON 格式錯誤
+        # 1. 修復冒號後直接逗號的情況: "key":, -> "key":null,
+        cleaned = re.sub(r':\s*,', ':null,', cleaned)
+        # 2. 修復冒號後直接結束的情況: "key":} -> "key":null}
+        cleaned = re.sub(r':\s*}', ':null}', cleaned)
+        # 3. 修復冒號後直接陣列結束: "key":] -> "key":null]
+        cleaned = re.sub(r':\s*]', ':null]', cleaned)
+        # 4. 移除陣列開頭的多餘逗號: [,2,3] -> [2,3]
+        cleaned = re.sub(r'\[\s*,+\s*', '[', cleaned)
+        # 5. 將連續逗號壓成一個: [2,,3] -> [2,3]
+        cleaned = re.sub(r',\s*,+', ',', cleaned)
+        
+        return cleaned
     
-    def _save_raw_response(self, career: str, content: str, status: str):
+    def _parse_json_response(self, text: str, career_name: str) -> Optional[Dict]:
+        """
+        解析 JSON 回應，包含清理和救援機制
+        
+        Args:
+            text: 原始回應文本
+            career_name: 學制名稱（用於日誌）
+            
+        Returns:
+            解析成功返回字典，失敗返回 None
+        """
+        # 清理並修補 JSON 文本
+        cleaned_text = self._clean_and_repair_json(text)
+        
+        try:
+            data = json.loads(cleaned_text)
+            self.logger.info(f"{career_name} 課程資料解析成功，共 {len(data)} 筆資料")
+            return data
+        except json.JSONDecodeError as e:
+            self.logger.warning(f"{career_name} 初次解析失敗，嘗試進階救援: {e}")
+            return self._rescue_json_parsing(cleaned_text, career_name)
+    
+    def _rescue_json_parsing(self, text: str, career_name: str) -> Optional[Dict]:
+        """
+        JSON 解析失敗時的救援機制
+        
+        Args:
+            text: 清理後的文本
+            career_name: 學制名稱（用於日誌）
+            
+        Returns:
+            救援成功返回字典，失敗返回 None
+        """
+        # 嘗試提取最外層的 JSON 物件
+        brace_match = re.search(r'\{.*\}', text, flags=re.S)
+        if not brace_match:
+            self.logger.error(f"{career_name} 無法找到有效的 JSON 結構")
+            return None
+        
+        rescue_text = brace_match.group(0)
+        # 確保在最後一個 '}' 處結束
+        last_brace = rescue_text.rfind('}')
+        if last_brace != -1:
+            rescue_text = rescue_text[:last_brace + 1]
+        
+        try:
+            data = json.loads(rescue_text)
+            self.logger.info(f"{career_name} 救援成功，共 {len(data)} 筆資料")
+            return data
+        except json.JSONDecodeError as e:
+            self.logger.error(f"{career_name} 救援失敗: {e}")
+            return None
+    
+    def _save_raw_response(self, career: str, content: str):
         """
         保存原始回應內容用於調試
         
         Args:
             career: 學制代碼
             content: 原始內容
-            status: 狀態標記
         """
         try:
-            # 使用固定檔名用於調試，不含時間戳記
-            filename = f"raw_{career}_{status}.txt"
+            filename = f"raw_{career}_failed.txt"
             filepath = os.path.join(self.data_dir, filename)
             
             with open(filepath, 'w', encoding='utf-8') as f:
@@ -126,7 +174,7 @@ class NCHUCourseCrawler:
             career: 學制代碼 (U, O, N, W, G, D)
             
         Returns:
-            課程資料字典，失敗時返回None
+            課程資料字典，失敗時返回 None
         """
         url = f"{self.base_url}?p_career={career}"
         career_name = self.career_mapping.get(career, career)
@@ -134,57 +182,45 @@ class NCHUCourseCrawler:
         try:
             self.logger.info(f"開始爬取 {career_name} 課程資料...")
             
-            # 發送請求
             response = requests.get(url, timeout=30)
             response.raise_for_status()
             
-            # 檢查回應內容
-            if response.status_code == 200:
-                # 清理回應文本中的控制字符
-                cleaned_text = self._clean_json_text(response.text)
-                
-                try:
-                    # 進一步修補常見破損再解析
-                    repaired_text = self._repair_common_corruption(cleaned_text)
-                    data = json.loads(repaired_text)
-                    self.logger.info(f"{career_name} 課程資料爬取成功，共 {len(data)} 筆資料")
-                    return data
-                except json.JSONDecodeError as e:
-                    # 嘗試進階救援：只擷取最外層 { ... } 區段後再解析
-                    self.logger.warning(f"{career_name} 第一次解析失敗，嘗試進階救援: {e}")
-                    brace_match = re.search(r'\{.*\}', cleaned_text, flags=re.S)
-                    if brace_match:
-                        rescue_text = brace_match.group(0)
-                        # 再次截斷到最後一個 '}'（避免結尾殘留）
-                        rescue_text = rescue_text[:rescue_text.rfind('}') + 1]
-                        try:
-                            data = json.loads(rescue_text)
-                            self.logger.info(f"{career_name} 課程資料救援成功，共 {len(data)} 筆資料")
-                            return data
-                        except json.JSONDecodeError as e2:
-                            self.logger.error(f"{career_name} 進階救援仍失敗: {e2}")
-                    else:
-                        self.logger.error(f"{career_name} 無法找到可疑 JSON 主體以救援")
-
-                    # 保存原始回應以供調試
-                    self._save_raw_response(career, response.text, "failed")
-                    return None
-            else:
-                self.logger.error(f"{career_name} 課程資料爬取失敗，狀態碼: {response.status_code}")
-                return None
+            # 解析 JSON 回應
+            data = self._parse_json_response(response.text, career_name)
+            
+            # 如果解析失敗，保存原始回應以供調試
+            if data is None:
+                self._save_raw_response(career, response.text)
+            
+            return data
                 
         except requests.exceptions.RequestException as e:
             self.logger.error(f"{career_name} 網路請求失敗: {e}")
             return None
-        except json.JSONDecodeError as e:
-            self.logger.error(f"{career_name} JSON 解析失敗: {e}")
-            # 嘗試保存原始回應以供調試
-            if 'response' in locals():
-                self._save_raw_response(career, response.text, "failed")
-            return None
         except Exception as e:
             self.logger.error(f"{career_name} 未預期錯誤: {e}")
             return None
+    
+    def _crawl_single_career(self, career: str) -> Tuple[str, bool]:
+        """
+        爬取並儲存單一學制的課程資料（用於並行執行）
+        
+        Args:
+            career: 學制代碼
+            
+        Returns:
+            (學制名稱, 是否成功) 的元組
+        """
+        career_name = self.career_mapping[career]
+        
+        # 爬取資料
+        data = self.fetch_course_data(career)
+        
+        # 儲存資料
+        if data:
+            success = self.save_course_data(career, data)
+            return (career_name, success)
+        return (career_name, False)
     
     def save_course_data(self, career: str, data: Dict) -> bool:
         """
@@ -213,36 +249,49 @@ class NCHUCourseCrawler:
             self.logger.error(f"儲存 {career_name} 資料失敗: {e}")
             return False
     
-    def crawl_all_careers(self) -> Dict[str, bool]:
+    def crawl_all_careers(self, parallel: bool = True, max_workers: int = 6) -> Dict[str, bool]:
         """
         爬取所有學制的課程資料
         
+        Args:
+            parallel: 是否使用並行爬取（預設 True）
+            max_workers: 最大並行執行緒數（預設 6，對應 6 個學制）
+            
         Returns:
             各學制爬取結果的字典
         """
+        self.logger.info("=" * 50)
+        self.logger.info(f"開始執行課程資料爬取任務 ({'並行模式' if parallel else '序列模式'}）")
+        self.logger.info("=" * 50)
+        
         results = {}
         
-        self.logger.info("=" * 50)
-        self.logger.info("開始執行課程資料爬取任務")
-        self.logger.info("=" * 50)
+        if parallel:
+            # 使用執行緒池並行爬取
+            with ThreadPoolExecutor(max_workers=max_workers) as executor:
+                # 提交所有爬取任務
+                future_to_career = {
+                    executor.submit(self._crawl_single_career, career): career 
+                    for career in self.career_mapping.keys()
+                }
+                
+                # 收集結果
+                for future in as_completed(future_to_career):
+                    try:
+                        career_name, success = future.result()
+                        results[career_name] = success
+                    except Exception as e:
+                        career = future_to_career[future]
+                        career_name = self.career_mapping[career]
+                        self.logger.error(f"{career_name} 執行過程發生錯誤: {e}")
+                        results[career_name] = False
+        else:
+            # 序列模式（原有邏輯）
+            for career, career_name in self.career_mapping.items():
+                data = self.fetch_course_data(career)
+                results[career_name] = self.save_course_data(career, data) if data else False
+                time.sleep(2)  # 序列模式下保持延遲
         
-        for career in self.career_mapping.keys():
-            career_name = self.career_mapping[career]
-            
-            # 爬取資料
-            data = self.fetch_course_data(career)
-            
-            if data is not None:
-                # 儲存資料
-                success = self.save_course_data(career, data)
-                results[career_name] = success
-            else:
-                results[career_name] = False
-            
-            # 避免對伺服器造成過大負擔
-            time.sleep(2)
-        
-        # 輸出結果摘要
         self._print_summary(results)
         return results
     
@@ -265,17 +314,17 @@ class NCHUCourseCrawler:
             self.logger.info(f"{career_name}: {status}")
 
 def main():
-    """主程式"""
+    """主程式入口"""
+    import sys
+    
+    # 檢查是否指定序列模式
+    parallel = '--sequential' not in sys.argv
+    
     crawler = NCHUCourseCrawler()
+    results = crawler.crawl_all_careers(parallel=parallel)
     
-    # 執行爬取任務
-    results = crawler.crawl_all_careers()
-    
-    # 檢查是否所有任務都成功
-    if all(results.values()):
-        exit(0)  # 成功
-    else:
-        exit(1)  # 部分或全部失敗
+    # 根據爬取結果設定退出碼
+    exit(0 if all(results.values()) else 1)
 
 
 if __name__ == "__main__":
