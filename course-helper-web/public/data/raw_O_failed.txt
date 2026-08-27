@@ -10,7 +10,7 @@
 <div class="alert alert-danger" role="alert">
             <h4 class="alert-heading">無法使用功能</h4>
             <hr>
-             <p>已過可使用的時間或您的IP ( 172.174.188.185 ) 不在允許查詢範圍內</p>           
+             <p>已過可使用的時間或您的IP ( 135.119.237.65 ) 不在允許查詢範圍內</p>           
              <p class="mb-0">如果有查詢需求請出維護單向課務組進行申請</p>
            </div>
 </body>
