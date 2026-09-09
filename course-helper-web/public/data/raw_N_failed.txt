@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+         <html lang="zh-Hant-TW">
+         <meta charset="utf-8">
+<head>
+
+  <!-- CSS Files -->
+  <link href="/cof/bootstrap/bootstrap-4.3.1-dist/css/bootstrap.min_431.css" rel="stylesheet" />
+  
+<body>
+<div class="alert alert-danger" role="alert">
+            <h4 class="alert-heading">無法使用功能</h4>
+            <hr>
+             <p>已過可使用的時間或您的IP ( 172.185.55.185 ) 不在允許查詢範圍內</p>           
+             <p class="mb-0">如果有查詢需求請出維護單向課務組進行申請</p>
+           </div>
+</body>
+</html>

@@ -2,12 +2,226 @@
   "course": [
     {
       "class": "8",
+      "code": "8000",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "轉譯醫學博士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "轉譯醫學博士學位學程",
+      "hours": "1",
+      "hours_parsed": "1",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "*"
+      ],
+      "note": "",
+      "number": "0",
+      "number_parsed": 0,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "朱彥煒",
+      "time": "*",
+      "time_parsed": [],
+      "title": "精準醫療與健康大數據 `Precision Medicine and Big Data in Health Care",
+      "title_parsed": {
+        "en_US": "Precision Medicine and Big Data in Health Care",
+        "zh_TW": "精準醫療與健康大數據"
+      },
+      "url": "3993",
+      "year": "半"
+    },
+    {
+      "class": "6",
       "code": "8001",
       "credits": "3",
       "credits_parsed": 3,
       "department": "台灣與跨文化研究國際博士學位學程",
       "discipline": "",
-      "enrolled_num": "0",
+      "enrolled_num": "3",
+      "for_dept": "全球事務研究跨洲碩士學位學程",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "A707"
+      ],
+      "note": "",
+      "number": "5",
+      "number_parsed": 5,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "湯凱喻",
+      "time": "1234",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "title": "台灣與跨文化的多學科研究法 `Multidisciplinary Approaches to Taiwan and Transcultural Studies",
+      "title_parsed": {
+        "en_US": "Multidisciplinary Approaches to Taiwan and Transcultural Studies",
+        "zh_TW": "台灣與跨文化的多學科研究法"
+      },
+      "url": "2692",
+      "year": "半"
+    },
+    {
+      "class": "8",
+      "code": "8001",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "台灣與跨文化研究國際博士學位學程",
+      "discipline": "",
+      "enrolled_num": "3",
+      "for_dept": "台灣與跨文化研究國際博士學位學程",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "A707"
+      ],
+      "note": "",
+      "number": "10",
+      "number_parsed": 10,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "湯凱喻",
+      "time": "1234",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "title": "台灣與跨文化的多學科研究法 `Multidisciplinary Approaches to Taiwan and Transcultural Studies",
+      "title_parsed": {
+        "en_US": "Multidisciplinary Approaches to Taiwan and Transcultural Studies",
+        "zh_TW": "台灣與跨文化的多學科研究法"
+      },
+      "url": "2233",
+      "year": "半"
+    },
+    {
+      "class": "8",
+      "code": "8002",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "醫學生物科技博士學位學程",
+      "discipline": "",
+      "enrolled_num": "4",
+      "for_dept": "醫學生物科技博士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "*"
+      ],
+      "note": "",
+      "number": "30",
+      "number_parsed": 30,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "朱彥煒",
+      "time": "467",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            6,
+            7
+          ]
+        }
+      ],
+      "title": "專題研究 D `Project Study D",
+      "title_parsed": {
+        "en_US": "Project Study D",
+        "zh_TW": "專題研究 D"
+      },
+      "url": "4451",
+      "year": "半"
+    },
+    {
+      "class": "8",
+      "code": "8003",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "醫學生物科技博士學位學程",
+      "discipline": "",
+      "enrolled_num": "2",
+      "for_dept": "醫學生物科技博士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "AN709"
+      ],
+      "note": "",
+      "number": "30",
+      "number_parsed": 30,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "陳盈璁",
+      "time": "467",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            6,
+            7
+          ]
+        }
+      ],
+      "title": "專題研究 E `Project Study E",
+      "title_parsed": {
+        "en_US": "Project Study E",
+        "zh_TW": "專題研究 E"
+      },
+      "url": "4452",
+      "year": "半"
+    },
+    {
+      "class": "8",
+      "code": "8004",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "台灣與跨文化研究國際博士學位學程",
+      "discipline": "",
+      "enrolled_num": "2",
       "for_dept": "台灣與跨文化研究國際博士學位學程",
       "hours": "3",
       "hours_parsed": "3",
@@ -37,143 +251,12 @@
           ]
         }
       ],
-      "title": "生態環境電影專題 `Seminar on Eco-cinema",
+      "title": "當代文化中的全球化議題 `Contemporary Culture and Globalization",
       "title_parsed": {
-        "en_US": "Seminar on Eco-cinema",
-        "zh_TW": "生態環境電影專題"
+        "en_US": "Contemporary Culture and Globalization",
+        "zh_TW": "當代文化中的全球化議題"
       },
-      "url": "2421",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8002",
-      "credits": "1",
-      "credits_parsed": 1,
-      "department": "醫學生物科技博士學位學程",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "醫學生物科技博士學位學程",
-      "hours": "2",
-      "hours_parsed": "2",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "AN701"
-      ],
-      "note": "",
-      "number": "30",
-      "number_parsed": 30,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "朱彥煒",
-      "time": "456",
-      "time_parsed": [
-        {
-          "day": 4,
-          "time": [
-            5,
-            6
-          ]
-        }
-      ],
-      "title": "專題研究A `Project Study A",
-      "title_parsed": {
-        "en_US": "Project Study A",
-        "zh_TW": "專題研究A"
-      },
-      "url": "4629",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8003",
-      "credits": "1",
-      "credits_parsed": 1,
-      "department": "醫學生物科技博士學位學程",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "醫學生物科技博士學位學程",
-      "hours": "2",
-      "hours_parsed": "2",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "AN709"
-      ],
-      "note": "",
-      "number": "30",
-      "number_parsed": 30,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "陳盈璁",
-      "time": "456",
-      "time_parsed": [
-        {
-          "day": 4,
-          "time": [
-            5,
-            6
-          ]
-        }
-      ],
-      "title": "專題研究B `Project Study B",
-      "title_parsed": {
-        "en_US": "Project Study B",
-        "zh_TW": "專題研究B"
-      },
-      "url": "4630",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8004",
-      "credits": "1",
-      "credits_parsed": 1,
-      "department": "轉譯醫學博士學位學程",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "轉譯醫學博士學位學程",
-      "hours": "1",
-      "hours_parsed": "1",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "Z101"
-      ],
-      "note": "",
-      "number": "30",
-      "number_parsed": 30,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "林子平",
-      "time": "55",
-      "time_parsed": [
-        {
-          "day": 5,
-          "time": [
-            5
-          ]
-        }
-      ],
-      "title": "專題討論(一)c `Seminar(I)",
-      "title_parsed": {
-        "en_US": "Seminar(I)",
-        "zh_TW": "專題討論(一)c"
-      },
-      "url": "5455",
+      "url": "3658",
       "year": "半"
     },
     {
@@ -183,51 +266,7 @@
       "credits_parsed": 1,
       "department": "醫學生物科技博士學位學程",
       "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "醫學生物科技博士學位學程",
-      "hours": "2",
-      "hours_parsed": "2",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        "AN716"
-      ],
-      "note": "",
-      "number": "30",
-      "number_parsed": 30,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "謝立青",
-      "time": "519",
-      "time_parsed": [
-        {
-          "day": 5,
-          "time": [
-            1,
-            9
-          ]
-        }
-      ],
-      "title": "專題討論(三) `Seminar(III)",
-      "title_parsed": {
-        "en_US": "Seminar(III)",
-        "zh_TW": "專題討論(三)"
-      },
-      "url": "3971",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8006",
-      "credits": "1",
-      "credits_parsed": 1,
-      "department": "醫學生物科技博士學位學程",
-      "discipline": "",
-      "enrolled_num": "0",
+      "enrolled_num": "1",
       "for_dept": "醫學生物科技博士學位學程",
       "hours": "2",
       "hours_parsed": "2",
@@ -237,7 +276,7 @@
       "intern_time": "",
       "language": "中文",
       "location": [
-        "*"
+        "Z000"
       ],
       "note": "",
       "number": "30",
@@ -245,7 +284,7 @@
       "obligatory": "選修",
       "obligatory_tf": false,
       "prerequisite": "",
-      "professor": "朱彥煒",
+      "professor": "陳盈璁",
       "time": "578",
       "time_parsed": [
         {
@@ -256,12 +295,55 @@
           ]
         }
       ],
-      "title": "生命科學特論(一) `Special Topics on Life Sciences (I)",
+      "title": "生命科學特論(二) `Special Topics in Life Sciences(II)",
       "title_parsed": {
-        "en_US": "Special Topics on Life Sciences (I)",
-        "zh_TW": "生命科學特論(一)"
+        "en_US": "Special Topics in Life Sciences(II)",
+        "zh_TW": "生命科學特論(二)"
       },
-      "url": "4632",
+      "url": "4454",
+      "year": "半"
+    },
+    {
+      "class": "8",
+      "code": "8006",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "組織工程與再生醫學博士學位學程",
+      "discipline": "",
+      "enrolled_num": "5",
+      "for_dept": "組織工程與再生醫學博士學位學程",
+      "hours": "1",
+      "hours_parsed": "1",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "AN514"
+      ],
+      "note": "",
+      "number": "30",
+      "number_parsed": 30,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "劉烱輝",
+      "time": "43",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            3
+          ]
+        }
+      ],
+      "title": "組織工程與再生醫學特論(二) `Special Topics in Tissue Engineering and Regenerative Medicine (II)",
+      "title_parsed": {
+        "en_US": "Special Topics in Tissue Engineering and Regenerative Medicine (II)",
+        "zh_TW": "組織工程與再生醫學特論(二)"
+      },
+      "url": "4580",
       "year": "半"
     },
     {
@@ -271,7 +353,7 @@
       "credits_parsed": 1,
       "department": "醫學生物科技博士學位學程",
       "discipline": "",
-      "enrolled_num": "0",
+      "enrolled_num": "4",
       "for_dept": "醫學生物科技博士學位學程",
       "hours": "2",
       "hours_parsed": "2",
@@ -289,23 +371,23 @@
       "obligatory": "必修",
       "obligatory_tf": true,
       "prerequisite": "",
-      "professor": "謝立青",
-      "time": "556",
+      "professor": "劉俊宏",
+      "time": "312",
       "time_parsed": [
         {
-          "day": 5,
+          "day": 3,
           "time": [
-            5,
-            6
+            1,
+            2
           ]
         }
       ],
-      "title": "專題討論(一) `Seminar(I)",
+      "title": "專題討論(二) `Seminar (II)",
       "title_parsed": {
-        "en_US": "Seminar(I)",
-        "zh_TW": "專題討論(一)"
+        "en_US": "Seminar (II)",
+        "zh_TW": "專題討論(二)"
       },
-      "url": "4633",
+      "url": "4456",
       "year": "半"
     },
     {
@@ -313,846 +395,9 @@
       "code": "8008",
       "credits": "3",
       "credits_parsed": 3,
-      "department": "生物科技學研究所博士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "生物科技學研究所博士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        ""
-      ],
-      "note": "上課地點；中央研究院",
-      "number": "60",
-      "number_parsed": 60,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "王中茹",
-      "time": "",
-      "time_parsed": [],
-      "title": "植物生物學特論 `Advanced Plant Biology",
-      "title_parsed": {
-        "en_US": "Advanced Plant Biology",
-        "zh_TW": "植物生物學特論"
-      },
-      "url": "2696",
-      "year": "半"
-    },
-    {
-      "class": "6",
-      "code": "8008",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "生物科技學研究所博士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "植物暨微生物國際碩士學位學程",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        ""
-      ],
-      "note": "上課地點；中央研究院",
-      "number": "60",
-      "number_parsed": 60,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "王中茹",
-      "time": "",
-      "time_parsed": [],
-      "title": "植物生物學特論 `Advanced Plant Biology",
-      "title_parsed": {
-        "en_US": "Advanced Plant Biology",
-        "zh_TW": "植物生物學特論"
-      },
-      "url": "4538",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8009",
-      "credits": "3",
-      "credits_parsed": 3,
       "department": "台灣與跨文化研究國際博士學位學程",
       "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "台灣與跨文化研究國際博士學位學程",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        "A711"
-      ],
-      "note": "",
-      "number": "10",
-      "number_parsed": 10,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "廖卓豪",
-      "time": "4678",
-      "time_parsed": [
-        {
-          "day": 4,
-          "time": [
-            6,
-            7,
-            8
-          ]
-        }
-      ],
-      "title": "跨文化研究理論 `Introduction to Transcultural Studies",
-      "title_parsed": {
-        "en_US": "Introduction to Transcultural Studies",
-        "zh_TW": "跨文化研究理論"
-      },
-      "url": "2518",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8010",
-      "credits": "2",
-      "credits_parsed": 2,
-      "department": "生物科技學研究所博士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "生物科技學研究所博士班",
-      "hours": "2",
-      "hours_parsed": "2",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        ""
-      ],
-      "note": "上課地點；中央研究院",
-      "number": "60",
-      "number_parsed": 60,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "賀端華",
-      "time": "",
-      "time_parsed": [],
-      "title": "代謝生物化學概論 `Metabolic Biochemistry Made Easy",
-      "title_parsed": {
-        "en_US": "Metabolic Biochemistry Made Easy",
-        "zh_TW": "代謝生物化學概論"
-      },
-      "url": "2791",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8011",
-      "credits": "2",
-      "credits_parsed": 2,
-      "department": "生物科技學研究所博士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "生物科技學研究所博士班",
-      "hours": "2",
-      "hours_parsed": "2",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        ""
-      ],
-      "note": "上課地點；中央研究院",
-      "number": "60",
-      "number_parsed": 60,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "蕭培文",
-      "time": "*",
-      "time_parsed": [],
-      "title": "當代分子生物學研究核心方法 `Core Approaches for Current Molecular Biology Research",
-      "title_parsed": {
-        "en_US": "Core Approaches for Current Molecular Biology Research",
-        "zh_TW": "當代分子生物學研究核心方法"
-      },
-      "url": "3713",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8012",
-      "credits": "2",
-      "credits_parsed": 2,
-      "department": "生物科技學研究所博士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "生物科技學研究所博士班",
-      "hours": "2",
-      "hours_parsed": "2",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        ""
-      ],
-      "note": "上課地點；中央研究院",
-      "number": "60",
-      "number_parsed": 60,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "孫德芬",
-      "time": "",
-      "time_parsed": [],
-      "title": "植物基因轉殖技術 `Transgenic Plant Technology",
-      "title_parsed": {
-        "en_US": "Transgenic Plant Technology",
-        "zh_TW": "植物基因轉殖技術"
-      },
-      "url": "4638",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8013",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "生物科技學研究所博士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "生物科技學研究所博士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        ""
-      ],
-      "note": "上課地點；中央研究院",
-      "number": "60",
-      "number_parsed": 60,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "湯森林",
-      "time": "",
-      "time_parsed": [],
-      "title": "族群遺傳與演化 `Population genetics and evolution",
-      "title_parsed": {
-        "en_US": "Population genetics and evolution",
-        "zh_TW": "族群遺傳與演化"
-      },
-      "url": "4639",
-      "year": "半"
-    },
-    {
-      "class": "6",
-      "code": "8014",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "生物科技學研究所博士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "植物暨微生物國際碩士學位學程",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        ""
-      ],
-      "note": "上課地點；中央研究院",
-      "number": "10",
-      "number_parsed": 10,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "顧銓",
-      "time": "*",
-      "time_parsed": [],
-      "title": "真核生物多樣性與演化 `Diversity and Evolution of Eukaryotes",
-      "title_parsed": {
-        "en_US": "Diversity and Evolution of Eukaryotes",
-        "zh_TW": "真核生物多樣性與演化"
-      },
-      "url": "5614",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8014",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "生物科技學研究所博士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "生物科技學研究所博士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        ""
-      ],
-      "note": "上課地點；中央研究院",
-      "number": "20",
-      "number_parsed": 20,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "顧銓",
-      "time": "*",
-      "time_parsed": [],
-      "title": "真核生物多樣性與演化 `Diversity and Evolution of Eukaryotes",
-      "title_parsed": {
-        "en_US": "Diversity and Evolution of Eukaryotes",
-        "zh_TW": "真核生物多樣性與演化"
-      },
-      "url": "2792",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8015",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "生物科技學研究所博士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "生物科技學研究所博士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        ""
-      ],
-      "note": "上課地點；中央研究院",
-      "number": "60",
-      "number_parsed": 60,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "湯森林",
-      "time": "*",
-      "time_parsed": [],
-      "title": "轉譯醫學 `Translational Medicine",
-      "title_parsed": {
-        "en_US": "Translational Medicine",
-        "zh_TW": "轉譯醫學"
-      },
-      "url": "4227",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8016",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "生物科技學研究所博士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "生物科技學研究所博士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        ""
-      ],
-      "note": "上課地點；中央研究院",
-      "number": "60",
-      "number_parsed": 60,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "陳振輝",
-      "time": "",
-      "time_parsed": [],
-      "title": "動物生物學特論 `Advanced Animal Biology",
-      "title_parsed": {
-        "en_US": "Advanced Animal Biology",
-        "zh_TW": "動物生物學特論"
-      },
-      "url": "4642",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8017",
-      "credits": "4",
-      "credits_parsed": 4,
-      "department": "生物科技學研究所博士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "生物科技學研究所博士班",
-      "hours": "4",
-      "hours_parsed": "4",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        ""
-      ],
-      "note": "上課地點；中央研究院",
-      "number": "60",
-      "number_parsed": 60,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "中研院教師",
-      "time": "",
-      "time_parsed": [],
-      "title": "分子與細胞生物學 `Molecular and Cell Biology",
-      "title_parsed": {
-        "en_US": "Molecular and Cell Biology",
-        "zh_TW": "分子與細胞生物學"
-      },
-      "url": "4643",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8018",
-      "credits": "2",
-      "credits_parsed": 2,
-      "department": "生物科技學研究所博士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "生物科技學研究所博士班",
-      "hours": "2",
-      "hours_parsed": "2",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        ""
-      ],
-      "note": "上課地點；中央研究院",
-      "number": "60",
-      "number_parsed": 60,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "徐麗芬",
-      "time": "",
-      "time_parsed": [],
-      "title": "植物化學與藥草醫學 `Phytochemistry and Herbal Medicine",
-      "title_parsed": {
-        "en_US": "Phytochemistry and Herbal Medicine",
-        "zh_TW": "植物化學與藥草醫學"
-      },
-      "url": "4644",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8019",
-      "credits": "1",
-      "credits_parsed": 1,
-      "department": "生物科技學研究所博士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "生物科技學研究所博士班",
-      "hours": "1",
-      "hours_parsed": "1",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        ""
-      ],
-      "note": "上課地點；中央研究院",
-      "number": "60",
-      "number_parsed": 60,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "馬麗珊",
-      "time": "",
-      "time_parsed": [],
-      "title": "專題討論與學術研討會 `Seminars and Symposia",
-      "title_parsed": {
-        "en_US": "Seminars and Symposia",
-        "zh_TW": "專題討論與學術研討會"
-      },
-      "url": "4645",
-      "year": "全"
-    },
-    {
-      "class": "8",
-      "code": "8020",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "生物科技學研究所博士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "生物科技學研究所博士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        ""
-      ],
-      "note": "上課地點；中央研究院",
-      "number": "60",
-      "number_parsed": 60,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "陳荷明",
-      "time": "",
-      "time_parsed": [],
-      "title": "基礎分子生物學(一) `Basic Molecular Biology for Bioinformatics(I)",
-      "title_parsed": {
-        "en_US": "Basic Molecular Biology for Bioinformatics(I)",
-        "zh_TW": "基礎分子生物學(一)"
-      },
-      "url": "4646",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8021",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "生物科技學研究所博士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "生物科技學研究所博士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        ""
-      ],
-      "note": "上課地點；中央研究院",
-      "number": "60",
-      "number_parsed": 60,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "陳荷明",
-      "time": "",
-      "time_parsed": [],
-      "title": "生物計算學(一) `Biological Computing(I)",
-      "title_parsed": {
-        "en_US": "Biological Computing(I)",
-        "zh_TW": "生物計算學(一)"
-      },
-      "url": "4647",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8022",
-      "credits": "1",
-      "credits_parsed": 1,
-      "department": "生物科技學研究所博士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "生物科技學研究所博士班",
-      "hours": "",
-      "hours_parsed": "",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        ""
-      ],
-      "note": "上課地點；中央研究院",
-      "number": "60",
-      "number_parsed": 60,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "蘇怡璇",
-      "time": "",
-      "time_parsed": [],
-      "title": "實驗室實習 `Rotation",
-      "title_parsed": {
-        "en_US": "Rotation",
-        "zh_TW": "實驗室實習"
-      },
-      "url": "4835",
-      "year": "全"
-    },
-    {
-      "class": "8",
-      "code": "8023",
-      "credits": "2",
-      "credits_parsed": 2,
-      "department": "生物科技學研究所博士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "生物科技學研究所博士班",
-      "hours": "2",
-      "hours_parsed": "2",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        ""
-      ],
-      "note": "上課地點；中央研究院",
-      "number": "30",
-      "number_parsed": 30,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "楊文欽",
-      "time": "",
-      "time_parsed": [],
-      "title": "病毒與細胞交互作用特論 `Virus and Cell Interactions",
-      "title_parsed": {
-        "en_US": "Virus and Cell Interactions",
-        "zh_TW": "病毒與細胞交互作用特論"
-      },
-      "url": "4648",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8024",
-      "credits": "2",
-      "credits_parsed": 2,
-      "department": "生物科技學研究所博士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "生物科技學研究所博士班",
-      "hours": "2",
-      "hours_parsed": "2",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        ""
-      ],
-      "note": "上課地點；中央研究院",
-      "number": "60",
-      "number_parsed": 60,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "吳志航",
-      "time": "",
-      "time_parsed": [],
-      "title": "生物學暨生物科技特論(一) `Special Topics in Biological Science and Biotechnology(I)",
-      "title_parsed": {
-        "en_US": "Special Topics in Biological Science and Biotechnology(I)",
-        "zh_TW": "生物學暨生物科技特論(一)"
-      },
-      "url": "4649",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8025",
-      "credits": "1",
-      "credits_parsed": 1,
-      "department": "生物科技學研究所博士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "生物科技學研究所博士班",
-      "hours": "1",
-      "hours_parsed": "1",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        ""
-      ],
-      "note": "上課地點；中央研究院",
-      "number": "60",
-      "number_parsed": 60,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "中研院教師",
-      "time": "",
-      "time_parsed": [],
-      "title": "生物學暨生物科技特論(三) `Special Topics in Biological Science and Biotechnology(III)",
-      "title_parsed": {
-        "en_US": "Special Topics in Biological Science and Biotechnology(III)",
-        "zh_TW": "生物學暨生物科技特論(三)"
-      },
-      "url": "4650",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8026",
-      "credits": "1",
-      "credits_parsed": 1,
-      "department": "生物科技學研究所博士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "生物科技學研究所博士班",
-      "hours": "1",
-      "hours_parsed": "1",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        ""
-      ],
-      "note": "上課地點；中央研究院",
-      "number": "60",
-      "number_parsed": 60,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "中研院教師",
-      "time": "",
-      "time_parsed": [],
-      "title": "分子與細胞學之研究系統與方法 `Experimental Approaches in Molecular and Cell Biology",
-      "title_parsed": {
-        "en_US": "Experimental Approaches in Molecular and Cell Biology",
-        "zh_TW": "分子與細胞學之研究系統與方法"
-      },
-      "url": "4651",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8027",
-      "credits": "4",
-      "credits_parsed": 4,
-      "department": "生物科技學研究所博士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "生物科技學研究所博士班",
-      "hours": "4",
-      "hours_parsed": "4",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        ""
-      ],
-      "note": "上課地點；中央研究院",
-      "number": "60",
-      "number_parsed": 60,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "中研院教師",
-      "time": "",
-      "time_parsed": [],
-      "title": "高等化學生物學專論 `Advanced Chemical Biology ",
-      "title_parsed": {
-        "en_US": "Advanced Chemical Biology ",
-        "zh_TW": "高等化學生物學專論"
-      },
-      "url": "4226",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8028",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "生物科技學研究所博士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "生物科技學研究所博士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        ""
-      ],
-      "note": "上課地點；中央研究院",
-      "number": "60",
-      "number_parsed": 60,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "湯森林",
-      "time": "*",
-      "time_parsed": [],
-      "title": "幹細胞生物學 `Stem Cell Biology",
-      "title_parsed": {
-        "en_US": "Stem Cell Biology",
-        "zh_TW": "幹細胞生物學"
-      },
-      "url": "4640",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8030",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "台灣與跨文化研究國際博士學位學程",
-      "discipline": "",
-      "enrolled_num": "0",
+      "enrolled_num": "2",
       "for_dept": "台灣與跨文化研究國際博士學位學程",
       "hours": "3",
       "hours_parsed": "3",
@@ -1182,22 +427,22 @@
           ]
         }
       ],
-      "title": "表演政治 `Performance and Politics",
+      "title": "東亞與華文文學研究 `Sinophone Literary Studies in  the East Asian Context",
       "title_parsed": {
-        "en_US": "Performance and Politics",
-        "zh_TW": "表演政治"
+        "en_US": "Sinophone Literary Studies in  the East Asian Context",
+        "zh_TW": "東亞與華文文學研究"
       },
-      "url": "3655",
+      "url": "2360",
       "year": "半"
     },
     {
       "class": "8",
-      "code": "8031",
+      "code": "8009",
       "credits": "1",
       "credits_parsed": 1,
       "department": "轉譯醫學博士學位學程",
       "discipline": "",
-      "enrolled_num": "0",
+      "enrolled_num": "2",
       "for_dept": "轉譯醫學博士學位學程",
       "hours": "1",
       "hours_parsed": "1",
@@ -1207,43 +452,187 @@
       "intern_time": "",
       "language": "中文",
       "location": [
-        "Z103"
+        "Z101"
       ],
       "note": "",
-      "number": "30",
-      "number_parsed": 30,
-      "obligatory": "選修",
-      "obligatory_tf": false,
+      "number": "10",
+      "number_parsed": 10,
+      "obligatory": "必修",
+      "obligatory_tf": true,
       "prerequisite": "",
-      "professor": "胡釗逸",
-      "time": "57",
+      "professor": "林子平",
+      "time": "56",
       "time_parsed": [
         {
           "day": 5,
           "time": [
-            7
+            6
           ]
         }
       ],
-      "title": "轉譯醫學特論(一) `Special Topics on Translational Medicine(I)",
+      "title": "專題討論(二)c `Seminar (II)",
       "title_parsed": {
-        "en_US": "Special Topics on Translational Medicine(I)",
-        "zh_TW": "轉譯醫學特論(一)"
+        "en_US": "Seminar (II)",
+        "zh_TW": "專題討論(二)c"
       },
-      "url": "4654",
+      "url": "2371",
       "year": "半"
     },
     {
       "class": "8",
-      "code": "8032",
+      "code": "8010",
       "credits": "1",
       "credits_parsed": 1,
-      "department": "轉譯醫學博士學位學程",
+      "department": "生物科技學研究所博士班",
       "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "轉譯醫學博士學位學程",
+      "enrolled_num": "3",
+      "for_dept": "生物科技學研究所博士班",
       "hours": "1",
       "hours_parsed": "1",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "*"
+      ],
+      "note": "國際研究生學程(中研院上課)",
+      "number": "60",
+      "number_parsed": 60,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "湯森林",
+      "time": "*",
+      "time_parsed": [],
+      "title": "專題研究:  分子生物農業科學之微生物學研究 `Microbial Biology Research on Molecular & Biological Agricultural Sciences",
+      "title_parsed": {
+        "en_US": "Microbial Biology Research on Molecular & Biological Agricultural Sciences",
+        "zh_TW": "專題研究:  分子生物農業科學之微生物學研究"
+      },
+      "url": "5200",
+      "year": "半"
+    },
+    {
+      "class": "8",
+      "code": "8011",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "生物科技學研究所博士班",
+      "discipline": "",
+      "enrolled_num": "4",
+      "for_dept": "生物科技學研究所博士班",
+      "hours": "1",
+      "hours_parsed": "1",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "*"
+      ],
+      "note": "國際研究生學程(中研院上課)",
+      "number": "60",
+      "number_parsed": 60,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "蕭培文",
+      "time": "*",
+      "time_parsed": [],
+      "title": "專題研究:  分子生物農業科學之基因體學研究 `Genomics Research on Molecular & Biological Agricultural Sciences",
+      "title_parsed": {
+        "en_US": "Genomics Research on Molecular & Biological Agricultural Sciences",
+        "zh_TW": "專題研究:  分子生物農業科學之基因體學研究"
+      },
+      "url": "5201",
+      "year": "半"
+    },
+    {
+      "class": "8",
+      "code": "8012",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "生物科技學研究所博士班",
+      "discipline": "",
+      "enrolled_num": "2",
+      "for_dept": "生物科技學研究所博士班",
+      "hours": "1",
+      "hours_parsed": "1",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "*"
+      ],
+      "note": "國際研究生學程(中研院上課)",
+      "number": "60",
+      "number_parsed": 60,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "湯森林",
+      "time": "*",
+      "time_parsed": [],
+      "title": "專題研究:  分子生物農業科學之生物多樣性研究 `Biodiversity Research on Molecular & Biological Agricultural Sciences",
+      "title_parsed": {
+        "en_US": "Biodiversity Research on Molecular & Biological Agricultural Sciences",
+        "zh_TW": "專題研究:  分子生物農業科學之生物多樣性研究"
+      },
+      "url": "5202",
+      "year": "半"
+    },
+    {
+      "class": "8",
+      "code": "8013",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "生物科技學研究所博士班",
+      "discipline": "",
+      "enrolled_num": "1",
+      "for_dept": "生物科技學研究所博士班",
+      "hours": "1",
+      "hours_parsed": "1",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "*"
+      ],
+      "note": "國際研究生學程(中研院上課)",
+      "number": "60",
+      "number_parsed": 60,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "蕭培文",
+      "time": "*",
+      "time_parsed": [],
+      "title": "專題研究:  分子生物農業學科之生理學研究 `Physiology Research on Molecular & Biological Agricultural Sciences",
+      "title_parsed": {
+        "en_US": "Physiology Research on Molecular & Biological Agricultural Sciences",
+        "zh_TW": "專題研究:  分子生物農業學科之生理學研究"
+      },
+      "url": "5203",
+      "year": "半"
+    },
+    {
+      "class": "8",
+      "code": "8014",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "轉譯醫學博士學位學程",
+      "discipline": "",
+      "enrolled_num": "7",
+      "for_dept": "轉譯醫學博士學位學程",
+      "hours": "3",
+      "hours_parsed": "3",
       "intern_location": [
         ""
       ],
@@ -1258,27 +647,109 @@
       "obligatory": "必修",
       "obligatory_tf": true,
       "prerequisite": "",
-      "professor": "童敏哲",
-      "time": "55",
+      "professor": "林季千",
+      "time": "5234",
       "time_parsed": [
         {
           "day": 5,
           "time": [
-            5
+            2,
+            3,
+            4
           ]
         }
       ],
-      "title": "專題討論(一)a `Seminar(I)",
+      "title": "轉譯醫學 `Translational Medicine",
       "title_parsed": {
-        "en_US": "Seminar(I)",
-        "zh_TW": "專題討論(一)a"
+        "en_US": "Translational Medicine",
+        "zh_TW": "轉譯醫學"
       },
-      "url": "4655",
+      "url": "3369",
       "year": "半"
     },
     {
       "class": "8",
-      "code": "8033",
+      "code": "8015",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "轉譯醫學博士學位學程",
+      "discipline": "",
+      "enrolled_num": "1",
+      "for_dept": "轉譯醫學博士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Z101"
+      ],
+      "note": "",
+      "number": "30",
+      "number_parsed": 30,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "胡釗逸",
+      "time": "412",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            1,
+            2
+          ]
+        }
+      ],
+      "title": "精準醫學轉譯發表與寫作(二) `Perfecting Presentation and Writing Skills (II)",
+      "title_parsed": {
+        "en_US": "Perfecting Presentation and Writing Skills (II)",
+        "zh_TW": "精準醫學轉譯發表與寫作(二)"
+      },
+      "url": "2660",
+      "year": "半"
+    },
+    {
+      "class": "8",
+      "code": "8016",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "生物科技學研究所博士班",
+      "discipline": "",
+      "enrolled_num": "23",
+      "for_dept": "生物科技學研究所博士班",
+      "hours": "1",
+      "hours_parsed": "1",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "*"
+      ],
+      "note": "國際研究生學程(中研院上課)",
+      "number": "60",
+      "number_parsed": 60,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "馬麗珊",
+      "time": "*",
+      "time_parsed": [],
+      "title": "專題討論與學術研討會 `Seminars and Symposia",
+      "title_parsed": {
+        "en_US": "Seminars and Symposia",
+        "zh_TW": "專題討論與學術研討會"
+      },
+      "url": "4465",
+      "year": "全"
+    },
+    {
+      "class": "8",
+      "code": "8017",
       "credits": "1",
       "credits_parsed": 1,
       "department": "轉譯醫學博士學位學程",
@@ -1296,20 +767,493 @@
         "*"
       ],
       "note": "",
-      "number": "30",
-      "number_parsed": 30,
+      "number": "0",
+      "number_parsed": 0,
       "obligatory": "選修",
       "obligatory_tf": false,
       "prerequisite": "",
-      "professor": "童敏哲",
+      "professor": "洪慧芝",
       "time": "*",
       "time_parsed": [],
-      "title": "專題研究(一)a `Special Topics Research (I)",
+      "title": "多體學分析與精準醫學應用概論 `Introduction of Multi-omics Analysis to Precision Medicine",
       "title_parsed": {
-        "en_US": "Special Topics Research (I)",
-        "zh_TW": "專題研究(一)a"
+        "en_US": "Introduction of Multi-omics Analysis to Precision Medicine",
+        "zh_TW": "多體學分析與精準醫學應用概論"
       },
-      "url": "4656",
+      "url": "3862",
+      "year": "半"
+    },
+    {
+      "class": "8",
+      "code": "8018",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "生物科技學研究所博士班",
+      "discipline": "",
+      "enrolled_num": "1",
+      "for_dept": "生物科技學研究所博士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "*"
+      ],
+      "note": "國際研究生學程(中研院上課)",
+      "number": "60",
+      "number_parsed": 60,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "陳荷明",
+      "time": "*",
+      "time_parsed": [],
+      "title": "基礎分子生物學(二) `Basic Molecular Biology for Bioinformatics(II)",
+      "title_parsed": {
+        "en_US": "Basic Molecular Biology for Bioinformatics(II)",
+        "zh_TW": "基礎分子生物學(二)"
+      },
+      "url": "4467",
+      "year": "半"
+    },
+    {
+      "class": "8",
+      "code": "8019",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "生物科技學研究所博士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "生物科技學研究所博士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "*"
+      ],
+      "note": "國際研究生學程(中研院上課)",
+      "number": "60",
+      "number_parsed": 60,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "陳荷明",
+      "time": "*",
+      "time_parsed": [],
+      "title": "生物計算學(二) `Biological Computing(II)",
+      "title_parsed": {
+        "en_US": "Biological Computing(II)",
+        "zh_TW": "生物計算學(二)"
+      },
+      "url": "4468",
+      "year": "半"
+    },
+    {
+      "class": "8",
+      "code": "8021",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "醫學生物科技博士學位學程",
+      "discipline": "",
+      "enrolled_num": "2",
+      "for_dept": "醫學生物科技博士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "AN716"
+      ],
+      "note": "",
+      "number": "15",
+      "number_parsed": 15,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "林慶雄",
+      "time": "112",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            1,
+            2
+          ]
+        }
+      ],
+      "title": "專題研究 F `Project Study F",
+      "title_parsed": {
+        "en_US": "Project Study F",
+        "zh_TW": "專題研究 F"
+      },
+      "url": "2174",
+      "year": "半"
+    },
+    {
+      "class": "8",
+      "code": "8023",
+      "credits": "4",
+      "credits_parsed": 4,
+      "department": "生物科技學研究所博士班",
+      "discipline": "",
+      "enrolled_num": "9",
+      "for_dept": "生物科技學研究所博士班",
+      "hours": "4",
+      "hours_parsed": "4",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "*"
+      ],
+      "note": "國際研究生學程(中研院上課)",
+      "number": "60",
+      "number_parsed": 60,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "蕭培文",
+      "time": "*",
+      "time_parsed": [],
+      "title": "分子與細胞生物科技 `Molecular & Cellular Approaches for Biotechnology",
+      "title_parsed": {
+        "en_US": "Molecular & Cellular Approaches for Biotechnology",
+        "zh_TW": "分子與細胞生物科技"
+      },
+      "url": "4472",
+      "year": "半"
+    },
+    {
+      "class": "6",
+      "code": "8024",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "生物科技學研究所博士班",
+      "discipline": "",
+      "enrolled_num": "1",
+      "for_dept": "植物暨微生物國際碩士學位學程",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "*"
+      ],
+      "note": "國際研究生學程(中研院上課)",
+      "number": "60",
+      "number_parsed": 60,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "郭志鴻",
+      "time": "2678",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "title": "微生物學特論 `Special Topics in Microbiology",
+      "title_parsed": {
+        "en_US": "Special Topics in Microbiology",
+        "zh_TW": "微生物學特論"
+      },
+      "url": "3247",
+      "year": "半"
+    },
+    {
+      "class": "8",
+      "code": "8024",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "生物科技學研究所博士班",
+      "discipline": "",
+      "enrolled_num": "6",
+      "for_dept": "生物科技學研究所博士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "*"
+      ],
+      "note": "國際研究生學程(中研院上課)",
+      "number": "60",
+      "number_parsed": 60,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "郭志鴻",
+      "time": "2678",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "title": "微生物學特論 `Special Topics in Microbiology",
+      "title_parsed": {
+        "en_US": "Special Topics in Microbiology",
+        "zh_TW": "微生物學特論"
+      },
+      "url": "3808",
+      "year": "半"
+    },
+    {
+      "class": "8",
+      "code": "8025",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "生物科技學研究所博士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "生物科技學研究所博士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "*"
+      ],
+      "note": "國際研究生學程(中研院上課)",
+      "number": "60",
+      "number_parsed": 60,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "中研院教師",
+      "time": "*",
+      "time_parsed": [],
+      "title": "實驗分子生物物理學 `Experimental Molecular Biophysics",
+      "title_parsed": {
+        "en_US": "Experimental Molecular Biophysics",
+        "zh_TW": "實驗分子生物物理學"
+      },
+      "url": "4474",
+      "year": "半"
+    },
+    {
+      "class": "8",
+      "code": "8026",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "生物科技學研究所博士班",
+      "discipline": "",
+      "enrolled_num": "11",
+      "for_dept": "生物科技學研究所博士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "*"
+      ],
+      "note": "國際研究生學程(中研院上課)",
+      "number": "60",
+      "number_parsed": 60,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "陳荷明",
+      "time": "*",
+      "time_parsed": [],
+      "title": "學術研究的專業素養與倫理養成 `Professional Developments for a Graduate Student",
+      "title_parsed": {
+        "en_US": "Professional Developments for a Graduate Student",
+        "zh_TW": "學術研究的專業素養與倫理養成"
+      },
+      "url": "3276",
+      "year": "半"
+    },
+    {
+      "class": "8",
+      "code": "8027",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "生物科技學研究所博士班",
+      "discipline": "",
+      "enrolled_num": "12",
+      "for_dept": "生物科技學研究所博士班",
+      "hours": "",
+      "hours_parsed": "",
+      "intern_location": [
+        "*"
+      ],
+      "intern_time": "*",
+      "language": "英文",
+      "location": [
+        ""
+      ],
+      "note": "國際研究生學程(中研院上課)",
+      "number": "60",
+      "number_parsed": 60,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "蘇怡璇",
+      "time": "*",
+      "time_parsed": [],
+      "title": "實驗室實習 `Rotation",
+      "title_parsed": {
+        "en_US": "Rotation",
+        "zh_TW": "實驗室實習"
+      },
+      "url": "4839",
+      "year": "全"
+    },
+    {
+      "class": "8",
+      "code": "8028",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "醫學生物科技博士學位學程",
+      "discipline": "",
+      "enrolled_num": "1",
+      "for_dept": "醫學生物科技博士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "AN716"
+      ],
+      "note": "",
+      "number": "30",
+      "number_parsed": 30,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "劉俊宏",
+      "time": "334",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            3,
+            4
+          ]
+        }
+      ],
+      "title": "專題討論(四) `Seminar(IV)",
+      "title_parsed": {
+        "en_US": "Seminar(IV)",
+        "zh_TW": "專題討論(四)"
+      },
+      "url": "5130",
+      "year": "半"
+    },
+    {
+      "class": "8",
+      "code": "8029",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "生物科技學研究所博士班",
+      "discipline": "",
+      "enrolled_num": "1",
+      "for_dept": "生物科技學研究所博士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "*"
+      ],
+      "note": "國際研究生學程(中研院上課)",
+      "number": "60",
+      "number_parsed": 60,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "湯森林",
+      "time": "*",
+      "time_parsed": [],
+      "title": "藥物化學 `Pharmaceutical Chemistry",
+      "title_parsed": {
+        "en_US": "Pharmaceutical Chemistry",
+        "zh_TW": "藥物化學"
+      },
+      "url": "4460",
+      "year": "半"
+    },
+    {
+      "class": "8",
+      "code": "8033",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "微生物基因體學博士學位學程",
+      "discipline": "",
+      "enrolled_num": "4",
+      "for_dept": "微生物基因體學博士學位學程",
+      "hours": "1",
+      "hours_parsed": "1",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "AN514"
+      ],
+      "note": "",
+      "number": "30",
+      "number_parsed": 30,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "陳玉婷",
+      "time": "27",
+      "time_parsed": [
+        {
+          "day": 2,
+          "time": [
+            7
+          ]
+        }
+      ],
+      "title": "微生物基因體學特論(二) `Special Topics in Microbial Genomics (II)",
+      "title_parsed": {
+        "en_US": "Special Topics in Microbial Genomics (II)",
+        "zh_TW": "微生物基因體學特論(二)"
+      },
+      "url": "4664",
       "year": "半"
     },
     {
@@ -1317,12 +1261,163 @@
       "code": "8034",
       "credits": "1",
       "credits_parsed": 1,
-      "department": "生技產業創新研發與管理博士學位學程",
+      "department": "轉譯醫學博士學位學程",
       "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "生技產業創新研發與管理博士學位學程",
-      "hours": "2",
-      "hours_parsed": "2",
+      "enrolled_num": "8",
+      "for_dept": "轉譯醫學博士學位學程",
+      "hours": "1",
+      "hours_parsed": "1",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Z000"
+      ],
+      "note": "",
+      "number": "30",
+      "number_parsed": 30,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "胡釗逸",
+      "time": "57",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            7
+          ]
+        }
+      ],
+      "title": "轉譯醫學特論(二) `Special Topics on Translational Medicine(II)",
+      "title_parsed": {
+        "en_US": "Special Topics on Translational Medicine(II)",
+        "zh_TW": "轉譯醫學特論(二)"
+      },
+      "url": "4481",
+      "year": "半"
+    },
+    {
+      "class": "8",
+      "code": "8035",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "轉譯醫學博士學位學程",
+      "discipline": "",
+      "enrolled_num": "1",
+      "for_dept": "轉譯醫學博士學位學程",
+      "hours": "1",
+      "hours_parsed": "1",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "*"
+      ],
+      "note": "上課時間另定，請洽開課單位。",
+      "number": "30",
+      "number_parsed": 30,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "胡釗逸",
+      "time": "*",
+      "time_parsed": [],
+      "title": "專題研究(二)a `Special Topics in Physics (II)",
+      "title_parsed": {
+        "en_US": "Special Topics in Physics (II)",
+        "zh_TW": "專題研究(二)a"
+      },
+      "url": "4482",
+      "year": "半"
+    },
+    {
+      "class": "8",
+      "code": "8036",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "轉譯醫學博士學位學程",
+      "discipline": "",
+      "enrolled_num": "4",
+      "for_dept": "轉譯醫學博士學位學程",
+      "hours": "1",
+      "hours_parsed": "1",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "*"
+      ],
+      "note": "上課時間另定，請洽開課單位。",
+      "number": "30",
+      "number_parsed": 30,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "林季千",
+      "time": "*",
+      "time_parsed": [],
+      "title": "專題研究(二)b `Special Topics in Physics (II)",
+      "title_parsed": {
+        "en_US": "Special Topics in Physics (II)",
+        "zh_TW": "專題研究(二)b"
+      },
+      "url": "4483",
+      "year": "半"
+    },
+    {
+      "class": "8",
+      "code": "8037",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "轉譯醫學博士學位學程",
+      "discipline": "",
+      "enrolled_num": "2",
+      "for_dept": "轉譯醫學博士學位學程",
+      "hours": "1",
+      "hours_parsed": "1",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "*"
+      ],
+      "note": "上課時間另定，請洽開課單位。",
+      "number": "30",
+      "number_parsed": 30,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "洪慧芝",
+      "time": "*",
+      "time_parsed": [],
+      "title": "專題研究(二)c `Special Topics in Physics (II)",
+      "title_parsed": {
+        "en_US": "Special Topics in Physics (II)",
+        "zh_TW": "專題研究(二)c"
+      },
+      "url": "2687",
+      "year": "半"
+    },
+    {
+      "class": "8",
+      "code": "8038",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "轉譯醫學博士學位學程",
+      "discipline": "",
+      "enrolled_num": "3",
+      "for_dept": "轉譯醫學博士學位學程",
+      "hours": "1",
+      "hours_parsed": "1",
       "intern_location": [
         ""
       ],
@@ -1332,38 +1427,80 @@
         "Z101"
       ],
       "note": "",
+      "number": "30",
+      "number_parsed": 30,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "張嘉哲",
+      "time": "55",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            5
+          ]
+        }
+      ],
+      "title": "專題討論(二)a `Seminar (II)",
+      "title_parsed": {
+        "en_US": "Seminar (II)",
+        "zh_TW": "專題討論(二)a"
+      },
+      "url": "4485",
+      "year": "半"
+    },
+    {
+      "class": "8",
+      "code": "8039",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "轉譯醫學博士學位學程",
+      "discipline": "",
+      "enrolled_num": "2",
+      "for_dept": "轉譯醫學博士學位學程",
+      "hours": "1",
+      "hours_parsed": "1",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Z201"
+      ],
+      "note": "",
       "number": "10",
       "number_parsed": 10,
       "obligatory": "必修",
       "obligatory_tf": true,
       "prerequisite": "",
-      "professor": "許美鈴",
-      "time": "434",
+      "professor": "胡釗逸",
+      "time": "55",
       "time_parsed": [
         {
-          "day": 4,
+          "day": 5,
           "time": [
-            3,
-            4
+            5
           ]
         }
       ],
-      "title": "產業經營管理見習 `Industrial Business Administration Traineeship",
+      "title": "專題討論(二)b `Seminar (II)",
       "title_parsed": {
-        "en_US": "Industrial Business Administration Traineeship",
-        "zh_TW": "產業經營管理見習"
+        "en_US": "Seminar (II)",
+        "zh_TW": "專題討論(二)b"
       },
-      "url": "5752",
-      "year": "全"
+      "url": "4486",
+      "year": "半"
     },
     {
       "class": "8",
-      "code": "8037",
+      "code": "8040",
       "credits": "1",
       "credits_parsed": 1,
       "department": "生技產業創新研發與管理博士學位學程",
       "discipline": "",
-      "enrolled_num": "0",
+      "enrolled_num": "3",
       "for_dept": "生技產業創新研發與管理博士學位學程",
       "hours": "2",
       "hours_parsed": "2",
@@ -1392,23 +1529,23 @@
           ]
         }
       ],
-      "title": "生技產業專題討論(一) `Biotechnology Industrial Seminar(I)",
+      "title": "生技產業專題討論(二) `Biotechnology Industrial Seminar(II)",
       "title_parsed": {
-        "en_US": "Biotechnology Industrial Seminar(I)",
-        "zh_TW": "生技產業專題討論(一)"
+        "en_US": "Biotechnology Industrial Seminar(II)",
+        "zh_TW": "生技產業專題討論(二)"
       },
-      "url": "5796",
-      "year": "全"
+      "url": "2683",
+      "year": "半"
     },
     {
       "class": "8",
-      "code": "8038",
+      "code": "8042",
       "credits": "1",
       "credits_parsed": 1,
-      "department": "微生物基因體學博士學位學程",
+      "department": "轉譯醫學博士學位學程",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "微生物基因體學博士學位學程",
+      "for_dept": "轉譯醫學博士學位學程",
       "hours": "1",
       "hours_parsed": "1",
       "intern_location": [
@@ -1417,77 +1554,41 @@
       "intern_time": "",
       "language": "中文",
       "location": [
-        "AN513"
+        "Z201"
       ],
       "note": "",
-      "number": "30",
-      "number_parsed": 30,
+      "number": "10",
+      "number_parsed": 10,
       "obligatory": "必修",
       "obligatory_tf": true,
       "prerequisite": "",
-      "professor": "陳玉婷",
-      "time": "13",
+      "professor": "蔡佩倩",
+      "time": "56",
       "time_parsed": [
         {
-          "day": 1,
+          "day": 5,
           "time": [
-            3
+            6
           ]
         }
       ],
-      "title": "微生物基因體學特論(一) `Special Topics in Microbial Genomics (I)",
+      "title": "專題討論(二)d `Seminar (II)",
       "title_parsed": {
-        "en_US": "Special Topics in Microbial Genomics (I)",
-        "zh_TW": "微生物基因體學特論(一)"
+        "en_US": "Seminar (II)",
+        "zh_TW": "專題討論(二)d"
       },
-      "url": "4634",
+      "url": "3819",
       "year": "半"
     },
     {
       "class": "8",
-      "code": "8039",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "轉譯醫學博士學位學程",
+      "code": "8050",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "生技產業創新研發與管理博士學位學程",
       "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "轉譯醫學博士學位學程",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "*"
-      ],
-      "note": "暑期上課",
-      "number": "30",
-      "number_parsed": 30,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "洪慧芝",
-      "time": "*",
-      "time_parsed": [],
-      "title": "醫學影像系統原理 `Principles of Medical Imaging System",
-      "title_parsed": {
-        "en_US": "Principles of Medical Imaging System",
-        "zh_TW": "醫學影像系統原理"
-      },
-      "url": "5375",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8044",
-      "credits": "1",
-      "credits_parsed": 1,
-      "department": "跨域創新生技國際博士學位學程",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "跨域創新生技國際博士學位學程",
+      "enrolled_num": "2",
+      "for_dept": "生技產業創新研發與管理博士學位學程",
       "hours": "2",
       "hours_parsed": "2",
       "intern_location": [
@@ -1501,152 +1602,28 @@
       "note": "",
       "number": "10",
       "number_parsed": 10,
-      "obligatory": "必修",
-      "obligatory_tf": true,
+      "obligatory": "選修",
+      "obligatory_tf": false,
       "prerequisite": "",
-      "professor": "陳玉婷",
-      "time": "234",
-      "time_parsed": [
-        {
-          "day": 2,
-          "time": [
-            3,
-            4
-          ]
-        }
-      ],
-      "title": "跨域創新生技(一) `Interdisciplinary Innovative Technology(I)",
+      "professor": "田川陽一",
+      "time": "*",
+      "time_parsed": [],
+      "title": "進階組織工程學 `Advanced Tissue Engineering",
       "title_parsed": {
-        "en_US": "Interdisciplinary Innovative Technology(I)",
-        "zh_TW": "跨域創新生技(一)"
+        "en_US": "Advanced Tissue Engineering",
+        "zh_TW": "進階組織工程學"
       },
-      "url": "3079",
+      "url": "4183",
       "year": "半"
     },
     {
       "class": "8",
       "code": "8059",
-      "credits": "2",
-      "credits_parsed": 2,
-      "department": "轉譯醫學博士學位學程",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "轉譯醫學博士學位學程",
-      "hours": "2",
-      "hours_parsed": "2",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        "Z101"
-      ],
-      "note": "",
-      "number": "10",
-      "number_parsed": 10,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "胡釗逸",
-      "time": "589",
-      "time_parsed": [
-        {
-          "day": 5,
-          "time": [
-            8,
-            9
-          ]
-        }
-      ],
-      "title": "精準醫學轉譯發表與寫作(一) `Perfecting Presentation and Writing Skills (I)",
-      "title_parsed": {
-        "en_US": "Perfecting Presentation and Writing Skills (I)",
-        "zh_TW": "精準醫學轉譯發表與寫作(一)"
-      },
-      "url": "5739",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8062",
-      "credits": "2",
-      "credits_parsed": 2,
-      "department": "生物科技學研究所博士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "生物科技學研究所博士班",
-      "hours": "2",
-      "hours_parsed": "2",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        ""
-      ],
-      "note": "上課地點；中央研究院",
-      "number": "60",
-      "number_parsed": 60,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "廖永豐",
-      "time": "*",
-      "time_parsed": [],
-      "title": "藥物化學 `Pharmaceutical Chemistry",
-      "title_parsed": {
-        "en_US": "Pharmaceutical Chemistry",
-        "zh_TW": "藥物化學"
-      },
-      "url": "5559",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8068",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "生物科技學研究所博士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "生物科技學研究所博士班",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        ""
-      ],
-      "note": "上課地點；中央研究院",
-      "number": "60",
-      "number_parsed": 60,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "湯森林",
-      "time": "*",
-      "time_parsed": [],
-      "title": "分子醫學 `Molecular Medicine",
-      "title_parsed": {
-        "en_US": "Molecular Medicine",
-        "zh_TW": "分子醫學"
-      },
-      "url": "5564",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8069",
       "credits": "0",
       "credits_parsed": 0,
       "department": "大數據產學研發博士學位學程",
       "discipline": "",
-      "enrolled_num": "0",
+      "enrolled_num": "6",
       "for_dept": "大數據產學研發博士學位學程",
       "hours": "1",
       "hours_parsed": "1",
@@ -1656,9 +1633,9 @@
       "intern_time": "",
       "language": "中文",
       "location": [
-        ""
+        "*"
       ],
-      "note": "",
+      "note": "上課時間另定，請洽開課單位。",
       "number": "10",
       "number_parsed": 10,
       "obligatory": "必修",
@@ -1672,17 +1649,393 @@
         "en_US": "Seminar(I)",
         "zh_TW": "專題演講(一)"
       },
-      "url": "3913",
+      "url": "4514",
       "year": "全"
     },
     {
       "class": "8",
       "code": "8071",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "轉譯醫學博士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "轉譯醫學博士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Z101"
+      ],
+      "note": "",
+      "number": "30",
+      "number_parsed": 30,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "廖采苓",
+      "time": "456",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            5,
+            6
+          ]
+        }
+      ],
+      "title": "新興感染症(二) `Emerging Infectious Diseases(II)",
+      "title_parsed": {
+        "en_US": "Emerging Infectious Diseases(II)",
+        "zh_TW": "新興感染症(二)"
+      },
+      "url": "3960",
+      "year": "半"
+    },
+    {
+      "class": "8",
+      "code": "8074",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "轉譯醫學博士學位學程",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "轉譯醫學博士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Z101"
+      ],
+      "note": "",
+      "number": "30",
+      "number_parsed": 30,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "林子平",
+      "time": "434",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            3,
+            4
+          ]
+        }
+      ],
+      "title": "運用大數據進行真實世界論文撰寫 `Real World Data Publications Using Big Databases",
+      "title_parsed": {
+        "en_US": "Real World Data Publications Using Big Databases",
+        "zh_TW": "運用大數據進行真實世界論文撰寫"
+      },
+      "url": "2731",
+      "year": "半"
+    },
+    {
+      "class": "8",
+      "code": "8077",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "生物科技學研究所博士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "生物科技學研究所博士班",
+      "hours": "1",
+      "hours_parsed": "1",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "*"
+      ],
+      "note": "國際研究生學程(中研院上課)",
+      "number": "60",
+      "number_parsed": 60,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "葉國楨",
+      "time": "*",
+      "time_parsed": [],
+      "title": "學術論文寫作 `Writing a Good Quality Research Article in English",
+      "title_parsed": {
+        "en_US": "Writing a Good Quality Research Article in English",
+        "zh_TW": "學術論文寫作"
+      },
+      "url": "3560",
+      "year": "半"
+    },
+    {
+      "class": "8",
+      "code": "8080",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "生物科技學研究所博士班",
+      "discipline": "",
+      "enrolled_num": "3",
+      "for_dept": "生物科技學研究所博士班",
+      "hours": "3",
+      "hours_parsed": "3",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "*"
+      ],
+      "note": "國際研究生學程(中研院上課)",
+      "number": "60",
+      "number_parsed": 60,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "湯森林",
+      "time": "*",
+      "time_parsed": [],
+      "title": "生態進階課程 `Ecology Masterclass at Taiwan",
+      "title_parsed": {
+        "en_US": "Ecology Masterclass at Taiwan",
+        "zh_TW": "生態進階課程"
+      },
+      "url": "2452",
+      "year": "半"
+    },
+    {
+      "class": "8",
+      "code": "8087",
+      "credits": "2",
+      "credits_parsed": 2,
+      "department": "生物科技學研究所博士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "生物科技學研究所博士班",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "*"
+      ],
+      "note": "國際研究生學程(中研院上課)",
+      "number": "60",
+      "number_parsed": 60,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "中研院教師",
+      "time": "*",
+      "time_parsed": [],
+      "title": "生物學暨生物科技特論(二) `Special Topics in Biological Science and Biotechnology(II)",
+      "title_parsed": {
+        "en_US": "Special Topics in Biological Science and Biotechnology(II)",
+        "zh_TW": "生物學暨生物科技特論(二)"
+      },
+      "url": "4669",
+      "year": "半"
+    },
+    {
+      "class": "8",
+      "code": "8088",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "生物科技學研究所博士班",
+      "discipline": "",
+      "enrolled_num": "0",
+      "for_dept": "生物科技學研究所博士班",
+      "hours": "1",
+      "hours_parsed": "1",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "*"
+      ],
+      "note": "國際研究生學程(中研院上課)",
+      "number": "60",
+      "number_parsed": 60,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "中研院教師",
+      "time": "*",
+      "time_parsed": [],
+      "title": "生物學暨生物科技特論(四) `Special Topics in Biological Science and Biotechnology(IV)",
+      "title_parsed": {
+        "en_US": "Special Topics in Biological Science and Biotechnology(IV)",
+        "zh_TW": "生物學暨生物科技特論(四)"
+      },
+      "url": "2337",
+      "year": "半"
+    },
+    {
+      "class": "8",
+      "code": "8096",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "生物科技學研究所博士班",
+      "discipline": "",
+      "enrolled_num": "4",
+      "for_dept": "生物科技學研究所博士班",
+      "hours": "1",
+      "hours_parsed": "1",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "*"
+      ],
+      "note": "國際研究生學程(中研院上課)",
+      "number": "60",
+      "number_parsed": 60,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "湯森林",
+      "time": "*",
+      "time_parsed": [],
+      "title": "文獻選讀:  分子生物農業科學之微生物學 `Literature Review of Microbial Biology on Molecular & Biological Agricultural Sciences",
+      "title_parsed": {
+        "en_US": "Literature Review of Microbial Biology on Molecular & Biological Agricultural Sciences",
+        "zh_TW": "文獻選讀:  分子生物農業科學之微生物學"
+      },
+      "url": "4476",
+      "year": "半"
+    },
+    {
+      "class": "8",
+      "code": "8097",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "生物科技學研究所博士班",
+      "discipline": "",
+      "enrolled_num": "4",
+      "for_dept": "生物科技學研究所博士班",
+      "hours": "1",
+      "hours_parsed": "1",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "*"
+      ],
+      "note": "國際研究生學程(中研院上課)",
+      "number": "60",
+      "number_parsed": 60,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "蕭培文",
+      "time": "*",
+      "time_parsed": [],
+      "title": "文獻選讀:  分子生物農業科學之基因體學 `Literature Review of Genomics on Molecular & Biological Agricultural Sciences",
+      "title_parsed": {
+        "en_US": "Literature Review of Genomics on Molecular & Biological Agricultural Sciences",
+        "zh_TW": "文獻選讀:  分子生物農業科學之基因體學"
+      },
+      "url": "5204",
+      "year": "半"
+    },
+    {
+      "class": "8",
+      "code": "8098",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "生物科技學研究所博士班",
+      "discipline": "",
+      "enrolled_num": "2",
+      "for_dept": "生物科技學研究所博士班",
+      "hours": "1",
+      "hours_parsed": "1",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "*"
+      ],
+      "note": "國際研究生學程(中研院上課)",
+      "number": "60",
+      "number_parsed": 60,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "湯森林",
+      "time": "*",
+      "time_parsed": [],
+      "title": "文獻選讀:  分子生物農業科學之生物多樣性 `Literature Review of Biodiversity on Molecular & Biological Agricultural Sciences",
+      "title_parsed": {
+        "en_US": "Literature Review of Biodiversity on Molecular & Biological Agricultural Sciences",
+        "zh_TW": "文獻選讀:  分子生物農業科學之生物多樣性"
+      },
+      "url": "4478",
+      "year": "半"
+    },
+    {
+      "class": "8",
+      "code": "8099",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "生物科技學研究所博士班",
+      "discipline": "",
+      "enrolled_num": "3",
+      "for_dept": "生物科技學研究所博士班",
+      "hours": "1",
+      "hours_parsed": "1",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "*"
+      ],
+      "note": "國際研究生學程(中研院上課)",
+      "number": "60",
+      "number_parsed": 60,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "蕭培文",
+      "time": "*",
+      "time_parsed": [],
+      "title": "文獻選讀:  分子生物農業科學之生理學 `Literature Review of Physiology on Molecular & Biological Agricultural Sciences",
+      "title_parsed": {
+        "en_US": "Literature Review of Physiology on Molecular & Biological Agricultural Sciences",
+        "zh_TW": "文獻選讀:  分子生物農業科學之生理學"
+      },
+      "url": "4667",
+      "year": "半"
+    },
+    {
+      "class": "8",
+      "code": "8125",
       "credits": "3",
       "credits_parsed": 3,
       "department": "醫學生物科技博士學位學程",
       "discipline": "",
-      "enrolled_num": "0",
+      "enrolled_num": "5",
       "for_dept": "醫學生物科技博士學位學程",
       "hours": "3",
       "hours_parsed": "3",
@@ -1712,119 +2065,74 @@
           ]
         }
       ],
-      "title": "醫學生物科技學特論(一) `Special Topics on Medical Biotechnology (I)",
+      "title": "醫學生物科技學特論(二) `Special Topics on Medical Biotechnology(II)",
       "title_parsed": {
-        "en_US": "Special Topics on Medical Biotechnology (I)",
-        "zh_TW": "醫學生物科技學特論(一)"
+        "en_US": "Special Topics on Medical Biotechnology(II)",
+        "zh_TW": "醫學生物科技學特論(二)"
       },
-      "url": "2210",
+      "url": "5794",
       "year": "半"
     },
     {
       "class": "8",
-      "code": "8072",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "組織工程與再生醫學博士學位學程",
+      "code": "8128",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "生技產業創新研發與管理博士學位學程",
       "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "組織工程與再生醫學博士學位學程",
-      "hours": "3",
-      "hours_parsed": "3",
+      "enrolled_num": "8",
+      "for_dept": "生技產業創新研發與管理博士學位學程",
+      "hours": "1",
+      "hours_parsed": "1",
       "intern_location": [
         ""
       ],
       "intern_time": "",
-      "language": "英文",
+      "language": "中文",
       "location": [
-        "AN514"
+        "Z101"
       ],
       "note": "",
-      "number": "30",
-      "number_parsed": 30,
+      "number": "10",
+      "number_parsed": 10,
       "obligatory": "必修",
       "obligatory_tf": true,
       "prerequisite": "",
-      "professor": "劉烱輝",
-      "time": "4567",
+      "professor": "陳韋志",
+      "time": "17",
       "time_parsed": [
         {
-          "day": 4,
+          "day": 1,
           "time": [
-            5,
-            6,
             7
           ]
         }
       ],
-      "title": "幹細胞生物學 `Stem Cell Biology",
+      "title": "產業實作(二) `Industrial Practice(II)",
       "title_parsed": {
-        "en_US": "Stem Cell Biology",
-        "zh_TW": "幹細胞生物學"
+        "en_US": "Industrial Practice(II)",
+        "zh_TW": "產業實作(二)"
       },
-      "url": "3917",
+      "url": "5813",
       "year": "半"
     },
     {
       "class": "8",
-      "code": "8073",
+      "code": "8129",
       "credits": "1",
       "credits_parsed": 1,
-      "department": "組織工程與再生醫學博士學位學程",
+      "department": "跨域創新生技國際博士學位學程",
       "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "組織工程與再生醫學博士學位學程",
-      "hours": "1",
-      "hours_parsed": "1",
+      "enrolled_num": "2",
+      "for_dept": "跨域創新生技國際博士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
       "intern_location": [
         ""
       ],
       "intern_time": "",
       "language": "英文",
       "location": [
-        "AN514"
-      ],
-      "note": "",
-      "number": "30",
-      "number_parsed": 30,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "程華強",
-      "time": "43",
-      "time_parsed": [
-        {
-          "day": 4,
-          "time": [
-            3
-          ]
-        }
-      ],
-      "title": "組織工程與再生醫學特論(一) `Special Topics in Tissue Engineering and Regenerative Medicine (I)",
-      "title_parsed": {
-        "en_US": "Special Topics in Tissue Engineering and Regenerative Medicine (I)",
-        "zh_TW": "組織工程與再生醫學特論(一)"
-      },
-      "url": "2774",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8077",
-      "credits": "1",
-      "credits_parsed": 1,
-      "department": "生技產業創新研發與管理博士學位學程",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "生技產業創新研發與管理博士學位學程",
-      "hours": "2",
-      "hours_parsed": "2",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
         "Z101"
       ],
       "note": "",
@@ -1833,442 +2141,23 @@
       "obligatory": "必修",
       "obligatory_tf": true,
       "prerequisite": "",
-      "professor": "許美鈴",
-      "time": "412",
+      "professor": "陳玉婷",
+      "time": "378",
       "time_parsed": [
         {
-          "day": 4,
-          "time": [
-            1,
-            2
-          ]
-        }
-      ],
-      "title": "產業實作(一) `Industrial Practice(I)",
-      "title_parsed": {
-        "en_US": "Industrial Practice(I)",
-        "zh_TW": "產業實作(一)"
-      },
-      "url": "5233",
-      "year": "全"
-    },
-    {
-      "class": "8",
-      "code": "8087",
-      "credits": "2",
-      "credits_parsed": 2,
-      "department": "生技產業創新研發與管理博士學位學程",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "生技產業創新研發與管理博士學位學程",
-      "hours": "2",
-      "hours_parsed": "2",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "Z101"
-      ],
-      "note": "",
-      "number": "10",
-      "number_parsed": 10,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "張樂心",
-      "time": "156",
-      "time_parsed": [
-        {
-          "day": 1,
-          "time": [
-            5,
-            6
-          ]
-        }
-      ],
-      "title": "生技醫藥品產業實務(一) `Biotechnology and Pharmaceuticals Industries Practice(l)",
-      "title_parsed": {
-        "en_US": "Biotechnology and Pharmaceuticals Industries Practice(l)",
-        "zh_TW": "生技醫藥品產業實務(一)"
-      },
-      "url": "5241",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8089",
-      "credits": "1",
-      "credits_parsed": 1,
-      "department": "生技產業創新研發與管理博士學位學程",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "生技產業創新研發與管理博士學位學程",
-      "hours": "1",
-      "hours_parsed": "1",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "Z101"
-      ],
-      "note": "",
-      "number": "10",
-      "number_parsed": 10,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "周士軒",
-      "time": "14",
-      "time_parsed": [
-        {
-          "day": 1,
-          "time": [
-            4
-          ]
-        }
-      ],
-      "title": "生物科技研究產業的創新服務模式(一) `Innovation of Service Provider in Biotech Research Industry (I)",
-      "title_parsed": {
-        "en_US": "Innovation of Service Provider in Biotech Research Industry (I)",
-        "zh_TW": "生物科技研究產業的創新服務模式(一)"
-      },
-      "url": "5263",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8122",
-      "credits": "2",
-      "credits_parsed": 2,
-      "department": "微生物基因體學博士學位學程",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "微生物基因體學博士學位學程",
-      "hours": "2",
-      "hours_parsed": "2",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "AN514"
-      ],
-      "note": "",
-      "number": "30",
-      "number_parsed": 30,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "賀端華",
-      "time": "278",
-      "time_parsed": [
-        {
-          "day": 2,
+          "day": 3,
           "time": [
             7,
             8
           ]
         }
       ],
-      "title": "跨領域植物暨微生物學尖端論壇(一) `Multidisciplinary Plant and Microbial Biology Advanced Forum (I)",
+      "title": "跨域創新生技(二) `Interdisciplinary Innovative Technology(II)",
       "title_parsed": {
-        "en_US": "Multidisciplinary Plant and Microbial Biology Advanced Forum (I)",
-        "zh_TW": "跨領域植物暨微生物學尖端論壇(一)"
+        "en_US": "Interdisciplinary Innovative Technology(II)",
+        "zh_TW": "跨域創新生技(二)"
       },
-      "url": "3478",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8231",
-      "credits": "1",
-      "credits_parsed": 1,
-      "department": "生物科技學研究所博士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "生物科技學研究所博士班",
-      "hours": "1",
-      "hours_parsed": "1",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        ""
-      ],
-      "note": "上課地點；中央研究院",
-      "number": "60",
-      "number_parsed": 60,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "蕭培文",
-      "time": "",
-      "time_parsed": [],
-      "title": "專題研究: 分子生物農業科學之農業生物科技研究 `Agricultural Biotechnology Research on Molecular & Biological Agricultural Sciences",
-      "title_parsed": {
-        "en_US": "Agricultural Biotechnology Research on Molecular & Biological Agricultural Sciences",
-        "zh_TW": "專題研究: 分子生物農業科學之農業生物科技研究"
-      },
-      "url": "2799",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8232",
-      "credits": "1",
-      "credits_parsed": 1,
-      "department": "生物科技學研究所博士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "生物科技學研究所博士班",
-      "hours": "1",
-      "hours_parsed": "1",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        ""
-      ],
-      "note": "上課地點；中央研究院",
-      "number": "60",
-      "number_parsed": 60,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "蕭培文",
-      "time": "",
-      "time_parsed": [],
-      "title": "專題研究:  分子生物農業科學之動物學研究 `Animal Biology Research on Molecular & Biological Agricultural Sciences",
-      "title_parsed": {
-        "en_US": "Animal Biology Research on Molecular & Biological Agricultural Sciences",
-        "zh_TW": "專題研究:  分子生物農業科學之動物學研究"
-      },
-      "url": "2800",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8233",
-      "credits": "1",
-      "credits_parsed": 1,
-      "department": "生物科技學研究所博士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "生物科技學研究所博士班",
-      "hours": "1",
-      "hours_parsed": "1",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        ""
-      ],
-      "note": "上課地點；中央研究院",
-      "number": "60",
-      "number_parsed": 60,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "陳荷明",
-      "time": "",
-      "time_parsed": [],
-      "title": "專題研究:  分子生物農業科學之植物學研究 `Plant Biology Research on Molecular & Biological Agricultural Sciences",
-      "title_parsed": {
-        "en_US": "Plant Biology Research on Molecular & Biological Agricultural Sciences",
-        "zh_TW": "專題研究:  分子生物農業科學之植物學研究"
-      },
-      "url": "3244",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8234",
-      "credits": "1",
-      "credits_parsed": 1,
-      "department": "生物科技學研究所博士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "生物科技學研究所博士班",
-      "hours": "1",
-      "hours_parsed": "1",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        ""
-      ],
-      "note": "上課地點；中央研究院",
-      "number": "60",
-      "number_parsed": 60,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "陳荷明",
-      "time": "",
-      "time_parsed": [],
-      "title": "專題研究:  分子生物農業科學之分子生物學研究 `Molecular Biology Research on Molecular & Biological Agricultural Sciences",
-      "title_parsed": {
-        "en_US": "Molecular Biology Research on Molecular & Biological Agricultural Sciences",
-        "zh_TW": "專題研究:  分子生物農業科學之分子生物學研究"
-      },
-      "url": "3416",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8235",
-      "credits": "1",
-      "credits_parsed": 1,
-      "department": "生物科技學研究所博士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "生物科技學研究所博士班",
-      "hours": "1",
-      "hours_parsed": "1",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        ""
-      ],
-      "note": "上課地點；中央研究院",
-      "number": "60",
-      "number_parsed": 60,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "蕭培文",
-      "time": "",
-      "time_parsed": [],
-      "title": "文獻選讀:  分子生物農業科學之動物學 `Literature Review of Animal Biology on Molecular & Biological Agricultural Sciences",
-      "title_parsed": {
-        "en_US": "Literature Review of Animal Biology on Molecular & Biological Agricultural Sciences",
-        "zh_TW": "文獻選讀:  分子生物農業科學之動物學"
-      },
-      "url": "3420",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8236",
-      "credits": "1",
-      "credits_parsed": 1,
-      "department": "生物科技學研究所博士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "生物科技學研究所博士班",
-      "hours": "1",
-      "hours_parsed": "1",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        ""
-      ],
-      "note": "上課地點；中央研究院",
-      "number": "60",
-      "number_parsed": 60,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "陳荷明",
-      "time": "",
-      "time_parsed": [],
-      "title": "文獻選讀:  分子生物農業科學之植物學 `Literature Review of Plant Biology on Molecular & Biological Agricultural Sciences",
-      "title_parsed": {
-        "en_US": "Literature Review of Plant Biology on Molecular & Biological Agricultural Sciences",
-        "zh_TW": "文獻選讀:  分子生物農業科學之植物學"
-      },
-      "url": "3421",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8237",
-      "credits": "1",
-      "credits_parsed": 1,
-      "department": "生物科技學研究所博士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "生物科技學研究所博士班",
-      "hours": "1",
-      "hours_parsed": "1",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        ""
-      ],
-      "note": "上課地點；中央研究院",
-      "number": "60",
-      "number_parsed": 60,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "陳荷明",
-      "time": "",
-      "time_parsed": [],
-      "title": "文獻選讀: 分子生物農業科學之分子生物學 `Literature Review of Molecular Biology on Molecular & Biological Agricultural Sciences",
-      "title_parsed": {
-        "en_US": "Literature Review of Molecular Biology on Molecular & Biological Agricultural Sciences",
-        "zh_TW": "文獻選讀: 分子生物農業科學之分子生物學"
-      },
-      "url": "3423",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8238",
-      "credits": "1",
-      "credits_parsed": 1,
-      "department": "生物科技學研究所博士班",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "生物科技學研究所博士班",
-      "hours": "1",
-      "hours_parsed": "1",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        ""
-      ],
-      "note": "上課地點；中央研究院",
-      "number": "60",
-      "number_parsed": 60,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "蕭培文",
-      "time": "",
-      "time_parsed": [],
-      "title": "文獻選讀:  分子生物農業科學之農業生物科技 `Literature Review of Agricultural Biotechnology on Molecular & Biological Agricultural Sciences",
-      "title_parsed": {
-        "en_US": "Literature Review of Agricultural Biotechnology on Molecular & Biological Agricultural Sciences",
-        "zh_TW": "文獻選讀:  分子生物農業科學之農業生物科技"
-      },
-      "url": "3640",
+      "url": "5335",
       "year": "半"
     },
     {
@@ -2278,7 +2167,7 @@
       "credits_parsed": 1,
       "department": "國際農學博士學位學程",
       "discipline": "",
-      "enrolled_num": "0",
+      "enrolled_num": "6",
       "for_dept": "國際農學博士學位學程",
       "hours": "2",
       "hours_parsed": "2",
@@ -2288,7 +2177,7 @@
       "intern_time": "",
       "language": "英文",
       "location": [
-        "2A04"
+        "2B09"
       ],
       "note": "",
       "number": "30",
@@ -2312,27 +2201,27 @@
         "en_US": "Seminar (I)",
         "zh_TW": "專題討論(一)"
       },
-      "url": "5298",
+      "url": "2988",
       "year": "全"
     },
     {
       "class": "8",
-      "code": "8291",
-      "credits": "3",
-      "credits_parsed": 3,
+      "code": "8290",
+      "credits": "2",
+      "credits_parsed": 2,
       "department": "國際農學博士學位學程",
       "discipline": "",
-      "enrolled_num": "0",
+      "enrolled_num": "5",
       "for_dept": "國際農學博士學位學程",
-      "hours": "3",
-      "hours_parsed": "3",
+      "hours": "2",
+      "hours_parsed": "2",
       "intern_location": [
         ""
       ],
       "intern_time": "",
       "language": "英文",
       "location": [
-        "2A05"
+        "AN811"
       ],
       "note": "",
       "number": "30",
@@ -2341,33 +2230,32 @@
       "obligatory_tf": false,
       "prerequisite": "",
       "professor": "羅舜芳",
-      "time": "5234",
+      "time": "434",
       "time_parsed": [
         {
-          "day": 5,
+          "day": 4,
           "time": [
-            2,
             3,
             4
           ]
         }
       ],
-      "title": "高等生物技術與展望 `Advanced Biotechnology and Prospects",
+      "title": "尖端農學與應用 `Advanced Agriculture and Applications",
       "title_parsed": {
-        "en_US": "Advanced Biotechnology and Prospects",
-        "zh_TW": "高等生物技術與展望"
+        "en_US": "Advanced Agriculture and Applications",
+        "zh_TW": "尖端農學與應用"
       },
-      "url": "5655",
+      "url": "3830",
       "year": "半"
     },
     {
       "class": "8",
-      "code": "8292",
+      "code": "8291",
       "credits": "3",
       "credits_parsed": 3,
       "department": "國際農學博士學位學程",
       "discipline": "",
-      "enrolled_num": "0",
+      "enrolled_num": "1",
       "for_dept": "國際農學博士學位學程",
       "hours": "3",
       "hours_parsed": "3",
@@ -2377,7 +2265,7 @@
       "intern_time": "",
       "language": "英文",
       "location": [
-        "2A05"
+        "AN811"
       ],
       "note": "",
       "number": "30",
@@ -2397,403 +2285,58 @@
           ]
         }
       ],
-      "title": "高等基因體學與應用 `Advanced Genomics and Applications",
+      "title": "高等植物生物技術學與展望 `Introduction to Advanced Plant Biotechnology and Prospects",
       "title_parsed": {
-        "en_US": "Advanced Genomics and Applications",
-        "zh_TW": "高等基因體學與應用"
+        "en_US": "Introduction to Advanced Plant Biotechnology and Prospects",
+        "zh_TW": "高等植物生物技術學與展望"
       },
-      "url": "5900",
+      "url": "4023",
       "year": "半"
     },
     {
       "class": "8",
-      "code": "8293",
-      "credits": "3",
-      "credits_parsed": 3,
+      "code": "8292",
+      "credits": "2",
+      "credits_parsed": 2,
       "department": "國際農學博士學位學程",
       "discipline": "",
-      "enrolled_num": "0",
+      "enrolled_num": "7",
       "for_dept": "國際農學博士學位學程",
-      "hours": "3",
-      "hours_parsed": "3",
+      "hours": "2",
+      "hours_parsed": "2",
       "intern_location": [
         ""
       ],
       "intern_time": "",
       "language": "英文",
       "location": [
-        "2A04"
+        "2A05"
       ],
-      "note": "",
-      "number": "30",
-      "number_parsed": 30,
+      "note": "密集課程，授課教師為國外學者。",
+      "number": "20",
+      "number_parsed": 20,
       "obligatory": "選修",
       "obligatory_tf": false,
       "prerequisite": "",
-      "professor": "羅舜芳",
-      "time": "3567",
-      "time_parsed": [
-        {
-          "day": 3,
-          "time": [
-            5,
-            6,
-            7
-          ]
-        }
-      ],
-      "title": "高等生命科學 `Advanced Life Sciences",
-      "title_parsed": {
-        "en_US": "Advanced Life Sciences",
-        "zh_TW": "高等生命科學"
-      },
-      "url": "5901",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8601",
-      "credits": "2",
-      "credits_parsed": 2,
-      "department": "轉譯醫學博士學位學程",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "轉譯醫學博士學位學程",
-      "hours": "2",
-      "hours_parsed": "2",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "Z101"
-      ],
-      "note": "",
-      "number": "30",
-      "number_parsed": 30,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "林子平",
-      "time": "412",
-      "time_parsed": [
-        {
-          "day": 4,
-          "time": [
-            1,
-            2
-          ]
-        }
-      ],
-      "title": "泌尿學 `Clinical Urology",
-      "title_parsed": {
-        "en_US": "Clinical Urology",
-        "zh_TW": "泌尿學"
-      },
-      "url": "4103",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8602",
-      "credits": "2",
-      "credits_parsed": 2,
-      "department": "轉譯醫學博士學位學程",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "轉譯醫學博士學位學程",
-      "hours": "2",
-      "hours_parsed": "2",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "Z101"
-      ],
-      "note": "",
-      "number": "30",
-      "number_parsed": 30,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "梁凱偉",
-      "time": "434",
-      "time_parsed": [
-        {
-          "day": 4,
-          "time": [
-            3,
-            4
-          ]
-        }
-      ],
-      "title": "心血管疾病研究方法及文獻討論 `Cardiovascular Research-Study Design and Literature Review",
-      "title_parsed": {
-        "en_US": "Cardiovascular Research-Study Design and Literature Review",
-        "zh_TW": "心血管疾病研究方法及文獻討論"
-      },
-      "url": "3410",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8603",
-      "credits": "2",
-      "credits_parsed": 2,
-      "department": "轉譯醫學博士學位學程",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "轉譯醫學博士學位學程",
-      "hours": "2",
-      "hours_parsed": "2",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "Z101"
-      ],
-      "note": "",
-      "number": "30",
-      "number_parsed": 30,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "程羽嬿",
-      "time": "456",
-      "time_parsed": [
-        {
-          "day": 4,
-          "time": [
-            5,
-            6
-          ]
-        }
-      ],
-      "title": "眼科血管疾病之大數據資料庫研究及文獻討論 `Database Research and Literature Discussion on Ophthalmic Vascular Diseases",
-      "title_parsed": {
-        "en_US": "Database Research and Literature Discussion on Ophthalmic Vascular Diseases",
-        "zh_TW": "眼科血管疾病之大數據資料庫研究及文獻討論"
-      },
-      "url": "3451",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8604",
-      "credits": "2",
-      "credits_parsed": 2,
-      "department": "轉譯醫學博士學位學程",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "轉譯醫學博士學位學程",
-      "hours": "2",
-      "hours_parsed": "2",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "Z101"
-      ],
-      "note": "",
-      "number": "30",
-      "number_parsed": 30,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "林季千",
-      "time": "478",
-      "time_parsed": [
-        {
-          "day": 4,
-          "time": [
-            7,
-            8
-          ]
-        }
-      ],
-      "title": "天然藥物在腫瘤與發炎疾病中的應用 `Application of Natural Products in Tumor and Inflammatory Diseases",
-      "title_parsed": {
-        "en_US": "Application of Natural Products in Tumor and Inflammatory Diseases",
-        "zh_TW": "天然藥物在腫瘤與發炎疾病中的應用"
-      },
-      "url": "3545",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8618",
-      "credits": "1",
-      "credits_parsed": 1,
-      "department": "轉譯醫學博士學位學程",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "轉譯醫學博士學位學程",
-      "hours": "1",
-      "hours_parsed": "1",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "Z101"
-      ],
-      "note": "",
-      "number": "30",
-      "number_parsed": 30,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "梁凱偉",
-      "time": "55",
-      "time_parsed": [
-        {
-          "day": 5,
-          "time": [
-            5
-          ]
-        }
-      ],
-      "title": "專題討論(一)b `Seminar(I)",
-      "title_parsed": {
-        "en_US": "Seminar(I)",
-        "zh_TW": "專題討論(一)b"
-      },
-      "url": "4827",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8620",
-      "credits": "1",
-      "credits_parsed": 1,
-      "department": "轉譯醫學博士學位學程",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "轉譯醫學博士學位學程",
-      "hours": "1",
-      "hours_parsed": "1",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "*"
-      ],
-      "note": "",
-      "number": "30",
-      "number_parsed": 30,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "張嘉哲",
+      "professor": "RONDA B. TULLAY",
       "time": "*",
       "time_parsed": [],
-      "title": "專題研究(一)b `Special Topics Research (I)",
+      "title": "英語專業溝通 `Professional Communication in English",
       "title_parsed": {
-        "en_US": "Special Topics Research (I)",
-        "zh_TW": "專題研究(一)b"
+        "en_US": "Professional Communication in English",
+        "zh_TW": "英語專業溝通"
       },
-      "url": "4829",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8621",
-      "credits": "1",
-      "credits_parsed": 1,
-      "department": "轉譯醫學博士學位學程",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "轉譯醫學博士學位學程",
-      "hours": "1",
-      "hours_parsed": "1",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "*"
-      ],
-      "note": "",
-      "number": "30",
-      "number_parsed": 30,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "胡釗逸",
-      "time": "*",
-      "time_parsed": [],
-      "title": "專題研究(一)c `Special Topics Research (I)",
-      "title_parsed": {
-        "en_US": "Special Topics Research (I)",
-        "zh_TW": "專題研究(一)c"
-      },
-      "url": "4830",
-      "year": "半"
-    },
-    {
-      "class": "8",
-      "code": "8622",
-      "credits": "3",
-      "credits_parsed": 3,
-      "department": "轉譯醫學博士學位學程",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "轉譯醫學博士學位學程",
-      "hours": "3",
-      "hours_parsed": "3",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "Z101"
-      ],
-      "note": "",
-      "number": "30",
-      "number_parsed": 30,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "林季千",
-      "time": "5234",
-      "time_parsed": [
-        {
-          "day": 5,
-          "time": [
-            2,
-            3,
-            4
-          ]
-        }
-      ],
-      "title": "細胞分子生物學 `Molecular Biology of the Cell",
-      "title_parsed": {
-        "en_US": "Molecular Biology of the Cell",
-        "zh_TW": "細胞分子生物學"
-      },
-      "url": "5499",
+      "url": "2191",
       "year": "半"
     },
     {
       "class": "9",
-      "code": "9001",
+      "code": "9003",
       "credits": "1",
       "credits_parsed": 1,
       "department": "微生物基因體學博士學位學程",
       "discipline": "",
-      "enrolled_num": "0",
+      "enrolled_num": "5",
       "for_dept": "微生物基因體學博士學位學程",
       "hours": "1",
       "hours_parsed": "1",
@@ -2803,7 +2346,7 @@
       "intern_time": "",
       "language": "中文",
       "location": [
-        "AN513"
+        "AN514"
       ],
       "note": "",
       "number": "30",
@@ -2812,26 +2355,234 @@
       "obligatory_tf": true,
       "prerequisite": "",
       "professor": "陳玉婷",
-      "time": "14",
+      "time": "28",
       "time_parsed": [
         {
-          "day": 1,
+          "day": 2,
+          "time": [
+            8
+          ]
+        }
+      ],
+      "title": "微生物基因體學特論(四) `Special Topics in Microbial Genomics (IV)",
+      "title_parsed": {
+        "en_US": "Special Topics in Microbial Genomics (IV)",
+        "zh_TW": "微生物基因體學特論(四)"
+      },
+      "url": "5407",
+      "year": "半"
+    },
+    {
+      "class": "9",
+      "code": "9007",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "組織工程與再生醫學博士學位學程",
+      "discipline": "",
+      "enrolled_num": "5",
+      "for_dept": "組織工程與再生醫學博士學位學程",
+      "hours": "1",
+      "hours_parsed": "1",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "AN514"
+      ],
+      "note": "",
+      "number": "30",
+      "number_parsed": 30,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "劉烱輝",
+      "time": "44",
+      "time_parsed": [
+        {
+          "day": 4,
           "time": [
             4
           ]
         }
       ],
-      "title": "微生物基因體學特論(三) `Special Topics in Microbial Genomics (III)",
+      "title": "組織工程與再生醫學特論(四) `Special Topics in Tissue Engineering and Regenerative Medicine (IV)",
       "title_parsed": {
-        "en_US": "Special Topics in Microbial Genomics (III)",
-        "zh_TW": "微生物基因體學特論(三)"
+        "en_US": "Special Topics in Tissue Engineering and Regenerative Medicine (IV)",
+        "zh_TW": "組織工程與再生醫學特論(四)"
       },
-      "url": "4834",
+      "url": "4663",
       "year": "半"
     },
     {
       "class": "9",
-      "code": "9002",
+      "code": "9010",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "台灣與跨文化研究國際博士學位學程",
+      "discipline": "",
+      "enrolled_num": "1",
+      "for_dept": "台灣與跨文化研究國際博士學位學程",
+      "hours": "1",
+      "hours_parsed": "1",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "*"
+      ],
+      "note": "",
+      "number": "1",
+      "number_parsed": 1,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "林華源",
+      "time": "15",
+      "time_parsed": [
+        {
+          "day": 1,
+          "time": [
+            5
+          ]
+        }
+      ],
+      "title": "專題討論a `Seminar",
+      "title_parsed": {
+        "en_US": "Seminar",
+        "zh_TW": "專題討論a"
+      },
+      "url": "2436",
+      "year": "半"
+    },
+    {
+      "class": "9",
+      "code": "9011",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "台灣與跨文化研究國際博士學位學程",
+      "discipline": "",
+      "enrolled_num": "1",
+      "for_dept": "台灣與跨文化研究國際博士學位學程",
+      "hours": "1",
+      "hours_parsed": "1",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "*"
+      ],
+      "note": "",
+      "number": "1",
+      "number_parsed": 1,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "廖卓豪",
+      "time": "39",
+      "time_parsed": [
+        {
+          "day": 3,
+          "time": [
+            9
+          ]
+        }
+      ],
+      "title": "專題討論b `Seminar",
+      "title_parsed": {
+        "en_US": "Seminar",
+        "zh_TW": "專題討論b"
+      },
+      "url": "4181",
+      "year": "半"
+    },
+    {
+      "class": "9",
+      "code": "9012",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "台灣與跨文化研究國際博士學位學程",
+      "discipline": "",
+      "enrolled_num": "1",
+      "for_dept": "台灣與跨文化研究國際博士學位學程",
+      "hours": "1",
+      "hours_parsed": "1",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "*"
+      ],
+      "note": "",
+      "number": "1",
+      "number_parsed": 1,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "林松輝",
+      "time": "55",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            5
+          ]
+        }
+      ],
+      "title": "專題討論c `Seminar",
+      "title_parsed": {
+        "en_US": "Seminar",
+        "zh_TW": "專題討論c"
+      },
+      "url": "3485",
+      "year": "半"
+    },
+    {
+      "class": "9",
+      "code": "9013",
+      "credits": "6",
+      "credits_parsed": 6,
+      "department": "組織工程與再生醫學博士學位學程",
+      "discipline": "",
+      "enrolled_num": "17",
+      "for_dept": "組織工程與再生醫學博士學位學程",
+      "hours": "0",
+      "hours_parsed": "0",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "*"
+      ],
+      "note": "",
+      "number": "30",
+      "number_parsed": 30,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "全體教師",
+      "time": "*",
+      "time_parsed": [],
+      "title": "博士論文 `Dissertation",
+      "title_parsed": {
+        "en_US": "Dissertation",
+        "zh_TW": "博士論文"
+      },
+      "url": "4455",
+      "year": "全"
+    },
+    {
+      "class": "9",
+      "code": "9015",
       "credits": "6",
       "credits_parsed": 6,
       "department": "微生物基因體學博士學位學程",
@@ -2862,61 +2613,97 @@
         "en_US": "Dissertation",
         "zh_TW": "博士論文"
       },
-      "url": "4833",
+      "url": "4665",
       "year": "全"
     },
     {
       "class": "9",
-      "code": "9003",
-      "credits": "1",
-      "credits_parsed": 1,
-      "department": "組織工程與再生醫學博士學位學程",
+      "code": "9016",
+      "credits": "6",
+      "credits_parsed": 6,
+      "department": "台灣與跨文化研究國際博士學位學程",
       "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "組織工程與再生醫學博士學位學程",
-      "hours": "1",
-      "hours_parsed": "1",
+      "enrolled_num": "12",
+      "for_dept": "台灣與跨文化研究國際博士學位學程",
+      "hours": "0",
+      "hours_parsed": "0",
       "intern_location": [
         ""
       ],
       "intern_time": "",
       "language": "英文",
       "location": [
-        "AN514"
+        "*"
       ],
       "note": "",
-      "number": "30",
-      "number_parsed": 30,
+      "number": "20",
+      "number_parsed": 20,
       "obligatory": "必修",
       "obligatory_tf": true,
       "prerequisite": "",
-      "professor": "程華強",
-      "time": "44",
+      "professor": "全體教師",
+      "time": "*",
+      "time_parsed": [],
+      "title": "博士論文 `Dissertation",
+      "title_parsed": {
+        "en_US": "Dissertation",
+        "zh_TW": "博士論文"
+      },
+      "url": "3803",
+      "year": "全"
+    },
+    {
+      "class": "9",
+      "code": "9029",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "生技產業創新研發與管理博士學位學程",
+      "discipline": "",
+      "enrolled_num": "1",
+      "for_dept": "生技產業創新研發與管理博士學位學程",
+      "hours": "1",
+      "hours_parsed": "1",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Z101"
+      ],
+      "note": "",
+      "number": "10",
+      "number_parsed": 10,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "周士軒",
+      "time": "25",
       "time_parsed": [
         {
-          "day": 4,
+          "day": 2,
           "time": [
-            4
+            5
           ]
         }
       ],
-      "title": "組織工程與再生醫學特論(三) `Special Topics in Tissue Engineering and Regenerative Medicine (III)",
+      "title": "生物科技研究產業的創新服務模式(二) `Innovation of Service Provider in Biotech Research Industry (II)",
       "title_parsed": {
-        "en_US": "Special Topics in Tissue Engineering and Regenerative Medicine (III)",
-        "zh_TW": "組織工程與再生醫學特論(三)"
+        "en_US": "Innovation of Service Provider in Biotech Research Industry (II)",
+        "zh_TW": "生物科技研究產業的創新服務模式(二)"
       },
-      "url": "2956",
+      "url": "4197",
       "year": "半"
     },
     {
       "class": "9",
-      "code": "9008",
+      "code": "9031",
       "credits": "6",
       "credits_parsed": 6,
-      "department": "組織工程與再生醫學博士學位學程",
+      "department": "生技產業創新研發與管理博士學位學程",
       "discipline": "",
-      "enrolled_num": "19",
-      "for_dept": "組織工程與再生醫學博士學位學程",
+      "enrolled_num": "10",
+      "for_dept": "生技產業創新研發與管理博士學位學程",
       "hours": "0",
       "hours_parsed": "0",
       "intern_location": [
@@ -2928,8 +2715,8 @@
         "*"
       ],
       "note": "",
-      "number": "80",
-      "number_parsed": 80,
+      "number": "10",
+      "number_parsed": 10,
       "obligatory": "必修",
       "obligatory_tf": true,
       "prerequisite": "",
@@ -2941,61 +2728,112 @@
         "en_US": "Dissertation",
         "zh_TW": "博士論文"
       },
-      "url": "4600",
+      "url": "4782",
       "year": "全"
     },
     {
       "class": "9",
-      "code": "9033",
-      "credits": "1",
-      "credits_parsed": 1,
-      "department": "台灣與跨文化研究國際博士學位學程",
+      "code": "9085",
+      "credits": "3",
+      "credits_parsed": 3,
+      "department": "國際農學博士學位學程",
       "discipline": "",
       "enrolled_num": "0",
-      "for_dept": "台灣與跨文化研究國際博士學位學程",
-      "hours": "1",
-      "hours_parsed": "1",
+      "for_dept": "國際農學博士學位學程",
+      "hours": "3",
+      "hours_parsed": "3",
       "intern_location": [
         ""
       ],
       "intern_time": "",
       "language": "英文",
       "location": [
-        "A709"
+        "AN811"
       ],
       "note": "",
-      "number": "10",
-      "number_parsed": 10,
-      "obligatory": "必修",
-      "obligatory_tf": true,
+      "number": "20",
+      "number_parsed": 20,
+      "obligatory": "選修",
+      "obligatory_tf": false,
       "prerequisite": "",
-      "professor": "林華源",
-      "time": "49",
+      "professor": "羅舜芳",
+      "time": "234,38",
       "time_parsed": [
         {
-          "day": 4,
+          "day": 3,
           "time": [
-            9
+            8
+          ]
+        },
+        {
+          "day": 2,
+          "time": [
+            3,
+            4
           ]
         }
       ],
-      "title": "專題討論 `Seminar",
+      "title": "植物生物技術與合成生物學 `Plant Biotechnology and Synthetic Biology",
       "title_parsed": {
-        "en_US": "Seminar",
-        "zh_TW": "專題討論"
+        "en_US": "Plant Biotechnology and Synthetic Biology",
+        "zh_TW": "植物生物技術與合成生物學"
       },
-      "url": "2279",
+      "url": "4991",
       "year": "半"
     },
     {
       "class": "9",
-      "code": "9035",
+      "code": "9087",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "國際農學博士學位學程",
+      "discipline": "",
+      "enrolled_num": "16",
+      "for_dept": "國際農學博士學位學程",
+      "hours": "2",
+      "hours_parsed": "2",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "英文",
+      "location": [
+        "2B09"
+      ],
+      "note": "",
+      "number": "30",
+      "number_parsed": 30,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "黃紹毅",
+      "time": "478",
+      "time_parsed": [
+        {
+          "day": 4,
+          "time": [
+            7,
+            8
+          ]
+        }
+      ],
+      "title": "專題討論(二) `Seminar (II)",
+      "title_parsed": {
+        "en_US": "Seminar (II)",
+        "zh_TW": "專題討論(二)"
+      },
+      "url": "2539",
+      "year": "全"
+    },
+    {
+      "class": "9",
+      "code": "9088",
       "credits": "6",
       "credits_parsed": 6,
-      "department": "台灣與跨文化研究國際博士學位學程",
+      "department": "國際農學博士學位學程",
       "discipline": "",
-      "enrolled_num": "11",
-      "for_dept": "台灣與跨文化研究國際博士學位學程",
+      "enrolled_num": "35",
+      "for_dept": "國際農學博士學位學程",
       "hours": "0",
       "hours_parsed": "0",
       "intern_location": [
@@ -3007,8 +2845,8 @@
         "*"
       ],
       "note": "",
-      "number": "30",
-      "number_parsed": 30,
+      "number": "35",
+      "number_parsed": 35,
       "obligatory": "必修",
       "obligatory_tf": true,
       "prerequisite": "",
@@ -3020,17 +2858,17 @@
         "en_US": "Dissertation",
         "zh_TW": "博士論文"
       },
-      "url": "4608",
+      "url": "2357",
       "year": "全"
     },
     {
       "class": "9",
-      "code": "9096",
+      "code": "9099",
       "credits": "6",
       "credits_parsed": 6,
       "department": "大數據產學研發博士學位學程",
       "discipline": "",
-      "enrolled_num": "8",
+      "enrolled_num": "10",
       "for_dept": "大數據產學研發博士學位學程",
       "hours": "0",
       "hours_parsed": "0",
@@ -3056,183 +2894,17 @@
         "en_US": "Dissertation",
         "zh_TW": "博士論文"
       },
-      "url": "5259",
-      "year": "全"
-    },
-    {
-      "class": "9",
-      "code": "9097",
-      "credits": "1",
-      "credits_parsed": 1,
-      "department": "國際農學博士學位學程",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "國際農學博士學位學程",
-      "hours": "2",
-      "hours_parsed": "2",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        "2A04"
-      ],
-      "note": "",
-      "number": "30",
-      "number_parsed": 30,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "黃紹毅",
-      "time": "478",
-      "time_parsed": [
-        {
-          "day": 4,
-          "time": [
-            7,
-            8
-          ]
-        }
-      ],
-      "title": "專題討論(二) `Seminar (II)",
-      "title_parsed": {
-        "en_US": "Seminar (II)",
-        "zh_TW": "專題討論(二)"
-      },
-      "url": "2472",
-      "year": "全"
-    },
-    {
-      "class": "9",
-      "code": "9098",
-      "credits": "6",
-      "credits_parsed": 6,
-      "department": "國際農學博士學位學程",
-      "discipline": "",
-      "enrolled_num": "35",
-      "for_dept": "國際農學博士學位學程",
-      "hours": "0",
-      "hours_parsed": "0",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "英文",
-      "location": [
-        "*"
-      ],
-      "note": "",
-      "number": "30",
-      "number_parsed": 30,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "全體教師",
-      "time": "*",
-      "time_parsed": [],
-      "title": "博士論文 `Dissertation",
-      "title_parsed": {
-        "en_US": "Dissertation",
-        "zh_TW": "博士論文"
-      },
-      "url": "2024",
+      "url": "2367",
       "year": "全"
     },
     {
       "class": "9",
       "code": "9104",
-      "credits": "1",
-      "credits_parsed": 1,
-      "department": "轉譯醫學博士學位學程",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "轉譯醫學博士學位學程",
-      "hours": "1",
-      "hours_parsed": "1",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "Z101"
-      ],
-      "note": "",
-      "number": "30",
-      "number_parsed": 30,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "劉俊宏",
-      "time": "56",
-      "time_parsed": [
-        {
-          "day": 5,
-          "time": [
-            6
-          ]
-        }
-      ],
-      "title": "專題討論(三)c `Seminar(III)",
-      "title_parsed": {
-        "en_US": "Seminar(III)",
-        "zh_TW": "專題討論(三)c"
-      },
-      "url": "5458",
-      "year": "半"
-    },
-    {
-      "class": "9",
-      "code": "9108",
-      "credits": "1",
-      "credits_parsed": 1,
-      "department": "轉譯醫學博士學位學程",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "轉譯醫學博士學位學程",
-      "hours": "1",
-      "hours_parsed": "1",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "Z101"
-      ],
-      "note": "",
-      "number": "30",
-      "number_parsed": 30,
-      "obligatory": "必修",
-      "obligatory_tf": true,
-      "prerequisite": "",
-      "professor": "胡釗逸",
-      "time": "56",
-      "time_parsed": [
-        {
-          "day": 5,
-          "time": [
-            6
-          ]
-        }
-      ],
-      "title": "專題討論(三)b `Seminar(III)",
-      "title_parsed": {
-        "en_US": "Seminar(III)",
-        "zh_TW": "專題討論(三)b"
-      },
-      "url": "5285",
-      "year": "半"
-    },
-    {
-      "class": "9",
-      "code": "9118",
       "credits": "6",
       "credits_parsed": 6,
       "department": "醫學生物科技博士學位學程",
       "discipline": "",
-      "enrolled_num": "19",
+      "enrolled_num": "20",
       "for_dept": "醫學生物科技博士學位學程",
       "hours": "0",
       "hours_parsed": "0",
@@ -3245,8 +2917,8 @@
         "*"
       ],
       "note": "",
-      "number": "30",
-      "number_parsed": 30,
+      "number": "25",
+      "number_parsed": 25,
       "obligatory": "必修",
       "obligatory_tf": true,
       "prerequisite": "",
@@ -3258,17 +2930,17 @@
         "en_US": "Dissertation",
         "zh_TW": "博士論文"
       },
-      "url": "3534",
+      "url": "3826",
       "year": "全"
     },
     {
       "class": "9",
-      "code": "9120",
+      "code": "9201",
       "credits": "1",
       "credits_parsed": 1,
       "department": "轉譯醫學博士學位學程",
       "discipline": "",
-      "enrolled_num": "0",
+      "enrolled_num": "6",
       "for_dept": "轉譯醫學博士學位學程",
       "hours": "1",
       "hours_parsed": "1",
@@ -3278,15 +2950,15 @@
       "intern_time": "",
       "language": "中文",
       "location": [
-        "Z103"
+        "Z000"
       ],
-      "note": "",
+      "note": "合班",
       "number": "30",
       "number_parsed": 30,
       "obligatory": "選修",
       "obligatory_tf": false,
       "prerequisite": "",
-      "professor": "童敏哲",
+      "professor": "黃介辰",
       "time": "57",
       "time_parsed": [
         {
@@ -3296,22 +2968,130 @@
           ]
         }
       ],
-      "title": "轉譯醫學特論(三) `Special Topics on Translational Medicine(III)",
+      "title": "轉譯醫學特論(四) `Special Topics on Translational Medicine(IV)",
       "title_parsed": {
-        "en_US": "Special Topics on Translational Medicine(III)",
-        "zh_TW": "轉譯醫學特論(三)"
+        "en_US": "Special Topics on Translational Medicine(IV)",
+        "zh_TW": "轉譯醫學特論(四)"
       },
-      "url": "2912",
+      "url": "4063",
       "year": "半"
     },
     {
       "class": "9",
-      "code": "9168",
+      "code": "9202",
       "credits": "1",
       "credits_parsed": 1,
       "department": "轉譯醫學博士學位學程",
       "discipline": "",
-      "enrolled_num": "0",
+      "enrolled_num": "2",
+      "for_dept": "轉譯醫學博士學位學程",
+      "hours": "1",
+      "hours_parsed": "1",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "*"
+      ],
+      "note": "上課時間另定，請洽開課單位。",
+      "number": "30",
+      "number_parsed": 30,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "胡釗逸",
+      "time": "*",
+      "time_parsed": [],
+      "title": "專題研究(四)a `Special Topics and Research(IV)",
+      "title_parsed": {
+        "en_US": "Special Topics and Research(IV)",
+        "zh_TW": "專題研究(四)a"
+      },
+      "url": "4075",
+      "year": "半"
+    },
+    {
+      "class": "9",
+      "code": "9203",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "轉譯醫學博士學位學程",
+      "discipline": "",
+      "enrolled_num": "1",
+      "for_dept": "轉譯醫學博士學位學程",
+      "hours": "1",
+      "hours_parsed": "1",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "*"
+      ],
+      "note": "上課時間另定，請洽開課單位。",
+      "number": "30",
+      "number_parsed": 30,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "許美鈴",
+      "time": "*",
+      "time_parsed": [],
+      "title": "專題研究(四)b `Special Topics and Research(IV)",
+      "title_parsed": {
+        "en_US": "Special Topics and Research(IV)",
+        "zh_TW": "專題研究(四)b"
+      },
+      "url": "4119",
+      "year": "半"
+    },
+    {
+      "class": "9",
+      "code": "9204",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "轉譯醫學博士學位學程",
+      "discipline": "",
+      "enrolled_num": "2",
+      "for_dept": "轉譯醫學博士學位學程",
+      "hours": "1",
+      "hours_parsed": "1",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "*"
+      ],
+      "note": "上課時間另定，請洽開課單位。",
+      "number": "30",
+      "number_parsed": 30,
+      "obligatory": "選修",
+      "obligatory_tf": false,
+      "prerequisite": "",
+      "professor": "蘇鴻麟",
+      "time": "*",
+      "time_parsed": [],
+      "title": "專題研究(四)c `Special Topics and Research(IV)",
+      "title_parsed": {
+        "en_US": "Special Topics and Research(IV)",
+        "zh_TW": "專題研究(四)c"
+      },
+      "url": "2430",
+      "year": "半"
+    },
+    {
+      "class": "9",
+      "code": "9205",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "轉譯醫學博士學位學程",
+      "discipline": "",
+      "enrolled_num": "4",
       "for_dept": "轉譯醫學博士學位學程",
       "hours": "1",
       "hours_parsed": "1",
@@ -3330,26 +3110,69 @@
       "obligatory_tf": true,
       "prerequisite": "",
       "professor": "程羽嬿",
-      "time": "59",
+      "time": "56",
       "time_parsed": [
         {
           "day": 5,
           "time": [
-            9
+            6
           ]
         }
       ],
-      "title": "專題討論(三)a `Seminar(III)",
+      "title": "專題討論(四)a `Seminar(IV)",
       "title_parsed": {
-        "en_US": "Seminar(III)",
-        "zh_TW": "專題討論(三)a"
+        "en_US": "Seminar(IV)",
+        "zh_TW": "專題討論(四)a"
       },
-      "url": "4033",
+      "url": "4283",
       "year": "半"
     },
     {
       "class": "9",
-      "code": "9171",
+      "code": "9206",
+      "credits": "1",
+      "credits_parsed": 1,
+      "department": "轉譯醫學博士學位學程",
+      "discipline": "",
+      "enrolled_num": "2",
+      "for_dept": "轉譯醫學博士學位學程",
+      "hours": "1",
+      "hours_parsed": "1",
+      "intern_location": [
+        ""
+      ],
+      "intern_time": "",
+      "language": "中文",
+      "location": [
+        "Z101"
+      ],
+      "note": "",
+      "number": "30",
+      "number_parsed": 30,
+      "obligatory": "必修",
+      "obligatory_tf": true,
+      "prerequisite": "",
+      "professor": "梁凱偉",
+      "time": "56",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            6
+          ]
+        }
+      ],
+      "title": "專題討論(四)b `Seminar(IV)",
+      "title_parsed": {
+        "en_US": "Seminar(IV)",
+        "zh_TW": "專題討論(四)b"
+      },
+      "url": "4288",
+      "year": "半"
+    },
+    {
+      "class": "9",
+      "code": "9207",
       "credits": "1",
       "credits_parsed": 1,
       "department": "轉譯醫學博士學位學程",
@@ -3364,105 +3187,40 @@
       "intern_time": "",
       "language": "中文",
       "location": [
-        "*"
+        "Z101"
       ],
       "note": "",
       "number": "30",
       "number_parsed": 30,
-      "obligatory": "選修",
-      "obligatory_tf": false,
+      "obligatory": "必修",
+      "obligatory_tf": true,
       "prerequisite": "",
-      "professor": "張嘉哲",
-      "time": "*",
-      "time_parsed": [],
-      "title": "專題研究(三)a `Special Topics and Research(III)",
+      "professor": "朱彥煒",
+      "time": "56",
+      "time_parsed": [
+        {
+          "day": 5,
+          "time": [
+            6
+          ]
+        }
+      ],
+      "title": "專題討論(四)c `Seminar(IV)",
       "title_parsed": {
-        "en_US": "Special Topics and Research(III)",
-        "zh_TW": "專題研究(三)a"
+        "en_US": "Seminar(IV)",
+        "zh_TW": "專題討論(四)c"
       },
-      "url": "4653",
+      "url": "2762",
       "year": "半"
     },
     {
       "class": "9",
-      "code": "9172",
-      "credits": "1",
-      "credits_parsed": 1,
-      "department": "轉譯醫學博士學位學程",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "轉譯醫學博士學位學程",
-      "hours": "1",
-      "hours_parsed": "1",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "*"
-      ],
-      "note": "",
-      "number": "30",
-      "number_parsed": 30,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "許美鈴",
-      "time": "*",
-      "time_parsed": [],
-      "title": "專題研究(三)b `Special Topics and Research(III)",
-      "title_parsed": {
-        "en_US": "Special Topics and Research(III)",
-        "zh_TW": "專題研究(三)b"
-      },
-      "url": "4691",
-      "year": "半"
-    },
-    {
-      "class": "9",
-      "code": "9173",
-      "credits": "1",
-      "credits_parsed": 1,
-      "department": "轉譯醫學博士學位學程",
-      "discipline": "",
-      "enrolled_num": "0",
-      "for_dept": "轉譯醫學博士學位學程",
-      "hours": "1",
-      "hours_parsed": "1",
-      "intern_location": [
-        ""
-      ],
-      "intern_time": "",
-      "language": "中文",
-      "location": [
-        "*"
-      ],
-      "note": "",
-      "number": "30",
-      "number_parsed": 30,
-      "obligatory": "選修",
-      "obligatory_tf": false,
-      "prerequisite": "",
-      "professor": "胡念仁",
-      "time": "*",
-      "time_parsed": [],
-      "title": "專題研究(三)c `Special Topics and Research(III)",
-      "title_parsed": {
-        "en_US": "Special Topics and Research(III)",
-        "zh_TW": "專題研究(三)c"
-      },
-      "url": "3250",
-      "year": "半"
-    },
-    {
-      "class": "9",
-      "code": "9174",
+      "code": "9208",
       "credits": "6",
       "credits_parsed": 6,
       "department": "轉譯醫學博士學位學程",
       "discipline": "",
-      "enrolled_num": "39",
+      "enrolled_num": "35",
       "for_dept": "轉譯醫學博士學位學程",
       "hours": "0",
       "hours_parsed": "0",
@@ -3488,17 +3246,17 @@
         "en_US": "Dissertation",
         "zh_TW": "博士論文"
       },
-      "url": "5002",
+      "url": "2498",
       "year": "全"
     },
     {
       "class": "9",
-      "code": "9175",
+      "code": "9209",
       "credits": "1",
       "credits_parsed": 1,
       "department": "轉譯醫學博士學位學程",
       "discipline": "",
-      "enrolled_num": "0",
+      "enrolled_num": "1",
       "for_dept": "轉譯醫學博士學位學程",
       "hours": "1",
       "hours_parsed": "1",
@@ -3510,21 +3268,21 @@
       "location": [
         "*"
       ],
-      "note": "",
+      "note": "上課時間另定，請洽開課單位。",
       "number": "30",
       "number_parsed": 30,
       "obligatory": "選修",
       "obligatory_tf": false,
       "prerequisite": "",
-      "professor": "洪慧芝",
+      "professor": "黃介辰",
       "time": "*",
       "time_parsed": [],
-      "title": "專題研究(三)d `Special Topics and Research(III)",
+      "title": "專題研究(四)d `Special Topics and Research(IV)",
       "title_parsed": {
-        "en_US": "Special Topics and Research(III)",
-        "zh_TW": "專題研究(三)d"
+        "en_US": "Special Topics and Research(IV)",
+        "zh_TW": "專題研究(四)d"
       },
-      "url": "3297",
+      "url": "4079",
       "year": "半"
     }
   ]

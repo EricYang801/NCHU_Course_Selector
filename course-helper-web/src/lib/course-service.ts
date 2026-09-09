@@ -29,6 +29,8 @@ export interface CourseSearchResult {
 // 移除版本控制機制，直接使用 localStorage 快取，定期清理由使用者手動重新整理
 const LS_KEY_DATA = 'courses:data'
 const LS_KEY_TIMESTAMP = 'courses:fetchedAt'
+const CACHE_DURATION_MS = 1 * 24 * 60 * 60 * 1000 // 1天（毫秒）
+
 
 class CourseService {
   private allCourses: CourseWithCareer[] = []
@@ -47,14 +49,23 @@ class CourseService {
     // 嘗試從 localStorage 載入快取資料
     try {
       const raw = localStorage.getItem(LS_KEY_DATA)
-      if (raw) {
-        const parsed = JSON.parse(raw) as CourseWithCareer[]
-        if (Array.isArray(parsed) && parsed.length) {
-          this.allCourses = parsed
-          this.isLoaded = true
-          this.searchEngine.build(this.allCourses)
-          console.log(`從快取載入 ${this.allCourses.length} 門課程`)
-          return
+      const timestamp = localStorage.getItem(LS_KEY_TIMESTAMP)
+      if (raw && timestamp) {
+        const fetchedAt = parseInt(timestamp)
+        const now = Date.now()
+        if (now - fetchedAt < CACHE_DURATION_MS) {
+          const parsed = JSON.parse(raw) as CourseWithCareer[]
+          if (Array.isArray(parsed) && parsed.length) {
+            this.allCourses = parsed
+            this.isLoaded = true
+            this.searchEngine.build(this.allCourses)
+            console.log(`從快取載入 ${this.allCourses.length} 門課程`)
+            return
+          }
+          else{
+            localStorage.removeItem(LS_KEY_DATA)
+            localStorage.removeItem(LS_KEY_TIMESTAMP)
+          }
         }
       }
     } catch (e) {
